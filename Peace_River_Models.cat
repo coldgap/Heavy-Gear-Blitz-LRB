@@ -2540,6 +2540,260 @@ G:9&quot;</characteristic>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8472-f886-6ed6-1358" name="Crusader IV" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2e84-af3a-f1ad-b6c3" name="Crusader IV" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">13</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MRP(Link), LFM, APGL, MVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot, Brawler:1, Vuln:H</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c4e1-1060-bc73-b632" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="e4fe-2f51-222f-c675" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="ee95-ae9a-e49b-6d55" name="Field Mortar, Light" hidden="false" targetId="af49-2bca-2419-1304" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9c41-d1d2-611b-26e0" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="ff99-f3fa-657a-e953" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="26a7-e861-e85d-6746" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="234c-a8df-aee0-5b79" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="cf07-5ef8-566d-f7e8" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="54a6-1271-9f67-8485" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="d23c-aeaf-4e21-a912" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="af59-1686-5bf1-c92a" name="Vulnerable to Haywire: [Vuln:H]" hidden="false" targetId="f9a7-6181-5731-05d9" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2975-3ef2-b073-05c0" name="Field Mortar, Medium" hidden="true" targetId="0632-ae34-3bd3-b86d" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="189a-7d43-751c-df58" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="d73c-77f9-706a-5ab2" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="663a-f392-c72e-0e77" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1528-a9f4-9c60-db44" name="Crusader V (Crusader IV upgrade)" hidden="false" collective="false" import="true" targetId="039c-da09-cb66-12c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="039c-da09-cb66-12c8" name="Crusader V (Crusader IV upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b50-52e1-beb2-75b3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1dea-3eab-fabd-0e6d" name="Crusader V (Crusader IV upgrade)" hidden="false" targetId="fb5c-7d82-565d-3b77" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29e1-c22d-f37a-acd1" name="Crusader IV, Demolisher" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="78a8-b050-d098-2a9f" name="Demolisher Crusader IV" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">13</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MSC(Arm), MRP(Link), LFM, APGL, MVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot, Brawler:1, Vuln:H</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="85b8-1745-e6a3-7fcf" name="Snub Cannon, Medium" hidden="false" targetId="2048-0ca1-1c2d-0254" type="profile"/>
+        <infoLink id="3910-7b7a-9576-29d3" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="e23c-53fd-7b76-a6c4" name="Field Mortar, Light" hidden="false" targetId="af49-2bca-2419-1304" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8ad5-4157-20a4-e830" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="a61f-bd28-7f5d-40d4" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="9456-2353-a06c-84e5" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6250-52b8-ba4d-1ae3" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="f8b4-7d43-679b-c8b8" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e8c5-bbdc-df8c-ce1f" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="ba92-648a-4305-ce5e" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="109c-267c-39a4-a062" name="Vulnerable to Haywire: [Vuln:H]" hidden="false" targetId="f9a7-6181-5731-05d9" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d32b-6256-4a03-1188" name="Field Mortar, Medium" hidden="true" targetId="0632-ae34-3bd3-b86d" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="885d-cc25-a86c-3d4e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="e12f-f91d-145e-56a3" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a67b-4c96-c925-a723" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9608-a7c6-5566-6985" name="Crusader V (Crusader IV upgrade)" hidden="false" collective="false" import="true" targetId="039c-da09-cb66-12c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f41-1479-4a2a-ceb3" name="Crusader IV, Scourge" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f37e-4702-5931-8565" name="Scourge Crusader IV" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">13</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MRP(Link), LFM, APGL, MVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot, Brawler:1, Vuln:H</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="66ce-950b-7ca9-19f6" name="Bazooka, Medium" hidden="false" targetId="5e26-2e17-682c-8c98" type="profile"/>
+        <infoLink id="fed6-cfdf-c632-54e3" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="0cd8-27b4-3057-c119" name="Field Mortar, Light" hidden="false" targetId="af49-2bca-2419-1304" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="49e4-d493-52ae-dd05" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="8f52-16c8-c634-521b" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="95b0-36fd-d2bc-5264" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="782a-6b02-30ab-db46" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="dd92-f264-20da-cbf1" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="19b8-cb71-48c5-3510" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="4d09-2071-e844-0313" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="64a9-f3db-7924-a44a" name="Vulnerable to Haywire: [Vuln:H]" hidden="false" targetId="f9a7-6181-5731-05d9" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="fd98-bb71-4588-d502" name="Field Mortar, Medium" hidden="true" targetId="0632-ae34-3bd3-b86d" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="039c-da09-cb66-12c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2163-03d9-40ff-9597" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="dd66-0249-871d-0593" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e36-2f2f-7a70-838d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ca83-ccbf-14e5-d7ee" name="Crusader V (Crusader IV upgrade)" hidden="false" collective="false" import="true" targetId="039c-da09-cb66-12c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="46be-066b-6091-148c" name="Chieftan (Warrior Upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="127" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -2664,9 +2918,25 @@ G:9&quot;</characteristic>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
-        <characteristic name="EW" typeId="d607-c085-3ac3-9660"></characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:4+(Aux)</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+      </characteristics>
+    </profile>
+    <profile id="fb5c-7d82-565d-3b77" name="Crusader V (Crusader IV upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="133" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">-MRP(Link), -LFM, +MRP, +MFM</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">-Vuln:H</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
