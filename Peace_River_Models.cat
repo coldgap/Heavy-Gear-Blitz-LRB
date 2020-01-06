@@ -3319,6 +3319,7 @@ G:9&quot;</characteristic>
         <infoLink id="fc09-4cab-96f3-e97e" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
         <infoLink id="eda3-17f1-5b1e-4cb3" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
         <infoLink id="0f54-06aa-7d26-40a6" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="1ab4-4f6a-161f-cb6e" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1e9-503a-b7b7-130e" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
@@ -3350,6 +3351,194 @@ G:9&quot;</characteristic>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2aff-004e-dcbd-b35a" name="Coyote, Vanguard" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bfe4-0d1c-441b-f51b" name="Vanguard Coyote" publicationId="20bd-c8e1-5e20-75e8" page="135" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">21</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRC, MRC(AA), APGL, LCW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ECM:1, Low Profile, Sensors:18&quot;, Mount, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a658-693e-e381-3d7e" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="7ef3-dc0c-80bd-2f4a" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="fb04-9c44-395c-fd78" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="154a-e619-b72b-7860" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="e4db-04ce-e0b1-665c" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="28fc-01d9-14ff-8495" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="9fed-76f8-79fe-dbd2" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="cc42-621c-880b-87bd" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="e0f2-0119-ebe8-0670" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="52fb-a7c2-80eb-0f39" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0ba1-0ab6-d2f5-d6da" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b8a-6a62-6328-e0eb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6188-7eb3-4b4a-76b0" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="ffd3-c016-2e1c-e3af" name="Alpha Dog (Coyote upgrade)" hidden="false" targetId="e472-b481-b727-785c" type="profile"/>
+                <infoLink id="ae20-582a-feed-7c87" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+                <infoLink id="54f6-3a2d-ee03-0dd6" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="d204-9511-190b-d3a8" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8808-0822-b73c-e293" name="Coyote, Pilum" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="820f-c512-d748-6d86" name="Pilum Coyote" publicationId="20bd-c8e1-5e20-75e8" page="135" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MATM(T), MRC(AA), APGL, LCW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ECM:1, Low Profile, Sensors:18&quot;, Mount, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d169-7e54-246e-a1cf" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="727e-7d30-2908-16e2" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="fd4f-00c8-13f7-83c0" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="b172-67ae-e883-efa8" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="f1f7-7e48-7d9e-5cfc" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="167b-8e5d-00af-0a05" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="438e-b53f-9df9-f2a3" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="352b-4deb-1fd7-e193" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="3e3c-233f-346e-8937" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="f05c-966d-a9c1-0ffe" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e3bf-d746-47e5-9483" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6ffd-d137-1b68-1723" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="188c-18bc-7c7b-32c3" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="426a-34b8-0c9d-326b" name="Alpha Dog (Coyote upgrade)" hidden="false" targetId="e472-b481-b727-785c" type="profile"/>
+                <infoLink id="0899-4c7f-4aa6-8655" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+                <infoLink id="c2b6-fa3c-6644-de5d" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="e05d-a084-369d-5297" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f55e-bcba-d608-ea9b" name="Coyote, Fusillade" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5297-cdd8-7cfc-79c3" name="Fusillade Coyote" publicationId="20bd-c8e1-5e20-75e8" page="135" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MLC, MRC(AA), LCW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ECM:1, Low Profile, Sensors:18&quot;, Mount, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed4c-4329-029b-77cc" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="07ef-b009-87e4-1af0" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="0188-883d-e62a-1880" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="19aa-ba6f-3d5e-a675" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="2c01-818d-6c3a-c0ae" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="2051-3ab4-1068-ad5f" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="dc9f-7367-9cce-2af4" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="8950-8ae9-ec4b-6461" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="b67e-edf5-75a7-9e8a" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8bc4-7cfd-50ad-1f54" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="820b-53f2-42d3-ff38" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1eb2-2e8a-774f-08b6" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="d537-2451-293f-cf22" name="Alpha Dog (Coyote upgrade)" hidden="false" targetId="e472-b481-b727-785c" type="profile"/>
+                <infoLink id="b003-4824-d131-e54a" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+                <infoLink id="070c-9d9e-af95-cd6e" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="3b56-d06a-4e59-6c67" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
