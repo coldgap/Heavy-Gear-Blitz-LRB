@@ -3541,6 +3541,81 @@ G:9&quot;</characteristic>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cda1-9417-aaaf-9ad0" name="Red Bull Mk2" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d46f-fdfa-4d75-398c" name="Red Bull Mk2" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFG(T, Link), MRC(FT, AA), APGL(Auto), MCW, LRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">AMS, Lumbering, Sensors: 18&quot;(Aux), Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="28c4-61e6-f3c0-7a56" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a18-31d7-c9bc-d8de" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b0a9-03cd-d8bc-14c5" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="54cf-7c41-86db-0e00" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="26ce-0d15-bfe8-227a" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="7283-5581-e5b6-1719" name="Field Gun, Medium" hidden="false" targetId="a2ac-0340-dbaa-25d5" type="profile"/>
+        <infoLink id="241b-46c6-bea3-b56e" name="Anti-Missile System [AMS]" hidden="false" targetId="3948-f390-08bd-3625" type="rule"/>
+        <infoLink id="6474-9c08-a21c-22da" name="Lumbering" hidden="false" targetId="a5ee-3261-8405-2371" type="rule"/>
+        <infoLink id="3beb-2d2b-5bf3-8ac0" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="62cc-ec65-1a18-6d9a" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="3ddc-8b4d-0123-00c2" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="9d45-8144-6af8-51f9" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="30be-c9bf-9620-578f" name="Anti-Personnel Rockets, Heavy" hidden="true" targetId="7ad3-362e-4a1b-4ecf" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a18-31d7-c9bc-d8de" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2313-c26a-6791-6d39" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="abc0-a358-ac87-da7a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="78e5-5346-823b-a46a" name="Arbalest (Red Bull Mk2 upgrade)" hidden="false" collective="false" import="true" targetId="9a18-31d7-c9bc-d8de" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a18-31d7-c9bc-d8de" name="Arbalest (Red Bull Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e106-e81c-b289-8f8e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c09b-ec92-db99-16d7" name="Arbalest (Red Bull Mk2 upgrade)" hidden="false" targetId="96d5-8303-cd5a-bf56" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="46be-066b-6091-148c" name="Chieftan (Warrior upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="127" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -3732,6 +3807,22 @@ G:9&quot;</characteristic>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Init:1, ECCM, ECM:2, SatUp:4+(Aux)</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+      </characteristics>
+    </profile>
+    <profile id="96d5-8303-cd5a-bf56" name="Arbalest (Red Bull Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="136" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">-MRC(FT, AA), +HAPR(T, AA, Link)</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
