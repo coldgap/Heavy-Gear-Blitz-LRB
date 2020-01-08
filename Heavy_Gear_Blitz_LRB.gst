@@ -52,6 +52,7 @@
     <categoryEntry id="4119-14a2-4e63-39ac" name="Arms" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
     <categoryEntry id="674f-aa98-120a-b842" name="Infantry Movement Type Only" publicationId="20bd-c8e1-5e20-75e8" page="28" hidden="false"/>
     <categoryEntry id="37d4-6af1-9258-38b8" name="Veteran" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false"/>
+    <categoryEntry id="2473-f5c0-02aa-b0fc" name="Command-only Variant" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
@@ -875,6 +876,11 @@
         <modifier type="set" field="aa23-5763-a003-dde2" value="0.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7f18-b1d8-dd4f-0831" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2473-f5c0-02aa-b0fc" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
