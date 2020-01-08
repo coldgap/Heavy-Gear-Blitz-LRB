@@ -1141,29 +1141,15 @@
       <categoryLinks>
         <categoryLink id="4ba0-1203-7ecb-d1cc" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
         <categoryLink id="f700-82d6-8940-6b3c" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="5a47-385c-141c-4875" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3cdb-eeff-66b0-1252" name="Model Options" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="9f52-0351-d6bf-4bac" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink id="cba2-e484-1de2-6cbb" name="Command Ranks" hidden="false" collective="false" import="true" targetId="ba74-b243-4343-ba32" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="7f18-b1d8-dd4f-0831" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="cdd0-34ea-3942-839e" name="Upgrade Options" hidden="false" collective="false" import="true" targetId="a110-aa7d-b7f4-0461" type="selectionEntryGroup"/>
-            <entryLink id="7aeb-0d0d-4cfa-fc93" name="Drone Choices" hidden="true" collective="false" import="true" targetId="b859-04a0-bd2d-b20c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d1-db8d-9335-a721" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="3883-8e9f-ad9d-bda0" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="2a9d-937a-1678-828a" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
@@ -1257,28 +1243,11 @@
       <categoryLinks>
         <categoryLink id="44de-f75d-f458-71d8" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="65d3-4efd-7a09-ffee" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="bbba-48b6-8563-1eb4" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6a0f-62f1-53ba-3b6a" name="Model Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="d78c-fe16-cd01-0077" name="Command Ranks" hidden="false" collective="false" import="true" targetId="ba74-b243-4343-ba32" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="7f18-b1d8-dd4f-0831" value="1.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="3d91-8575-ec48-84d5" name="Upgrade Options" hidden="false" collective="false" import="true" targetId="a110-aa7d-b7f4-0461" type="selectionEntryGroup"/>
-            <entryLink id="1a0f-cdca-26ca-dac9" name="Drone Choices" hidden="true" collective="false" import="true" targetId="b859-04a0-bd2d-b20c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d1-db8d-9335-a721" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2364-e78b-cb6a-397f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
