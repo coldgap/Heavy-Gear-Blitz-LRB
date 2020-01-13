@@ -2153,6 +2153,7 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="319c-702d-a98b-099c" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="6f74-61af-2533-bff4" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="914d-dbf1-62ea-a730" name="North Models" targetId="50b0-155c-db43-cb17" type="catalogue" importRootEntries="true"/>

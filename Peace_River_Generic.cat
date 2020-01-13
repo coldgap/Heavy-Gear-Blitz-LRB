@@ -36,6 +36,7 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6948-3535-22cd-d0ad" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="8042-579a-d847-75ee" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="6418-4ee6-9c7f-d771" name="Peace River Models" targetId="f832-6020-6d1e-b4e9" type="catalogue" importRootEntries="true"/>
