@@ -166,7 +166,6 @@
   </forceEntries>
   <entryLinks>
     <entryLink id="659b-2725-6fcc-f329" name="Code" hidden="false" collective="false" import="true" targetId="1498-0806-c088-6cf7" type="selectionEntry"/>
-    <entryLink id="8cd3-cabd-466b-cb2f" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8232-0265-8567-2276" name="Well Supported" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
