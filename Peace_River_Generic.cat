@@ -1366,7 +1366,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1442,6 +1442,91 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="b143-01b2-0990-ceae" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4fa6-cb58-4f60-170c" name="Mastiff" hidden="true" collective="false" import="true" targetId="bfc5-fea0-4962-d146" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ebd-2837-ef2d-c7a1" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8ebd-2837-ef2d-c7a1" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ebd-2837-ef2d-c7a1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="abcb-4b97-1ed1-700d" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9bae-4500-f94d-bce4" name="Mastiff, Medic" hidden="true" collective="false" import="true" targetId="3e8f-a84b-88a8-59f5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decf-ffd0-9362-f4a3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9a0c-68f0-48c0-c6a6" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9abf-7fe4-a6f0-fad8" name="Mastiff, Hippeis" hidden="true" collective="false" import="true" targetId="4319-207e-de90-91b7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dec0-94fd-7cf1-ddfc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="57a3-c46c-6cbb-d181" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc28-e2c6-a20a-d5da" name="Mastiff, Pacifier" hidden="true" collective="false" import="true" targetId="3b27-c32b-f7f0-c134" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="0ac9-a475-48a8-165f" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac9-a475-48a8-165f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="be16-3bd9-0809-bd73" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
