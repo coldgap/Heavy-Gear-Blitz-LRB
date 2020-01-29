@@ -1760,6 +1760,118 @@
         <categoryLink id="f5ab-3f0d-2d6f-125d" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="c73c-f11e-3d35-d3e1" name="Valence" hidden="true" collective="false" import="true" targetId="3c6c-edf9-dc9c-d2ee" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="44a0-20f9-2bf1-806a" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="44a0-20f9-2bf1-806a" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44a0-20f9-2bf1-806a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="536a-c195-362b-a2f9" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="0427-e3d0-c3e5-a957" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4349-41e7-386a-d577" name="Valence, Foreman" hidden="true" collective="false" import="true" targetId="d730-f618-b395-ab79" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e641-b0e1-b105-e4fa" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f94e-cb98-7f46-58f9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8d6d-2ef9-deb2-7e83" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b500-f1f0-d46f-8f59" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3a77-7aaf-1b2a-0f58" name="Valence, Sweeper" hidden="true" collective="false" import="true" targetId="44fc-7c5f-b1f1-cd6e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="674a-3c51-6c18-916e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674a-3c51-6c18-916e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="96e3-4cb4-e6b5-d9f3" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="2baa-b328-0803-0674" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4ce9-5a19-cf2e-ba6d" name="Valence, Demolisher" hidden="true" collective="false" import="true" targetId="70e2-101a-8a91-a4b8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1935-5cb4-d6d3-108b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="0305-611d-a7b1-c9c9" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0305-611d-a7b1-c9c9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="210f-96d0-44db-e388" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="fdf7-b326-20a8-6c7e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="6418-4ee6-9c7f-d771" name="Peace River Models" targetId="f832-6020-6d1e-b4e9" type="catalogue" importRootEntries="true"/>
