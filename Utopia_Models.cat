@@ -136,5 +136,47 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2dbf-1b83-bf45-acf1" name="Support Armiger" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3427-7f3a-123b-d35a" name="Support Armiger" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">13</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, GP(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRC(Arm), MGM, MRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot, Drone Bay:2, NCM:6&quot;, Offroad:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="383b-ea0d-535e-973b" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="e873-e2d2-9c77-9d42" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="69d4-5134-dea7-a811" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="dd41-5acc-0b42-67b7" name="Guided Mortar, Medium" hidden="false" targetId="c0e6-160e-37ae-c193" type="profile"/>
+        <infoLink id="269f-b21f-769c-46de" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="1058-ece3-799b-400a" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="4938-0249-0cf1-f105" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="09e4-c5f1-2c9b-f546" name="Drone Bay:X" hidden="false" targetId="9143-67a0-6d59-3534" type="rule"/>
+        <infoLink id="1e76-0dd9-2a0e-9a84" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="de5e-f56e-a8be-c53b" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="59af-13e2-8d9a-4633" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="939f-d37d-8823-89b4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
