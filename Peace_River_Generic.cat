@@ -1582,6 +1582,7 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="5833-7685-03db-f90a" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="f1f7-1ce0-4ea3-bccb" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7dd0-ceec-9236-9d9a" name="Mameluk" hidden="true" collective="false" import="true" targetId="3954-61c6-ab82-8470" type="selectionEntry">
@@ -1652,6 +1653,111 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="593d-bed2-0f26-3dcd" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="86c1-586e-895b-70cb" name="Infantry Squad, Riflemen" hidden="true" collective="false" import="true" targetId="425d-9beb-6a89-e3de" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7528-478d-0292-8b09" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7528-478d-0292-8b09" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9c75-a930-7d58-2911" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="0537-778c-067b-959c" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c1b-28d8-dcef-6b31" name="Infantry Team, Observer" hidden="true" collective="false" import="true" targetId="c9fb-9750-37dc-4585" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="94d2-af7f-a25f-cae1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94d2-af7f-a25f-cae1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c332-48c3-a209-1e2c" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="8f31-e7a5-b9f4-7885" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50d5-7959-a9c7-7acb" name="Infantry Squad, Mortar" hidden="true" collective="false" import="true" targetId="9a3b-da67-5111-72b1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f533-40ba-5950-33b9" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f533-40ba-5950-33b9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="72d3-ed57-96a3-1fe1" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="12b8-5749-aa3d-ebb4" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b79e-1c49-3265-1cbe" name="Infantry Team, Sniper" hidden="true" collective="false" import="true" targetId="779e-e83b-2a3c-9584" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="fd4f-85eb-c235-b1d1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4f-85eb-c235-b1d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d050-11a4-48f4-ebe8" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="b904-2a8d-d370-4e90" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e6bd-77f2-9753-f535" name="Infantry Squad, Anti-tank" hidden="true" collective="false" import="true" targetId="a54f-63c5-f5d8-685c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="55b3-fc18-b86b-46ce" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b3-fc18-b86b-46ce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a01b-d8f8-ed6d-f9cf" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="f5ab-3f0d-2d6f-125d" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
