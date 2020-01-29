@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c27c-6008-8479-9b45" name="Utopia Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="4309-ebcd-adf3-0f7b" name="Recce Armiger" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="29ff-3f68-68c2-2580" name="Recce Armiger" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC, GP(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LLC(Arm), MRP, LVB(Arm), MHG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, ECM:2, Drone Bay:2, ECCM, NCM:6&quot;, Sensors:18&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3840-c139-d098-7db4" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="ccde-de1b-77de-4de5" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="7709-9164-f117-007b" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="2cdc-9bc3-363c-209b" name="Grenades, Medium" hidden="false" targetId="9d70-0b0b-0b0a-e390" type="profile"/>
+        <infoLink id="8939-e6fa-5c0c-6dd9" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="6c1c-1d27-16ac-4627" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="841a-aff2-4c4d-974f" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="b8fc-e446-26f3-e90e" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="06ba-6517-5785-f7fa" name="Drone Bay:X" hidden="false" targetId="9143-67a0-6d59-3534" type="rule"/>
+        <infoLink id="d415-e3e8-1259-4b33" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="924d-be12-84df-a2a7" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="c2fc-e2cc-6cea-bca7" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aaa0-4ece-f3dc-b71e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="bd40-668c-a25e-b421" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="17ff-d442-f70a-21bf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c767-0dc6-28a3-df07" name="Recce Armiger, Close Support" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e89a-250f-2306-9d18" name="Close Support Recce Armiger" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(Arm), MRP, LVB(Arm), MHG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, ECM:2, Drone Bay:2, ECCM, NCM:6&quot;, Sensors:18&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4b0e-4d1a-4785-47e0" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="520e-4baa-0905-4c59" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="d09b-a7cf-2887-eb23" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="255e-bb1d-6f06-518f" name="Grenades, Medium" hidden="false" targetId="9d70-0b0b-0b0a-e390" type="profile"/>
+        <infoLink id="87ff-93f3-e8a8-445b" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="c57d-2399-4d39-8c0b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="f9db-1a12-57d4-e8d5" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="6d65-f659-1542-f3e5" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="2d79-f943-22c4-646b" name="Drone Bay:X" hidden="false" targetId="9143-67a0-6d59-3534" type="rule"/>
+        <infoLink id="ba49-acec-7570-4bd3" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="cea9-bf9c-51b7-14ee" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="db1c-c896-62ed-28d5" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ebf4-c4b6-704f-c972" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="e1f7-5924-9037-dfaf" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cfc0-3154-46e7-8a20" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0216-abc7-0d6c-3b52" name="Recce Armiger, Missile Support" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6950-e44c-ea24-3432" name="Missile Support Recce Armiger" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LLC(Arm), LATM, LVB(Arm), MHG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, ECM:2, Drone Bay:2, ECCM, NCM:6&quot;, Sensors:18&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5b79-7bcf-3039-5aa4" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="b4b0-123e-09b6-854b" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="5364-a06d-0991-b749" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="9306-f2ca-d36d-c854" name="Grenades, Medium" hidden="false" targetId="9d70-0b0b-0b0a-e390" type="profile"/>
+        <infoLink id="5f3f-bbc1-9f69-2262" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="8edb-ab48-741f-957e" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="959d-e0dd-d912-775b" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="1a3c-ec31-3c15-fe25" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="4f6b-7f9c-8d08-e04d" name="Drone Bay:X" hidden="false" targetId="9143-67a0-6d59-3534" type="rule"/>
+        <infoLink id="eee2-63b9-b0da-0ca9" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="a181-264e-6744-ca7f" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="5ab8-3d56-62c0-b77f" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d27-d2b3-6f5e-1505" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="6d66-6328-3070-4607" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d441-9cc5-ce1d-96a4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
