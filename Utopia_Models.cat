@@ -184,8 +184,8 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="de5e-f56e-a8be-c53b" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="59af-13e2-8d9a-4633" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="0182-e9df-7acd-339c" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="939f-d37d-8823-89b4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -270,8 +270,8 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="df3e-3f60-0b6f-39ee" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="54dc-b90e-128c-050d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="dbfc-d1d9-c1b0-b348" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ceab-4ed7-04f5-efce" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
