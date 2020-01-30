@@ -53,6 +53,11 @@
     <categoryEntry id="674f-aa98-120a-b842" name="Infantry Movement Type Only" publicationId="20bd-c8e1-5e20-75e8" page="28" hidden="false"/>
     <categoryEntry id="37d4-6af1-9258-38b8" name="Veteran" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false"/>
     <categoryEntry id="2473-f5c0-02aa-b0fc" name="Command-only Variant" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false"/>
+    <categoryEntry id="a04d-b1a7-4b4c-d0bc" name="Armiger" publicationId="20bd-c8e1-5e20-75e8" page="203" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ba-b9b4-70de-effe" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">

@@ -37,6 +37,7 @@
       <categoryLinks>
         <categoryLink id="aaa0-4ece-f3dc-b71e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="bd40-668c-a25e-b421" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="8372-c756-a1ff-15ed" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="17ff-d442-f70a-21bf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -82,6 +83,7 @@
       <categoryLinks>
         <categoryLink id="ebf4-c4b6-704f-c972" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="e1f7-5924-9037-dfaf" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="2103-4fc3-8484-100f" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cfc0-3154-46e7-8a20" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -127,6 +129,7 @@
       <categoryLinks>
         <categoryLink id="7d27-d2b3-6f5e-1505" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="6d66-6328-3070-4607" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="2143-3701-4453-b7f2" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d441-9cc5-ce1d-96a4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -186,6 +189,7 @@
       <categoryLinks>
         <categoryLink id="59af-13e2-8d9a-4633" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="0182-e9df-7acd-339c" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+        <categoryLink id="9e3a-2aad-7689-0f9c" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="939f-d37d-8823-89b4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -220,6 +224,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6fc8-9f33-ccf0-b1b0" name="Support Armiger, Missile" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" collective="false" import="true" type="model">
@@ -272,6 +277,7 @@
       <categoryLinks>
         <categoryLink id="54dc-b90e-128c-050d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="dbfc-d1d9-c1b0-b348" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+        <categoryLink id="30c3-afe8-5243-6edb" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ceab-4ed7-04f5-efce" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -306,6 +312,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6b5-447f-3a77-b5fd" name="Commando Armiger" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
@@ -360,6 +367,7 @@
       <categoryLinks>
         <categoryLink id="5d44-e1c0-d1a6-1a8f" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="734f-2065-abaa-38f1" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="fca7-7534-b469-121f" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4d2e-42f5-528d-0263" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -425,6 +433,7 @@
       <categoryLinks>
         <categoryLink id="8f0f-c503-5700-4b10" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="db5b-151b-c703-88dd" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="70d8-0045-b95d-161a" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cee1-5eaf-13f4-9509" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -490,6 +499,7 @@
       <categoryLinks>
         <categoryLink id="e70d-b162-775b-dd94" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="9653-cb66-5478-f430" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="92e1-8560-a9bc-128e" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b3b-aa3f-38bc-c46e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
