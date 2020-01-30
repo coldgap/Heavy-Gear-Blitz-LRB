@@ -513,5 +513,394 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4d74-bedd-3519-b8ed" name="Recon ECM N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fb96-7392-a52e-d3f6" name="Recon ECM N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, ECM:1, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a7c2-55ad-4394-5b78" name="Infantry Laser, Medium" hidden="false" targetId="f953-d6f7-0659-9962" type="profile"/>
+        <infoLink id="277c-244c-6ce9-53ad" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="dee0-52f7-e1e6-439f" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="69a8-48b1-9287-a9da" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="13d0-23c8-5b75-f962" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="f4f2-d787-64c6-9cf0" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a936-4394-6671-5cd0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1d54-5625-3424-f441" name="Battery (Recon N-KIDU upgrade)" hidden="false" collective="false" import="true" targetId="017f-ad8a-fc5e-22a7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="017f-ad8a-fc5e-22a7" name="Battery (Recon N-KIDU upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0f71-6d77-66c4-9b78" name="Battery (Recon N-KIDU upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">+LRP</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6942-a6d4-195f-2dbc" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb47-e435-88c6-e8e9" name="Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0bd3-80e4-14f5-3ada" name="Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+), SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Comms:1, Stealth, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e7a7-5013-c3db-f444" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="7198-7bd8-c9c9-da56" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="3243-9010-57bc-0511" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="e4c4-3d86-e95c-86cb" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="83a5-fed6-ef5c-976e" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cc8c-a4a2-b694-855d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="df2f-aa86-d12d-5030" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="52b9-581f-dfce-6010" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="821a-2238-d4cb-91ea" name="Battery (Recon N-KIDU upgrade)" hidden="false" collective="false" import="true" targetId="017f-ad8a-fc5e-22a7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e7e-dd65-dee6-8ce4" name="Recon N-KIDU, MP" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bed7-b86f-6864-8f56" name="MP Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW(Frag, AI)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Comms:1, Stealth, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d4ad-bfe9-6db3-3707" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="5047-a709-a46a-5f9d" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="734b-12ac-86e3-a829" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="d0ae-23b8-6d62-d02c" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="0106-6952-b769-c73f" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="8d58-4283-1a65-9d00" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="5fea-6575-ee53-8e9d" name="Fragmentation [Frag]" hidden="false" targetId="27e2-21ad-ae02-d82c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6221-1ad7-81f9-72da" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1313-a3ce-18f9-c131" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a1fd-aab8-5a07-3cc0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1e63-8cd9-2a30-3752" name="Battery (Recon N-KIDU upgrade)" hidden="false" collective="false" import="true" targetId="017f-ad8a-fc5e-22a7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72b5-f057-29b4-1d03" name="Recon N-KIDU, Hunter" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c358-58b6-dd71-3e96" name="Hunter Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+), SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Comms:1, Stealth, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="37cf-f8e1-7d08-ca49" name="Infantry Support Weapons, Medium" hidden="false" targetId="e9ae-c82f-d104-4822" type="profile"/>
+        <infoLink id="c549-86f3-a396-11e5" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="f7bf-e216-f700-2fa7" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="1984-872f-ebf7-9903" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="a76d-4f1a-92c9-e91b" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8bb5-c60b-8f69-cce5" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="d95a-b08b-45ea-5b14" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8fc3-74d4-e035-916f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="88b5-2009-2a6d-33a7" name="Battery (Recon N-KIDU upgrade)" hidden="false" collective="false" import="true" targetId="017f-ad8a-fc5e-22a7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5527-c529-2e19-4b14" name="Recon N-KIDU, Comms" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="81bf-1e74-a84b-e4af" name="Comms Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Comms:1, NCM:6&quot;, SatUp:6+, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5343-ee76-94ef-5ba8" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="4e1a-6186-4ddf-cafc" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="de2e-22d3-fc89-fe69" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="97eb-8d48-0f29-d086" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="8f9b-7f25-d456-42a3" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ae52-39e0-9808-2e78" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="f939-68d7-6182-2f14" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf1c-8f4c-7e0f-3459" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="85cf-c2f5-ecc0-abc1" name="Battery (Recon N-KIDU upgrade)" hidden="false" collective="false" import="true" targetId="017f-ad8a-fc5e-22a7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eff0-8d79-0621-a85e" name="Support N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f216-ff27-10e6-cdf5" name="Support N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRP</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Offroad:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="85fa-a037-be50-3b7f" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="5ad5-b5fc-f8fb-7b8d" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="7c27-a2dd-dd74-a03b" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="668f-094e-b660-2eb3" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="7f20-0a16-6521-9f08" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e508-a770-da26-3659" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b009-a649-635d-0027" name="Support N-KIDU, Comms" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="13e5-0553-a42d-f608" name="Comms Support N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">NCM:6&quot;, Offroad:1, SatUp:6+</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="059a-082f-094d-f49c" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="634d-656e-e059-d058" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="ef3d-3540-651d-3771" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d69-f36b-bbc8-707e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="773d-339c-acc3-5c0b" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23fe-cd4f-b594-a0ae" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e42-65d6-7655-3986" name="Support N-KIDU, Battery" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6786-131b-a540-d88e" name="Battery Support N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="205" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LATM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Offroad:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5a77-4588-ed14-686d" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="ea22-e062-58e1-dd3a" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="8f51-7f62-a132-e5bc" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b5ea-6313-f7b0-2a36" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="ecb7-03f8-53ed-9de2" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6497-0c9f-8a42-0b7b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="942f-85cf-75e7-dd8a" name="Drone Choices (Utopia)" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="3ba7-6746-1f10-ebc5" name="Demo [Charge] Drone" hidden="false" collective="false" import="true" targetId="435c-c708-2da8-19ae" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bfb4-8d1c-c533-9d9e" name="Demo [Grenade] Drone" hidden="false" collective="false" import="true" targetId="0865-2e2d-4caa-9dec" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="06c8-1797-fe57-191c" name="Hunter-Killer [Air Defense] Drone" hidden="false" collective="false" import="true" targetId="302a-455e-92dd-4415" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2776-3f7c-0a1e-7e7e" name="Hunter-Killer [Anti-Infantry] Drone" hidden="false" collective="false" import="true" targetId="6bc1-a100-c485-a31f" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="22d7-7f05-7387-2c12" name="Hunter-Killer [Defender] Drone" hidden="false" collective="false" import="true" targetId="ba7d-ff6c-2323-006f" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="98c5-a6a5-9600-6da4" name="Recon Drone" hidden="false" collective="false" import="true" targetId="a49f-9885-5888-3f30" type="selectionEntry">
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="dcd1-9257-2201-8b84" name="Recon N-KIDU" hidden="false" collective="false" import="true" targetId="bb47-e435-88c6-e8e9" type="selectionEntry"/>
+        <entryLink id="af1a-ff64-90ec-56bf" name="Recon ECM N-KIDU" hidden="false" collective="false" import="true" targetId="4d74-bedd-3519-b8ed" type="selectionEntry"/>
+        <entryLink id="a9dd-6a8b-555d-cf9e" name="Recon N-KIDU, Comms" hidden="false" collective="false" import="true" targetId="5527-c529-2e19-4b14" type="selectionEntry"/>
+        <entryLink id="ec4e-c5ac-ad98-a634" name="Recon N-KIDU, Hunter" hidden="false" collective="false" import="true" targetId="72b5-f057-29b4-1d03" type="selectionEntry"/>
+        <entryLink id="745c-6a04-4c0f-c123" name="Recon N-KIDU, MP" hidden="false" collective="false" import="true" targetId="6e7e-dd65-dee6-8ce4" type="selectionEntry"/>
+        <entryLink id="4b44-c5fa-9da3-6a30" name="Support N-KIDU, Battery" hidden="false" collective="false" import="true" targetId="9e42-65d6-7655-3986" type="selectionEntry"/>
+        <entryLink id="29f4-0833-7ac6-de64" name="Support N-KIDU" hidden="false" collective="false" import="true" targetId="eff0-8d79-0621-a85e" type="selectionEntry"/>
+        <entryLink id="a4e3-a96d-61a8-c898" name="Support N-KIDU, Comms" hidden="false" collective="false" import="true" targetId="b009-a649-635d-0027" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
