@@ -40,7 +40,7 @@
         <categoryLink id="8372-c756-a1ff-15ed" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="17ff-d442-f70a-21bf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="17ff-d442-f70a-21bf" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -86,7 +86,7 @@
         <categoryLink id="2103-4fc3-8484-100f" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cfc0-3154-46e7-8a20" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="cfc0-3154-46e7-8a20" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -132,7 +132,7 @@
         <categoryLink id="2143-3701-4453-b7f2" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d441-9cc5-ce1d-96a4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="d441-9cc5-ce1d-96a4" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -192,7 +192,7 @@
         <categoryLink id="9e3a-2aad-7689-0f9c" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="939f-d37d-8823-89b4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+        <entryLink id="939f-d37d-8823-89b4" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="168c-f8d0-f14c-c5b7" name="Sniper (Support Armiger upgrade)" hidden="false" collective="false" import="true" targetId="b981-cde6-c6af-dd42" type="selectionEntry"/>
           </entryLinks>
@@ -280,7 +280,7 @@
         <categoryLink id="30c3-afe8-5243-6edb" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ceab-4ed7-04f5-efce" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+        <entryLink id="ceab-4ed7-04f5-efce" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="87de-ddb6-b514-3343" name="Sniper (Support Armiger upgrade)" hidden="false" collective="false" import="true" targetId="b981-cde6-c6af-dd42" type="selectionEntry"/>
           </entryLinks>
@@ -370,7 +370,7 @@
         <categoryLink id="fca7-7534-b469-121f" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4d2e-42f5-528d-0263" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+        <entryLink id="4d2e-42f5-528d-0263" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="e2d7-0d78-2863-c37a" name="Anti-Tank (Commando Armiger upgrade)" hidden="false" collective="false" import="true" targetId="5e3e-2818-2ff0-dd3f" type="selectionEntry"/>
           </entryLinks>
@@ -436,7 +436,7 @@
         <categoryLink id="70d8-0045-b95d-161a" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cee1-5eaf-13f4-9509" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+        <entryLink id="cee1-5eaf-13f4-9509" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="07a7-cc9d-ccb4-ad9a" name="Anti-Tank (Commando Armiger upgrade)" hidden="false" collective="false" import="true" targetId="5e3e-2818-2ff0-dd3f" type="selectionEntry"/>
           </entryLinks>
@@ -502,7 +502,7 @@
         <categoryLink id="92e1-8560-a9bc-128e" name="Armiger" hidden="false" targetId="a04d-b1a7-4b4c-d0bc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2b3b-aa3f-38bc-c46e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+        <entryLink id="2b3b-aa3f-38bc-c46e" name="Model Options (Armiger)" hidden="false" collective="false" import="true" targetId="c619-1d71-83e9-97fa" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="f4fa-6242-5a2d-4de7" name="Anti-Tank (Commando Armiger upgrade)" hidden="false" collective="false" import="true" targetId="5e3e-2818-2ff0-dd3f" type="selectionEntry"/>
           </entryLinks>
@@ -1017,7 +1017,10 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="942f-85cf-75e7-dd8a" name="Drone Choices (Utopia)" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="942f-85cf-75e7-dd8a" name="Drone Choices (Armiger)" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="754c-dcdc-1d18-88ed" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="3ba7-6746-1f10-ebc5" name="Demo [Charge] Drone" hidden="false" collective="false" import="true" targetId="435c-c708-2da8-19ae" type="selectionEntry">
           <costs>
@@ -1061,6 +1064,66 @@
         <entryLink id="4c66-001a-2cfe-cc29" name="Commando N-KIDU, EMT" hidden="false" collective="false" import="true" targetId="dc9a-9343-1842-8b0c" type="selectionEntry"/>
         <entryLink id="bbe2-6bb0-7307-c43d" name="Commando N-KIDU, Comms" hidden="false" collective="false" import="true" targetId="5ec1-d604-b541-a3a1" type="selectionEntry"/>
         <entryLink id="248c-3306-c530-e286" name="Commando N-KIDU" hidden="false" collective="false" import="true" targetId="2b82-94f7-a6f1-d8c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c619-1d71-83e9-97fa" name="Model Options (Armiger)" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b8ef-4a83-9970-e20a" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1c8e-84eb-ca04-c561" name="Veteran Status" publicationId="20bd-c8e1-5e20-75e8" hidden="true" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89a1-4509-424c-7575" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5519-c790-ff92-f30b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="0b9d-f128-1475-b272" name="Veteran" hidden="false" collective="false" import="true" targetId="092e-f03c-e7ec-4c3a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="84b4-4f8f-6941-ac9a" value="1.0">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="50e7-1b7e-5954-42dc" type="equalTo"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b4-4f8f-6941-ac9a" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="7ec7-0dc9-e8e2-6a1b" name="Duelist Upgrades" hidden="false" collective="false" import="true" targetId="6f44-4079-525c-b81a" type="selectionEntryGroup"/>
+            <entryLink id="9771-46fd-b847-eabf" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="8f85-e580-39f7-4076" type="selectionEntryGroup"/>
+            <entryLink id="3c06-341a-eaab-136e" name="Generic Upgrades" hidden="false" collective="false" import="true" targetId="9ede-e667-5271-b3a6" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8672-02f5-614c-b90d" name="Command Ranks" hidden="false" collective="false" import="true" targetId="ba74-b243-4343-ba32" type="selectionEntryGroup"/>
+        <entryLink id="e3e9-038c-2e28-c513" name="Drone Choices (Utopia)" hidden="false" collective="false" import="true" targetId="942f-85cf-75e7-dd8a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="754c-dcdc-1d18-88ed" value="2.0"/>
+            <modifier type="set" field="754c-dcdc-1d18-88ed" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27d1-db8d-9335-a721" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
