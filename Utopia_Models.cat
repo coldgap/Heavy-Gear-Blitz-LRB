@@ -578,6 +578,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb47-e435-88c6-e8e9" name="Recon N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
@@ -799,7 +800,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">NCM:6&quot;, Offroad:1, SatUp:6+</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
           </characteristics>
@@ -858,12 +859,12 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc9a-9343-1842-8b0c" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="dc9a-9343-1842-8b0c" name="Commando N-KIDU, EMT" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e848-6a7e-7f40-30ff" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="e848-6a7e-7f40-30ff" name="EMT Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
-            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(0+), FS</characteristic>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0-1), SK(0-1), FS(0-1), RC(0-1)</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">H:8&quot;</characteristic>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
@@ -871,16 +872,19 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">BZ(AP:1, PEN:6)</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, Jetpack:6&quot;, Stealth</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, Jetpack:6&quot;, Recovery, Stealth</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="af23-3b6e-3ad6-bb18" name="Bazooka, Light" hidden="false" targetId="6028-2175-23af-ded7" type="profile"/>
-        <infoLink id="70e3-a15c-07b3-cab0" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="70e3-a15c-07b3-cab0" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
         <infoLink id="c9ec-5311-39be-366d" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="3ff2-60d2-2392-b864" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="f162-4195-ff7e-61fc" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="c3bd-b93e-2f62-1ec5" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="6d1d-6539-6e9b-1473" name="Recovery Vehicle [Recovery]" hidden="false" targetId="0e0b-8fb6-a0f0-0013" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a3a3-a486-49f3-5f3b" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
@@ -891,7 +895,124 @@
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ec1-d604-b541-a3a1" name="Commando N-KIDU, Comms" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f816-a476-ce7a-1463" name="Comms Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, Jetpack:6&quot;, NCM:6&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ab8b-0b4f-15b2-54ed" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="da67-67ed-020e-057a" name="N-KIDU Command Matrix:X&quot; [NCM:X&quot;]" hidden="false" targetId="4152-9291-c7ff-4ef4" type="rule"/>
+        <infoLink id="278d-fb7f-68e4-cf27" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="575e-f438-ee36-f28d" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="65e7-fb84-ea33-9532" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c6f2-624b-07da-d8ce" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="c3f2-919a-755d-3800" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6f08-9002-9381-ad6f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b82-94f7-a6f1-d8c0" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9d40-40b8-085e-6703" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(0+), FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">VLBZ</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, Jetpack:6&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0398-cdc4-f33a-0a46" name="Bazooka, Very Light" hidden="false" targetId="bbcc-a468-bea2-b008" type="profile"/>
+        <infoLink id="17c4-b1dc-a69f-8860" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="9d51-bd96-9d23-13c3" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="f1d2-0364-3ee1-a4a9" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="3b9f-2755-7182-454e" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="eac4-40a0-a45b-cbad" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="46bc-12d8-8778-d612" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="d494-0f56-2391-c8fe" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b674-95a2-eadb-331b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d27-2c34-ffa5-4373" name="Commando ECM N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="40a9-9f88-01e2-bd1d" name="Commando ECM N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">VLBZ</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, ECM&quot;1, Jetpack:6&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fbd1-e504-6894-15f1" name="Bazooka, Very Light" hidden="false" targetId="bbcc-a468-bea2-b008" type="profile"/>
+        <infoLink id="63b1-672f-b376-b2b9" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="b2e3-b225-94ed-adb8" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="f672-d7a1-cfea-6c00" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="cb44-ea3d-a9e4-d58b" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="8261-8d76-0203-1b54" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="a6ad-aa46-dcaa-4d02" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ae45-4c20-e4bd-186e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="4dbc-8741-9a82-fed6" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8852-c469-08f1-d1d3" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -936,6 +1057,10 @@
         <entryLink id="4b44-c5fa-9da3-6a30" name="Support N-KIDU, Battery" hidden="false" collective="false" import="true" targetId="9e42-65d6-7655-3986" type="selectionEntry"/>
         <entryLink id="29f4-0833-7ac6-de64" name="Support N-KIDU" hidden="false" collective="false" import="true" targetId="eff0-8d79-0621-a85e" type="selectionEntry"/>
         <entryLink id="a4e3-a96d-61a8-c898" name="Support N-KIDU, Comms" hidden="false" collective="false" import="true" targetId="b009-a649-635d-0027" type="selectionEntry"/>
+        <entryLink id="b22f-a1ae-0e64-2e39" name="Commando ECM N-KIDU" hidden="false" collective="false" import="true" targetId="5d27-2c34-ffa5-4373" type="selectionEntry"/>
+        <entryLink id="4c66-001a-2cfe-cc29" name="Commando N-KIDU, EMT" hidden="false" collective="false" import="true" targetId="dc9a-9343-1842-8b0c" type="selectionEntry"/>
+        <entryLink id="bbe2-6bb0-7307-c43d" name="Commando N-KIDU, Comms" hidden="false" collective="false" import="true" targetId="5ec1-d604-b541-a3a1" type="selectionEntry"/>
+        <entryLink id="248c-3306-c530-e286" name="Commando N-KIDU" hidden="false" collective="false" import="true" targetId="2b82-94f7-a6f1-d8c0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
