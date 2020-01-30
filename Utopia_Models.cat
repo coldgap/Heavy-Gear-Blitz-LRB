@@ -858,6 +858,42 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="dc9a-9343-1842-8b0c" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e848-6a7e-7f40-30ff" name="Commando N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="206" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(0+), FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">BZ(AP:1, PEN:6)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Conscript, Airdrop, Agile, Jetpack:6&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="af23-3b6e-3ad6-bb18" name="Bazooka, Light" hidden="false" targetId="6028-2175-23af-ded7" type="profile"/>
+        <infoLink id="70e3-a15c-07b3-cab0" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="c9ec-5311-39be-366d" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a3a3-a486-49f3-5f3b" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="6805-86cb-180a-44a1" name="N-KIDU" hidden="false" targetId="5ae2-8352-f18b-75b3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c385-78bf-0f85-599d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="942f-85cf-75e7-dd8a" name="Drone Choices (Utopia)" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true">
