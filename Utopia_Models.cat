@@ -1015,7 +1015,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea69-3ed8-ef24-5c2d" name="Marsall APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ea69-3ed8-ef24-5c2d" name="Marshal APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="bebf-7091-12ff-2098" name="Marsall APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
