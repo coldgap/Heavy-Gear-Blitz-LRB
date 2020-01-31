@@ -1623,6 +1623,45 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b2c0-cdd5-f00f-337b" name="Badlands Python" publicationId="20bd-c8e1-5e20-75e8" page="104" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ec2a-bbd9-d89b-28e3" name="Badlands Python" publicationId="20bd-c8e1-5e20-75e8" page="104" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MRP, MFM, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Limited:MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="746a-5f45-5fc8-b364" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="f38d-3b3f-5bc1-2a2a" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="0e7e-3705-a72c-7ed4" name="Field Mortar, Medium" hidden="false" targetId="0632-ae34-3bd3-b86d" type="profile"/>
+        <infoLink id="4e2d-0c06-9331-1269" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="558f-d473-a077-128a" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="91c6-593f-0f8d-0190" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0996-9fed-0cfe-f2bb" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="96e3-e031-d789-b41d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4937-f965-473f-48a6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
