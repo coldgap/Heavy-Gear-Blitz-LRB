@@ -1103,6 +1103,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3739-7f5d-89c4-f71d" name="Diamondback, Gunner" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" collective="false" import="true" type="model">
@@ -1258,6 +1259,7 @@
       <categoryLinks>
         <categoryLink id="fe2c-2dab-a86d-d45b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="3cfe-51cb-118f-e505" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1422-ab4e-2189-afdd" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2488-442a-e768-03b7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1265,6 +1267,84 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c89-f96b-a2d3-9a5d" name="Asp, Brawler" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2022-88df-0bb7-aef8" name="Brawler Asp" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG(Arm), MPZ</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Conscript, Limited: MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a4e8-e12c-6131-408d" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="124e-fc99-7973-f14f" name="Panzerfaust, Medium" hidden="false" targetId="4ff2-d96d-7ea8-712c" type="profile"/>
+        <infoLink id="4863-bf5c-44c4-055b" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="3a74-9b2a-b474-9f4d" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="1e3e-2046-75c3-442f" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bd39-2c60-34e6-b26a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="93bc-81ac-4ecf-9e9c" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="9fa6-2ec2-3f6f-6494" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a873-ff55-fa13-b9a7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e334-6fdf-fa42-3310" name="Asp, Gunner" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="400a-6851-c98e-36a2" name="Gunner Asp" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LHG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Conscript, Limited: MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="72d3-7cae-02a4-18cc" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="1016-1bf9-5704-a017" name="Grenades, Light" hidden="false" targetId="b79c-6748-3bbb-53d7" type="profile"/>
+        <infoLink id="6fa7-fe91-a460-7738" name="Conscript" hidden="false" targetId="e539-d438-12d3-50c3" type="rule"/>
+        <infoLink id="a2e4-32da-d44e-ca94" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="c28a-52ea-b502-202a" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="625a-0501-98ed-9862" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b58e-cc39-bcf1-1654" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="2059-147a-e61e-2668" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="befb-1544-88bb-e55d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1289,14 +1369,14 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"></characteristic>
-        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Comms:1, SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
@@ -1305,14 +1385,14 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"></characteristic>
-        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
