@@ -1182,6 +1182,166 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1fee-8cf7-6d6a-c15e" name="Man at Arms APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8390-fe93-432b-6e48" name="Man at Arms APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:8&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5a17-7cd0-00ed-c1e9" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="2dca-ac4b-94bc-48d2" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="74d3-6e17-9132-2b3b" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="3b43-f48d-c340-32d2" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="6f72-ca20-ab00-c823" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="0547-6466-3787-884a" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="73e4-a099-34cd-f3c6" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6320-85d9-c08d-c4e0" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="84db-9a92-ca7e-17ab" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3467-7c58-3e51-2db2" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="426f-4b14-52fe-7af3" name="Man at Arms APE, Ignus" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7e69-efa7-1e91-b09e" name="Ignus Man at Arms APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFL(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:8&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7a48-2c25-9aad-7cfa" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="4e91-4e7a-0c2d-4083" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="fdf9-c9ab-d898-9fdf" name="Flamer, Medium" hidden="false" targetId="a267-5e57-11e9-b0ee" type="profile"/>
+        <infoLink id="568a-9f80-9f47-1c1e" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="cd61-7138-0d86-a5f4" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="2f94-e36a-85f2-1883" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="20b3-3455-bf34-4455" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2490-fe6b-e5b3-7e0d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="67d0-ff6a-4330-be22" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="107c-d0ac-ae7c-39fb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6c9-0c61-08ff-e338" name="Man at Arms APE, Supressor" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1564-be9e-57e4-8225" name="Supressor Man at Arms APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:8&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f1b2-e58f-d78b-bc69" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="ae0f-6b4a-09b3-8b68" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="2c2b-8295-be01-a67b" name="Grenade Launcher, Light" hidden="false" targetId="5335-b2ad-8587-5bae" type="profile"/>
+        <infoLink id="e2e9-cfe5-810e-9ec0" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="9b31-c63b-8c98-bc84" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="38e1-2d54-1be2-ac2e" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="4a37-c96a-05e9-3958" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4750-8d6f-5452-75df" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="be81-ece6-9ddf-e72f" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c017-ab26-9e45-9137" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f64c-a050-8755-cbb1" name="Man at Arms APE, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1b86-21db-095b-c6a8" name="Sniper Man at Arms APE" publicationId="20bd-c8e1-5e20-75e8" page="207" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:8&quot;, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b41-2a9c-05e8-fe08" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="07c6-b58d-41e8-cc89" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="e236-850d-75a9-fbb0" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="31c6-5eac-8bb8-f44f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="ac40-8748-3ea3-e022" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="fbf9-85b9-19be-24d0" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="1f8e-3832-f660-9a90" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d53-83ff-b5f6-6781" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="d8a6-148d-45ea-9c4e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="315d-1007-0507-61d8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="942f-85cf-75e7-dd8a" name="Drone Choices (Armiger)" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true">
