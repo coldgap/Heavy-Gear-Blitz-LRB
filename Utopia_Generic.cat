@@ -274,6 +274,78 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add4-eae1-e398-33ee" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="913b-6358-7936-4d0a" name="Commando Armiger" hidden="true" collective="false" import="true" targetId="e6b5-447f-3a77-b5fd" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="02d5-3b4a-1563-c3c4" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d5-3b4a-1563-c3c4" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="d9c6-0d68-0fad-f2e5" name="Commando Armiger, Grenadier" hidden="true" collective="false" import="true" targetId="c04a-ab11-c16f-bc42" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="77a8-7fae-d4a0-f1d7" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77a8-7fae-d4a0-f1d7" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="4723-958e-7006-d730" name="Commando Armiger, Sniper" hidden="true" collective="false" import="true" targetId="c41b-75d2-544c-10f2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="0b88-e7f4-696b-90fb" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b88-e7f4-696b-90fb" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="9407-9de0-a0f8-600f" name="Utopia Models" targetId="c27c-6008-8479-9b45" type="catalogue" importRootEntries="true"/>
