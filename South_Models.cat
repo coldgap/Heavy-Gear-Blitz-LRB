@@ -1019,58 +1019,214 @@
     </selectionEntry>
     <selectionEntry id="110e-767d-8cf4-2b51" name="Diamondback" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9613-4ce2-400b-9ba4" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="d98e-f085-8443-4389" name="Diamondback" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
-            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
-            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
-          </characteristics>
-        </profile>
-        <profile id="31a9-1c16-fcb1-d6bd" name="Link to Weapon Profile [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
-          <characteristics>
-            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
-            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">9</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), MAPR, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Field Armor, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="315c-3b6c-6650-1a9e" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="9124-2628-d6b2-75a0" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="d13e-e5cb-8dd2-9f93" name="Anti-Personnel Rockets, Medium" hidden="false" targetId="9fc5-271e-aa32-725c" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="dd67-0f57-e8a5-0486" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="66d8-b654-a5c6-f10d" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="1570-eae9-79ce-ba8c" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="5dcc-de33-7631-94e6" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="d24a-e771-668d-635a" name="Field Armor" hidden="false" targetId="13cf-10a3-507f-e073" type="rule"/>
+        <infoLink id="fc64-804c-46e6-ce62" name="Artillery Rockets, Medium" hidden="true" targetId="26e5-d189-f629-e183" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="26bf-9184-4744-7b3e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="084e-484e-62a3-d6a5" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a565-0aa4-97ed-224a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
-          <selectionEntries>
-            <selectionEntry id="46b4-87c6-83c1-be8b" name="Catalog Upgrades [Example]" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5fd9-692a-dfef-aa61" name="Support (Diamondback upgrade)" hidden="false" collective="false" import="true" targetId="0e8f-b505-2e91-a722" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e8f-b505-2e91-a722" name="Support (Diamondback upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6125-3d83-fb93-d9b9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d3ad-87b4-689f-69d5" name="Support (Diamondback upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">-MAPR, +MAR</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3739-7f5d-89c4-f71d" name="Diamondback, Gunner" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="73e4-e091-562e-57d9" name="Gunner Diamondback" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MAPR, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Field Armor, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b91e-56bd-b085-fdf1" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="3385-36a4-1e0f-6c81" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="cbf9-8abb-750e-4e54" name="Anti-Personnel Rockets, Medium" hidden="false" targetId="9fc5-271e-aa32-725c" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f18d-114f-eb2c-369f" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="dd08-8f2d-f265-a815" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="aaaa-fee0-6522-cc63" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="a005-bf8a-f95c-5775" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="a9d3-3bd1-5eb7-fe41" name="Field Armor" hidden="false" targetId="13cf-10a3-507f-e073" type="rule"/>
+        <infoLink id="a2f1-5df5-d3fe-6c43" name="Artillery Rockets, Medium" hidden="true" targetId="26e5-d189-f629-e183" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e122-d7a1-b544-ee36" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="93f3-4c90-0e4f-9e39" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="189c-232b-6807-3564" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="c90e-8774-24b5-6bdd" name="Support (Diamondback upgrade)" hidden="false" collective="false" import="true" targetId="0e8f-b505-2e91-a722" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66d6-c847-e16d-21d2" name="Diamondback, Strike" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8141-fabf-f90a-7af9" name="Strike Diamondback" publicationId="20bd-c8e1-5e20-75e8" page="102" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MAPR, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Field Armor, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e256-f5e3-93a9-3cf5" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="5665-b0e0-d505-fe1e" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="f5be-a288-e488-8d12" name="Anti-Personnel Rockets, Medium" hidden="false" targetId="9fc5-271e-aa32-725c" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d538-b10c-f90b-0424" name="Bazooka, Medium" hidden="false" targetId="5e26-2e17-682c-8c98" type="profile"/>
+        <infoLink id="d1b4-cbee-3b8b-85ce" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="cd33-1ccc-0ec1-f2ec" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="8a0a-8773-9b38-fba6" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="0fbc-0f83-2104-3f62" name="Field Armor" hidden="false" targetId="13cf-10a3-507f-e073" type="rule"/>
+        <infoLink id="b0fd-e267-89e8-73a3" name="Artillery Rockets, Medium" hidden="true" targetId="26e5-d189-f629-e183" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e8f-b505-2e91-a722" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1015-304c-9cd4-7ea3" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="5448-861b-062e-b333" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2a4-2bb2-ebb9-f7f1" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="149c-e510-bf2b-5ee1" name="Support (Diamondback upgrade)" hidden="false" collective="false" import="true" targetId="0e8f-b505-2e91-a722" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
