@@ -1347,6 +1347,161 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6db7-1fa0-f1e2-ca95" name="Salamander" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ae63-8f42-65ad-6ef9" name="Salamander" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), LFL(Arm), MCW(Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Limited:MI, IN</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="63b5-a783-0ab4-c33b" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="d2bf-9488-4e20-37c2" name="Flamer, Light" hidden="false" targetId="bc05-8618-9845-43ff" type="profile"/>
+        <infoLink id="39be-94eb-572e-db83" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="97d0-89fc-88ed-6e75" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="3c23-0d01-5c41-d8a1" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="a716-0790-ae75-cffe" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ab12-e0f9-12af-d3f6" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="1c90-b71d-73ea-3428" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c761-39d3-db3f-8717" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdaf-31ca-58c5-9437" name="Salamander Hunter" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="665e-5b8b-2ded-f3fd" name="Salamander Hunter" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(Arm), MCW(Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Limited:MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="98e7-3b43-b64f-9170" name="Rifle, Heavy" hidden="false" targetId="ccf3-067c-58dc-50a0" type="profile"/>
+        <infoLink id="9815-92d0-c38f-d06c" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="18f1-4dce-2325-3ea2" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="868a-0062-ebbf-42ff" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="30b6-9109-dbc6-35bb" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b0f7-a692-18da-c397" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="f217-95c6-d3d6-bf65" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3515-3830-327a-fe54" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ffa-054e-741e-ac1d" name="Salamander Brawler" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e2e0-e6f9-379d-f3a2" name="Salamander Brawler" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), LGL(Arm), MCW(Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Limited:MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a49a-aeb3-8305-acfa" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="1c1c-0871-45c8-9ac8" name="Grenade Launcher, Light" hidden="false" targetId="5335-b2ad-8587-5bae" type="profile"/>
+        <infoLink id="ed50-1a33-1c4d-f170" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="40ff-5323-fc28-b256" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="1644-fa88-833d-4efe" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="7325-e3ab-0db1-fb61" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0f55-e948-9f5f-b670" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="ba26-ee62-816a-f3eb" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="89b5-a4b0-2418-c5a5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df7f-1f8a-1457-a3ea" name="Salamander Riotmaster" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ebee-b669-5bab-77fc" name="Salamander Riotmaster" publicationId="20bd-c8e1-5e20-75e8" page="103" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), LFC(Arm), MCW(Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Limited:MI</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a9a8-3147-6cb0-37d7" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="406e-042d-4e88-52d6" name="Frag Cannon, Light" hidden="false" targetId="60a9-98c3-6c5f-dfd7" type="profile"/>
+        <infoLink id="7874-2bd8-525d-f2b0" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="e0be-4c63-87df-eed5" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="a728-19c6-ece7-78ca" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="e5f9-fa02-08e7-69c1" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="82e4-b70a-1b4c-93fb" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="3541-0c6b-1450-2047" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="163f-c767-566c-58df" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
