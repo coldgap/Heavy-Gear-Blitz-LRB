@@ -59,6 +59,7 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="5ae2-8352-f18b-75b3" name="N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="203" hidden="false"/>
+    <categoryEntry id="fdf9-3955-bf9c-c80c" name="Conscript" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
@@ -894,9 +895,14 @@
           </conditions>
         </modifier>
         <modifier type="set" field="aa23-5763-a003-dde2" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="7f18-b1d8-dd4f-0831" value="1.0">
           <conditions>
