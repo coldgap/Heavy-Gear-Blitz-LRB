@@ -2895,6 +2895,50 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d4ff-0ea9-f953-75fd" name="King Cobra" publicationId="20bd-c8e1-5e20-75e8" page="109" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5bcc-adcd-4f87-9efd" name="King Cobra" publicationId="20bd-c8e1-5e20-75e8" page="109" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(Arm), MRP, LAR, HMG, LGM, APGL, MVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7a61-0b39-52b0-a9f4" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="95d6-6a7f-6f58-b9cb" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="773b-7b07-4985-81d6" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="f414-4397-35c5-8f63" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="f68c-1f53-8ce6-8ce4" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="316d-6381-6698-ff60" name="Artillery Rockets, Light" hidden="false" targetId="987c-7acf-539f-045e" type="profile"/>
+        <infoLink id="187d-81b6-4bc8-c6fa" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="e995-3aac-5534-29cb" name="Guided Mortar, Light" hidden="false" targetId="2af6-1dca-6a28-1fe8" type="profile"/>
+        <infoLink id="5b6e-aa2e-3c30-de7c" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="57d7-c15e-7fbd-3115" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb93-614a-bbd6-34ba" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b1fd-05f8-7b5c-a025" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1e4b-1964-4913-3ef4" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5c0a-2c03-07e5-7f03" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="18.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
