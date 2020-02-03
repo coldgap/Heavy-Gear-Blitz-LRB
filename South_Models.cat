@@ -3203,6 +3203,132 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c616-16db-a1ec-c328" name="Green Mamba" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="134c-9f2f-94ec-9566" name="Green Mamba" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="083e-5b9e-a2af-808a" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="658a-79d4-bf94-3d0d" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="883d-d8dd-34a1-d956" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="edeb-54ef-9d6d-6738" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="63a4-ade1-7a20-c6ca" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="65fe-7154-5c88-0ceb" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="95a9-26b6-efce-4c8b" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="8b94-ac3f-96a0-f7b5" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e533-c7b0-31d3-98ed" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b5c0-1ff3-0bb6-9cbd" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="0830-53e3-8118-26dc" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2fac-92fd-1234-33fb" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f566-d4c6-3211-59c0" name="Green Mamba Strike" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="73a6-96fd-bc22-6f89" name="Green Mamba Strike" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LBZ(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9232-68a0-1cbd-fce8" name="Bazooka, Light" hidden="false" targetId="6028-2175-23af-ded7" type="profile"/>
+        <infoLink id="98e0-ab38-435e-fc49" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="65e9-0467-9bf9-e96d" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="46cb-5241-e8f4-225e" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="c0ca-6545-a855-d68e" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="4909-cd76-15f3-7131" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="d0b1-24eb-20f8-01f7" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="6f67-1c35-3668-5ff1" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7209-434c-6346-ee75" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="bd47-eff2-7961-30df" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="2797-7f87-e865-f10b" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0c77-8193-5b15-32c8" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8830-890b-bdc6-a569" name="Green Mamba Gunner" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2f67-97ce-a092-b173" name="Green Mamba Gunner" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9d6f-693c-5443-ac2c" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="4f21-995b-36a0-8302" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="22ef-8525-4f97-468a" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="b98e-3939-37a8-256d" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="51b2-3e05-b624-7c29" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="94de-265b-36d2-ccad" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e7ab-86b2-1f59-7957" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="f523-2b85-d0ac-9731" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="679d-bb36-452f-bced" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="a16c-571c-6c11-5bb4" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="21c1-a712-ab82-7e7d" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6e00-163a-0815-289a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
