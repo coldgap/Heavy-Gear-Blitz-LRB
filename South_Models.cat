@@ -1189,7 +1189,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="e256-f5e3-93a9-3cf5" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
-        <infoLink id="5665-b0e0-d505-fe1e" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
         <infoLink id="f5be-a288-e488-8d12" name="Anti-Personnel Rockets, Medium" hidden="false" targetId="9fc5-271e-aa32-725c" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -1213,6 +1212,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="9d4a-0ef1-349f-7f5b" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1015-304c-9cd4-7ea3" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
@@ -3327,6 +3327,178 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71df-ee0c-e64e-6ea2" name="Fer De Lance" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="38e4-c60b-8f47-a2e9" name="Fer De Lance" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(Arm), LATM, APGL, LVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9135-e90c-3617-6870" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="05d6-4bb8-bf37-7de7" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="61fa-87c6-9e16-0ade" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="a462-773d-6148-6bde" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="9a04-a580-c930-9cc1" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="989a-b0b9-b902-5e1e" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="0b7d-dccd-0444-8197" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="c583-9008-2f79-1e38" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f27-b59e-72ea-3f56" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="9327-3c41-937c-2179" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="8c3a-48ed-2292-c939" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="82e6-fc11-2235-a3a8" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e867-4aff-7bad-fc96" name="Fer De Lance, Command" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d444-40ce-2a5b-54a9" name="Command Fer De Lance" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(CMD)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(Arm), LGM, APGL, LVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Comms:1, ECCM, SatUp:6+(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8280-6a3d-b3b0-d48a" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="c51b-eebe-5d4d-cacb" name="Guided Mortar, Light" hidden="false" targetId="2af6-1dca-6a28-1fe8" type="profile"/>
+        <infoLink id="c2df-4629-6243-d92a" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="dc56-d40d-671f-6f41" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="74a0-dbb2-3dd1-92af" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="9133-90dc-e626-526a" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="ea9e-91eb-5ca4-8b1d" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="9cf1-599a-01c0-e8ac" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="d492-1f24-f3de-a3c0" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="3b57-fbd0-b7d6-3190" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="2009-17ef-7c89-96cb" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fd07-10e7-bd1d-66d0" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="0809-2f7a-adb3-dd8a" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="8989-11c7-4ee3-5eda" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+        <categoryLink id="369f-2258-3320-9d35" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="116c-d330-b5df-9f61" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b0c-7ee5-8852-342c" name="Fer De Lance Force" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="21e1-ef81-cfb1-d282" name="Fer De Lance Force" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LPL(Arm), APGL, LVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ca23-5273-f9b6-bc09" name="Pulse Laser, Light" hidden="false" targetId="6ecb-3bd6-e101-cd52" type="profile"/>
+        <infoLink id="5bac-611e-3e01-173a" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="1ff5-10fd-fdb8-5744" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="9f57-a56f-1f0c-7ef8" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e823-8d2f-99fa-6f21" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="33f6-b003-c19e-539b" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="9092-18a9-4c8e-b7d3" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63d4-97da-33c2-c25d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="cdab-9a18-9ccf-1122" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="df88-254b-c624-e8e8" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d375-ae69-4566-8ccb" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39e3-f96e-2f82-d666" name="Fer De Lance Slashing" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5cab-7a44-7189-1aa4" name="Fer De Lance Slashing" publicationId="20bd-c8e1-5e20-75e8" page="111" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(Arm), MATM(LA:2), APGL, LVB(Arm, Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c09-22f0-9767-2b4b" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="b773-55be-fbfc-cef6" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="54c5-e8bb-4bc0-6220" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="1c1c-1527-e982-d906" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="daa9-91dd-1301-fcf0" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="0a60-6529-2a99-44fc" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="9494-998e-c2e0-ec34" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="aa13-8b93-8aa8-11b6" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="0fc9-f00c-43c2-8335" name="Limited Ammunition:X [LA:X]" hidden="false" targetId="b54d-169a-75c0-35f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="80a4-0d55-01ee-854d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="343a-e186-94fb-f827" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1dad-ca93-e080-47f5" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="39f1-86eb-2237-7f5a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
