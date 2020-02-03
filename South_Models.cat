@@ -1686,6 +1686,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a3a-eafe-3ea6-2190" name="Viper, Desert" publicationId="20bd-c8e1-5e20-75e8" page="105" hidden="false" collective="false" import="true" type="model">
@@ -3119,6 +3120,89 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c2dc-1b18-8a4a-112b" name="Snakeye (Black Mamba)" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d2ed-c5ec-d6ff-070d" name="Snakeye (Black Mamba)" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LLC(Arm, Silent), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4efa-3b64-d8f5-a6b9" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="d1bb-3300-fe5e-a5c7" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="0a95-292d-1127-7654" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="2772-103e-0ce8-ac0a" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="27f0-f84e-a95b-142f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="63cb-bc54-16ab-401c" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="6f34-9571-9142-83df" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="84fd-accd-4fb3-83e0" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2add-7be6-5652-e9fb" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="ce6b-7e66-b809-d2a0" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="548b-541b-8ad0-ce03" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2250-a33b-e82c-7206" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="773a-60f9-f0c1-5566" name="Snakeye Firestorm" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dc84-0bbf-04f9-b629" name="Snakeye Firestorm" publicationId="20bd-c8e1-5e20-75e8" page="110" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(Arm), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f2b-f26c-8ec6-fc6f" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="cba4-f203-c9d6-6cee" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="eddf-a0cc-dac3-bc17" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="a69a-f4bb-4e13-7dc6" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="8dd7-a441-0727-fdd0" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="5cd3-b2c1-4fa6-d25e" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="411c-248e-9dd1-398c" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f6b9-275c-f281-5b95" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="830a-4efa-28c5-3e28" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="bc28-185a-a1bc-248d" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c8b2-b8fe-e079-a21c" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -3173,30 +3257,30 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"></characteristic>
-        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Comms:1</characteristic>
-        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
     <profile id="2962-4a7d-17f4-9c72" name="Razorfang (Cobra upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="108" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"></characteristic>
-        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
