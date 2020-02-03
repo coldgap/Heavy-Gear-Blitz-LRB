@@ -1893,6 +1893,217 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2dd1-646a-ebb6-d6a5" name="Iguana, Black Box" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b49d-1155-7cd1-aceb" name="Black Box Iguana" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(CMD)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LPZ, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Comms:2(Aux), ECCM, ECM:2, Init:1, Sensors:18&quot;(Aux), TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4579-8b19-6580-dccf" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+        <infoLink id="4a99-2591-bcff-4a48" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="f914-4ed2-7f60-990c" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="6e79-545f-010f-4bc9" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="da2e-e2e8-90a8-4069" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="3bf0-c8df-65ce-f9eb" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="7064-29c6-94a1-8782" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="d848-8c7c-6b85-c276" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="416e-56f7-3069-880b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="ad34-5537-3953-5bef" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="021a-2885-bc2b-ff11" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1fdd-c70b-f374-2dbe" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="0414-0767-33c4-d375" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
+        <categoryLink id="64d4-df87-47d8-9ee7" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5f20-f325-7788-3c89" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80e2-9625-1795-448b" name="Iguana, Chatterbox" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a626-b690-3835-d2fd" name="Chatterbox Iguana" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">PG(Arm), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Comms:2(Aux), ECM:1, SatUp:5+(Aux), Sensors:18&quot;(Aux), TD:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5dc7-4121-e0f2-d0fe" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+        <infoLink id="640f-6fdd-0475-3843" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="d3fe-e698-fc07-f33d" name="Pack Gun" hidden="false" targetId="914a-2a24-6775-8912" type="profile"/>
+        <infoLink id="9dbb-d384-f03f-3dcf" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="19e1-c12f-162e-4413" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="4190-2427-c61c-546d" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="1c88-8df2-bb05-82e0" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="d060-aad1-408b-b085" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="ff5d-f4b3-7c59-9a6d" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d19e-1546-2069-a237" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b9fa-e08a-b92a-27b7" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f74-49c5-0591-714a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1703-b360-ac39-a71d" name="Iguana, Striking" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e570-10d6-8759-6001" name="Striking Iguana" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LBZ(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Comms:2(Aux), ECM:1, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="48d0-e4cc-46c8-b3df" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="c2d9-aef4-6ab9-f350" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="430b-a9bc-8087-b4d9" name="Bazooka, Light" hidden="false" targetId="6028-2175-23af-ded7" type="profile"/>
+        <infoLink id="5fd6-293c-fc2a-421d" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="8b08-796f-8392-d866" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="3819-12f4-41fb-03ff" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="e33b-66e6-80d4-ae88" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="f89d-1ed0-ee7d-7732" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c745-1350-dfca-d009" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="f8a1-cf40-3664-0946" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="444c-8b5c-9ac9-908e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfaf-f6d0-fed1-a191" name="Iguana, Hunting" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="90f4-d497-52f3-98ea" name="Hunting Iguana" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRF(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Comms:2(Aux), ECM:1, Sensors:24&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="33b7-23e3-5bbc-0228" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="3241-032e-3df5-a96c" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="2a2d-682d-8387-b7bb" name="Rifle, Light" hidden="false" targetId="72b7-acc5-dc6f-ffc1" type="profile"/>
+        <infoLink id="2834-b1bc-5842-b3ff" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="c5cc-63ad-b8fd-82df" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="b52c-1262-1dd8-defc" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="b4f6-965c-4084-475b" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="ed4e-6f62-e8a1-6ad2" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e7ab-117f-7bd0-68a7" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="5439-98a3-8c01-dca7" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="36cd-3ec9-c3d7-0a3a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4188-b3e6-550a-8cdf" name="Iguana Gunner" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bfdd-ed00-d16c-0e06" name="Iguana Gunner" publicationId="20bd-c8e1-5e20-75e8" page="106" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Agile, Comms:2(Aux), ECM:1, Sensors:18&quot;(Aux), TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a3df-3db8-a94f-d7da" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="0fcb-be83-79c4-1d26" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="410c-9f16-b663-57cd" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="9e7d-217e-e5f3-c429" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="0c15-7bfc-baa9-476f" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="a016-bf97-6731-b553" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="a46a-6c64-1471-9c9c" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="0f40-7445-b1ff-6689" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="9388-c65f-3096-8121" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39f7-e214-ba6f-8bc4" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="68b9-7d53-a603-8f46" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0897-b07f-a439-6245" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
