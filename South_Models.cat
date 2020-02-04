@@ -4376,6 +4376,158 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="21.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7ef4-6fdc-c177-cb82" name="Sagittarius, Force" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0822-3efe-7442-6d42" name="Force Sagittarius" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPL(Link), LAC(FT), HMG(FT)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, ECM:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9d31-c6ae-6cfe-f919" name="Pulse Laser, Medium" hidden="false" targetId="0687-0a74-2163-8ea6" type="profile"/>
+        <infoLink id="9c06-fa8d-3dfa-8100" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="f8a1-1712-3601-cf2c" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="5781-457f-9414-1fa7" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="dcfe-5186-a859-51cb" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="f91e-f593-f6a0-7cf2" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7f2-e20a-d471-6d34" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dfc2-667c-708f-0de0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa08-6307-0a7f-cd52" name="Sagittarius, Spark" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f019-4e55-e680-538c" name="Spark Sagittarius" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">26</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(Link), MRP(Link), LAC(FT), HMG(FT)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, ECM:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e7b5-57a9-e9ac-0036" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="8957-2a42-50ef-433a" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="997f-cf14-a06d-c9fc" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="e5bc-cec8-c3f4-b43e" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="a203-8731-440e-7ef1" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="539e-9467-f435-7a24" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="2131-1afe-2dd6-7a31" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="535e-97f3-fa97-3d18" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="42bf-5d76-b798-e480" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="597c-9e86-921a-ceb4" name="Sagittarius, Long Fang" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5969-037d-1a88-53d1" name="Long Fang Sagittarius" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAR, LAC(FT), HMG(FT)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, ECM:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30aa-44b1-9ba8-6548" name="Artillery Rockets, Heavy" hidden="false" targetId="8745-8928-a9e9-9515" type="profile"/>
+        <infoLink id="4d77-8ca9-fe21-f03b" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="2c81-9810-8f7a-4a9f" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="4594-252d-da88-1114" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="19c5-360b-4aa3-46fd" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a52d-262c-7f10-b38e" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4045-36d3-e71a-e6d9" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0252-c5d7-8347-e6a9" name="Sagittarius, Venomous" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="abc7-228f-ebb3-ad28" name="Venomous Sagittarius" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">20</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAPR(Link), LAC(FT), HMG(FT)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, ECM:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc89-d5bd-10ba-a864" name="Anti-Personnel Rockets, Heavy" hidden="false" targetId="7ad3-362e-4a1b-4ecf" type="profile"/>
+        <infoLink id="9bd6-1b7b-8809-a2fc" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="1d62-5ca2-b781-98ae" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="7e40-370e-4ead-3697" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="73df-5c9d-6203-3bd9" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="fc00-45b5-2790-79ef" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a49b-7768-2601-c555" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ebfe-c15c-e68c-4377" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
