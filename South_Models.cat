@@ -4528,6 +4528,125 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b394-0312-3c1c-2b83" name="Dragon, Fire" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a05-8e7b-ab44-dec5" name="Fire Dragon" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">26</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">9+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(T, Precise, Range:6-18/48&quot;), MFL, LRC(FT, Auto)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">AMS(Aux), Lumbering, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="33df-0426-7d07-0429" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="b131-8e3f-3d46-0647" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="0f4b-e2e3-2bab-778b" name="Flamer, Medium" hidden="false" targetId="a267-5e57-11e9-b0ee" type="profile"/>
+        <infoLink id="a877-ad5b-4b09-e4cc" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="541b-549d-7d1f-9bac" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="57b0-b13e-92a6-d013" name="Anti-Missile System [AMS]" hidden="false" targetId="3948-f390-08bd-3625" type="rule"/>
+        <infoLink id="7209-7ef2-be22-2454" name="Lumbering" hidden="false" targetId="a5ee-3261-8405-2371" type="rule"/>
+        <infoLink id="2d72-b5b3-a573-e984" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1323-824a-34eb-e34b" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ddec-beae-d3c8-8d14" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e274-f91c-e391-4ef6" name="Dragon, Force" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="916a-601d-07ed-49af" name="Force Dragon" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">9+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPL(FT, Split:2) LPL, LRC(FT, Auto)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Lumbering, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c28-1fbc-8556-3487" name="Pulse Laser, Medium" hidden="false" targetId="0687-0a74-2163-8ea6" type="profile"/>
+        <infoLink id="26a3-6d4a-2644-3f02" name="Pulse Laser, Light" hidden="false" targetId="6ecb-3bd6-e101-cd52" type="profile"/>
+        <infoLink id="235c-5c07-6d26-849a" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="3969-bd47-84bf-cdcd" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="f778-7367-d539-8a17" name="Split Fire:X [Split:X]" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+        <infoLink id="1437-3bac-8a58-8186" name="Lumbering" hidden="false" targetId="a5ee-3261-8405-2371" type="rule"/>
+        <infoLink id="f0a2-07dc-dcc6-b129" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c52f-c530-52b0-7ce0" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="491e-6f57-e6e4-118e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6240-a857-ac60-259f" name="Dragon, Water" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1484-08cd-b45d-f01e" name="Water Dragon" publicationId="20bd-c8e1-5e20-75e8" page="115" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">27</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">9+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFM(T, Link), LSC, LRC(FT, Auto)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, Lumbering, Stable</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d36e-0a78-68a1-95db" name="Field Mortar, Medium" hidden="false" targetId="0632-ae34-3bd3-b86d" type="profile"/>
+        <infoLink id="20cc-d858-c987-e95f" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="2bbf-af17-c901-fb0f" name="Snub Cannon, Light" hidden="false" targetId="bf73-a288-704c-f643" type="profile"/>
+        <infoLink id="cd7f-7da0-6ffb-fc18" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="b6e2-834a-5c5f-95a9" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="0e48-16d2-19ad-583f" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="d1e5-1a0c-a6f1-e914" name="Lumbering" hidden="false" targetId="a5ee-3261-8405-2371" type="rule"/>
+        <infoLink id="8255-e1b8-592d-47d2" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5d87-39ac-031e-f17f" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8632-53ba-990d-e081" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
