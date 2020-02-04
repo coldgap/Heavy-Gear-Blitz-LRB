@@ -4087,7 +4087,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x MATM, MRC(FT+F)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xMATM, MRC(FT+F)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
           </characteristics>
@@ -4166,7 +4166,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x HGL, MFL(FT+F)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xHGL, MFL(FT+F)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
           </characteristics>
@@ -4240,7 +4240,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x LATM, MRC(FT+F)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xLATM, MRC(FT+F)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
           </characteristics>
@@ -4277,7 +4277,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x MLC, LPL(FT+F)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xMLC, LPL(FT+F)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
           </characteristics>
@@ -4314,7 +4314,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x LFG(Stabilizer), MRC(FT+F)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xLFG(Stabilizer), MRC(FT+F)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
           </characteristics>
@@ -5197,6 +5197,82 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7edc-dbc7-08f0-e13b" name="Artemis" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0650-82cc-1619-7a0c" name="Artemis" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">26</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xHAC(AA, FT, Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Support, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="529b-d9b6-3d9a-c5b6" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="1d75-b11b-9b3d-93f9" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="f03b-5a1b-e219-1283" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="6bbd-e90f-16d9-cff0" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="0d27-5312-9e77-e938" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="7e11-5a6a-9c16-d8f4" name="Support" hidden="false" targetId="ff46-dc88-661c-794c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="52f2-0a6e-fa7a-7916" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2d93-7ace-49e6-783f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a90f-1163-d4bd-628a" name="Artemis, Force" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="80a4-031a-7e55-e6d8" name="Force Artemis" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2xLPL(AA, FT, Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Support, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="60b3-8b09-3915-7998" name="Pulse Laser, Light" hidden="false" targetId="6ecb-3bd6-e101-cd52" type="profile"/>
+        <infoLink id="865f-edc4-057b-e048" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="a028-72c0-07f1-a171" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="8c5d-1755-eb9f-ef83" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="1e8f-b1b5-72ee-5221" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="1a3b-2e95-5b55-dcca" name="Support" hidden="false" targetId="ff46-dc88-661c-794c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6141-60f3-edcc-b7fd" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cc97-f80f-0c22-0ae8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
