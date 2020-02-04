@@ -4032,6 +4032,48 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f200-db7c-9d1d-94c8" name="Hydra" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2542-7d25-b848-4467" name="Hydra" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">25</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HGL(T), MGM(T), LFM(T), HAC(FT+F), HMG(FT+F, Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, ECM:1, Low Profile, Sensor Booms(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6d65-e454-ce84-d81b" name="Grenade Launcher, Heavy" hidden="false" targetId="d8a9-62a3-bc6a-a06b" type="profile"/>
+        <infoLink id="16b5-425d-2bc8-5b54" name="Guided Mortar, Medium" hidden="false" targetId="c0e6-160e-37ae-c193" type="profile"/>
+        <infoLink id="cb83-425c-e493-c2e3" name="Field Mortar, Light" hidden="false" targetId="af49-2bca-2419-1304" type="profile"/>
+        <infoLink id="2b83-e3e2-6cf4-f179" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="7d2c-0e17-721f-2e52" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="ae2b-178c-2ba3-522c" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="1daf-a220-58ec-ea72" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="1c56-4eb0-ac82-9d89" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="5285-3138-877f-3c31" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="4fb8-b011-2457-3790" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2aff-3fac-dfc8-7667" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a08e-79d4-0e94-5c1f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="25.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
