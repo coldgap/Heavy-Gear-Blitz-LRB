@@ -5075,6 +5075,130 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a60f-dad3-fcf7-974b" name="Visigoth" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="46a8-4326-ff45-6be2" name="Visigoth" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">34</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HTG(T), HAC(T), LLC(FT, AA), 2xMRP(FT, Aux)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d0f7-1259-78c6-fe97" name="Tank Gun, Heavy" hidden="false" targetId="8ebf-1f23-5904-5287" type="profile"/>
+        <infoLink id="8e92-07c6-898c-63d8" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="3207-9e5d-73b6-db1d" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="3ae4-a978-6e74-8b35" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="3fec-3b61-1c34-6126" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="c2a9-96ed-b879-64f3" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="c04b-b699-20a6-6347" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d486-9f8b-e859-83fc" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7e69-a163-00f3-9df9" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d533-f014-4ab6-4db3" name="Visigoth Khan" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ac7b-21f7-9d1d-4cda" name="Visigoth Khan" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">36</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT(CMD)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HTG(T, Precise), HAC(T), LLC(FT, AA), 2xMRP(FT, Aux)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ECCM(Aux), ECM:1, Offroad:1, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bf67-99a8-4950-d27f" name="Tank Gun, Heavy" hidden="false" targetId="8ebf-1f23-5904-5287" type="profile"/>
+        <infoLink id="4293-1c5d-4997-79a1" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="f379-cf19-d8d1-ba23" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="3993-e98a-31c2-4130" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="6e8b-6e66-8a36-90d6" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="d93d-83ee-a635-a55a" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="f3d6-60af-ffb4-1ef5" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="1a04-876d-bcb8-afb4" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="24b4-d3a6-b040-ab3e" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="59bf-a957-7157-a59a" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="766f-2dda-7136-8029" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+        <categoryLink id="a08a-311e-d8b3-58ba" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9956-5185-1479-b4f7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d0f-8aa9-bb6f-6305" name="Visigoth, Blitz" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ee2f-5e47-17e0-9ff0" name="Blitz Visigoth" publicationId="20bd-c8e1-5e20-75e8" page="118" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">30</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HSC(T, Link), HAC(T), LLC(FT, AA), 2xMRP(FT, Aux), APGL(Auto)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="80e0-f3ce-773c-1616" name="Tank Gun, Heavy" hidden="false" targetId="8ebf-1f23-5904-5287" type="profile"/>
+        <infoLink id="1731-8610-7ae9-6b3f" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="66c8-90f9-9b66-cc13" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="9a38-6a0b-a4ef-cd39" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="9864-b5b7-f081-abf7" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="3558-5d26-82d7-3df9" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="9bf4-2a33-b639-475a" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="18ae-8246-d5fe-9db1" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="13af-eaee-2ca0-95fb" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="4b2d-8247-9c49-b382" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0afe-d984-ca4a-40a3" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="daf7-500f-f03f-f16a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="30.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
