@@ -3027,5 +3027,14 @@ to indicate ammunition remaining.</description>
         <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Ballistic</characteristic>
       </characteristics>
     </profile>
+    <profile id="1c2e-f1db-a37b-5ab0" name="Bazooka, Very Heavy" page="219" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">VHBZ</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-12/24&quot;</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">10</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:5</characteristic>
+        <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Ballistic</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
