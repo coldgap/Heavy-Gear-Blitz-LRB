@@ -4647,6 +4647,206 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1903-b5b9-435c-e1cc" name="Hun" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="633b-5b6e-7b22-f311" name="Hun" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">LT(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(T), LLC(FT, AA), MRP(T, Range:6-18/48&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, Offroad:1, Smoke:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8e72-b73b-9676-0502" name="Rifle, Heavy" hidden="false" targetId="ccf3-067c-58dc-50a0" type="profile"/>
+        <infoLink id="dc6e-2bb6-5fc0-96b2" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="ae46-8336-b565-84ed" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="1273-21e0-0dfa-f134" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="5c98-07e9-c0a2-8669" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="40a2-3fd8-ef68-5043" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="d17a-2eaf-8f97-e25b" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a068-2032-8990-114c" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8300-6082-cae5-afee" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69f9-f21a-1257-edb6" name="Ostrogoth" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6149-0810-4db1-c9e0" name="Ostrogoth" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">LT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAG(T, stabilizer)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, Offroad:1, Smoke:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c63-696b-68bf-ba61" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="0933-7972-1c3b-8763" name="Artillery Gun, Medium" hidden="false" targetId="ec83-3444-1645-508e" type="profile"/>
+        <infoLink id="10e0-3244-95eb-3242" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="3b18-7778-596f-15e3" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="cded-a343-eb43-5de0" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f5c-9cff-4a30-35ad" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6313-e22f-19fa-0dd5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcb0-28e0-58be-6936" name="Hittite" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c8cc-9a92-11d1-d1cb" name="Hittite" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HFL(T), HMG(L, Link), HMG(R, Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, APC:2, Offroad:1, Smoke:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2835-86fe-350c-0d12" name="Flamer, Heavy" hidden="false" targetId="e9eb-37fd-0e33-7737" type="profile"/>
+        <infoLink id="a197-e155-d2e3-891a" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="1a54-6078-2a5f-f5b7" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="3b29-0966-2628-ada7" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="4307-a1d2-589e-4f36" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="5484-c821-3c6c-9825" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="c926-6c29-4367-340e" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="382a-74d4-f82f-cba5" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23b2-296c-fc35-e5c3" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b763-9314-b9bb-4bdb" name="Hun, Ballista" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5979-f401-f4cf-d970" name="Ballista Hun" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">LT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAR(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, Offroad:1, Smoke:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da67-9048-1a50-0c15" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="3421-a151-bc6b-e07f" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="6ae4-cf25-6960-ee7a" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="9387-1e2d-6a81-aef9" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e6b8-b69a-dd46-ba4e" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="50de-1776-0337-5533" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ebcf-0255-89bf-8616" name="Hun, Recon" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fce6-8f06-e1ea-5424" name="Recon Hun" publicationId="20bd-c8e1-5e20-75e8" page="116" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">LT, CV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(T), LLC(FT, AA)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, Drone Bay:3 Recon, ECCM, Offroad:1, Smoke:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f653-c033-b0f1-4218" name="Rifle, Heavy" hidden="false" targetId="ccf3-067c-58dc-50a0" type="profile"/>
+        <infoLink id="67d2-c9b8-ae4a-773c" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="cd9b-b7a5-707f-0287" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="4bdf-29c5-666e-bc0a" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="72a2-0445-5c13-9247" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="2d65-5df6-16f4-d454" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="bf10-a057-ac53-3382" name="Drone Bay:X" hidden="false" targetId="9143-67a0-6d59-3534" type="rule"/>
+        <infoLink id="a906-bf8d-e984-7a15" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2626-3f55-9ded-0cdd" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b815-5dff-3a5b-8a06" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="077e-084d-6180-db58" name="Recon Drone" hidden="false" collective="false" import="true" targetId="a49f-9885-5888-3f30" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0708-7bcf-c615-2ab5" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1c-c743-7cd3-c514" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
