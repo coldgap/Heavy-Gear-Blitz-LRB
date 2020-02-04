@@ -4074,6 +4074,271 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="25.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="06cc-6fd2-99e4-8706" name="Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="95b6-d9d0-9bfe-2543" name="Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x MATM, MRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aab7-2b30-ad73-1594" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="e4d5-eead-8e03-7336" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="7e4e-bd3d-d8b0-4b79" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="6c6f-078f-efeb-b861" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="fc16-f8e5-035a-a78d" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="56f2-c033-4b59-ee5b" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="daf2-6b0a-78b5-3f1f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3612-e94a-fe04-800f" name="Naga, Command" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5788-a31e-fc9b-7024" name="Command Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(CMD)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MATM, MRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Init:1, ECCM(Aux), ECM:1, Low Profile, Sensor Boom(Aux), SatUp:5+(Aux), TD:0 (Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ef04-8a7e-dd58-38b2" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="d6f3-767f-6539-c594" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="85e4-8469-4897-b87a" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="3cd1-cec4-b099-05c6" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="f7bf-24d5-129a-b865" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="2f5c-8227-ba03-291b" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+        <infoLink id="0c0b-2dc1-9a55-0f04" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="d25e-bc05-8194-03af" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="e1b5-0586-6f77-b613" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad75-3e06-f434-10af" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+        <categoryLink id="85b8-07b0-0327-fdca" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2486-7f22-84c5-3be9" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="362c-004d-6ddf-6b5c" name="Naga, Brawler" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cf0f-d1bd-65bc-c486" name="Brawler Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x HGL, MFL(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb2f-6d6b-9381-7c95" name="Grenade Launcher, Heavy" hidden="false" targetId="d8a9-62a3-bc6a-a06b" type="profile"/>
+        <infoLink id="812d-348f-c337-01e6" name="Flamer, Medium" hidden="false" targetId="a267-5e57-11e9-b0ee" type="profile"/>
+        <infoLink id="29db-dc4f-7127-c34f" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="e86e-cc22-6ff5-6861" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="ed1b-e62a-1486-f466" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6491-ac9a-850f-b8fb" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a13-9b20-c75e-6259" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ecd1-2eb9-1c31-0f3c" name="Naga, Tusked" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1b49-0569-e457-ef03" name="Tusked Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HATM, MRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="257f-b87f-e670-7a76" name="Anti-Vehicle Missile, Heavy" hidden="false" targetId="3974-af7e-72ee-182e" type="profile"/>
+        <infoLink id="98f9-4b08-2436-0c88" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="7b9b-e23a-39cc-815b" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="1d5a-d989-5b9d-fff5" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="6066-6ffb-ad9c-2ff8" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9bdc-4a6a-c39e-ad4b" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4b0e-ced0-6461-7966" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62c5-1a23-11de-b1e9" name="Naga, Double Nash" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="faf8-a43b-afc5-c7e4" name="Double Nash Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">26</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x LATM, MRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="96b3-dee2-d71a-779b" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="914b-85bb-d1ce-8f17" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="77d4-6785-d52d-37be" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="7cbd-1d72-3c79-959b" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="e8e8-0e56-4009-9b34" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dec7-d825-d751-7442" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e069-969b-2737-c12b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05b7-b830-80b3-7a88" name="Naga, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6459-1efc-97c2-fbe2" name="Sniper Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x MLC, LPL(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d355-102d-36cb-c130" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="7190-0e4f-60b9-7ff6" name="Pulse Laser, Light" hidden="false" targetId="6ecb-3bd6-e101-cd52" type="profile"/>
+        <infoLink id="6c07-b75f-1290-b50b" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="b7a9-6352-c69a-97e4" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="56a9-c125-852b-cd51" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="62c6-7b5b-dc5a-aac1" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="498f-e001-16ad-722c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44d3-370e-aad7-8a60" name="Naga, Long Fang" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3d5c-6404-3af6-5138" name="Long Fang Naga" publicationId="20bd-c8e1-5e20-75e8" page="114" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x LFG(Stabilizer), MRC(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Low Profile, Sensor Boom(Aux), TD:0(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9010-5f94-c9ec-0a65" name="Field Gun, Light" hidden="false" targetId="9250-e4fa-51a9-3694" type="profile"/>
+        <infoLink id="02a3-339a-b023-7f2d" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="fcf7-51fb-9077-d6f0" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="8382-350f-3ffc-cef8" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="a5cf-41a0-8b02-deee" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="c167-1b7c-3c88-a57f" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0eb5-5e50-ac28-b7e8" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a7a-d5d3-7ae5-6b3c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
