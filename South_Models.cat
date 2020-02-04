@@ -3767,22 +3767,269 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">BZ(Arm, AP:5, PEN:10), HRP(Link), MABM, HFL(Arm), HFC(FT, Auto), HSG(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">VHBZ, HRP(Link), MABM, HFL(Arm), HFC(FT, Auto), HSG(Arm, Reach 1&quot;)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2, Resist:F, Shield:1</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a866-a35a-c508-63be" name="Bazooka, Very Heavy" hidden="false" targetId="1c2e-f1db-a37b-5ab0" type="profile"/>
+        <infoLink id="f5b3-2aea-dc60-35cc" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="0a4c-a800-f352-4e13" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="4adc-074b-bea8-ec17" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4207-c6d4-8c13-2ca9" name="Flamer, Heavy" hidden="false" targetId="e9eb-37fd-0e33-7737" type="profile"/>
+        <infoLink id="d093-bfa9-c815-631d" name="Frag Cannon, Heavy" hidden="false" targetId="ffb4-995f-99b1-89f5" type="profile"/>
+        <infoLink id="b585-8345-34be-599b" name="Spike Gun, Heavy" hidden="false" targetId="974c-cc21-550f-f78f" type="profile"/>
+        <infoLink id="8fbf-4a74-8e5f-3cea" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="50af-cb34-2413-f702" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="6554-b8ff-79d2-78a6" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="d8bd-aac0-f381-b1b2" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="dd25-0a76-41f4-9398" name="Fire Resistance [Resist:F]" hidden="false" targetId="79fe-6ee3-a88b-cca5" type="rule"/>
+        <infoLink id="7f5c-2749-6e74-9e61" name="Shield:X" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+        <infoLink id="40b0-915d-5f0b-3368" name="Anti-Vehicle Rocket Pack, Medium" hidden="true" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1dd7-25be-fb52-6a60" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="389b-b0a9-66a3-77e1" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1c9a-630b-b73e-ca98" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="1c9a-630b-b73e-ca98" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b86a-701d-094e-fa55" name="Anti-Gear (Drake upgrade)" hidden="false" collective="false" import="true" targetId="8f92-9378-ed7a-e83a" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f92-9378-ed7a-e83a" name="Anti-Gear (Drake upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1650-7f9a-921d-dab2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cad5-664f-b7f8-dedb" name="Anti-Gear (Drake upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"></characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">-MABM, +MRP(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="969a-3160-3e5c-790a" name="Drake, Command" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0c21-8c64-52f4-c16c" name="Command Drake" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">26</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK(CMD), FS(CMD), ST(CMD)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">VHBZ(Arm), HRP(Link), MABM, HFL(Arm), HFC(FT, Auto), HSG(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">AMS, Arms, Brawler:2, ECCM, Resist:F, SatUp:6+(Aux), Shield:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7502-da1d-5f08-609d" name="Bazooka, Very Heavy" hidden="false" targetId="1c2e-f1db-a37b-5ab0" type="profile"/>
+        <infoLink id="09e1-a4f8-5cfc-ffe6" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="2fff-5bb2-56fa-a40a" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="46ff-e716-8e0a-02d9" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0e59-92b7-1754-76ff" name="Flamer, Heavy" hidden="false" targetId="e9eb-37fd-0e33-7737" type="profile"/>
+        <infoLink id="8039-c69e-6e41-60d4" name="Frag Cannon, Heavy" hidden="false" targetId="ffb4-995f-99b1-89f5" type="profile"/>
+        <infoLink id="9f91-9d0f-7042-b9ff" name="Spike Gun, Heavy" hidden="false" targetId="974c-cc21-550f-f78f" type="profile"/>
+        <infoLink id="674d-f16b-809a-2874" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="09a0-f766-0a97-61ac" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="03c3-0b5a-7ced-31cb" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="3d35-40f1-0bbe-d0f8" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="c55c-3388-cedf-44ff" name="Fire Resistance [Resist:F]" hidden="false" targetId="79fe-6ee3-a88b-cca5" type="rule"/>
+        <infoLink id="97cb-ef37-18b5-9b43" name="Shield:X" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+        <infoLink id="b292-115d-7681-a0cc" name="Anti-Vehicle Rocket Pack, Medium" hidden="true" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e15b-66e0-ac23-448c" name="Anti-Missile System [AMS]" hidden="false" targetId="3948-f390-08bd-3625" type="rule"/>
+        <infoLink id="235f-587f-9a1b-3a3e" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="e5b9-411d-1cd5-71b9" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5328-cf23-9eee-0890" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="39e7-af1b-7d96-64b4" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+        <categoryLink id="3512-cd84-14a6-2767" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c210-ebc1-8436-0359" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="90e5-9714-d2d5-43fb" name="Anti-Gear (Drake upgrade)" hidden="false" collective="false" import="true" targetId="8f92-9378-ed7a-e83a" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c246-564e-a106-ccac" name="Drake, Blazing" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3812-7fb3-8295-afcf" name="Blazing Drake" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK, FS, ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRL(Arm, Link), HAPR(Fire:3, Link), HGL(Arm), HFL(Arm), HFC(FT, Auto), HSG(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2, Resist:F, Shield:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fc2c-568e-b2df-f0a1" name="Rotary Laser, Heavy" hidden="false" targetId="1274-e57c-0f81-4632" type="profile"/>
+        <infoLink id="2f3e-51ff-f2b0-582d" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="808f-bd82-c694-7a48" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="a1e5-7d4b-fd99-7c66" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile"/>
+        <infoLink id="1572-6ffd-74a2-53a4" name="Flamer, Heavy" hidden="false" targetId="e9eb-37fd-0e33-7737" type="profile"/>
+        <infoLink id="578d-5a2e-86f7-0553" name="Frag Cannon, Heavy" hidden="false" targetId="ffb4-995f-99b1-89f5" type="profile"/>
+        <infoLink id="0af5-c1ac-ac01-1358" name="Spike Gun, Heavy" hidden="false" targetId="974c-cc21-550f-f78f" type="profile"/>
+        <infoLink id="005b-d604-6a27-cc9b" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="c195-e492-31fa-370b" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="8a52-bf80-718d-c5a9" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="236f-8408-7003-eebd" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="07e3-d420-5b99-f61a" name="Fire Resistance [Resist:F]" hidden="false" targetId="79fe-6ee3-a88b-cca5" type="rule"/>
+        <infoLink id="323f-9dc3-a2a7-2a80" name="Shield:X" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+        <infoLink id="8831-13db-124c-a06f" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7448-ce7c-fee9-9153" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="9272-451e-9453-6ff5" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7a61-932b-edcd-6521" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdd3-0a0c-cb25-7929" name="Drake, Hooded" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="65d7-3cb2-6fca-e700" name="Hooded Drake" publicationId="20bd-c8e1-5e20-75e8" page="113" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">27</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK, FS, ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MLC(Arm, Link), HRP(Link), MABM, HFL(Arm), HFC(FT, Auto), HSG(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2, Resist:F, Shield:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4de0-4b42-6cb6-d049" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="3ebc-5699-a6d5-0951" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="9763-736a-6e28-a9c4" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="0737-2ad6-f3d7-1904" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6c7a-a6c2-d904-f450" name="Flamer, Heavy" hidden="false" targetId="e9eb-37fd-0e33-7737" type="profile"/>
+        <infoLink id="272d-5c57-082c-745f" name="Frag Cannon, Heavy" hidden="false" targetId="ffb4-995f-99b1-89f5" type="profile"/>
+        <infoLink id="39fc-be08-1597-abb8" name="Spike Gun, Heavy" hidden="false" targetId="974c-cc21-550f-f78f" type="profile"/>
+        <infoLink id="bc9d-6594-ac4a-788d" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="31a4-8d3e-5228-548c" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="4d5d-98a0-f210-20bb" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="f021-d0e5-e358-8c50" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="54f6-8096-7e4e-005a" name="Fire Resistance [Resist:F]" hidden="false" targetId="79fe-6ee3-a88b-cca5" type="rule"/>
+        <infoLink id="5178-e83b-0274-e0c5" name="Shield:X" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+        <infoLink id="961f-697e-987b-1ac6" name="Anti-Vehicle Rocket Pack, Medium" hidden="true" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-9378-ed7a-e83a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0276-0a4f-64ae-1a20" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b7b9-8f27-e9a9-67bc" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c211-d2e3-c492-0556" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1d4d-5691-162e-8969" name="Anti-Gear (Drake upgrade)" hidden="false" collective="false" import="true" targetId="8f92-9378-ed7a-e83a" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
