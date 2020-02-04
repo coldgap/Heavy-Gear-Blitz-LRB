@@ -840,6 +840,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="272c-247f-dba4-b35f" name="Paratroopers Infantry Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febb-83f2-0068-3bb8" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="1a88-df37-4d6e-f4c6" name="Paratroopers (Infantry upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" targetId="06aa-1525-c0dc-4641" type="profile"/>
         <infoLink id="8861-53d4-e094-cc8c" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
