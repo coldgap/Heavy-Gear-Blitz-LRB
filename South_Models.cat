@@ -5896,6 +5896,48 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d374-e2ab-0cb1-2a34" name="Stonemason" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="171e-e0ee-1b80-b040" name="Stonemason" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">EG(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), MCW(Reach:1&quot;), LHG(Arm), LSE(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Recovery, Vuln:F</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="075b-47d9-16c7-6e5f" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="9971-7a39-ceac-f39e" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="4735-2874-4aec-f114" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="bd0a-75ee-9ea9-30bd" name="Grenades, Light" hidden="false" targetId="b79c-6748-3bbb-53d7" type="profile"/>
+        <infoLink id="dc58-4f75-5aa8-3372" name="Shaped Explosives, Light" hidden="false" targetId="07bf-c52f-fa36-e15f" type="profile"/>
+        <infoLink id="7092-3d8c-aa73-ad8d" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="9c07-1a81-6346-39d5" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="ffa7-88ee-6e03-f22e" name="Recovery Vehicle [Recovery]" hidden="false" targetId="0e0b-8fb6-a0f0-0013" type="rule"/>
+        <infoLink id="a170-85a6-1195-b63e" name="Vulnerable to Fire: [Vuln:F]" hidden="false" targetId="7ede-bff4-79bf-fa23" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1a43-0c85-8455-c77b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="1029-4f92-6907-1385" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="379c-8148-41e8-5f36" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
