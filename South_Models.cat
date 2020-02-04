@@ -5352,6 +5352,211 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8d6b-663e-299d-f8ab" name="Caiman" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0f9f-f0e9-fe8b-92ce" name="Caiman" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(FT), LMG(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, APC:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="72a6-2ac9-e7a2-ce34" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="4ad2-042a-d663-5ff6" name="Machine Gun, Light" hidden="false" targetId="d76a-d881-6102-a163" type="profile"/>
+        <infoLink id="e590-a9a5-5547-3453" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="6451-936e-6fba-1d45" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0cfb-6092-6235-5627" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e6ad-ec7c-286e-23d2" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f11e-ccd5-5e22-1423" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="2e0e-1c43-2280-9cbc" name="Command (Caiman or Crocodile upgrade)" hidden="false" targetId="466e-2614-67a8-a150" type="profile"/>
+                <infoLink id="47a7-7975-674d-87e5" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+                <infoLink id="f6dc-cf0d-dfc2-09c1" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="1d17-cd87-99f5-974e" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="268f-0a82-c38e-d5ee" name="Caiman" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9136-7a83-c68b-e533" name="Caiman" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(FT), LMG(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, APC:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1bf4-5d12-d465-72b3" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="7c1b-db87-ed3a-a2b2" name="Machine Gun, Light" hidden="false" targetId="d76a-d881-6102-a163" type="profile"/>
+        <infoLink id="953b-9a6c-c14b-bf8c" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="4517-1384-630a-c67d" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1b55-2e15-31bd-1011" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4699-9c0b-2607-5629" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9f30-9f3e-558d-6668" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="c6e8-12ad-16cf-a795" name="Command (Caiman or Crocodile upgrade)" hidden="false" targetId="466e-2614-67a8-a150" type="profile"/>
+                <infoLink id="9de5-aa73-4d17-cfca" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+                <infoLink id="d9fc-0a58-93f4-69b6" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="f130-8116-ec64-0e2c" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14d5-4515-41fd-1575" name="Crocodile" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="09bd-11c4-4e27-5f24" name="Crocodile" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAR(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, APC:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d711-0215-a106-206c" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="13a5-faff-6f3c-eca3" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="9964-559b-c13a-7125" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="edf8-42d0-bdc2-f9a2" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f113-a02f-b82d-9a78" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="34c7-77de-0bb6-4c76" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e943-6739-5349-b314" name="Command (Caiman or Crocodile upgrade)" hidden="false" targetId="466e-2614-67a8-a150" type="profile"/>
+                <infoLink id="c08f-a1b8-b15d-5d7f" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+                <infoLink id="9d92-a9cc-d6cb-a1bd" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="ff64-a305-63bd-1c29" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1464-9d3b-f8ef-1c0a" name="Caiman, Medical" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="846f-5e8d-9f18-c1da" name="Medical Caiman" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Amphib, APC:1, Medic</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b96f-1635-0146-8494" name="Amphibious [Amphib]" hidden="false" targetId="18fc-4d77-db63-1537" type="rule"/>
+        <infoLink id="4d61-d0c1-51b6-0469" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="770f-09c4-ee3c-5cec" name="Combat Medic [Medic]" hidden="false" targetId="a48d-be07-6cdc-3d9d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2896-67eb-2a77-dadd" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e02-a614-67f3-d2df" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -5463,6 +5668,22 @@
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+SatUp:6+(Aux), ECCM</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="466e-2614-67a8-a150" name="Command (Caiman or Crocodile upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, ECM:1, SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
       </characteristics>
     </profile>
