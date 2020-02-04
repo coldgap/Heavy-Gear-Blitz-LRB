@@ -5312,6 +5312,46 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b5d5-5918-3c90-dd8e" name="Titan VTOL" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2e04-79aa-fd6d-6211" name="Titan VTOL" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">VL(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/5</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRC(FT+F, AA), 2xMATM(Aux), MAR(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, TD:1, APC:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3bf3-48a7-9469-7444" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="a696-034b-8ceb-5223" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="4650-45f5-cda1-acaa" name="Anti-Vehicle Missile, Medium" hidden="false" targetId="5db2-1018-cf65-0edd" type="profile"/>
+        <infoLink id="cb32-39c6-7aa4-bc2f" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="3520-15e9-106c-a4b6" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="da3d-8c11-f852-b242" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="9061-efce-62dc-3b45" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="d8bb-4037-cb5f-e40b" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0dea-2d37-54a6-6f68" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0f84-7239-370a-8845" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
