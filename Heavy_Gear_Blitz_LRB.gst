@@ -414,7 +414,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ff3-60e1-091e-ecc0" name="A Generic Model [Example]" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5ff3-60e1-091e-ecc0" name="A Generic Model (Example)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="bd21-0272-3934-195c" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -660,7 +660,7 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59a4-ad7a-b41f-fcb1" name="A Veteran Model [Example]" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="59a4-ad7a-b41f-fcb1" name="A Veteran Model (Example)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4b9f-7683-0579-ffca" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
