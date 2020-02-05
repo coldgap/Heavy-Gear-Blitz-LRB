@@ -5980,6 +5980,114 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="df20-3bf8-b1e8-24a4" name="Infantry Squad, Lizard Rider" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="39ab-a6f1-43da-63ab" name="Lizard Rider Infantry" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2206-d9e2-1af7-1be2" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="681d-9190-196a-1feb" name="Infantry Support Weapons, Medium" hidden="false" targetId="e9ae-c82f-d104-4822" type="profile"/>
+        <infoLink id="356e-1a3a-66de-6415" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0ef9-f7f2-2177-1ef4" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="4a49-3e0f-a764-7a6c" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c974-0b5d-93c9-0167" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d974-a1b0-1975-20c3" name="Infantry Team, Lizard Rider Observer" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4ff1-d99c-d878-0997" name="Lizard Rider Infantry Observer Team" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Comms:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="390d-871c-1fb1-e6d6" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="337c-25e6-65a7-73cc" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="c271-d6ac-ad0e-ec94" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9b0e-c125-e099-1af1" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="b928-b32a-7680-cdbe" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b071-19d9-d2a7-ad41" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6eb-b4ce-77e2-291f" name="Infantry Squad, Lizard Rider Anti-Tank" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8fc8-9a7d-1d60-2082" name="Lizard Rider Anti-Tank Infantry" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, LAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6963-5ff8-f8fb-6314" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="39ab-520b-46aa-d66c" name="Anti-Vehicle Missile, Light" hidden="false" targetId="abfe-4dff-ef0f-16bd" type="profile"/>
+        <infoLink id="53f7-c157-d6db-173e" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e84-aec9-b44c-7ad5" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="d0b3-b175-abc5-2566" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed58-45b3-76d6-1a37" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
