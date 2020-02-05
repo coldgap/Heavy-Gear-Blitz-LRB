@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="eebf-3a00-bc65-ae74" name="South Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="daa6-2488-7024-ad58" name="Limited:MI" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false"/>
+    <categoryEntry id="de27-5343-7076-cfc2" name="Limited:IN" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false"/>
+    <categoryEntry id="b0d8-268e-0577-34b4" name="Limited:MP" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false"/>
+  </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="6e22-1bab-7cbe-d132" name="Jager" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1260,6 +1265,8 @@
         <categoryLink id="fe2c-2dab-a86d-d45b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="3cfe-51cb-118f-e505" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="1422-ab4e-2189-afdd" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
+        <categoryLink id="cfb7-b37c-6484-5039" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
+        <categoryLink id="3850-66c0-d8ec-d72d" name="Limited:IN" hidden="false" targetId="de27-5343-7076-cfc2" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2488-442a-e768-03b7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1299,6 +1306,7 @@
         <categoryLink id="bd39-2c60-34e6-b26a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="93bc-81ac-4ecf-9e9c" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="9fa6-2ec2-3f6f-6494" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
+        <categoryLink id="bc5c-716a-9612-c2bd" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a873-ff55-fa13-b9a7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1338,6 +1346,7 @@
         <categoryLink id="625a-0501-98ed-9862" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="b58e-cc39-bcf1-1654" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
         <categoryLink id="2059-147a-e61e-2668" name="Conscript" hidden="false" targetId="fdf9-3955-bf9c-c80c" primary="false"/>
+        <categoryLink id="8e1c-2e6d-4390-1aa9" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="befb-1544-88bb-e55d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1377,6 +1386,8 @@
       <categoryLinks>
         <categoryLink id="ab12-e0f9-12af-d3f6" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="1c90-b71d-73ea-3428" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="8dee-856f-72e1-9d2c" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
+        <categoryLink id="b8d5-b0bc-6aa5-5748" name="Limited:IN" hidden="false" targetId="de27-5343-7076-cfc2" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c761-39d3-db3f-8717" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1415,6 +1426,7 @@
       <categoryLinks>
         <categoryLink id="b0f7-a692-18da-c397" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="f217-95c6-d3d6-bf65" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="ca89-eb72-7365-b0e0" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3515-3830-327a-fe54" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1454,6 +1466,7 @@
       <categoryLinks>
         <categoryLink id="0f55-e948-9f5f-b670" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="ba26-ee62-816a-f3eb" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="82f4-94e3-9901-9896" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="89b5-a4b0-2418-c5a5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1493,6 +1506,7 @@
       <categoryLinks>
         <categoryLink id="82e4-b70a-1b4c-93fb" name="New CategoryLink" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="3541-0c6b-1450-2047" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1b7a-c77c-7bbd-5326" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="163f-c767-566c-58df" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1533,6 +1547,7 @@
       <categoryLinks>
         <categoryLink id="94ea-3f8e-551a-35ff" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="84a8-e837-4545-79ab" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="4874-92ce-3d1b-4c59" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3709-d095-8453-ff06" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1573,6 +1588,7 @@
       <categoryLinks>
         <categoryLink id="e29c-ff2d-c120-fdd6" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="a1db-6641-0b95-b27d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="64c4-d1af-10bf-9f4c" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1016-b45d-929d-39d8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1614,6 +1630,7 @@
       <categoryLinks>
         <categoryLink id="dbfd-db58-6d33-2f0b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="7c3c-6dfb-db24-9445" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1965-fbf4-4f98-3902" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fc70-e465-247d-a039" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1623,7 +1640,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2c0-cdd5-f00f-337b" name="Badlands Python" publicationId="20bd-c8e1-5e20-75e8" page="104" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b2c0-cdd5-f00f-337b" name="Python, Badlands" publicationId="20bd-c8e1-5e20-75e8" page="104" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="ec2a-bbd9-d89b-28e3" name="Badlands Python" publicationId="20bd-c8e1-5e20-75e8" page="104" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1653,6 +1670,7 @@
       <categoryLinks>
         <categoryLink id="0996-9fed-0cfe-f2bb" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="96e3-e031-d789-b41d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="3513-555c-6d0c-b9a7" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4937-f965-473f-48a6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -3621,6 +3639,7 @@
       <categoryLinks>
         <categoryLink id="9d3c-79c5-0390-3d99" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="c091-5e3f-740c-9687" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="9781-c0ae-4e7e-20bb" name="Limited:MP" hidden="false" targetId="b0d8-268e-0577-34b4" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6f15-325e-5091-9f7d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
@@ -3682,6 +3701,7 @@
       <categoryLinks>
         <categoryLink id="1718-63a9-2bc0-bb6e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="5bc6-cb14-f031-96fb" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="9619-eb56-2800-1405" name="Limited:MP" hidden="false" targetId="b0d8-268e-0577-34b4" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8eec-a0e5-71fb-194a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -3725,6 +3745,7 @@
       <categoryLinks>
         <categoryLink id="cbe5-803d-e34e-721f" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
         <categoryLink id="4c9c-51fb-0d6c-1899" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="42b6-23b2-7099-8d1e" name="Limited:MP" hidden="false" targetId="b0d8-268e-0577-34b4" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="97fe-403f-5a5a-20c0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
