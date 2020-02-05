@@ -5938,6 +5938,48 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5850-27ca-c6b9-f98c" name="Engineering Cobra" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a403-8b42-71eb-b5cd" name="Engineering Cobra" publicationId="20bd-c8e1-5e20-75e8" page="121" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">EG, IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), HCW(Reach:1&quot;), MHG(Arm), MSE(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2, Recovery, Vuln:F</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c1c-c54d-79fa-b6ca" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="3dac-5b67-e315-b091" name="Combat Weapon, Heavy" hidden="false" targetId="0b14-5b51-e242-9c32" type="profile"/>
+        <infoLink id="f5d1-fb20-63be-90c9" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="0653-054b-2f7d-d824" name="Grenades, Medium" hidden="false" targetId="9d70-0b0b-0b0a-e390" type="profile"/>
+        <infoLink id="f670-c437-2453-0b5a" name="Shaped Explosives, Medium" hidden="false" targetId="ff95-ecc9-b541-a336" type="profile"/>
+        <infoLink id="013e-62f8-a2ff-920d" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="618e-5bd1-420a-3dd1" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="2184-1d64-8533-5b79" name="Recovery Vehicle [Recovery]" hidden="false" targetId="0e0b-8fb6-a0f0-0013" type="rule"/>
+        <infoLink id="9720-d778-c060-8eff" name="Vulnerable to Fire: [Vuln:F]" hidden="false" targetId="7ede-bff4-79bf-fa23" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="92af-8839-9817-0c64" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="c7b4-395c-9200-87dd" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2b48-24f5-d44b-af63" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="0176-8a18-7d61-2ded" name="Command (Jager upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="101" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
