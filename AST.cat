@@ -1061,11 +1061,6 @@
     </entryLink>
     <entryLink id="c93b-2053-ae7a-f1ee" name="Badlands Python" hidden="true" collective="false" import="true" targetId="b2c0-cdd5-f00f-337b" type="selectionEntry">
       <modifiers>
-        <modifier type="set" field="3372-9912-95ac-7aa4" value="1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="or">
@@ -1076,9 +1071,57 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="bc01-683a-d38e-86fa" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e641-b0e1-b105-e4fa" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="4e06-e713-b451-4dcf" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="4e06-e713-b451-4dcf" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="100.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" childId="daa6-2488-7024-ad58" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="bc01-683a-d38e-86fa" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="4e06-e713-b451-4dcf" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="4e06-e713-b451-4dcf" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="100.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" childId="daa6-2488-7024-ad58" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3372-9912-95ac-7aa4" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc01-683a-d38e-86fa" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="aea6-f7e0-1aa5-a07e" name="Viper, Desert" hidden="true" collective="false" import="true" targetId="5a3a-eafe-3ea6-2190" type="selectionEntry">
