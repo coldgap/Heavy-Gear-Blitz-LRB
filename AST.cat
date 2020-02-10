@@ -3258,6 +3258,52 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0711-0d7c-bff5-76b7" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="2b7f-3a86-53f3-dbaa" name="Infantry Squad, Lizard Rider" hidden="true" collective="false" import="true" targetId="df20-3bf8-b1e8-24a4" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8915-f146-23c4-8165" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="b87d-7928-3ba7-ed79" name="Infantry Team, Lizard Rider Observer" hidden="true" collective="false" import="true" targetId="d974-a1b0-1975-20c3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="a3ea-d6a5-9a48-3ccf" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ea-d6a5-9a48-3ccf" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="89aa-33b0-18d7-e730" name="Infantry Squad, Lizard Rider Anti-Tank" hidden="true" collective="false" import="true" targetId="e6eb-b4ce-77e2-291f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="739b-d789-f34a-1491" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="739b-d789-f34a-1491" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="c44a-15c1-7523-f9ae" name="South Models" targetId="eebf-3a00-bc65-ae74" type="catalogue" importRootEntries="true"/>
