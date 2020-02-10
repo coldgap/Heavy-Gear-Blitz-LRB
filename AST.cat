@@ -2769,6 +2769,198 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c827-83cc-49a8-e2b6" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="6b55-7280-a28c-0511" name="Hetairoi" hidden="true" collective="false" import="true" targetId="a07f-6d57-05a0-2edf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e782-00eb-ca13-5853" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="d0a1-d6b9-6222-6b7c" name="Hetairoi, Long Fang" hidden="true" collective="false" import="true" targetId="d555-3757-4e31-c070" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="6e04-dddb-3813-b5cf" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e04-dddb-3813-b5cf" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="6200-2255-8f81-29f6" name="Hetairoi Force" hidden="true" collective="false" import="true" targetId="4bd4-9e32-9d0e-1723" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="521e-9e35-8df3-8940" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="521e-9e35-8df3-8940" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="f4cc-f7ee-c0e1-d49d" name="Hetairoi Spark" hidden="true" collective="false" import="true" targetId="3b7d-39d9-0485-b192" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="9bfa-bf5d-9931-c36a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfa-bf5d-9931-c36a" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="850b-e676-98a9-179e" name="Visigoth" hidden="true" collective="false" import="true" targetId="a60f-dad3-fcf7-974b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="9da2-942c-7846-8c18" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da2-942c-7846-8c18" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="f4f6-acde-bf43-48b8" name="Visigoth Khan" hidden="true" collective="false" import="true" targetId="d533-f014-4ab6-4db3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="1a19-91b3-aaf0-98c8" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a19-91b3-aaf0-98c8" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="43fa-5a16-4cb8-af6e" name="Visigoth Khan" hidden="true" collective="false" import="true" targetId="d533-f014-4ab6-4db3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="573b-be1d-deea-b38c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573b-be1d-deea-b38c" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="eb92-c882-4f9f-fcec" name="Artemis, Force" hidden="true" collective="false" import="true" targetId="a90f-1163-d4bd-628a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="0559-50f3-4417-4814" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0559-50f3-4417-4814" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="b3a6-f650-940a-d8bf" name="Artemis" hidden="true" collective="false" import="true" targetId="7edc-dbc7-08f0-e13b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="7ef7-7a42-bc8b-bd5c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef7-7a42-bc8b-bd5c" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="1b58-c63b-aa67-1be3" name="Varis VTOL (South)" hidden="true" collective="false" import="true" targetId="f4cd-2786-0f24-8d31" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221a-b466-ae05-1a5f" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="7acc-b7b5-2508-4b66" name="Titan VTOL" hidden="true" collective="false" import="true" targetId="b5d5-5918-3c90-dd8e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="0f57-bbb2-b04c-f0dc" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="0f57-bbb2-b04c-f0dc" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f57-bbb2-b04c-f0dc" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="c44a-15c1-7523-f9ae" name="South Models" targetId="eebf-3a00-bc65-ae74" type="catalogue" importRootEntries="true"/>
