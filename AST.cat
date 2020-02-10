@@ -2955,7 +2955,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -2963,7 +2963,7 @@
         </modifier>
         <modifier type="set" field="740f-6a21-6a17-290c" value="-1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="740f-6a21-6a17-290c" value="1.0">
@@ -2971,7 +2971,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2979,6 +2979,50 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="740f-6a21-6a17-290c" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="5090-97c0-fbab-1fcd" name="Crocodile" hidden="true" collective="false" import="true" targetId="14d5-4515-41fd-1575" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8afe-7a0a-996c-efe5" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8afe-7a0a-996c-efe5" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8afe-7a0a-996c-efe5" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="c176-783b-7a0d-995a" name="Caiman, Medical" hidden="true" collective="false" import="true" targetId="1464-9d3b-f8ef-1c0a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6e-f59b-dd51-422a" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
