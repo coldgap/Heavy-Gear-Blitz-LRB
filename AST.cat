@@ -2917,18 +2917,6 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef7-7a42-bc8b-bd5c" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="1b58-c63b-aa67-1be3" name="Varis VTOL (South)" hidden="true" collective="false" import="true" targetId="f4cd-2786-0f24-8d31" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221a-b466-ae05-1a5f" type="max"/>
-      </constraints>
-    </entryLink>
     <entryLink id="7acc-b7b5-2508-4b66" name="Titan VTOL" hidden="true" collective="false" import="true" targetId="b5d5-5918-3c90-dd8e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -2959,6 +2947,38 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f57-bbb2-b04c-f0dc" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="fc72-a8ee-cb51-542e" name="Caiman" hidden="true" collective="false" import="true" targetId="8d6b-663e-299d-f8ab" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="740f-6a21-6a17-290c" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="740f-6a21-6a17-290c" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4617-583d-2671-b17f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="740f-6a21-6a17-290c" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
