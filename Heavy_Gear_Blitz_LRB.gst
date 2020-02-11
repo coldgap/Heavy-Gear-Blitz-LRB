@@ -3039,5 +3039,14 @@ to indicate ammunition remaining.</description>
         <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Ballistic</characteristic>
       </characteristics>
     </profile>
+    <profile id="3acf-0296-13d9-3ddb" name="Vibro Blade, Infantry" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">IVB</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-0/0&quot;[R]</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">4</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AP:1</characteristic>
+        <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
