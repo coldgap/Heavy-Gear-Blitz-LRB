@@ -2676,7 +2676,7 @@
         <profile id="ba43-5eba-846a-1c99" name="Close Support (FLAIL upgrade)" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"></characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
             <characteristic name="MR" typeId="d971-d530-75de-372c"/>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
@@ -2692,6 +2692,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1586-e176-de84-0708" name="FLAIL Team, Morgana" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
@@ -2933,6 +2934,31 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="ba46-f9c0-d52f-bcbe" name="Tank Gun, Very Heavy" hidden="false" targetId="11c4-5b3f-8ce7-7123" type="profile"/>
+        <infoLink id="c643-0980-4111-b187" name="Artillery Missile, Heavy" hidden="false" targetId="e9ae-7ade-63cd-3b56" type="profile"/>
+        <infoLink id="de48-179a-af1f-f609" name="Anti-Tank Missile, Heavy" hidden="false" targetId="a4f8-f5ca-f459-57e5" type="profile"/>
+        <infoLink id="c05a-d152-e69f-82c5" name="Rotary Laser, Heavy" hidden="false" targetId="1274-e57c-0f81-4632" type="profile"/>
+        <infoLink id="3caa-112c-f470-9531" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="c8cf-bb0b-fdb7-f00a" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="7d58-4e77-7b39-2557" name="Automatic Fire System [Auto]" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+        <infoLink id="b760-704f-b5b5-f8a4" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="91ac-3ec8-8a35-70d6" name="Particle Accelerator, Heavy" hidden="false" targetId="aa44-d65b-d78a-6476" type="profile"/>
+        <infoLink id="c2f5-82a3-29d3-8e7b" name="Attached:X" hidden="false" targetId="5d54-c1a4-2a6a-20ee" type="rule"/>
+        <infoLink id="78cc-fccb-b2fe-d61f" name="Anti-Missile System [AMS]" hidden="false" targetId="3948-f390-08bd-3625" type="rule"/>
+        <infoLink id="82aa-0a6f-0131-4211" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="8731-6993-cb80-8c51" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="38ed-f70e-60bd-ac91" name="Haywire Resistance [Resist:H]" hidden="false" targetId="3f9f-cd31-0239-ec2f" type="rule"/>
+        <infoLink id="3008-1b3d-d145-7754" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+        <infoLink id="85df-36ba-c93e-5eae" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="d610-9254-7a77-cb11" name="Veteran [Vet]" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+        <infoLink id="5960-1785-c8f0-7f35" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="5919-c717-19ad-260e" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="e070-84b8-1d7a-f08e" name="Counter-Battery Sensors [CBS]" hidden="false" targetId="5682-1777-0852-f74f" type="rule"/>
+        <infoLink id="ec68-4639-42e5-fb94" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+        <infoLink id="34d3-0e42-002b-c89d" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="4181-c2d6-5134-1e12" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8d14-55da-07ed-c273" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>

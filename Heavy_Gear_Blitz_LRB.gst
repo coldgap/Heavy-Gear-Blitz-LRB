@@ -3048,5 +3048,14 @@ to indicate ammunition remaining.</description>
         <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
       </characteristics>
     </profile>
+    <profile id="11c4-5b3f-8ce7-7123" name="Tank Gun, Very Heavy" page="219" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">VHTG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">18-36/72&quot;</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">12</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Ammo:AP:5, Ammo:[AS, AP:1]</characteristic>
+        <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Ballistic</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
