@@ -86,6 +86,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14c2-2aa6-ec27-a81a" name="F6-16: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" collective="false" import="true" type="model">
@@ -692,6 +693,10 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="41cf-ccb6-4d9b-56f5" name="BF2-25" publicationId="20bd-c8e1-5e20-75e8" page="183" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1022,6 +1027,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a889-00c7-8d02-c789" name="BF2-19: Recon Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
@@ -1253,7 +1259,7 @@
         <profile id="e366-f043-ff47-985b" name="GREL/FLAIL Crew (*HT upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"></characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
             <characteristic name="MR" typeId="d971-d530-75de-372c"/>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
@@ -1272,6 +1278,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c083-e972-cceb-973b" name="LHT-67: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
@@ -1963,7 +1970,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, APC:1, Jump Jets:2&quot;(Aux), Medic</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
           </characteristics>
@@ -2212,7 +2219,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, LIS</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
           </characteristics>
         </profile>
@@ -2266,7 +2273,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, HIS</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
           </characteristics>
         </profile>
@@ -2320,7 +2327,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, MAVM</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
           </characteristics>
         </profile>
@@ -2374,7 +2381,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, HIM</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
           </characteristics>
         </profile>
@@ -2433,6 +2440,13 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f13d-511d-e8d8-7131" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="adff-2528-45fb-81c7" name="Vibro Blade, Infantry" hidden="false" targetId="3acf-0296-13d9-3ddb" type="profile"/>
+        <infoLink id="e670-cb3a-2b85-f6e6" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="ecb5-ec0a-46d1-876c" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="d488-3de2-fb60-052e" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4e1c-ff46-bb4b-e2c5" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
         <categoryLink id="a613-1228-22ca-ac9a" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
@@ -2445,20 +2459,61 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fbd5-621c-7c30-a95a" name="Morgana GREL Team, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b519-afb2-15ff-3363" name="Morgana Sniper GREL Team" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, HIS(AP:1, Precise, Silent)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Brawler:1, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1e55-89f4-9b01-1ce4" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="c17b-fb53-253d-d6bf" name="Infantry Support Weapons, Heavy" hidden="false" targetId="1913-62bf-3b6b-eb47" type="profile"/>
+        <infoLink id="37c9-da2f-4681-8f0a" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="dab5-aa60-78d1-f8ad" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="3349-08ba-0a02-8c81" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="ac18-8d35-a87b-860d" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="830e-fba2-6a2d-c310" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="6f62-456b-869a-e92c" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a62c-a7b3-7580-9d61" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="1761-9447-e1d3-bc72" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6776-9a36-516b-75a2" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"></characteristic>
-        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
@@ -2467,23 +2522,23 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECM:1, SatUp:6+(Aux)</characteristic>
-        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
     <profile id="ebe1-6ec0-bb6f-4e3f" name="Command (HC-3A upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="187" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
@@ -2499,7 +2554,7 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
