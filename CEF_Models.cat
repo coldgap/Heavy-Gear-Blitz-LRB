@@ -2062,6 +2062,68 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b86f-2859-11d9-1b22" name="HC-3A" publicationId="20bd-c8e1-5e20-75e8" page="187" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e575-4ffe-8670-142b" name="HC-3A" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">9</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+), CV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:10&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LLC</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Agile, Comms:2, ECM:3, Jump Jets:2&quot;(Aux), Sensors:24&quot;(Aux), TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="beee-c1f1-1a2c-c2ab" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="3fbf-c4d6-ad40-9103" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="c8c9-113e-05cc-f2f5" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="8f7d-a8ed-8d71-848e" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="564d-72dc-9e01-0260" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="02f3-81b4-ed95-4e8a" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="5e5e-314d-76c3-a24b" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="e2b9-24ac-5898-f7ef" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="237a-ea0b-5588-bf69" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6443-4d72-4398-5f62" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7b2b-2b94-9052-0f67" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="34bd-de57-afdb-e506" name="Command (HC-3A upgrade)" hidden="false" targetId="ebe1-6ec0-bb6f-4e3f" type="profile"/>
+                <infoLink id="a56e-3bf7-720c-8e7b" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+                <infoLink id="a856-d942-6246-a157" name="Limited Ammunition:X [LA:X]" hidden="false" targetId="b54d-169a-75c0-35f6" type="rule"/>
+                <infoLink id="2b42-ca66-d17b-6cbb" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="37ec-0818-e3b8-6441" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -2094,6 +2156,22 @@
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECM:1, SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ebe1-6ec0-bb6f-4e3f" name="Command (HC-3A upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="187" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">+LATM(LA:1)</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:4+(Aux)</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
   </sharedProfiles>
