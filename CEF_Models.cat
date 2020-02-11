@@ -1763,6 +1763,137 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9191-9904-f886-01c6" name="MHT-72" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5d5f-8e63-1880-a57d" name="MHT-72" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HPA(T), MATM(T), MABM(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Jump Jets:2&quot;(Aux), Sensors:18&quot;, TD:0</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a200-5426-92f2-c226" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="acc0-4a40-59d7-e7cb" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="9601-1b17-8793-0c58" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="b0e5-93d8-2916-d676" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="9cca-afad-ed37-fdc5" name="Particle Accelerator, Heavy" hidden="false" targetId="aa44-d65b-d78a-6476" type="profile"/>
+        <infoLink id="a08e-1659-4d2b-cb34" name="Anti-Vehicle Missile, Heavy" hidden="false" targetId="3974-af7e-72ee-182e" type="profile"/>
+        <infoLink id="f736-d23c-2bf8-a193" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d6c8-96d5-3015-f7fd" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="246d-8e06-9365-d5b6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="174d-614c-805c-ee18" name="GREL/FLAIL Crew (*HT upgrade)" hidden="false" collective="false" import="true" targetId="397c-1f01-4790-9ecf" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d85-93e6-9010-3ad5" name="MHT-72: AA Pack" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cf1c-64f1-b1f8-f011" name="MHT-72: AA Pack" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HLC(AA, T), MATM(T), MSAM(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Jump Jets:2&quot;(Aux), Sensors:18&quot;, TD:0</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a170-5bad-dbf7-f05c" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="4d3f-7e3f-d5bb-531d" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="71be-9307-564f-f639" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="c2e0-dfc0-635d-9095" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="a803-b6d6-6899-ee2c" name="Laser Cannon, Heavy" hidden="false" targetId="dce2-bb54-0d2c-3335" type="profile"/>
+        <infoLink id="d516-04b2-1fb3-4c73" name="Anti-Vehicle Missile, Heavy" hidden="false" targetId="3974-af7e-72ee-182e" type="profile"/>
+        <infoLink id="1ada-9250-000d-9eac" name="Surface to Air Missile, Medium" hidden="false" targetId="60d9-8999-09b5-15ed" type="profile"/>
+        <infoLink id="ae1f-1ae1-3dd0-821b" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="60ea-c55f-2bc2-09bf" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c6e8-5b5d-36f7-3cc0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7f58-620c-6127-2247" name="GREL/FLAIL Crew (*HT upgrade)" hidden="false" collective="false" import="true" targetId="397c-1f01-4790-9ecf" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1507-5bf2-9aac-bd38" name="MHT-72: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3891-26e4-41a1-2aaf" name="MHT-72: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="186" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRL(T), MFC(Ft, Link), MATM(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Jump Jets:2&quot;(Aux), Sensors:18&quot;, TD:0</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e4a7-fd77-4550-b318" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="0f53-dab1-7d77-8fea" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="68f1-3d68-010b-3b58" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="c960-d3f6-1957-a436" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="f8fe-db5e-91f5-aaf0" name="Rotary Laser, Heavy" hidden="false" targetId="1274-e57c-0f81-4632" type="profile"/>
+        <infoLink id="9c4b-c4ff-ed18-f51c" name="Anti-Vehicle Missile, Heavy" hidden="false" targetId="3974-af7e-72ee-182e" type="profile"/>
+        <infoLink id="025c-754a-93c8-c817" name="Frag Cannon, Medium" hidden="false" targetId="93f5-1a4f-da4b-2233" type="profile"/>
+        <infoLink id="363a-7b77-ab8d-188f" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f5ab-77a3-5c7c-f91f" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="839f-60d5-2485-b533" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d4e4-00cd-4ca0-1c1f" name="GREL/FLAIL Crew (*HT upgrade)" hidden="false" collective="false" import="true" targetId="397c-1f01-4790-9ecf" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
