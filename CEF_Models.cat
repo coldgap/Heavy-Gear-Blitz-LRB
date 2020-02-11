@@ -2898,6 +2898,52 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c78f-0cff-9aaa-1bfc" name="HHT-90" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="91e9-d16e-52e2-08e6" name="Turret" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">TG(T, AP:5, PEN:12), HAM(T), HATM(T), HRL(FT, AA)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Attached: HHT Body, AMS(Aux), ECCM, Comms:1(Aux), Resist:H, SatUp:4+(Aux), Sensors:18&quot;, Vet, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2a6c-cfcd-5a5d-f320" name="Body" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/5</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(FT+R, Auto), MRL(FT+L, Auto), HRP(L, Aux), HRP(R, Aux), HPA(FT+F)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:4, CBS(Aux), Init:1, Jump Jets:2&quot;, Resist:H, Stable, Sensors:18&quot;, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8d14-55da-07ed-c273" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f5e9-138d-1ff6-5a84" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="6.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="70.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
