@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="936e-8b33-a0cf-b0bd" name="CEF Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="a0be-48c4-9ec7-2a39" name="Limited:HB" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false"/>
+    <categoryEntry id="1374-3ce9-350f-4ab0" name="Limited:FL" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false"/>
+  </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9dc5-78c7-df75-0d33" name="F6-16" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2498,6 +2502,119 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97f9-fb3a-9c8f-6a47" name="GREL Squad, Hoverbike" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c7a1-6619-3305-62bf" name="Hoverbike GREL Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV, IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:12&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Jump Jets:2&quot;, Limited:HB</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18c0-3885-0a97-0721" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="c454-0649-2c77-f9da" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="ac62-8ada-92da-26d4" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="166d-19df-a5e3-3b8e" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6d08-d75d-2854-c753" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="747b-6e20-df4a-d5e7" name="Limited:HB" hidden="false" targetId="a0be-48c4-9ec7-2a39" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6d41-22c8-cc4c-9837" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="935d-4669-6c93-5bf6" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="cd23-6f8d-7650-579c" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="af4e-ed81-9f5c-40ab" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d31-50a8-a8de-9ad4" name="GREL Squad, Hoverbike Anti-Tank" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fcb1-5923-3af8-7ced" name="Hoverbike Anti-Tank GREL Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:12&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Jump Jets:2&quot;, Limited:HB</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c1bb-8c20-3760-ccbe" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="108d-473a-7172-1a77" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="d888-a563-40d7-c981" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+        <infoLink id="e795-dab6-e4c3-3da2" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="88dc-97f7-ff3e-8052" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1eb7-8256-dd96-8b62" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="3540-a2c0-36bf-251b" name="Limited:HB" hidden="false" targetId="a0be-48c4-9ec7-2a39" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c07e-57c4-a8f0-4208" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2dfc-63d2-a382-aa6c" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="ed54-bad1-e523-0c5b" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="2817-e10e-e411-a400" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
