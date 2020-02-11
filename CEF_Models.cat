@@ -2425,7 +2425,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d78-589f-111d-d9b6" name="Morgana GREL Team, Assault" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7d78-589f-111d-d9b6" name="GREL Team, Morgana Assault" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f5d1-8ddb-e354-2a46" name="Morgana Assault GREL Team" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2450,6 +2450,7 @@
         <infoLink id="e670-cb3a-2b85-f6e6" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
         <infoLink id="ecb5-ec0a-46d1-876c" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
         <infoLink id="d488-3de2-fb60-052e" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="63c6-f0b1-7c81-f042" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e1c-ff46-bb4b-e2c5" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
@@ -2463,7 +2464,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbd5-621c-7c30-a95a" name="Morgana GREL Team, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fbd5-621c-7c30-a95a" name="GREL Team, Morgana Sniper" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b519-afb2-15ff-3363" name="Morgana Sniper GREL Team" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2615,6 +2616,286 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da1a-49a9-4071-eeb4" name="FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2c89-5df4-918e-d41e" name="FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+), HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;, H:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG, LIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jetpack:4&quot;, Limited:FL(UA:IN)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="45cb-dab2-0b5c-5976" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="af68-c018-8499-bfae" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="f009-159a-2e0b-2492" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="0e90-d0fa-ec3b-5930" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="9e77-74ba-5df7-0596" name="Panzerfaust, Light" hidden="true" targetId="76b9-068e-0a1c-1ea6" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ca-c623-280a-a4c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f94e-8c5c-4cc3-1329" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="828c-0f52-bbe6-b9f5" name="Limited:FL" hidden="false" targetId="1374-3ce9-350f-4ab0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f6b-c27a-d231-bb78" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2ec7-87d5-b64c-e171" name="Close Support (FLAIL upgrade)" hidden="false" collective="false" import="true" targetId="d8ca-c623-280a-a4c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8ca-c623-280a-a4c8" name="Close Support (FLAIL upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6497-6df6-1710-ef2e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ba43-5eba-846a-1c99" name="Close Support (FLAIL upgrade)" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"></characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">+LPZ</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1586-e176-de84-0708" name="FLAIL Team, Morgana" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3304-4e57-e5a2-124a" name="Morgana FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;, H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG, LVB(AI)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Brawler:1, Jetpack:4&quot;, Stealth, Limited:FL(UA:IN)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7843-20a5-a0ec-7ea3" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="c4d8-5999-3d25-3d4b" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="c8af-5eb2-17d3-2037" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="d346-b14d-1379-f314" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="6c65-996e-f7f5-8dbf" name="Panzerfaust, Light" hidden="true" targetId="76b9-068e-0a1c-1ea6" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ca-c623-280a-a4c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d25a-54bb-12b8-3c97" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="6878-7999-c036-2824" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="60fe-001a-fccc-6e4b" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="4cb1-8dfa-b37a-ada5" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6766-12c4-2663-f94b" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="a66e-4fdf-0b20-a663" name="Limited:FL" hidden="false" targetId="1374-3ce9-350f-4ab0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c958-5500-c982-4b4e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="dbaa-df64-fa59-cfab" name="Close Support (FLAIL upgrade)" hidden="false" collective="false" import="true" targetId="d8ca-c623-280a-a4c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b60-ed63-49df-0b47" name="FLAIL Squad, Interdiction" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dffe-f5a1-950d-aa05" name="Interdiction FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;, H:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG, HIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jetpack:4&quot;, Limited:FL(UA:IN)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="77b8-3f7f-9e45-6513" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="d834-8c69-565e-bb4c" name="Infantry Support Weapons, Heavy" hidden="false" targetId="1913-62bf-3b6b-eb47" type="profile"/>
+        <infoLink id="fef8-4311-16b6-1954" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="e1c3-da39-ecdf-f1a0" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="a119-70b9-f606-b2c5" name="Panzerfaust, Light" hidden="true" targetId="76b9-068e-0a1c-1ea6" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ca-c623-280a-a4c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a531-776f-2c41-73bc" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="5b2c-fea7-c59d-d46e" name="Limited:FL" hidden="false" targetId="1374-3ce9-350f-4ab0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c27c-19d5-d0ef-4737" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="96a6-1986-3d42-284c" name="Close Support (FLAIL upgrade)" hidden="false" collective="false" import="true" targetId="d8ca-c623-280a-a4c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c41e-2a08-9b6f-585b" name="FLAIL Squad, Anti-Tank" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7077-7b51-37f1-5011" name="Anti-Tank FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;, H:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG, HAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jetpack:4&quot;, Limited:FL(UA:IN)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8c5d-2492-68e0-5858" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="81b0-046a-ba71-c3c8" name="Anti-Vehicle Missile, Heavy" hidden="false" targetId="3974-af7e-72ee-182e" type="profile"/>
+        <infoLink id="30fb-91da-3890-2248" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="e1eb-085c-7781-b743" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="5e49-7bca-e5ca-cb23" name="Panzerfaust, Light" hidden="true" targetId="76b9-068e-0a1c-1ea6" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ca-c623-280a-a4c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bafa-444c-0975-fb34" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="c3c8-2137-e8eb-6b54" name="Limited:FL" hidden="false" targetId="1374-3ce9-350f-4ab0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eaa4-09e0-778f-8bc4" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a031-981b-8f6d-977e" name="Close Support (FLAIL upgrade)" hidden="false" collective="false" import="true" targetId="d8ca-c623-280a-a4c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00af-c81b-9979-28f0" name="FLAIL Squad, Support" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5a58-d652-bbee-4029" name="Support FLAIL Squad" publicationId="20bd-c8e1-5e20-75e8" page="189" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;, H:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HMG, HIM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jetpack:4&quot;, Limited:FL(UA:IN)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6dee-a61a-fc78-2a9e" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="a691-ec45-052f-9738" name="Infantry Mortar, Heavy" hidden="false" targetId="cf0c-86e2-7596-2ac8" type="profile"/>
+        <infoLink id="eeba-4620-bb79-67f2" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="25b9-9245-98b7-660c" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="c3a3-c5cc-a516-e98a" name="Panzerfaust, Light" hidden="true" targetId="76b9-068e-0a1c-1ea6" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8ca-c623-280a-a4c8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2112-29d3-8d2a-f90b" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="96f7-ef13-6c51-4333" name="Limited:FL" hidden="false" targetId="1374-3ce9-350f-4ab0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="77c1-c4b7-78de-e82d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d83b-6e19-8e58-90b0" name="Close Support (FLAIL upgrade)" hidden="false" collective="false" import="true" targetId="d8ca-c623-280a-a4c8" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
