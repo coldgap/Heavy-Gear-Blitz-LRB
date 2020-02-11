@@ -2198,6 +2198,253 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ebac-12f7-d44d-5bce" name="GREL Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6490-30b2-ac0e-91fe" name="GREL Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV, IN(0+), HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, LIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f3ab-1bca-8e0d-2c93" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="a97e-733b-2f71-6cd5" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d0a6-e829-cf8d-a211" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="1244-5def-f11a-fe03" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2653-e815-e2c7-24f6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ad99-b305-e313-eb6d" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="c152-ce66-bae9-db45" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="2f6f-b9c5-5816-f363" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d302-0482-1dd8-014b" name="GREL Support Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0401-e25b-e48c-1f92" name="GREL Support Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0-1), IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, HIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="03a4-6ad8-6ebb-891e" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="e7eb-7f10-594f-87d6" name="Infantry Support Weapons, Heavy" hidden="false" targetId="1913-62bf-3b6b-eb47" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="57ab-bbf8-cf10-d97f" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="6219-9c7f-db8c-980a" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="48c5-e264-93ff-db61" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b9ab-0244-5620-569f" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="063b-d2b5-f90c-f283" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="107e-03fb-04f5-c9ee" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4dd-301f-9104-9f6c" name="GREL Anti-Tank Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7c23-c881-0c3e-1498" name="GREL Anti-Tank Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0-1), IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, MAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c9b6-1045-144c-91a5" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="04c7-60bc-4481-dcdc" name="Anti-Vehicle Missile, Medium" hidden="false" targetId="5db2-1018-cf65-0edd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5bc8-7859-1dbe-1bc2" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="5eed-c3f1-6650-19bd" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e41f-c78f-949e-bf50" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="43f1-c5d5-81c2-290e" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e6f8-e55b-1758-92b1" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="04a8-a0f6-570e-a1b7" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ebdf-b409-b7fa-9785" name="GREL Mortar Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="50a7-be28-b6e4-adb7" name="GREL Mortar Squad" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0-1), IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:4&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HIW, HIM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bdef-faa2-c0bb-b429" name="Infantry Weapons, Heavy" hidden="false" targetId="41f0-b629-7d79-fb03" type="profile"/>
+        <infoLink id="33f7-f805-8a50-d7c7" name="Infantry Mortar, Heavy" hidden="false" targetId="cf0c-86e2-7596-2ac8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="289b-b33a-03ee-e758" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="fc40-b7ba-8350-20a8" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a8b4-6cfd-702b-7919" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0dba-eea8-c074-e067" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="1482-3bb3-3ea7-606a" name="Jan (GREL Squad upgrade)" hidden="false" targetId="4580-71ba-d631-3a50" type="profile"/>
+                <infoLink id="af6b-1e9d-df17-703a" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d78-589f-111d-d9b6" name="Morgana GREL Team, Assault" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f5d1-8ddb-e354-2a46" name="Morgana Assault GREL Team" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, VB(AI, AP:1, PEN:4)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Brawler:1, Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4e1c-ff46-bb4b-e2c5" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="a613-1228-22ca-ac9a" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c8ab-2db5-5018-ccf6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -2245,6 +2492,22 @@
         <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">+LATM(LA:1)</characteristic>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:4+(Aux)</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+      </characteristics>
+    </profile>
+    <profile id="4580-71ba-d631-3a50" name="Jan (GREL Squad upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="188" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Comms:1</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
