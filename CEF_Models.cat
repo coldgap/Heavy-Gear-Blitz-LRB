@@ -951,6 +951,257 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4ba8-18c3-fd6b-7c4b" name="BF2-19" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b149-ffa8-f26e-36a9" name="BF2-19" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">13</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MLC(Arm), MRP, LATM, MCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ANN, Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5a29-440e-91a6-a3da" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="390a-8c18-ac35-1463" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="fbd6-a19c-f64e-234a" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="e9aa-e1e4-46b3-226b" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="7ce1-a528-4ebd-8121" name="Advanced Neural Net [ANN]" hidden="false" targetId="d61d-9cf7-daf2-e8d9" type="rule"/>
+        <infoLink id="3558-bbd7-0a4e-73bd" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf67-c542-580f-9017" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="fd1c-529d-6aae-f45b" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6f2a-a323-896a-8aa0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6364-ac94-b5e0-6e1a" name="Mobility Pack (BF2-19 upgrade)" hidden="false" collective="false" import="true" targetId="c1ae-7476-ead0-2177" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1ae-7476-ead0-2177" name="Mobility Pack (BF2-19 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9e-c07e-1b5a-3154" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4ef8-02d6-c52b-e310" name="Mobility Pack (BF2-19 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Airdrop, Jetpack:5&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="55f0-f2b8-c81b-526d" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="35bd-fc7f-bb8b-b66a" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a889-00c7-8d02-c789" name="BF2-19: Recon Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e246-fbab-3ecc-c3e2" name="BF2-19: Recon Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPL(Arm), MRP, LATM, MCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ANN, Arms, Comms:1(Aux), ECM:1, Sensor Boom(Aux), TD:1(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="20a9-deb1-dfee-b207" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="f4f3-dde9-888d-7369" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="5cc0-598c-a05b-3d92" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="f2ef-db99-e7e1-7395" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="9073-e79e-dcae-bbad" name="Advanced Neural Net [ANN]" hidden="false" targetId="d61d-9cf7-daf2-e8d9" type="rule"/>
+        <infoLink id="bac2-df8c-54a9-f45a" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="667c-db03-7478-d649" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="8374-bb9e-c923-33de" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="9985-33f3-fd78-e255" name="Sensor Boom" hidden="false" targetId="3cf9-f033-7dba-ccaa" type="rule"/>
+        <infoLink id="fb92-6bf9-a7f0-e5df" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e2b4-3bc5-48dc-eb1a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="82c6-5e2a-a5fd-9076" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="99ee-d952-2662-7d31" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3ff9-fd18-d707-9baa" name="Mobility Pack (BF2-19 upgrade)" hidden="false" collective="false" import="true" targetId="c1ae-7476-ead0-2177" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44e9-5a37-ecf5-9b00" name="BF2-19: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0d0c-1e2a-0363-e77d" name="BF2-19: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MLC(Arm), LATM, MGM, MCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ANN, Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7353-3112-19db-71a9" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="294a-cf6f-a6a4-cb05" name="Guided Mortar, Medium" hidden="false" targetId="c0e6-160e-37ae-c193" type="profile"/>
+        <infoLink id="440a-8316-912b-89b0" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="ce08-5854-c3cd-7a92" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="eaa4-8fd8-6970-b12b" name="Advanced Neural Net [ANN]" hidden="false" targetId="d61d-9cf7-daf2-e8d9" type="rule"/>
+        <infoLink id="68c6-da16-9ae4-c454" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="50ca-ff6f-cf60-8d07" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="bf29-401e-7bf7-1739" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2362-598e-ecac-79d2" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2179-0aeb-1822-51af" name="Mobility Pack (BF2-19 upgrade)" hidden="false" collective="false" import="true" targetId="c1ae-7476-ead0-2177" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eeaa-da6d-6222-40be" name="BF2-19: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1756-56a4-6a83-3606" name="BF2-19: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPL(Arm), MRP, LATM, MCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ANN, Arms, Shield:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="67ae-d4ac-f28c-49cc" name="Pulse Laser, Medium" hidden="false" targetId="0687-0a74-2163-8ea6" type="profile"/>
+        <infoLink id="e1b5-dc87-f421-8a91" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="a4c1-d18e-711c-6055" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="c476-94b8-8f32-dbd4" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="d1eb-ab35-e351-d365" name="Advanced Neural Net [ANN]" hidden="false" targetId="d61d-9cf7-daf2-e8d9" type="rule"/>
+        <infoLink id="4911-0c3d-8f4c-8f4f" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="7f98-ee40-a7af-8cd2" name="Shield:X" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e16d-eeb3-0b8e-b788" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="932c-7916-3d6a-75bf" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d3ca-ee21-3eeb-541f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6f20-14c3-ffcc-53d9" name="Mobility Pack (BF2-19 upgrade)" hidden="false" collective="false" import="true" targetId="c1ae-7476-ead0-2177" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75fd-0d16-7de4-5242" name="BF2-19: Anti-Tank Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f9bf-4bba-a71b-e8e4" name="BF2-19: Anti-Tank Pack" publicationId="20bd-c8e1-5e20-75e8" page="184" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(Arm), MRP, MATM(LA:2), MCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ANN, Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dfcb-fc21-44f5-17ca" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="9fd5-de7b-6b6d-d2b4" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="8f50-ca28-6f55-d517" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="bb42-2761-1ced-4ee0" name="Combat Weapon, Medium" hidden="false" targetId="f285-5470-9069-ee47" type="profile"/>
+        <infoLink id="ba3c-ecd1-d342-309a" name="Advanced Neural Net [ANN]" hidden="false" targetId="d61d-9cf7-daf2-e8d9" type="rule"/>
+        <infoLink id="42a5-565d-ed60-4144" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="73e0-418a-04ea-d726" name="Limited Ammunition:X [LA:X]" hidden="false" targetId="b54d-169a-75c0-35f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5065-a350-f4a4-2741" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="d7eb-9a24-00c8-181c" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="369b-6146-4801-ad4c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0152-dc91-a4c9-1e54" name="Mobility Pack (BF2-19 upgrade)" hidden="false" collective="false" import="true" targetId="c1ae-7476-ead0-2177" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ce2d-e7b0-df82-31e0" name="CF6-16 (F6-16 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="182" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
