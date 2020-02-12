@@ -2438,7 +2438,7 @@
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, VB(AI, AP:1, PEN:4)</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, LVB(AI, AP:1, PEN:4)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Brawler:1, Stealth</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
           </characteristics>
@@ -2446,11 +2446,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="f13d-511d-e8d8-7131" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
-        <infoLink id="adff-2528-45fb-81c7" name="Vibro Blade, Infantry" hidden="false" targetId="3acf-0296-13d9-3ddb" type="profile"/>
+        <infoLink id="adff-2528-45fb-81c7" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
         <infoLink id="e670-cb3a-2b85-f6e6" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
         <infoLink id="ecb5-ec0a-46d1-876c" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
         <infoLink id="d488-3de2-fb60-052e" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
         <infoLink id="63c6-f0b1-7c81-f042" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="28e4-0411-f569-4d3d" name="Penetration:X [Pen:X]" hidden="false" targetId="6ce9-cd80-09b9-052a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e1c-ff46-bb4b-e2c5" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
