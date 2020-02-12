@@ -1215,6 +1215,129 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7c7d-03a3-c8e5-3ca9" name="Boa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5390-2888-02c1-6caa" name="Boa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MRP, MFM, MMG, MVB(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="819b-9268-48d3-7ebf" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="01c1-34d4-e9ab-2458" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="1e87-0154-564c-4f13" name="Field Mortar, Medium" hidden="false" targetId="0632-ae34-3bd3-b86d" type="profile"/>
+        <infoLink id="5fe7-648d-6967-3baa" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="e665-4a3f-64c2-8d0b" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="5f86-3109-1489-98e5" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="33af-1acb-b924-4710" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="b246-edc5-3484-99ca" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1da7-2c02-796e-fc2d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="6ae7-e623-4f98-bf3d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="027d-9d2c-ee88-8286" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9546-19a9-1f1b-6448" name="Boa, Firestorm" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6931-163a-2504-fd11" name="Firestorm Boa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(Arm), MRP, MFM, MMG, MVB(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2dc4-15df-0b96-8b1d" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="d76d-411e-5513-6d01" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="7538-274c-d95e-c1e0" name="Field Mortar, Medium" hidden="false" targetId="0632-ae34-3bd3-b86d" type="profile"/>
+        <infoLink id="634d-2098-320b-3992" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="a327-f487-43f2-85c0" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="b8b9-b9f4-e2db-65e4" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="1320-094d-cb31-bd53" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="605b-ead6-6425-29ef" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4a34-8821-b889-7d66" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="1704-6510-4826-6eb6" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e028-88d0-14c0-0fcf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6132-857d-1784-9874" name="Boa, Strike" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7337-24f2-fb80-0d81" name="Strike Boa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MRP, MFM, MMG, MVB(Arm, Reach 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:2</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bec5-cd9a-1265-2778" name="Bazooka, Medium" hidden="false" targetId="5e26-2e17-682c-8c98" type="profile"/>
+        <infoLink id="f99e-8aaf-6040-a612" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="9325-52b8-db73-55b2" name="Field Mortar, Medium" hidden="false" targetId="0632-ae34-3bd3-b86d" type="profile"/>
+        <infoLink id="3870-6d51-863d-6077" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="4e81-28fc-68ae-dc1e" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="e351-d267-238b-b9a8" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="a4ec-ab93-702a-789a" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="ed17-8991-657f-0768" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a86f-86bd-6926-a1cc" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="dd7d-9431-d2f0-ee76" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b58-93ad-240a-1426" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -1237,14 +1360,14 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:5+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
@@ -1253,14 +1376,14 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM, SatUp:6+(Aux)</characteristic>
         <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
@@ -1269,23 +1392,23 @@
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+0</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+ECCM</characteristic>
-        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"></characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
       </characteristics>
     </profile>
     <profile id="e346-a6d9-1070-52f5" name="CV (Espion upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
         <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
         <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
         <characteristic name="A" typeId="9151-7386-2112-169b"/>
