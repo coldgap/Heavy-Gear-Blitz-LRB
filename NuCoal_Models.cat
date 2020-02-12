@@ -2030,6 +2030,291 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e452-a981-1275-e70d" name="Lancier" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5506-7a5a-52ff-449c" name="Lancier" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), HPZ, APGL, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f067-70ec-666c-cc22" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="5d9a-efda-7117-866a" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="e4f6-425c-9c06-bc13" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="d09a-d9e4-bb7c-4470" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="c82e-de91-62ef-0ced" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="6fe5-aa64-b610-c182" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="49e6-1071-d80e-db71" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="d194-24aa-0584-7f07" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b745-acd4-b815-9251" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="edb8-680f-e3a5-25f9" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="94a1-8dd2-afa4-5593" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="c55f-1c64-3277-0faa" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="bffe-ca2b-add3-4173" name="CV (Lancier upgrade)" hidden="false" targetId="6beb-2aff-28c0-b182" type="profile"/>
+                <infoLink id="763a-7b43-212c-b2f3" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fca-ceff-65e0-cd1f" name="Lancier Dart" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="12ce-4d90-24b1-52a1" name="Lancier Dart" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAPR(Arm), HPZ, APGL, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6c1a-180c-bce2-9475" name="Anti-Personnel Rockets, Light" hidden="false" targetId="61ef-7df8-a2e8-8895" type="profile"/>
+        <infoLink id="d60d-81ed-c4f2-f300" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="0bc7-5cce-56d1-31ba" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="f2a9-8758-1dc8-57fc" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="dee1-4afb-8b32-b41b" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="47ed-2280-f64d-f348" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="aeca-a86b-e5b8-3c05" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="7a25-1db3-412b-5865" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ada8-0a4d-2176-64fe" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="fc47-b14a-ba29-63a9" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aaf1-6c70-e5f3-0a7e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ad49-ef11-1285-5167" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0124-1041-258d-906d" name="CV (Lancier upgrade)" hidden="false" targetId="6beb-2aff-28c0-b182" type="profile"/>
+                <infoLink id="7c31-28fa-dfa2-7fb4" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70fc-9668-c6c0-755e" name="Lancier Spear" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fa72-4a8a-adc9-c634" name="Lancier Spear" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRP(Arm), HPZ, APGL, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="96b5-f92e-1443-f99d" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="802b-c3f5-4f01-68fb" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="e633-e917-4a0e-13b0" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="8a57-f4c4-bc44-ac6c" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="2316-105b-77b5-bfe7" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="4703-fb74-a586-f99e" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="1a1b-ed27-dab7-f600" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="d813-6e89-1b5f-53b6" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f94c-45ce-c59f-3521" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b13d-cad4-9352-9832" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="04e2-b555-2320-a394" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9a2b-5215-e5f4-a52b" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="8eda-720a-a688-3507" name="CV (Lancier upgrade)" hidden="false" targetId="6beb-2aff-28c0-b182" type="profile"/>
+                <infoLink id="4a01-ac1d-cc77-09f2" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="079b-3b06-c533-2747" name="Lancier Flechette" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="45a4-dc18-d158-579a" name="Lancier Flechette" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFC(Arm), HPZ, APGL, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b63a-4cc8-a6d7-6ab7" name="Frag Cannon, Medium" hidden="false" targetId="93f5-1a4f-da4b-2233" type="profile"/>
+        <infoLink id="a68e-02bc-9e30-8050" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="2734-585b-54ce-38ed" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="b410-f567-0efa-f598" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="a89e-bb9e-92c9-3145" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="c531-e975-7933-5ecd" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="3b39-a4b1-f582-d04f" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="b5ad-5265-23b3-d26f" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="37e6-5d9c-fe4f-fc60" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="54b7-9880-0231-7633" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8953-b89e-3cc7-aebc" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9879-7d22-65b2-4ad5" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="c1f2-78df-b9c8-760c" name="CV (Lancier upgrade)" hidden="false" targetId="6beb-2aff-28c0-b182" type="profile"/>
+                <infoLink id="0d76-d8e2-7975-b217" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8691-9e54-398a-ac2b" name="Lancier Torch" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ed58-df27-120b-ee80" name="Lancier Torch" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">9</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">MN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFL(Arm), HPZ, APGL, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be1e-af16-34a7-be6f" name="Flamer, Medium" hidden="false" targetId="a267-5e57-11e9-b0ee" type="profile"/>
+        <infoLink id="84c4-39f7-8aa9-75b6" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="b76f-7388-c225-d4f7" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="1434-1fff-2af1-6f8b" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="fe18-1dfb-0efc-7ab4" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="2403-fe30-d5bc-2521" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e7ab-81bf-69b1-a524" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="5824-6d6b-8f91-74ad" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="faec-d0bf-5adc-9fff" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="2c28-f408-c1f0-97c4" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="32d0-521b-bdce-ee45" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a499-8252-fe8a-ab45" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="c757-a76d-4eaf-2779" name="CV (Lancier upgrade)" hidden="false" targetId="6beb-2aff-28c0-b182" type="profile"/>
+                <infoLink id="eec9-b025-6c09-7139" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
