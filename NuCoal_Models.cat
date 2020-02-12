@@ -1042,6 +1042,179 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d708-69b4-2859-7c6a" name="Jerboa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6534-10b0-881c-5999" name="Jerboa" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, RC(0+), HT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRF(Arm), VLRP, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:-1, Comms:1, ECM:2, Jetpack:6&quot;(Aux), Sensors:18&quot;</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce92-39ef-c0e8-07c1" name="Rifle, Light" hidden="false" targetId="72b7-acc5-dc6f-ffc1" type="profile"/>
+        <infoLink id="d7a8-b68a-08f6-6fb0" name="Anti-Vehicle Rocket Pack, Very Light" hidden="false" targetId="4858-c994-754e-9ab4" type="profile"/>
+        <infoLink id="3d51-1966-63f0-9d0b" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="493a-771c-52de-5099" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="d225-c233-a83b-f6a3" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="3582-612c-3da5-53a2" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="0d14-f789-afb5-c2a1" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="eadb-1208-b731-dba5" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="96ce-1955-0d18-981b" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="41a4-2436-170e-8916" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5ca3-d300-5e3e-0787" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="5763-5cce-8268-8e81" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b4d7-a16b-3cef-214b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e22-b639-1e26-bc42" name="Jerboa Sentry" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fb4a-598e-2884-6231" name="Jerboa Sentry" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRF(Arm), APGL, LVB(Arm, Pen:6)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:-1, Comms:1, ECM:2, Jetpack:6&quot;(Aux), Sensors:18&quot;</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="55cb-34b4-f9d8-e015" name="Rifle, Light" hidden="false" targetId="72b7-acc5-dc6f-ffc1" type="profile"/>
+        <infoLink id="1ce6-0451-422d-4abd" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="78af-87b2-c456-8d2f" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="14b2-3b1d-bb75-a9b2" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="3e93-23e1-0794-ef67" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+        <infoLink id="a655-1eb2-2537-ed3c" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="ded8-6831-4f7d-d03f" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="43cc-db9b-7323-2cf8" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="7c07-400e-6c56-a218" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="ab48-7ec6-942e-7d16" name="Penetration:X [Pen:X]" hidden="false" targetId="6ce9-cd80-09b9-052a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bf4d-98e8-2e9b-8d61" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="2bf3-060e-5114-e9bf" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ecb3-292c-7bcb-849a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cc0-0405-b330-4140" name="Jerboa Flash" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="80bc-d53f-f766-a9f0" name="Jerboa Flash" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRF(Arm), VLRP, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:-1, Comms:1, Jetpack:6&quot;(Aux), Sensors:18&quot;, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c247-0bc8-fc04-b6a3" name="Rifle, Light" hidden="false" targetId="72b7-acc5-dc6f-ffc1" type="profile"/>
+        <infoLink id="0a3b-207a-6468-70ce" name="Anti-Vehicle Rocket Pack, Very Light" hidden="false" targetId="4858-c994-754e-9ab4" type="profile"/>
+        <infoLink id="a701-18f5-5741-f8f2" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="9181-f152-eb8d-cd1b" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="6ff5-eb4f-d838-f725" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e297-3c7b-804b-c440" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="bf54-3067-65f4-adbf" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="c719-2c06-d984-5b52" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="25ba-22aa-5c75-e14c" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="7cc6-bf0f-4e43-280e" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e39-7b1c-9780-6d07" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="8610-0a02-d134-07b4" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="25ba-3247-e9d0-9e48" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a47-9288-37a8-23e4" name="Jerboa Fist" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ea47-d424-d99d-ce9c" name="Jerboa Fist" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRF(Arm), VLRP, LPZ, APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:-1, Comms:1, ECM:2, Jetpack:6&quot;(Aux), Sensors:18&quot;</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5b2d-bd93-f35a-7b0e" name="Rifle, Light" hidden="false" targetId="72b7-acc5-dc6f-ffc1" type="profile"/>
+        <infoLink id="b349-1a13-d9d0-0f95" name="Anti-Vehicle Rocket Pack, Very Light" hidden="false" targetId="4858-c994-754e-9ab4" type="profile"/>
+        <infoLink id="5e07-e92f-6848-971f" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="0fdc-1520-1d4d-44b6" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="8671-9706-1248-fa6b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="8cb8-722e-902d-7908" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="c9a0-ffb8-c03d-1010" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="2f51-48be-78d5-9744" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="70ca-827c-4509-1a43" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="b830-746b-c13a-ec9b" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+        <infoLink id="6c81-8b6e-5de9-9518" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9d3-a7ac-20a2-ae4d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="faad-b066-eed1-0782" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4596-d82a-cdea-cb2e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
