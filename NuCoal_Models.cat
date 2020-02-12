@@ -2877,6 +2877,157 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="055d-5545-0f9f-adcb" name="Voltigeur" publicationId="20bd-c8e1-5e20-75e8" page="155" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ac76-76c2-7dff-14d7" name="Voltigeur" publicationId="20bd-c8e1-5e20-75e8" page="155" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">28</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LTG(T, Link), MLC(FT), HABM, HMG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="14b1-f93a-b645-3a95" name="Tank Gun, Light" hidden="false" targetId="e4f7-548c-5603-6355" type="profile"/>
+        <infoLink id="3b0b-a82a-2b90-41fb" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="1f80-9927-6301-52cd" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="41e1-b6b9-1307-51b2" name="Air Burst Missile, Heavy" hidden="false" targetId="b75d-6754-c921-caa2" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b511-ab8a-c2e3-e5b2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9ff9-3fb0-fa18-a500" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="1efc-cedb-0273-c6ac" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="6cc8-b1b9-09ca-1765" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="3ecf-eaa1-a33b-0d1c" name="Anti-Tank Missile, Light" hidden="true" targetId="851b-3cd0-b35b-f181" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b511-ab8a-c2e3-e5b2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ade4-475e-b107-00c2" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="030b-af06-e8bc-5304" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="e31f-74e6-ec0f-ed8b" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="792b-9d64-203d-8934" name="CV (Voltigeur upgrade)" hidden="false" targetId="f0b7-3992-6bf4-774b" type="profile"/>
+                <infoLink id="714c-912f-e772-fdc9" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="cf0e-da5e-5dd4-0005" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dea6-13c9-1777-0306" name="Voltigeur Hammer" publicationId="20bd-c8e1-5e20-75e8" page="155" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6145-ce05-064f-0ed6" name="Voltigeur Hammer" publicationId="20bd-c8e1-5e20-75e8" page="155" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">30</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">HT(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">11</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HTG(T), MLC(FT), HABM, HMG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1, Smoke:3</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fd0a-f5c2-ee86-4731" name="Tank Gun, Heavy" hidden="false" targetId="8ebf-1f23-5904-5287" type="profile"/>
+        <infoLink id="5ac8-0d80-55a7-bd07" name="Laser Cannon, Medium" hidden="false" targetId="c355-9358-54e9-186b" type="profile"/>
+        <infoLink id="f799-6e8c-1e8d-800a" name="Air Burst Missile, Heavy" hidden="false" targetId="b75d-6754-c921-caa2" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b511-ab8a-c2e3-e5b2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e72d-0e88-11c2-3ef5" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="bd96-5b58-b0d8-11cb" name="Offroad:X" hidden="false" targetId="28ae-068d-43df-2844" type="rule"/>
+        <infoLink id="6708-117b-63c9-ec58" name="Smoke:X" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+        <infoLink id="9986-e0bc-353f-0d06" name="Anti-Tank Missile, Light" hidden="true" targetId="851b-3cd0-b35b-f181" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b511-ab8a-c2e3-e5b2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="70e3-5f9e-3222-083b" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eb48-ceb1-a12b-e55a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="caae-73fc-acdb-542c" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="fedf-6091-615c-b9f8" name="CV (Voltigeur upgrade)" hidden="false" targetId="f0b7-3992-6bf4-774b" type="profile"/>
+                <infoLink id="7262-397e-848f-fedd" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="4f8a-cc8e-7879-30f9" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="30.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
