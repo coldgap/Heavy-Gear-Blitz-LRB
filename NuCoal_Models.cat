@@ -2315,6 +2315,243 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9692-8193-adb8-34ee" name="Espion" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d55c-ff50-15ea-7787" name="Espion" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(Arm, Silent), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cbb1-b566-54ff-a576" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="c435-ed3b-a97c-53b7" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+        <infoLink id="6a36-ca15-c9e2-686f" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="0859-1b03-6992-1148" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="b699-ea58-8d71-091e" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="57e5-de91-30b7-489c" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="f1c8-6bb0-18a6-76ab" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1cc1-f852-94ca-d6ca" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="554a-76e6-4997-957d" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="91ed-9a03-13a6-6d49" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a5b0-ddb7-c0a3-9d76" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="43e1-7969-daa2-69e5" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="71d7-a114-1606-6bd4" name="CV (Espion upgrade)" hidden="false" targetId="e346-a6d9-1070-52f5" type="profile"/>
+                <infoLink id="4b73-1028-c5e6-102d" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a391-686c-60f8-a394" name="Espion Flechette" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3d55-414c-aedb-b0f8" name="Espion Flechette" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MFC(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2884-cd39-67d7-d997" name="Frag Cannon, Medium" hidden="false" targetId="93f5-1a4f-da4b-2233" type="profile"/>
+        <infoLink id="c893-5570-a008-05d5" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="78bc-a41e-b61b-37b5" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="c333-a9da-b1db-1f2a" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="f0b3-e4b3-55e6-5a1b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e1df-c506-8589-69ba" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b036-13ee-6786-8add" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="8e3d-576c-612b-e413" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="b6ea-eb2a-bf10-a708" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1d4d-24eb-561e-9b83" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1283-e9cb-4a5c-6a5a" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="fd59-3c74-2fc8-fe7e" name="CV (Espion upgrade)" hidden="false" targetId="e346-a6d9-1070-52f5" type="profile"/>
+                <infoLink id="c4b7-5f7c-be65-df8c" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b89c-79e2-9408-8521" name="Espion Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9cfe-40d7-de46-21cb" name="Espion Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MGL(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4ac3-f94f-0bd1-313a" name="Grenade Launcher, Medium" hidden="false" targetId="783f-168c-ab6b-346c" type="profile"/>
+        <infoLink id="1bce-0267-38b0-7866" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="19e1-f923-696e-5a64" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="0ef4-7997-9241-2426" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="c288-12ee-2bdc-8723" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="7881-1404-a4d6-94ff" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6fc6-6c85-c37f-71ed" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="79e3-62b6-f0cd-9efe" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="a9d2-d211-968b-a952" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3750-4862-3862-e745" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1b74-3a54-1e8b-c3cb" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="96c2-94b3-3feb-436d" name="CV (Espion upgrade)" hidden="false" targetId="e346-a6d9-1070-52f5" type="profile"/>
+                <infoLink id="410b-3fe2-b285-9aaf" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc33-4f10-c2db-1ce1" name="Espion Firestorm" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ece7-cf2a-0ecf-9127" name="Espion Firestorm" publicationId="20bd-c8e1-5e20-75e8" page="153" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SF</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(Arm), LRP, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Arms, Stealth(Aux), Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4348-b22e-a5f5-4386" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="4aec-f8fa-3d81-ec4a" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="60a6-8d90-525f-7521" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="c379-e497-d47c-d17f" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="98c9-0c1e-1f7a-f884" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="1470-5295-800b-8c09" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2e50-bc98-19b3-9218" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="1af0-518d-b0b1-45cb" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="7763-6485-3aff-8fdf" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b654-e1c0-e109-d6e0" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="e57d-a17e-d220-e50c" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="94b7-f67d-3800-3885" name="CV (Espion upgrade)" hidden="false" targetId="e346-a6d9-1070-52f5" type="profile"/>
+                <infoLink id="4208-7bfb-020f-1e2c" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
