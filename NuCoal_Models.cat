@@ -1646,6 +1646,132 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a088-cc36-ab76-7164" name="Arbalestier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c282-d8e7-7140-1d50" name="Arbalestier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">19</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, HV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(Arm), MFC, HPZ, HMG, APGL, MVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Vet, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f978-b0d1-36d2-22c8" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="50ca-28bd-04a8-b744" name="Frag Cannon, Medium" hidden="false" targetId="93f5-1a4f-da4b-2233" type="profile"/>
+        <infoLink id="9984-35c8-73fe-0923" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="4069-ccf0-2d5e-511e" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="e2a7-b6cd-8620-eba9" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="e62b-93c0-b79e-476b" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="21fc-7c51-eeee-8a4b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="fc57-9712-b520-1dde" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="be21-f796-c885-ec1a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="9a71-b464-45d6-0834" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="b147-68d1-7c13-3729" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ec10-6977-d114-6132" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="73f8-c878-bdab-65a9" name="Arbalestier Demolisher" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e7b2-10b8-5325-916d" name="Arbalestier Demolisher" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">19</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, HV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(Arm), HPZ, HMG, APGL, HSE, MVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Vet, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5e49-84b1-a8c3-046d" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="4343-84c9-73c5-cd24" name="Shaped Explosives, Heavy" hidden="false" targetId="12b9-b0bb-075e-e14d" type="profile"/>
+        <infoLink id="253c-ff9d-bd97-fcda" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="941f-4b10-b42c-0793" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="7651-b0f4-fcd0-2352" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="f8f3-c4f5-9ce8-7747" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="b726-e949-55ee-5a2c" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="7c12-619a-15d2-f0b1" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9778-5e2a-503a-0a7b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="1d13-2045-52eb-534e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="588c-cb57-ed97-8f5f" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="09e6-671e-b619-3b65" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae21-be6d-53a7-334d" name="Arbalestier Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bcad-0e40-384c-f35b" name="Arbalestier Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">19</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, HV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; H:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(Arm), MGL, HPZ, HMG, APGL, MVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Vet, Airdrop</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b175-417e-160f-2fde" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="4bed-d235-defe-44d1" name="Grenade Launcher, Medium" hidden="false" targetId="783f-168c-ab6b-346c" type="profile"/>
+        <infoLink id="3af5-6070-d2dd-da03" name="Panzerfaust, Heavy" hidden="false" targetId="c876-f216-57df-782b" type="profile"/>
+        <infoLink id="9ae4-dc51-bd2e-d714" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="1ba3-741c-3047-c5b0" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="4024-b28f-0129-3d82" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="1b4f-b588-3153-3569" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e8ac-abe4-9adc-b5f8" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5524-dab8-4524-9b35" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b630-f926-187d-dc6e" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="882f-65e8-6ae4-49e4" name="Veteran" hidden="false" targetId="37d4-6af1-9258-38b8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9744-6df8-71b0-4645" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="19.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
