@@ -1338,6 +1338,314 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="945f-6195-5719-8cc6" name="Chevalier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0591-10d9-574a-1451" name="Chevalier" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MAR(Fire:1), LGM, HMG(Link), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d1f7-b5c6-668d-2175" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="ec6e-796c-1c11-1c7d" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="7b58-ea60-1cb6-213f" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+        <infoLink id="9312-0cb6-234e-d3e5" name="Guided Mortar, Light" hidden="false" targetId="2af6-1dca-6a28-1fe8" type="profile"/>
+        <infoLink id="1e8b-a646-e199-70b4" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="1f26-7f4b-fafd-9c26" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="776d-f1e3-8724-6197" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="19fc-a3e4-fccf-9292" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="a2c5-408a-c585-d54b" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f737-6cc5-7d24-0be4" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="7e31-89c0-5022-56c7" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4ebf-0063-3137-ef9b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3a38-7869-fc9b-0e5c" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="c1e2-efc7-73dc-ee91" name="CV (Chevalier upgrade)" hidden="false" targetId="2463-f416-5aa7-eda8" type="profile"/>
+                <infoLink id="13d8-e0a3-5d55-36fa" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="cd87-b59c-0bc4-b07d" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c83-1ea4-0be6-9b08" name="Chevalier Javelin" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ab2d-8ab5-7e4d-78a7" name="Chevalier Javelin" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), MATM, HMG(Link), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="56d1-b695-c8a7-d10a" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="f44b-58bb-e0bd-dc86" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="a3e4-bf99-fa6d-1e6a" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+        <infoLink id="9a5e-7226-4959-a3eb" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="ee66-a970-84c2-825e" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="d356-8984-c488-f5a1" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="91fa-dc92-2d09-2be9" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="f08d-2c72-1b66-ea09" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad27-0ee4-150d-aeb6" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="839d-f760-e2ef-e008" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f913-b036-0224-e0b1" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d7ef-fa9c-ba0c-ed56" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e198-40df-4087-b266" name="CV (Chevalier upgrade)" hidden="false" targetId="2463-f416-5aa7-eda8" type="profile"/>
+                <infoLink id="298e-a230-a26a-5c0c" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="7a88-c379-ce4e-3eb4" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="431f-c847-6d68-3b4d" name="Chevalier Spear" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c7e8-205e-d6ae-611d" name="Chevalier Spear" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), HRP(Link), HMG(Link), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b5a5-a651-af07-8c45" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="489c-ede0-6958-a516" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="aae5-48c4-122e-dfae" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="af93-7630-f889-cf0f" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="c7b2-b7c7-718b-7ea6" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="0dcd-fd73-2c20-a99f" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e5f3-c16b-249e-69e4" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ec2-ff19-d590-3526" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="5319-dcda-c982-4ae9" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="955f-bd6b-c274-f978" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ad7f-4f3d-3549-1885" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5639-ed43-3fed-cff4" name="CV (Chevalier upgrade)" hidden="false" targetId="2463-f416-5aa7-eda8" type="profile"/>
+                <infoLink id="5d59-898c-128e-9589" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="8940-24db-ed46-2e02" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4ec-fb66-e61c-329e" name="Chevalier Hammer" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0e9c-746b-1dfe-fccc" name="Chevalier Hammer" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(Arm), MAR(Fire:1), LAG(Stabilizer), HMG(Link), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5cf7-245e-77be-13c4" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="e6b1-deb0-4960-0c45" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="7a3a-b065-7fa2-cf27" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+        <infoLink id="6973-5e93-cc37-18ec" name="Artillery Gun, Light" hidden="false" targetId="279c-8a76-2910-7c37" type="profile"/>
+        <infoLink id="4998-973c-62f7-b843" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="bd85-c690-8f63-2cc9" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="683a-8a18-bc91-2fa0" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="dbce-0d92-fc48-dd9d" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="ddb1-75e1-68d6-7c91" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="d916-f29d-b4d2-b631" name="Stabilizer" hidden="false" targetId="7cf0-dfcb-96ed-4ae5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9075-8c62-0660-8b41" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="e5ff-83bb-ce37-2bb6" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="567d-45dc-f771-4aa9" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="e9ff-ccb6-25ee-ca38" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="9f6b-9391-1a20-9b0e" name="CV (Chevalier upgrade)" hidden="false" targetId="2463-f416-5aa7-eda8" type="profile"/>
+                <infoLink id="9c9b-e8e2-9ad1-1b02" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="14b5-777d-54f5-5c28" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3c1-9d1e-2e6d-9063" name="Chevalier Hellfire" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a4d6-62ff-4602-bd91" name="Chevalier Hellfire" publicationId="20bd-c8e1-5e20-75e8" page="151" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">14</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MAPR(Fire:2, Link), LGM, HMG(Link), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Autopilot</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fc16-2e5e-76bd-e9de" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="ba51-7a43-75b2-089e" name="Anti-Personnel Rockets, Medium" hidden="false" targetId="9fc5-271e-aa32-725c" type="profile"/>
+        <infoLink id="96b8-4c3c-7126-531c" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+        <infoLink id="cf02-3aaf-c58c-3759" name="Guided Mortar, Light" hidden="false" targetId="2af6-1dca-6a28-1fe8" type="profile"/>
+        <infoLink id="08b3-181b-d99a-4644" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="aa82-f226-55dc-446d" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="63e6-8927-aefe-c11c" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="fe75-a41e-bb96-011a" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="3975-50f5-d043-11ce" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c013-d0db-85e1-079b" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="3619-6f9b-e7bc-9d2c" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="924a-1257-c11e-1180" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="40e2-d978-2cb4-85c1" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="d02a-a9a0-5b66-92f0" name="CV (Chevalier upgrade)" hidden="false" targetId="2463-f416-5aa7-eda8" type="profile"/>
+                <infoLink id="b533-ec10-dd40-0821" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="4b9b-e6b5-0cba-fcd6" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
