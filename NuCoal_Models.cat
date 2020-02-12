@@ -3066,6 +3066,227 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="17.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0bd7-a347-2962-5e18" name="Sampson" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c5f7-8384-1e47-dfc6" name="Sampson" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN, GP(0-1), SK(0-1), FS(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(T, Link), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2, Jump Jets:2&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1d00-e041-e889-c936" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="4e1e-4bdb-3416-7101" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="3fad-2270-4fe6-5c4f" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="013e-fecf-0155-1f77" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="e9ee-bec3-2d57-4a60" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39c9-0432-3237-a158" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="10c5-aae5-a8f2-302c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a68d-aef4-3454-546f" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="fed1-7d6b-0c88-7df9" name="CV (Sampson upgrade)" hidden="false" targetId="f361-1856-5acc-71ad" type="profile"/>
+                <infoLink id="16c5-a5ea-fbc0-0d3b" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7b7-fa16-368b-02ec" name="Medical Sampson" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7069-faba-890c-9936" name="Medical Sampson" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:1, Medic, Jump Jets:2&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be55-52cc-4fb9-b72e" name="Combat Medic [Medic]" hidden="false" targetId="a48d-be07-6cdc-3d9d" type="rule"/>
+        <infoLink id="3232-4953-332b-f5bf" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="ab95-bb5d-3ace-c99c" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1cdb-3ae0-0697-f3fb" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8f89-d346-b338-955c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3999-c06b-a8f7-8821" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="fc1a-7ccd-fe73-894b" name="CV (Sampson upgrade)" hidden="false" targetId="f361-1856-5acc-71ad" type="profile"/>
+                <infoLink id="337b-71fc-2aa1-bc5b" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3063-8f76-e047-8e48" name="Sampson Javelin" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a822-1224-9b6e-e692" name="Sampson Javelin" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LATM(T), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2, Jump Jets:2&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cebf-5a1e-8a00-0d25" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="a71d-2c87-c8f8-e2b1" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="2f9b-81c6-f1ef-09bb" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="664c-fcaa-6769-1451" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9cf1-5e07-33f1-f7db" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f3df-f482-6d82-2803" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f83c-7a74-34c9-f3c4" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0cab-c478-ef05-c3ea" name="CV (Sampson upgrade)" hidden="false" targetId="f361-1856-5acc-71ad" type="profile"/>
+                <infoLink id="e6c6-ab6f-c0c5-a73c" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3ff-4d9a-97f1-e2b7" name="Sampson Spear" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="827d-704c-e31c-68ea" name="Sampson Spear" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">9</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRP(T, Link), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2, Jump Jets:2&quot;(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a1d-9645-38f6-7b88" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="bf75-18d2-1f38-7345" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="b295-02f1-2abd-f525" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="fdbe-9101-5529-46b5" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="5979-7c3f-7d39-1d9b" name="Jump Jets:X" hidden="false" targetId="a0cf-6702-95a7-27d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f3a4-c2d5-189d-27af" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="12a0-8289-8e8f-a8ad" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ccae-08e2-0c05-46b7" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="8267-2e77-d355-689d" name="CV (Sampson upgrade)" hidden="false" targetId="f361-1856-5acc-71ad" type="profile"/>
+                <infoLink id="d1ef-e000-a3ca-2588" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="9.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
