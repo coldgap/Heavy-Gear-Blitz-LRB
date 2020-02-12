@@ -1944,6 +1944,92 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="97a4-1545-5bb5-ce28" name="Jerboa Paratrooper" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f70c-b75b-e8cb-3ad5" name="Jerboa Paratrooper" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">PT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LGL(Arm), APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Brawler:-1, Comms:1, ECM:2, Jetpack:6&quot;(Aux), Sensors:18&quot;</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e321-093a-4f11-489b" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="3a6d-b4bc-7f4b-fc8a" name="Grenade Launcher, Light" hidden="false" targetId="5335-b2ad-8587-5bae" type="profile"/>
+        <infoLink id="e867-f69b-836c-c745" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="2b5e-fc64-d6a1-82f3" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="e4ec-c018-8de4-696e" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="4f71-d13e-ab2a-ff0d" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="fbcf-0729-17d1-a5bc" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="08b9-1589-d09b-b9ff" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="6cb7-c9e4-d4c3-50d3" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="4608-6a2e-1c57-4f9e" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0bac-48d0-cecf-1f8d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="517e-6536-e374-7989" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7adb-87c5-608b-17f3" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bab-18ff-55e1-b578" name="Jerboa Flash Paratrooper" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1376-5417-1a23-ed53" name="Jerboa Flash Paratrooper" publicationId="20bd-c8e1-5e20-75e8" page="150" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">PT</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:9&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC(Arm), LGL(Arm), APGL, LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Brawler:-1, Comms:1, Jetpack:6&quot;(Aux), Sensors:18&quot;, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5168-f12c-0a40-eed5" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="1f1b-f9ac-3d52-b4fc" name="Grenade Launcher, Light" hidden="false" targetId="5335-b2ad-8587-5bae" type="profile"/>
+        <infoLink id="4322-dd62-2066-98be" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="ff86-b7a6-724e-ba92" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="2447-dd53-7a91-5304" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="266e-94ce-d5c9-7bf9" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="7200-44b0-afc9-49cb" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="4bc6-6af2-86af-fe51" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="607c-78f9-83fe-fcd1" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="24da-dfc9-6846-be79" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0662-7e49-e4cf-0096" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="faed-8925-e3be-7913" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9e3e-6390-a414-98db" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
