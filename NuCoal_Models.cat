@@ -3028,6 +3028,44 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8c52-5834-bceb-ea80" name="Varis VTOL (NuCoal)" publicationId="20bd-c8e1-5e20-75e8" page="156" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ea53-eb54-1edd-5f2c" name="Varis VTOL (NuCoal)" publicationId="20bd-c8e1-5e20-75e8" page="119" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">17</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">VL(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">H:14&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(FT+F, AA), MABM(Aux)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, ECCM, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d30-41ff-ec4f-47b6" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="e2fc-70ad-bd6a-c75f" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="11dd-ae5b-dd2b-fc22" name="Air Burst Missile, Medium" hidden="false" targetId="64f1-974f-e214-31ce" type="profile"/>
+        <infoLink id="7e9e-4b71-cdee-bcf4" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="a6d9-5f2e-b3b7-8844" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="45ef-3414-4bb8-ae32" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0610-921d-a153-9a04" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e53-25df-e259-4b9d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="17.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
