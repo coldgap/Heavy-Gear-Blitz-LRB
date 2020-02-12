@@ -2552,6 +2552,211 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b545-5c57-f2e8-f9c0" name="Hussar" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f881-6b9f-ac4a-67fe" name="Hussar" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">25</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LTG(T, Link), HRC(Arm), HMG(FT+F), HVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Low Profile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c32-a5da-19fe-3a17" name="Tank Gun, Light" hidden="false" targetId="e4f7-548c-5603-6355" type="profile"/>
+        <infoLink id="e6fb-8154-664b-4e3d" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="9d59-9cff-4fa5-b0be" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="9536-bfc9-9ae2-0779" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="e480-b283-1449-c8a5" name="Vibro Blade, Heavy" hidden="false" targetId="97f5-3400-d7ed-bd2d" type="profile"/>
+        <infoLink id="5428-d5ea-5803-d6a8" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e79f-e162-ba7f-d360" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="36eb-7c27-5dfb-9288" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9f71-c6a3-8fb8-0cc1" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="7cf7-ee13-7f1b-9fc1" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="63d9-8914-0e3f-1829" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd58-1da3-a815-1189" name="Hussar Hammer" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="879d-bde6-8ade-3f9c" name="Hussar Hammer" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">27</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HTG(T), HRC(Arm), HMG(FT+F), HVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Low Profile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ff7f-bbdf-7f20-3dbc" name="Tank Gun, Heavy" hidden="false" targetId="8ebf-1f23-5904-5287" type="profile"/>
+        <infoLink id="0d59-6881-aa1f-80ee" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="88d5-7e93-e7bd-6742" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="3683-39d2-7a90-3b42" name="Vibro Blade, Heavy" hidden="false" targetId="97f5-3400-d7ed-bd2d" type="profile"/>
+        <infoLink id="9685-f029-a783-b2e8" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="73ba-ff18-ef56-95c1" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="d33f-2691-8d70-4b10" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="06e7-2e50-a6d1-426e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="eb45-421c-53c2-aceb" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d839-b953-7692-29bd" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79bc-8663-2794-93af" name="Hussar Lance" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa26-a262-a102-055e" name="Hussar Lance" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">23</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRC(T, AA, Link, Split:3), HRC(Arm), HMG(FT+F), HVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Low Profile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="87ef-7341-e62f-46f3" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="aa94-5f7a-a76b-11cc" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="5dd8-ab75-08e2-2a79" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="bb98-fae5-452f-113c" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="f3a2-b5fb-963f-998c" name="Vibro Blade, Heavy" hidden="false" targetId="97f5-3400-d7ed-bd2d" type="profile"/>
+        <infoLink id="ea7d-66d9-3734-d3b5" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="f3d1-6293-a9d9-6585" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="f007-a931-10b8-597c" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="ebcc-e518-002e-dbcc" name="Split Fire:X [Split:X]" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a648-7d23-65f9-0411" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="411d-5b8d-851e-6e26" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4c5b-86d1-6ccf-9750" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b56-7b5d-3c6a-4bea" name="Hussar Skyhammer" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6e9f-5f0e-511d-7ef7" name="Hussar Skyhammer" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HABM(T, Link), HRC(Arm), HMG(FT+F), HVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Low Profile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b514-ac9a-7e78-700f" name="Air Burst Missile, Heavy" hidden="false" targetId="b75d-6754-c921-caa2" type="profile"/>
+        <infoLink id="5d2c-21ef-c868-0ef0" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="7d20-e14f-bf2e-4a90" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="ab84-0487-cb24-5d35" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="a1fc-cf1f-5c1c-dc4f" name="Vibro Blade, Heavy" hidden="false" targetId="97f5-3400-d7ed-bd2d" type="profile"/>
+        <infoLink id="c14a-a328-396d-d5e3" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="cd5d-bb6b-aa6a-a870" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="b185-08b8-0d33-69b5" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dc76-edcf-c9f6-96b8" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="6a1c-b17d-9d0a-b86d" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4215-8807-90fa-860e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f5b7-ef13-f4e3-8ddd" name="Hussar Spear" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2bb6-9992-49b6-5767" name="Hussar Spear" publicationId="20bd-c8e1-5e20-75e8" page="154" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(T, Link), HRC(Arm), HMG(FT+F), HVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Brawler:1, Low Profile</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fa45-5e6e-d46f-658c" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
+        <infoLink id="a70a-0484-e9d6-2ad4" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="d6cc-941e-74f7-6e31" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="8195-3067-e1a7-616c" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="c33a-be2a-d2d6-b381" name="Vibro Blade, Heavy" hidden="false" targetId="97f5-3400-d7ed-bd2d" type="profile"/>
+        <infoLink id="606b-9729-9f52-b846" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="1d6f-be44-d8f5-aa03" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="9a24-ef69-68a2-79cb" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9ea3-2a31-76ea-55ec" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b190-16a5-3c11-5407" name="Strider" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8ce8-b390-5c9e-ab37" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
