@@ -3703,6 +3703,207 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="835e-2ed6-b622-a5ae" name="Infantry Squad, Rifle" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4e9f-5e6d-e3e7-bb45" name="Rifle Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, GP(0-1), FS(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIS</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="64ea-723c-956e-c113" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="3b23-fafe-a5bb-e0a7" name="Infantry Support Weapons, Medium" hidden="false" targetId="e9ae-c82f-d104-4822" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="65bc-85a7-e687-f8bf" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="1710-025b-a224-a9eb" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b27f-ff54-f39e-6be6" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3b46-3289-5f6d-781d" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b94e-8bf8-f0ab-8e1a" name="Infantry Squad, Anti-Tank" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a574-2633-f291-6443" name="Anti-Tank Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, SK, FS(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3dc6-d1bc-da53-89e4" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="58a9-762d-b11f-3789" name="Anti-Vehicle Missile, Medium" hidden="false" targetId="5db2-1018-cf65-0edd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="88e8-f09e-d7ee-5fd5" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="8f46-fa5f-297b-422c" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2d12-7f66-e21b-f144" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3135-a586-34e8-1011" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b42-24e1-d79a-c4fc" name="Infantry Team, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5f8a-a112-e7ba-6027" name="Sniper Team" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, SK, FS(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIS(AP:1, Precise, Silent, Stabilizer)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Stealth</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3273-285c-89db-a32b" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="c997-d462-4006-d84d" name="Infantry Support Weapons, Medium" hidden="false" targetId="e9ae-c82f-d104-4822" type="profile"/>
+        <infoLink id="757e-e053-9b6e-9690" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="399e-18e4-3d0f-0445" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="9a73-2ae4-0404-33f1" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+        <infoLink id="09b8-bfc6-995f-5228" name="Stabilizer" hidden="false" targetId="7cf0-dfcb-96ed-4ae5" type="rule"/>
+        <infoLink id="1f27-63b3-0f33-c113" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="16fa-9d90-b514-d192" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="ab15-a165-2649-59b9" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b843-01a6-c119-4e21" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a7ad-5dd9-e0ed-7d48" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d34b-6ca3-db80-f3c8" name="Infantry Squad, Mortar" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d529-dead-ba91-eed6" name="Mortar Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN, GP(0-1), FS(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="68e7-4f92-34a5-7fc5" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="c37b-10b9-d26c-84d5" name="Infantry Mortar, Medium" hidden="false" targetId="991d-15d8-19fe-7cdb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="691a-af84-be52-0b43" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="d052-8918-8e06-001d" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3484-f59b-647e-0534" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="be46-b927-38d5-3ccd" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0e4-930c-4684-89bb" name="Infantry Team, EW Jammer" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f09e-2002-f76e-8ad6" name="EW Jammer Team" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">ECCM, ECM:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f709-d6b1-b48e-2680" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="63be-74c9-3378-97e8" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="ad2f-4d1e-9d5b-6680" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9adb-86e4-d9e0-6ea4" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="1e52-2f07-bfa9-296c" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a972-c305-6bdf-c57d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2e52-c5c5-eaa1-55fd" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6b02-a0bd-4194-b84a" name="CV (Chasseur or Chasseur Mk2 upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
