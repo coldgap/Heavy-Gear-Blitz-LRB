@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d96f-5a90-2e48-9737" name="NuCoal_Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="1e21-7549-01dd-3467" name="Limited:SR" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false"/>
+  </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9f2f-ccfa-2c8d-700c" name="Chasseur" publicationId="20bd-c8e1-5e20-75e8" page="148" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -3902,6 +3905,77 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c1c-5caf-11b2-bb54" name="Armadillo Beast" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5e35-8905-a0a1-df28" name="Armadillo Beast" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV, IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, MSG(Reach: 1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Brawler:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec09-6581-5b42-e29e" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="07b7-9e76-4a18-0880" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="bf64-3c55-b8b0-0fdd" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="f234-8a8d-b683-3c48" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7749-c08a-b1c1-1b44" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b4b4-3f52-4680-7710" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ef1-2429-5d37-6807" name="Barnaby Rider" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3794-d4db-c121-02a2" name="Barnaby Rider" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9692-b42c-2b2b-9c99" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="7007-b5d1-b57c-1bf2" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="0191-7ce3-3034-9082" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="127c-e360-b89b-72c8" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2820-816f-0acd-60d5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
