@@ -1281,6 +1281,52 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9fe-0ebc-82f4-3538" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="6a36-dac9-56a9-5a97" name="Sampson Spear" hidden="true" collective="false" import="true" targetId="b3ff-4d9a-97f1-e2b7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="d1c7-7bc1-863d-b066" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c7-7bc1-863d-b066" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="98ef-b591-db20-1e8f" name="Sampson Javelin" hidden="true" collective="false" import="true" targetId="3063-8f76-e047-8e48" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4f35-d973-acfb-bad8" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f35-d973-acfb-bad8" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="1640-9f28-da31-d77a" name="Medical Sampson" hidden="true" collective="false" import="true" targetId="a7b7-fa16-368b-02ec" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e0-2668-ab5c-03f8" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8c47-7367-80f8-e97e" name="NuCoal_Models" targetId="d96f-5a90-2e48-9737" type="catalogue" importRootEntries="true"/>

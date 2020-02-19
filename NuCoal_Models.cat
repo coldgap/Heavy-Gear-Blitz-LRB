@@ -3105,9 +3105,14 @@
             <entryLink id="a68d-aef4-3454-546f" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <infoLinks>
@@ -3154,26 +3159,7 @@
         <categoryLink id="1cdb-3ae0-0697-f3fb" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8f89-d346-b338-955c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
-          <entryLinks>
-            <entryLink id="3999-c06b-a8f7-8821" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="fc1a-7ccd-fe73-894b" name="CV (Sampson upgrade)" hidden="false" targetId="f361-1856-5acc-71ad" type="profile"/>
-                <infoLink id="337b-71fc-2aa1-bc5b" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </entryLink>
+        <entryLink id="8f89-d346-b338-955c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3214,9 +3200,14 @@
             <entryLink id="f83c-7a74-34c9-f3c4" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <infoLinks>
@@ -3270,9 +3261,14 @@
             <entryLink id="ccae-08e2-0c05-46b7" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f641-73aa-e7ac-fd38" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <infoLinks>
@@ -3721,7 +3717,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIS</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
           </characteristics>
         </profile>
@@ -3760,7 +3756,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MAVM</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
           </characteristics>
         </profile>
@@ -3843,7 +3839,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW, MIM</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
           </characteristics>
         </profile>
