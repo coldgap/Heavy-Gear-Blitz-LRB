@@ -4021,7 +4021,7 @@
     </selectionEntry>
     <selectionEntry id="2bb5-4fe6-4dbc-ead8" name="Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="bef4-ed09-b875-7240" name="Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="bef4-ed09-b875-7240" name="Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
@@ -4079,7 +4079,7 @@
     </selectionEntry>
     <selectionEntry id="cfd6-c6b3-699e-0422" name="Sandriders Squad, Mortar" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="cc41-c7f1-3be6-cd1f" name="Mortar Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="cc41-c7f1-3be6-cd1f" name="Mortar Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
@@ -4137,7 +4137,7 @@
     </selectionEntry>
     <selectionEntry id="ac4a-75b4-4f28-2ece" name="Sandriders Squad, Support" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ec47-d56f-d9aa-5281" name="Support Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="158" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="ec47-d56f-d9aa-5281" name="Support Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
@@ -4236,6 +4236,176 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb0b-4a9a-d2aa-b3c5" name="Sandriders Squad, Lizard" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa31-9aa5-b89e-8997" name="Lizard Sandriders Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW(Corrosion:0, AI)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Limited:SR</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c414-f2bf-9c26-2a11" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="d35d-f250-adfd-0fa6" name="Corrosion:X" hidden="false" targetId="0f2a-aa9e-7990-de37" type="rule"/>
+        <infoLink id="17b2-7377-c8ed-d0bd" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="0672-709e-cd15-5a31" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="cfc7-d5c8-f6ea-c349" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0c29-36e4-1d71-ce95" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="ffe2-a440-b0f5-0c00" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="46a0-fce7-47c7-262e" name="Limited:SR" hidden="false" targetId="1e21-7549-01dd-3467" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2fc-dcd0-a970-89d5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="691a-f3a3-3a1a-bd93" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="7651-f135-439d-4d9b" name="Koreshi (Sandrider upgrade)" hidden="false" targetId="5058-5210-e2d2-d70c" type="profile"/>
+                <infoLink id="e320-5584-0ce9-56ea" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+                <infoLink id="2d23-a530-3c57-1ae4" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58af-2413-aaa2-68be" name="Sandriders Squad, Lizard Anti-Tank" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c1bb-61fa-3863-790d" name="Lizard Sandriders Anti-Tank Squad" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIS(Corrosion:0), LAVM(Corrosion:0)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Limited:SR</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fba1-a792-8a8a-ffd9" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="f5e1-4bca-f40e-5ec2" name="Corrosion:X" hidden="false" targetId="0f2a-aa9e-7990-de37" type="rule"/>
+        <infoLink id="dc47-1405-d7e6-c73b" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="fda5-e278-e9c9-71a7" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="7063-d236-cde4-8788" name="Anti-Vehicle Missile, Light" hidden="false" targetId="abfe-4dff-ef0f-16bd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="20a3-97b7-f323-9b5e" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="90f8-5f22-888c-e7bc" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="fa8c-f31a-1c93-b444" name="Limited:SR" hidden="false" targetId="1e21-7549-01dd-3467" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8c4b-0147-494d-6c5c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="5542-3460-8315-3fa9" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5edc-8623-fb42-e0f9" name="Koreshi (Sandrider upgrade)" hidden="false" targetId="5058-5210-e2d2-d70c" type="profile"/>
+                <infoLink id="fcfb-4100-46fb-7a55" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+                <infoLink id="6627-ac85-7ded-7214" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7db4-006d-100f-bbe7" name="Sandriders Team, Lizard Observer" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4b66-a67f-62de-27ee" name="Lizard Sandriders Observer Team" publicationId="20bd-c8e1-5e20-75e8" page="159" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW(Corrosion:0, AI)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Limited:SR</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b380-2692-8c5d-7865" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="1e71-273b-5ce5-35b2" name="Corrosion:X" hidden="false" targetId="0f2a-aa9e-7990-de37" type="rule"/>
+        <infoLink id="a65e-7e8b-1d3c-0cfc" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="ebb7-cab9-7608-16a0" name="Limited Availability:X [Limited:X]" hidden="false" targetId="bd46-4b68-86b6-965d" type="rule"/>
+        <infoLink id="9df3-4f96-24dd-0d88" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="87dc-bbea-5546-41b0" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="9081-160e-88ba-b7d5" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7241-6c66-35da-c888" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+        <categoryLink id="fe32-7932-9387-3152" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="e4be-add6-51e7-c73a" name="Limited:SR" hidden="false" targetId="1e21-7549-01dd-3467" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5274-ce0c-a9e9-4625" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a85b-34db-af53-cedc" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="ce96-d4f6-31b8-64b1" name="Koreshi (Sandrider upgrade)" hidden="false" targetId="5058-5210-e2d2-d70c" type="profile"/>
+                <infoLink id="3e2c-43fd-40ec-686d" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+                <infoLink id="ceb9-a8df-8af7-08e1" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
