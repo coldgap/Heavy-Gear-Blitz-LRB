@@ -1153,6 +1153,76 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b1-8cb9-6f4f-f2c2" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="e1e1-e564-0c8e-a1b6" name="Fusilier" hidden="true" collective="false" import="true" targetId="1c7b-b370-d097-9279" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1bf-327d-76c6-f22f" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="0cf5-5aba-db28-2a60" name="Fusilier Javelin" hidden="true" collective="false" import="true" targetId="96fa-9033-d321-fdf7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="943b-258e-4186-68b4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943b-258e-4186-68b4" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="62e2-4bf8-667a-6dc8" name="Fusilier Anvil" hidden="true" collective="false" import="true" targetId="8fb9-48a9-ea14-7b34" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fbf-b14d-7b38-e5a4" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1f9e-21b8-e8c8-0a05" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f9e-21b8-e8c8-0a05" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="da87-002a-0f53-d1f6" name="Voltigeur" hidden="true" collective="false" import="true" targetId="055d-5545-0f9f-adcb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e910-cdfc-3d2d-2205" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="2d94-4b81-42c8-8e2f" name="Voltigeur Hammer" hidden="true" collective="false" import="true" targetId="dea6-13c9-1777-0306" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fffd-c7d6-29c0-5460" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8c47-7367-80f8-e97e" name="NuCoal_Models" targetId="d96f-5a90-2e48-9737" type="catalogue" importRootEntries="true"/>
