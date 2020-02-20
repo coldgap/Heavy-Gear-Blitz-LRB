@@ -468,5 +468,41 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fcf2-23d5-b72f-fcb4" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6d54-4204-f921-78a3" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(Arm, Silent), LPZ, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Comms:1, ECM:2, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="384b-111b-7fb6-292f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="3ada-4f6c-93ca-786b" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="9d16-f764-52b0-3135" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f304-1791-8947-1d4a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="7739-f029-759e-7546" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7d5b-6fd8-ea75-f34a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
