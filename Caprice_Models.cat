@@ -121,5 +121,92 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="84a3-558a-6820-a14b" name="Bashan" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6d2d-0686-f6b5-5dd1" name="Bashan" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/5</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC, MMG, LSG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Comms:2, ECM:1, Low Profile, Mount, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2cb4-78a5-ec87-c43e" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="2dc1-437c-bc5d-02e6" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="3e46-8aa3-18fb-b7b4" name="Spike Gun, Light" hidden="false" targetId="7321-d0e4-8f10-5bc9" type="profile"/>
+        <infoLink id="1577-0781-d2d1-fc2e" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="0d3a-e251-acee-9606" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="1000-955d-47bf-b090" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="d1ce-06b1-50c7-3967" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="58de-a81d-4f65-8d75" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="8dec-fae7-7b30-322e" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="2535-4ce9-c1d8-7024" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="12f3-a98d-b54a-f4ea" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fca8-24dd-9f3b-b679" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9c0f-4cf9-5b44-9cf7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fa5-70e7-d116-da7a" name="Bashan, Jammer" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dd76-9bf2-fc69-0648" name="Jammer Bashan" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/5</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC, LSG</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Comms:1, ECM:2, ECCM(Aux), Low Profile, Mount, SatUp:6+, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="974d-953e-9608-3a4c" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="8711-8b44-b675-2a7e" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+        <infoLink id="1ab4-f347-c356-b231" name="Spike Gun, Light" hidden="false" targetId="7321-d0e4-8f10-5bc9" type="profile"/>
+        <infoLink id="a9bd-73b5-5b8d-e221" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="c698-d920-0e16-1ad4" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="535e-f402-0c89-0aa0" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="0805-0d2f-05c6-0419" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="935c-edfa-cb63-4cda" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="702d-9549-2615-55a8" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="3f88-8ef2-efbf-2078" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="3fc6-5495-e666-ceb8" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="da44-49fc-c502-8de3" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c8a2-213a-bf10-8f03" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7f0e-9153-6c21-0d19" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
