@@ -30,6 +30,7 @@
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd75-f9af-cc2a-a2c5" name="Dark Jaguar" publicationId="20bd-c8e1-5e20-75e8" page="168" hidden="false" collective="false" import="true" type="model">
@@ -468,9 +469,100 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fcf2-23d5-b72f-fcb4" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fcf2-23d5-b72f-fcb4" name="Dark Skirmisher: Urban Pack" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6d54-4204-f921-78a3" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="6d54-4204-f921-78a3" name="Dark Skirmisher: Urban Pack" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">16</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), LFC(Arm), VLRP, LPZ, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Comms:1, ECM:2, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="384b-111b-7fb6-292f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="3ada-4f6c-93ca-786b" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="9d16-f764-52b0-3135" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="0fad-c448-6d95-bfad" name="Auto-Cannon, Medium" hidden="false" targetId="cc9d-a98d-9a22-b66f" type="profile"/>
+        <infoLink id="d0ea-f85f-9541-6d1f" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+        <infoLink id="8a02-f296-0125-841e" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="5671-8313-b463-c24f" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="f5dd-8784-0142-8faf" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="ffa4-89cb-9066-1a7d" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="f06c-0760-f142-33bf" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="cd53-a275-9a99-da47" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="3e10-deda-dee4-6be1" name="Frag Cannon, Light" hidden="false" targetId="60a9-98c3-6c5f-dfd7" type="profile"/>
+        <infoLink id="827a-e86f-cb1a-e58b" name="Anti-Vehicle Rocket Pack, Very Light" hidden="false" targetId="4858-c994-754e-9ab4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f304-1791-8947-1d4a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="7739-f029-759e-7546" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7d5b-6fd8-ea75-f34a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="16.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d262-6371-54e2-e563" name="Dark Skirmisher: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa8f-5ede-4a6f-8977" name="Dark Skirmisher: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">5</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LBZ(Arm, Split:2), LPZ, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Comms:1, ECM:2, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="85cb-b894-0ad0-d0f7" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="48b6-aca4-f68b-7e16" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="6955-0f8f-57db-7558" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="e780-4c2e-4923-6b84" name="Bazooka, Light" hidden="false" targetId="6028-2175-23af-ded7" type="profile"/>
+        <infoLink id="3618-dc4f-ec43-39fb" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+        <infoLink id="16a4-4bd2-2b68-d803" name="Split Fire:X [Split:X]" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+        <infoLink id="0ae8-233f-a647-6e11" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="7aca-60a2-c2ab-75d3" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="5779-1241-5e48-0ee9" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="6aa4-006a-f74c-116a" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="a0e2-4917-7a21-6c35" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="2c6a-32d1-4290-c260" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0042-0320-5e89-4106" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="b711-29b7-2dee-5113" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cb98-d2cf-169a-2083" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1df2-d337-038c-4f2d" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="101d-a542-b2d4-25bc" name="Dark Skirmisher" publicationId="20bd-c8e1-5e20-75e8" page="169" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, RC</characteristic>
@@ -483,21 +575,30 @@
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRF(Arm, Silent), LPZ, LVB(Arm, Reach:1&quot;)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Arms, Comms:1, ECM:2, TD:1</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="384b-111b-7fb6-292f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
-        <infoLink id="3ada-4f6c-93ca-786b" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
-        <infoLink id="9d16-f764-52b0-3135" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="38d3-c1eb-acd5-3584" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="6493-52c7-f241-ae1c" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="ad61-fa55-a174-f5fa" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="2172-1756-c185-865d" name="Rifle, Heavy" hidden="false" targetId="ccf3-067c-58dc-50a0" type="profile"/>
+        <infoLink id="3aa2-6e91-1629-d462" name="Panzerfaust, Light" hidden="false" targetId="76b9-068e-0a1c-1ea6" type="profile"/>
+        <infoLink id="3be9-ec33-fd00-5a00" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+        <infoLink id="09f8-33ae-502b-0583" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="d7fb-e248-ac55-65a8" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="d4a7-c658-1f1b-87cb" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="2553-4af2-9ef0-64dc" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="dfff-06a9-04b8-e541" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="418a-b344-ea70-7414" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f304-1791-8947-1d4a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
-        <categoryLink id="7739-f029-759e-7546" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="2da2-ed4d-7ed9-12c2" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="a9ee-7402-4cf9-2812" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7d5b-6fd8-ea75-f34a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="c07e-5e58-3d5f-6cb0" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
