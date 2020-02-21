@@ -208,5 +208,201 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2ea9-9a19-4e22-f3e7" name="Mortar (Aphek upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cfa-a12f-a640-babe" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9cf1-704c-88f5-4265" name="Mortar (Aphek upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">+LGM(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24d5-e369-acb8-81ea" name="Aphek, Close Support" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f103-3d6f-6811-093e" name="Close Support Aphek" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRP(Link), HMG, LSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, ECM:1, Low Profile, Mount, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2912-1771-0dfa-e491" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="e7fd-d84b-d8f9-7642" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="ffb4-4a51-208d-32fe" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="2b60-2f12-0d82-a071" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="2f10-91af-1824-44fe" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="ee57-512b-ad3c-96ff" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="29ba-5744-b230-1a9d" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="acaa-2137-4efc-49bb" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="553c-1614-f224-a643" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="ab63-d8b3-8830-3481" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="11f3-ab9c-4adf-153a" name="Spike Gun, Light" hidden="false" targetId="7321-d0e4-8f10-5bc9" type="profile"/>
+        <infoLink id="c7fe-da29-ddb8-964a" name="Guided Mortar, Light" hidden="true" targetId="2af6-1dca-6a28-1fe8" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ea9-9a19-4e22-f3e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0dca-00eb-f092-8ff0" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d7cb-c9ec-4e4a-4986" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="45c2-c593-a659-b20b" name="Mortar (Aphek upgrade)" hidden="false" collective="false" import="true" targetId="2ea9-9a19-4e22-f3e7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77ca-4d80-faa9-a0ff" name="Aphek, Support" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="697e-4467-23a1-3f30" name="Support Aphek" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRC, LATM, HMG, LSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, ECM:1, Low Profile, Mount, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="45a0-fc63-62b3-17c5" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="c5d8-c787-6a55-5902" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="949c-febb-8853-e6e1" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="b59a-d2c2-1122-ae24" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="1bc0-a8d1-bb79-560f" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="fec9-5054-f730-dae4" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="337b-794f-9315-cec3" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="5736-caf5-0d36-8588" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="5417-5bf2-0d6e-7eff" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="5df0-06a5-bb9b-31ad" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="7d33-b651-a79c-634c" name="Spike Gun, Light" hidden="false" targetId="7321-d0e4-8f10-5bc9" type="profile"/>
+        <infoLink id="7283-cccc-a9c9-83c7" name="Guided Mortar, Light" hidden="true" targetId="2af6-1dca-6a28-1fe8" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ea9-9a19-4e22-f3e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8f05-0e3c-8829-77cc" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cfaf-bcc8-ac9e-c7df" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a01a-e9f9-74dd-d1cf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a6b6-7004-d1d6-9d13" name="Mortar (Aphek upgrade)" hidden="false" collective="false" import="true" targetId="2ea9-9a19-4e22-f3e7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9c9-21b4-ccff-ae7d" name="Aphek" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a7ce-8db7-73ca-8f9f" name="Aphek" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRC, LRP, HMG, LSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, ECM:1, Low Profile, Mount, TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e497-2b34-420c-b497" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="9522-b166-6b84-b150" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="52f5-9fec-c158-3825" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="2859-dc6d-81eb-a321" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="64cd-233e-67bb-aba7" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="dfc5-9e9f-fbe8-9dff" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="965f-f0d0-d426-7792" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="72b0-231d-9744-6b89" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="6775-6d41-987a-baae" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="9513-7752-957e-5c9c" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="8bc8-4b4e-bf59-ea29" name="Spike Gun, Light" hidden="false" targetId="7321-d0e4-8f10-5bc9" type="profile"/>
+        <infoLink id="ce01-7c26-1f0d-8f90" name="Guided Mortar, Light" hidden="true" targetId="2af6-1dca-6a28-1fe8" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ea9-9a19-4e22-f3e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ea08-491a-32aa-d0dd" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c48d-5593-9f2b-9065" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="678f-13d7-5ed2-6452" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ea84-f381-5b9a-79e2" name="Mortar (Aphek upgrade)" hidden="false" collective="false" import="true" targetId="2ea9-9a19-4e22-f3e7" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
