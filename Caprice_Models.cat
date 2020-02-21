@@ -532,7 +532,7 @@
     </selectionEntry>
     <selectionEntry id="9dd5-e43e-da66-0de4" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="19ee-16b8-4f80-7375" name="Megiddo" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="19ee-16b8-4f80-7375" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS(0+)</characteristic>
