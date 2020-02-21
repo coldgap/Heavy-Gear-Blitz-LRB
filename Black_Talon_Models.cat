@@ -2284,6 +2284,128 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9423-333f-d7e1-ad14" name="Infantry Team, Observer" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ea92-dc54-2ba4-0120" name="Observer Team" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Comms:1, Jetpack:4&quot;, Stealth(Aux), TD:1</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa29-28c9-006b-01ea" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="de18-3e4c-505a-11a8" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="4d83-db43-72e6-3267" name="Infantry Weapons, Light" hidden="false" targetId="62a0-0687-ebb4-096e" type="profile"/>
+        <infoLink id="5522-d936-af2e-cfe3" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="091f-bfe3-91e9-fe7c" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="4b5d-d882-47f9-9805" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="185c-7b86-5174-e900" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="002b-db64-0353-b42c" name="Infantry" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="072c-20dd-580a-a913" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ae50-980e-1ca4-39e9" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45de-4d01-80c6-9efb" name="Infantry Team, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="45c8-4162-95fc-b19a" name="Sniper Team" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, HIS(AP:1, Precise, Silent, Stabilizer)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Jetpack:4&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6d89-3a09-3b96-a0dc" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="0e31-256e-833f-af95" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="7e1c-3fc5-cbd6-6c1a" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="86ed-1b8f-8ef7-4fea" name="Infantry Support Weapons, Heavy" hidden="false" targetId="1913-62bf-3b6b-eb47" type="profile"/>
+        <infoLink id="3682-0097-c42d-bc99" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="e096-ce51-78de-38b0" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="fd53-e468-cb50-51b2" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="938b-62d5-d3fd-7099" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="b56f-0455-4a08-ea46" name="Silenced [Silent]" hidden="false" targetId="127e-6af0-8899-60e7" type="rule"/>
+        <infoLink id="aa7d-52d6-7ca8-6b95" name="Stabilizer" hidden="false" targetId="7cf0-dfcb-96ed-4ae5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4900-c4aa-0eb6-29c5" name="Infantry" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="4be4-51cb-6d2b-a7b6" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="68dc-f1f2-074f-5f68" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bbb-a30f-6a5a-0e35" name="Infantry Squad, Infiltrator" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="700a-9deb-b4e0-aa97" name="Infiltrator Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="175" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">3</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/1</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW, MAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Jetpack:4&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="66da-4d31-c74c-5698" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="e8f0-9565-b59c-45bf" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="bbdc-d253-556c-9e83" name="Infantry Weapons, Medium" hidden="false" targetId="0621-9d40-429b-cf1b" type="profile"/>
+        <infoLink id="ff7e-bcd9-1bab-5f26" name="Anti-Vehicle Missile, Medium" hidden="false" targetId="5db2-1018-cf65-0edd" type="profile"/>
+        <infoLink id="e571-2157-97d7-8395" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="3c2e-ba0d-08c1-2d77" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ff8-130f-edc9-bd92" name="Infantry" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="72af-6dfe-509a-8624" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ce1-a41c-5bbd-a4e1" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="cf3d-9a24-47e3-7ad5" name="Dark Alpha Dog (Coyote upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
