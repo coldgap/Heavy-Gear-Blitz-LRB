@@ -1066,5 +1066,150 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a284-5134-53d9-bd5e" name="Dark Coyote: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8663-95e7-ec24-6bbb" name="Dark Coyote: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">27</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(FT), LLC(AA, FT), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, ECM:1, Low Profile, Mount, Stable, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a3c-77ca-28aa-234d" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="f447-0fe7-1296-5cfa" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="8a66-2e84-c2b9-358e" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="d25d-3ae1-fb56-47db" name="Laser Cannon, Light" hidden="false" targetId="78ce-5d78-f956-2fa7" type="profile"/>
+        <infoLink id="11fc-158c-7965-9ded" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="8bcf-e6e5-ab2d-058b" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="4307-90b5-592b-cb45" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="d369-34bd-94ad-72d2" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="96c5-4af8-c762-d814" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="95f8-0075-18b8-f4a6" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c6f-57a8-8e17-b697" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="984a-5ce6-22e0-fc6e" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="fccb-9d1a-e204-9665" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e974-1300-ed0b-85fa" name="Dark Alpha Dog (Coyote upgrade)" hidden="false" targetId="cf3d-9a24-47e3-7ad5" type="profile"/>
+                <infoLink id="c4de-8d07-0f45-7840" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+                <infoLink id="5fbb-59c2-14af-ef30" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="1e27-221c-0b7a-30d2" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="27.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d2c-6d4d-9055-8e8e" name="Dark Coyote" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="da09-43de-7535-acd0" name="Dark Coyote" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">30</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRG(T, Precise), MRC(AA, FT), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, ECM:1, Low Profile, Mount, Stable, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8fc5-d589-7bab-db84" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="6ded-d95c-b5a8-8df7" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="e1f2-a78e-14a1-6202" name="Railgun, Medium" hidden="false" targetId="ea5e-d518-f6f6-fbf5" type="profile"/>
+        <infoLink id="1523-af2e-9fb3-ee56" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="f34e-fb04-a716-9a07" name="Rotary Cannon, Medium" hidden="false" targetId="6e21-a402-0262-af94" type="profile"/>
+        <infoLink id="3ebc-5978-4e74-c1ac" name="Anti-Air [AA]" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+        <infoLink id="a85a-7d6b-35ce-6508" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="de40-0801-3abe-033b" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+        <infoLink id="b210-f779-ef63-6f4a" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="6ba1-f3c8-ba57-8ba6" name="Stable Weapons Platform [Stable]" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+        <infoLink id="55ec-80e0-b0fa-8d7c" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cbbd-468e-4c3f-b836" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ea68-8933-95a4-42f0" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="79f3-2b21-669c-251b" name="Command Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="1efc-4eb5-b6b1-f92f" name="Dark Alpha Dog (Coyote upgrade)" hidden="false" targetId="cf3d-9a24-47e3-7ad5" type="profile"/>
+                <infoLink id="1293-0b63-b42f-9c70" name="Electronic Counter Measures:X [ECM:X]" hidden="false" targetId="3298-f4a9-170c-808a" type="rule"/>
+                <infoLink id="2225-d645-ce6d-15d9" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+                <infoLink id="cd41-df51-d068-041c" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="30.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="cf3d-9a24-47e3-7ad5" name="Dark Alpha Dog (Coyote upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+4</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+(CMD)</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Init:1, ECM:2, ECCM</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
