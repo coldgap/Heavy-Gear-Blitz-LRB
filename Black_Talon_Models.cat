@@ -1193,6 +1193,217 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="db0d-f9c8-63f8-07f9" name="Anti-Infantry (Eagle upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7bf-aca6-8446-9a53" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8d7e-d693-9a69-84e0" name="Anti-Infantry (Eagle upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+0</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), SK(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c"></characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">-MRP, +LAPR</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="e25b-9370-2c51-dc73" name="Eagle: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4b39-a9e9-70bc-4058" name="Eagle: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">17</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MRP, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:6&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2796-b985-d5b5-9e6b" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="b3c6-c66e-e495-3e6d" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="f156-7fd8-7c02-859a" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="4dbf-b07e-72a8-0f4e" name="Bazooka, Medium" hidden="false" targetId="5e26-2e17-682c-8c98" type="profile"/>
+        <infoLink id="babb-b6c9-3e76-9b1c" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f786-261b-85aa-ea04" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="5832-a72d-725f-9172" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="ab64-6445-7fdb-11df" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="4c55-4555-55a5-b2c7" name="Anti-Personnel Rockets, Light" hidden="true" targetId="61ef-7df8-a2e8-8895" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="77e4-d8a7-fd0c-cd6e" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="1bf4-a6ae-b025-44a9" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d836-620e-ba1e-8681" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7ab4-a418-9dc9-a050" name="Anti-Infantry (Eagle upgrade)" hidden="false" collective="false" import="true" targetId="db0d-f9c8-63f8-07f9" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="17.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b0d-c8c5-79de-0416" name="Eagle: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e238-a724-129d-eb18" name="Eagle: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(Arm), LGL(Arm), MRP, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:6&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4804-aa0a-4302-7a5a" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="de2e-f9fa-c453-6184" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="7470-dd5a-87e6-0fb1" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="6f8e-8392-7703-fe19" name="Auto-Cannon, Heavy" hidden="false" targetId="fd72-e211-6209-9bbc" type="profile"/>
+        <infoLink id="4fa5-150a-6acf-7841" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9f19-c103-3171-c216" name="Grenade Launcher, Light" hidden="false" targetId="5335-b2ad-8587-5bae" type="profile"/>
+        <infoLink id="ffeb-ab50-f167-34cf" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="a30b-9832-f679-a60f" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="e357-923f-fd77-00f7" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="97fe-b775-52c7-839c" name="Anti-Personnel Rockets, Light" hidden="true" targetId="61ef-7df8-a2e8-8895" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7eab-f5c1-8464-347e" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="9904-fe95-5042-3f9e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b179-bacf-bc8b-69ad" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="54aa-4e82-9dcf-5635" name="Anti-Infantry (Eagle upgrade)" hidden="false" collective="false" import="true" targetId="db0d-f9c8-63f8-07f9" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="18.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3da4-6d70-00d1-2b25" name="Eagle" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="87cc-a765-1776-1def" name="Eagle" publicationId="20bd-c8e1-5e20-75e8" page="172" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">17</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot; G:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL(Arm), MRP, MPZ, LVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, Arms, Jetpack:6&quot;, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6fe9-1d3b-1c07-a3ae" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="3a61-0ef5-a019-93ce" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="1e2c-1e5b-86fb-4ad6" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="35a7-5324-6b43-4626" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="3f94-a366-e549-5179" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ee67-5f91-6ab7-007a" name="Panzerfaust, Medium" hidden="false" targetId="4ff2-d96d-7ea8-712c" type="profile"/>
+        <infoLink id="19c7-aa73-b64e-2172" name="Vibro Blade, Light" hidden="false" targetId="b471-9227-6b90-f597" type="profile"/>
+        <infoLink id="0927-865d-90cd-2ed7" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="5dc3-c643-c0d7-9c24" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="b181-cf46-fdc7-8b4c" name="Anti-Personnel Rockets, Light" hidden="true" targetId="61ef-7df8-a2e8-8895" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db0d-f9c8-63f8-07f9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="962e-e278-395f-e38a" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+        <categoryLink id="3908-1a2b-fb9f-8c85" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f816-401d-03fd-6200" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d561-a454-e10b-38b1" name="Anti-Infantry (Eagle upgrade)" hidden="false" collective="false" import="true" targetId="db0d-f9c8-63f8-07f9" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="17.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="cf3d-9a24-47e3-7ad5" name="Dark Alpha Dog (Coyote upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
