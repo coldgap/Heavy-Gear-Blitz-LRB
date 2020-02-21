@@ -605,5 +605,137 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f3b3-df98-d04c-cf0e" name="Dark Kodiak: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="29e9-b125-55de-d71a" name="Dark Kodiak: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(Arm, Precise), MRP, MAR, HMG(Link), MVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Airdrop, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="23c8-3e52-2866-cde7" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="7945-49b1-cf3f-8b22" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="c7a5-8de1-9db3-45d7" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="a3b2-0762-d9ae-35e9" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="3735-4fb1-5e7b-bb53" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="b9d6-043c-7783-cf4a" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="5d56-01c5-45d8-37c1" name="Artillery Rockets, Medium" hidden="false" targetId="26e5-d189-f629-e183" type="profile"/>
+        <infoLink id="5544-7a01-e66a-2a53" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="3a92-f871-3c65-b402" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="5abf-7e5e-5935-7377" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="d44f-7294-e395-653b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="14a1-3812-a768-b82e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="84c5-1559-2b08-88a4" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="56c4-a95f-94b3-7ce0" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d8b-63aa-9888-3414" name="Dark Kodiak: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cdd8-74e6-a2b5-cc98" name="Dark Kodiak: Assault Pack" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">22</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HBZ(Arm, Precise), MRP, LATM, HMG(Link), MVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Airdrop, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="83d1-1554-48f6-ba7e" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="86dd-d032-e815-bc5a" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="b87b-7ba3-6fbe-a7c2" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="b422-495c-a45f-1838" name="Bazooka, Heavy" hidden="false" targetId="30a2-841d-c094-c946" type="profile"/>
+        <infoLink id="b2d6-aa45-409e-e759" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="354e-1ccc-1622-4871" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="db7a-cb79-7041-cd73" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+        <infoLink id="9e0b-e92f-00b7-135f" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="bd55-6fc8-6021-58a0" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="c3ce-e7a2-d713-955d" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="00c6-289a-7a0f-9bea" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a509-39af-382e-5b4a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="e633-1a29-fa9a-26b7" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="299b-ffc2-57f9-3810" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="22.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="948a-7f8b-3b09-d803" name="Dark Kodiak" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8fb9-dcec-952d-49df" name="Dark Kodiak" publicationId="20bd-c8e1-5e20-75e8" page="170" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">24</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:4&quot; G:5&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MPA(Arm, Precise), MRP, MATM, HMG(Link), MVB(Arm, Reach:1&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Airdrop, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d784-f1dc-44b2-eabe" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="d3ae-8726-895a-c81b" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="d8b0-a1cb-18d9-316d" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+        <infoLink id="0423-0564-55fd-9f1b" name="Particle Accelerator, Medium" hidden="false" targetId="e268-1b0b-a360-d86d" type="profile"/>
+        <infoLink id="f592-9907-a155-674d" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+        <infoLink id="3fd5-4730-ce8c-933e" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="145c-8750-afb9-35a0" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+        <infoLink id="0ce9-d395-64c2-a101" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="c015-9536-c9bb-0be7" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="d541-6795-6994-93fc" name="Vibro Blade, Medium" hidden="false" targetId="8ec6-e0c2-c44e-df8f" type="profile"/>
+        <infoLink id="e424-34b2-c307-321b" name="Arms" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="967a-7e78-4a91-5b14" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
+        <categoryLink id="36a4-ee38-4dcc-8c41" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3f8c-e8a4-f0aa-7432" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
