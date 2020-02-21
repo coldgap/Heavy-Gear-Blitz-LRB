@@ -2171,6 +2171,119 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ee8c-6d32-2faa-7e52" name="Dark Mastiff: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a46-fc60-dbbb-7c93" name="Dark Mastiff: Support Pack" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MGM(T)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, APC:1, Autopilot, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4af9-10fb-8d74-f734" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="b034-0740-bf9d-76a4" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="d490-fa22-06c7-b847" name="Guided Mortar, Medium" hidden="false" targetId="c0e6-160e-37ae-c193" type="profile"/>
+        <infoLink id="0815-5022-ed51-88cf" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="4a4c-80e4-23e8-6a13" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4434-c54f-61f0-341c" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5027-8ba2-7322-fbef" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff95-285c-af85-038a" name="Dark Mastiff: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3254-8c0b-8746-e849" name="Dark Mastiff: Suppression Pack" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRP(T, Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, APC:1, Autopilot, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d764-55e2-2675-4bf0" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="cf3c-b365-ffa3-b043" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="e70a-ee76-bc93-e93f" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="f9cb-a359-431c-7773" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="ade5-4982-c49f-b3f0" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="8a29-864e-8929-9cfe" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bdc7-49f0-5e73-781a" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1d9-79a7-0b7e-1893" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="667c-7fef-6989-3c75" name="Dark Mastiff" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="738b-0067-0e4c-0d6d" name="Dark Mastiff" publicationId="20bd-c8e1-5e20-75e8" page="174" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">CV(0+), IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRF(FT), APGL</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Airdrop, APC:1, Autopilot, Stealth(Aux)</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Vehicle 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="72ea-68d3-f56d-de9d" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="0515-dd7b-c8e4-7c80" name="Stealth" hidden="false" targetId="bff2-8b5f-2f53-cb6c" type="rule"/>
+        <infoLink id="a2b7-9ce6-b799-8398" name="Rifle, Medium" hidden="false" targetId="663e-92a5-c92d-87dd" type="profile"/>
+        <infoLink id="4a0a-ddeb-5eaa-045d" name="Anti-Personnel Grenade Launchers" hidden="false" targetId="2a72-11a6-3e0b-7c8d" type="profile"/>
+        <infoLink id="6902-8426-cea0-ac91" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+        <infoLink id="3190-d4a7-d76f-79c4" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96cc-81a2-c244-31a5" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="17c1-3e54-47aa-1c30" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="cf3d-9a24-47e3-7ad5" name="Dark Alpha Dog (Coyote upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="171" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
