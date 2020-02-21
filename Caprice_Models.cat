@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b31e-519f-1096-626b" name="Caprice Models" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="830c-b6d8-9e19-4000" name="Acco, Pyro" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1696-6034-d5f3-ef4e" name="Pyro Acco" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LFL, LRP, MMG, LCW(AP:1)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Climber, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0fae-5108-e0d8-20b8" name="Flamer, Light" hidden="false" targetId="bc05-8618-9845-43ff" type="profile"/>
+        <infoLink id="3dac-a80f-0d68-fab3" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="0dce-107f-a796-9c3a" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="7b5a-de36-1a8e-d55e" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="fa5e-927e-ae5e-6d5d" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="4a1f-f1ec-0d1b-ea52" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="895a-5cd4-e5df-f65c" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="e497-fcaf-7126-0828" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cb51-c737-6c90-3dc4" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0a9-fd08-7c61-a625" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9952-9c0e-2875-27a6" name="Acco, Stalker" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5e8b-222b-f470-cb7a" name="Stalker Acco" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), RC, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LFC, LRP, MMG, LCW(AP:1)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Climber, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cfef-d186-7d47-6ce6" name="Frag Cannon, Light" hidden="false" targetId="60a9-98c3-6c5f-dfd7" type="profile"/>
+        <infoLink id="7346-97de-536b-9e7d" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="c39c-203b-cecb-0268" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="39be-7b44-daae-4747" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="2186-4966-5102-739b" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="b65f-737c-02b5-dea3" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="3a50-e3e4-60d9-a7a2" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="b17f-f9ae-ccf2-b187" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8338-dbd6-9b68-cd13" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="50c0-89b3-929c-ff68" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e47f-d225-4918-aa72" name="Acco" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b0f3-eac4-e6d2-c01b" name="Acco" publicationId="20bd-c8e1-5e20-75e8" page="196" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP(0+), FS, ST</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC, LRP, MMG, LCW(AP:1)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Climber, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2154-85ba-fdd2-5508" name="Auto-Cannon, Light" hidden="false" targetId="1c78-4e65-eda9-1594" type="profile"/>
+        <infoLink id="2544-362d-06e1-9bfe" name="Anti-Vehicle Rocket Pack, Light" hidden="false" targetId="f12a-9673-7f6c-35b0" type="profile"/>
+        <infoLink id="40a3-0a9c-7cc9-1405" name="Machine Gun, Medium" hidden="false" targetId="ef14-f704-832c-4f70" type="profile"/>
+        <infoLink id="cfae-404a-14d5-098d" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="a169-354f-8389-4233" name="Armor Piercing:X [AP:X]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="fe16-8e4d-01ab-139e" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="5089-4b13-1d4e-5490" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="167d-1195-9db7-a3f5" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4940-b9ea-84d3-c8a0" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e42f-778c-bf20-4de3" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
