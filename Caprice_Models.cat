@@ -232,6 +232,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24d5-e369-acb8-81ea" name="Aphek, Close Support" publicationId="20bd-c8e1-5e20-75e8" page="197" hidden="false" collective="false" import="true" type="model">
@@ -530,9 +531,181 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9dd5-e43e-da66-0de4" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9dd5-e43e-da66-0de4" name="Meggido, Support" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="19ee-16b8-4f80-7375" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+        <profile id="19ee-16b8-4f80-7375" name="Support Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">20</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRC, LATM, HMG, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Jetpack: 4&quot;, Low Profile, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0a64-431c-7066-20be" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="951c-4f8c-416c-7528" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="94f5-8fa5-1a38-6c74" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="44e8-92f3-bae4-c7b8" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="b051-70a8-9425-2adc" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="4d56-f6f5-630a-ede2" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="3d49-db1d-3149-e75a" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="9048-29cd-4d2a-ef55" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="4838-96ea-e4cf-0487" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="5b53-9ffc-b9a1-1806" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="2f36-7972-1d07-652a" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7a97-962f-46e2-93cc" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="340e-d33d-bb20-bc81" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a4a-26e7-7b17-6b24" name="Meggido, Rocket Support" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3346-a982-c718-9f15" name="Rocket Support Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRP, LATM, HMG, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Jetpack: 4&quot;, Low Profile, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ddc7-fae2-1887-02a1" name="Anti-Vehicle Rocket Pack, Medium" hidden="false" targetId="f1af-3456-b281-2900" type="profile"/>
+        <infoLink id="b767-7e3d-cb5c-00fb" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="c922-caf8-5598-f42d" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="41c1-c049-876f-eb31" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="a2ed-c794-0eaf-6bac" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="5835-72cc-c614-78cf" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="b1e7-88a7-2c3b-6d89" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="56ea-a3cf-956c-786c" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="d4ab-fa6e-e4dd-a447" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="6b1d-94ee-189b-0712" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="3921-03aa-dc58-ba3d" name="Anti-Tank Missile, Medium" hidden="false" targetId="a0ff-da06-f16a-2742" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b35f-8fdf-f5cb-c193" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c911-72d9-5f02-b12d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fdc-02ea-9a6e-3d74" name="Meggido, Close Support" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dda1-2730-6fbb-8280" name="Close Support Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MRL, MGL, HMG, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Jetpack: 4&quot;, Low Profile, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ad64-1ccc-29dd-a7e3" name="Rotary Laser, Medium" hidden="false" targetId="f6ed-e2e2-f19b-8bd3" type="profile"/>
+        <infoLink id="8fa0-7969-5cad-144d" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="de61-e2a1-8cb8-fe82" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="06d5-9faf-155b-387b" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="e502-a5cf-c1af-52e8" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="7ec6-2725-8ab2-fc9b" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="8a26-d309-4288-ef2e" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="53a3-a4e7-f836-0a5d" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="fcea-4ee5-0a98-fee9" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="4e52-6f7f-1375-39a8" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="1ed8-f7a1-8df6-9562" name="Grenade Launcher, Medium" hidden="false" targetId="783f-168c-ab6b-346c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="92c2-891a-c553-bec2" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="911c-6f13-bb2b-86ee" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07fb-e20d-3ee3-9013" name="Meggido, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1f41-02d4-f321-90b6" name="Sniper Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">20</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">9</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LPL, LATM, HMG, MSG(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Autopilot, Brawler:1, Climber, Jetpack: 4&quot;, Low Profile, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cda3-c273-f1e3-b86a" name="Pulse Laser, Light" hidden="false" targetId="6ecb-3bd6-e101-cd52" type="profile"/>
+        <infoLink id="6452-642d-bd8b-b759" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="56df-78e4-3303-4bcf" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="8f70-e455-e219-9a2c" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="0ecf-63a4-128d-9e4c" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="fd2a-1503-7924-b60f" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="ff0b-08b7-462f-2d3b" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="f32e-0068-78ab-3809" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="ccd8-38bf-d4d5-64f8" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="2c20-a70c-3cca-0d38" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="8609-279f-93f6-0e10" name="Anti-Tank Missile, Light" hidden="false" targetId="851b-3cd0-b35b-f181" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="09b1-1529-8d0c-52bb" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="22be-fd32-6bb2-b64b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="333e-2c7f-aa36-2597" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="556c-9f9d-c59f-db21" name="Meggido" publicationId="20bd-c8e1-5e20-75e8" page="198" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">18</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS(0+)</characteristic>
@@ -550,28 +723,46 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0a64-431c-7066-20be" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
-        <infoLink id="951c-4f8c-416c-7528" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
-        <infoLink id="94f5-8fa5-1a38-6c74" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
-        <infoLink id="44e8-92f3-bae4-c7b8" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
-        <infoLink id="b051-70a8-9425-2adc" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
-        <infoLink id="4d56-f6f5-630a-ede2" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
-        <infoLink id="3d49-db1d-3149-e75a" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
-        <infoLink id="9048-29cd-4d2a-ef55" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
-        <infoLink id="4838-96ea-e4cf-0487" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
-        <infoLink id="5b53-9ffc-b9a1-1806" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
-        <infoLink id="2f36-7972-1d07-652a" name="Grenade Launcher, Medium" hidden="false" targetId="783f-168c-ab6b-346c" type="profile"/>
+        <infoLink id="1f94-32bc-0270-17db" name="Rotary Cannon, Heavy" hidden="false" targetId="b9d5-7edd-d82b-3990" type="profile"/>
+        <infoLink id="3ee8-600a-803b-f47f" name="Machine Gun, Heavy" hidden="false" targetId="02d1-718c-1948-fe66" type="profile"/>
+        <infoLink id="889c-4fe6-43f0-3d6d" name="Spike Gun, Medium" hidden="false" targetId="fe64-78c9-976a-f324" type="profile"/>
+        <infoLink id="e067-c1d1-3f47-bfef" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="1014-6b79-a880-d83f" name="Autopilot" hidden="false" targetId="37b4-7ae3-5806-0bb8" type="rule"/>
+        <infoLink id="b198-cb5e-f787-5583" name="Brawler:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+        <infoLink id="6c97-421b-7e94-28f6" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="9562-2f5d-22b6-a114" name="Jetpack:X&quot;" hidden="false" targetId="7aac-c44b-e1a6-cbe6" type="rule"/>
+        <infoLink id="4e90-210b-26b4-ce1c" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="83e0-23f0-1ea3-d3b6" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="ccde-6fc7-f681-697a" name="Grenade Launcher, Medium" hidden="false" targetId="783f-168c-ab6b-346c" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7a97-962f-46e2-93cc" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+        <categoryLink id="a498-ed04-d8c3-427c" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="340e-d33d-bb20-bc81" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="914f-137d-b493-f840" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
-        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="17.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="18.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="ae04-a409-164c-6d4f" name="Command (Hamath upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+2</characteristic>
+        <characteristic name="UA" typeId="759f-78f5-a55f-86a1">+CMD</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Init:1, Comms:1</characteristic>
+        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
