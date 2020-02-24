@@ -440,7 +440,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -462,7 +462,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -484,7 +484,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -506,7 +506,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -528,7 +528,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -550,7 +550,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -572,7 +572,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -586,6 +586,75 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16f4-65cc-00d1-efed" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="3838-3bf0-95ab-b891" name="Eagle" hidden="true" collective="false" import="true" targetId="3da4-6d70-00d1-2b25" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="c79f-4020-b107-4f39" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79f-4020-b107-4f39" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e693-459c-1faa-d5ec" name="Eagle: Suppression Pack" hidden="true" collective="false" import="true" targetId="3b0d-c8c5-79de-0416" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="29eb-7e3e-3de4-cee1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29eb-7e3e-3de4-cee1" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="6d4b-5366-1a67-84fc" name="Eagle: Assault Pack" hidden="true" collective="false" import="true" targetId="e25b-9370-2c51-dc73" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ddb-1caf-2f09-918c" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="7bef-ae96-4921-8fac" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bef-ae96-4921-8fac" type="max"/>
       </constraints>
     </entryLink>
   </entryLinks>
