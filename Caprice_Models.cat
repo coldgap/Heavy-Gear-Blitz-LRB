@@ -1116,6 +1116,121 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d785-bb38-c539-ef3b" name="Troops, Missile Support" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0c05-d847-156e-e381" name="Missile Support Troops" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIS(AI), MAVM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">TD:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5cc7-3052-0333-f417" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="5949-7c7b-302f-6312" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="0239-e011-ee2e-54e2" name="Anti-Vehicle Missile, Medium" hidden="false" targetId="5db2-1018-cf65-0edd" type="profile"/>
+        <infoLink id="fc59-5260-1941-b815" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="ff83-396e-b82a-25b2" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a52a-450d-1c0a-04ac" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="b451-e354-d687-0d44" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1e1-c80f-1bda-dcbf" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e2b-d13d-249b-5edf" name="Troops, Corporate" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="61b6-bfc9-2b48-8df6" name="Corporate Troops" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">3</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIS(AI), HIS(Stabilizer)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">TD:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b18f-cb95-9837-68b2" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="45b2-f6b0-5e9d-1f70" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="55ea-556a-7b84-e133" name="Infantry Support Weapons, Heavy" hidden="false" targetId="1913-62bf-3b6b-eb47" type="profile"/>
+        <infoLink id="5845-983c-b41f-0b5b" name="Stabilizer" hidden="false" targetId="7cf0-dfcb-96ed-4ae5" type="rule"/>
+        <infoLink id="97bc-fb41-dab2-afdb" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="29e3-3837-7181-e40a" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4f87-bdc0-1d2d-e163" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="ed58-cf24-8d15-9abc" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e97-fda0-2341-081f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0935-4f61-6c14-2b82" name="Troops, Support" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2078-3b72-3af9-1dc9" name="Support Troops" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0+)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">I:3&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIS(AI), MIM</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">TD:1, Climber</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Infantry 0.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6df7-b484-428b-4f3f" name="Infantry Support Weapons, Light" hidden="false" targetId="d25a-158f-2263-c9b1" type="profile"/>
+        <infoLink id="7033-d1bf-1e9d-667c" name="Anti-Infantry [AI]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="2f0b-3428-cb76-b538" name="Infantry Mortar, Medium" hidden="false" targetId="991d-15d8-19fe-7cdb" type="profile"/>
+        <infoLink id="b12a-16cf-9dc8-56a9" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
+        <infoLink id="7f3e-0c59-a1bd-3c4c" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dcc4-4680-7960-7060" name="New CategoryLink" hidden="false" targetId="7d51-9214-272e-e12f" primary="true"/>
+        <categoryLink id="19ea-7a1a-f0c6-40c5" name="Infantry Movement Type Only" hidden="false" targetId="674f-aa98-120a-b842" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2757-d04b-852c-8f59" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ae04-a409-164c-6d4f" name="Command (Hamath upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
