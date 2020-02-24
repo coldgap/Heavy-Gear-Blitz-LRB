@@ -998,6 +998,124 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="24.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0f9d-5dc1-ec7b-c61a" name="Hamath Medic" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="45c4-0354-9663-22d2" name="Hamath Medic" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN(0-1)</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LCW(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:1, Climber, Low Profile, Medic, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f7a1-5e2f-9510-8f80" name="Combat Medic [Medic]" hidden="false" targetId="a48d-be07-6cdc-3d9d" type="rule"/>
+        <infoLink id="7416-5678-f522-17fd" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="feef-d9f8-0380-ce0c" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="506a-8c85-a0e3-6692" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="5fd5-35de-67a0-8fa4" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="b5b7-508f-e4ce-4029" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="495f-ea72-e0c0-5fff" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39db-31e2-7333-9f36" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eb98-9eb1-02b1-4e0f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="58d5-72ac-c4dc-55b4" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5140-8daa-6b4d-73b2" name="Command (Hamath upgrade)" hidden="false" targetId="ae04-a409-164c-6d4f" type="profile"/>
+                <infoLink id="7e92-692f-ae9d-d6ee" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+                <infoLink id="0770-d92d-ae0f-8f8b" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0a9-01e5-fec1-99a0" name="Hamath" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="36b7-5e8b-91ff-71de" name="Hamath" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">IN</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:7&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRC, LCW(Link)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2, Climber, Low Profile, Mount</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Strider 2&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="425a-d69e-afec-7989" name="Rotary Cannon, Light" hidden="false" targetId="680d-287a-4049-53dc" type="profile"/>
+        <infoLink id="33f9-313c-e50e-7078" name="Combat Weapon, Light" hidden="false" targetId="7a94-4274-5983-c276" type="profile"/>
+        <infoLink id="94ac-4652-c275-36e6" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+        <infoLink id="0186-74f9-e66f-3ad9" name="Low Profile" hidden="false" targetId="72ff-a182-dbf6-b8ac" type="rule"/>
+        <infoLink id="7eca-146a-742b-c7f4" name="Mount" hidden="false" targetId="e3cb-917e-70ed-bcc2" type="rule"/>
+        <infoLink id="4340-a17c-d301-f2d5" name="Linked Weapon [Link]" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+        <infoLink id="1c74-4e2f-5840-4a54" name="Armored Personnel Carrier:X [APC:X]" hidden="false" targetId="8e04-527c-014a-494f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6570-6931-64ca-a25f" name="New CategoryLink" hidden="false" targetId="3e8e-a23b-f1b3-4efb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bad2-2bf6-dc1f-1b06" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a533-ae30-6b50-7b74" name="Command Upgrade" hidden="true" collective="false" import="true" targetId="b511-ab8a-c2e3-e5b2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e5ed-881b-3dc2-69e9" name="Command (Hamath upgrade)" hidden="false" targetId="ae04-a409-164c-6d4f" type="profile"/>
+                <infoLink id="b6af-8a14-c1f9-5fd2" name="Initiative:X [Init:X]" hidden="false" targetId="4cfc-6d01-e812-ab77" type="rule"/>
+                <infoLink id="721f-89b3-6c2e-31c2" name="Comms:X" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="ae04-a409-164c-6d4f" name="Command (Hamath upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="199" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
