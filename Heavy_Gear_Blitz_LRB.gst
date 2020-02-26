@@ -282,6 +282,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="2ddc-2b1c-a793-6b8b" name="General Purpose [GP]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="9c04-4ef8-558c-b058" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -392,6 +399,49 @@
             <selectionEntry id="4617-583d-2671-b17f" name="VTOL [VL]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
               <categoryLinks>
                 <categoryLink id="eddf-0009-c37a-9855" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df0c-1bba-6e8f-5a68" name="Generic Support [SU]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry id="2424-6ba6-139d-7192" name="Generic Fighter/Bomber [FB]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry id="d47b-b038-484d-902a" name="Generic Bomber [GB]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry id="7608-f2e5-6898-1dea" name="Recon UAV [UV]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="391b-bf80-8f37-f083" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
@@ -978,7 +1028,7 @@
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRC(FT), MSAM(LA:2), 2x MBB(LA:2)</characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Flyer</characteristic>
           </characteristics>
         </profile>
@@ -1046,10 +1096,10 @@
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"></characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:3</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 0.5&quot;</characteristic>
           </characteristics>
@@ -1066,6 +1116,7 @@
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c73-7981-f690-2648" name="Bunker" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1078,10 +1129,10 @@
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"></characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2</characteristic>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
           </characteristics>
@@ -1098,6 +1149,7 @@
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e30d-b0d9-abc0-5390" name="Outpost" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1111,7 +1163,7 @@
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">3x MAC(T, Auto)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">HGC:2, APC:6, Sensors:18”(Aux)</characteristic>
@@ -1148,7 +1200,7 @@
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(FT, AA, Flak)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
@@ -1184,7 +1236,7 @@
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(FT, Link)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
@@ -1219,7 +1271,7 @@
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(Link)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
@@ -1250,14 +1302,14 @@
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"></characteristic>
-            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"></characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
             <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"></characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Hazard 0&quot;</characteristic>
           </characteristics>
         </profile>
@@ -1270,6 +1322,7 @@
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc4d-68e0-c75b-9c57" name="Obstacles (5)" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1282,11 +1335,11 @@
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
             <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
-            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"></characteristic>
-            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"></characteristic>
-            <characteristic name="EW" typeId="d607-c085-3ac3-9660"></characteristic>
-            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"></characteristic>
-            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"></characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
             <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Hazard 1&quot;</characteristic>
           </characteristics>
         </profile>
@@ -1299,6 +1352,7 @@
       </entryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
