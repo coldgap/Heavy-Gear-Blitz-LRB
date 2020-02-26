@@ -4,7 +4,6 @@
     <entryLink id="1e8b-b460-4298-2bab" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee5-410a-c152-02d0" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef3-791e-55a6-93e5" type="max"/>
       </constraints>
     </entryLink>
     <entryLink id="f10c-3dad-eab3-697d" name="Dark Jaguar: Suppression Pack" hidden="true" collective="false" import="true" targetId="b5a7-9482-a342-779f" type="selectionEntry">
