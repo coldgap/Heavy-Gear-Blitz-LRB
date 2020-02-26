@@ -490,6 +490,7 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7006-38f0-cfc6-12f4" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="634a-6c66-53c3-4655" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="2602-0174-0650-8cf8" name="Caprice Models" targetId="b31e-519f-1096-626b" type="catalogue" importRootEntries="true"/>
