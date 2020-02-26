@@ -1615,6 +1615,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6a7-d10e-05ba-9a4e" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="7d66-4609-664b-1d51" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="23be-7f61-fc94-9da1" name="CEF Models" targetId="936e-8b33-a0cf-b0bd" type="catalogue" importRootEntries="true"/>
