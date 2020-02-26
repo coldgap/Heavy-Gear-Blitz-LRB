@@ -178,18 +178,6 @@
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb0a-bedd-24fb-36b4" type="max"/>
               </constraints>
             </categoryLink>
-            <categoryLink id="a084-c86c-a503-2fc8" name="Generic Air Support" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="false">
-              <modifiers>
-                <modifier type="set" field="a587-b1a3-7aeb-0b03" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a587-b1a3-7aeb-0b03" type="max"/>
-              </constraints>
-            </categoryLink>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -209,6 +197,54 @@
     <forceEntry id="be21-7b64-cb45-ab72" name="Sub-List" publicationId="20bd-c8e1-5e20-75e8" page="62" hidden="false">
       <categoryLinks>
         <categoryLink id="7f34-5dbc-3cbf-fdac" name="Sub-list" hidden="false" targetId="3766-7beb-8028-b575" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="e3eb-0f48-3de1-b1ec" name="Aircraft Combat Group" publicationId="20bd-c8e1-5e20-75e8" page="53" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f3-3246-7e20-06d8" type="max"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="e3eb-0f48-3de1-b1ec" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a6-0e6a-0d47-1ef7" type="max"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="e3eb-0f48-3de1-b1ec" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb9-55e4-c85a-c6d1" type="min"/>
+      </constraints>
+      <forceEntries>
+        <forceEntry id="f2e1-5991-b155-4cc0" name="Air Support Unit" publicationId="20bd-c8e1-5e20-75e8" page="53" hidden="false">
+          <modifiers>
+            <modifier type="set" field="967c-4e1a-8f2d-0567" value="3.0">
+              <conditions>
+                <condition field="4e06-e713-b451-4dcf" scope="e3eb-0f48-3de1-b1ec" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b57c-3a79-0541-c31f" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="f2e1-5991-b155-4cc0" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="967c-4e1a-8f2d-0567" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8a0f-b54e-5fbc-7f4b" name="Generic Air Support" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="false">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e5-a334-5233-7bf0" type="max"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="aa48-363d-0a33-d175" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b461-ff31-b83d-27a4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7753-13f9-e508-faa1" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="cf4c-c6b4-2b4c-3807" name="Generic Air Support" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2298-4c68-5193-a0c2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="591d-2b2b-0d5c-c269" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0880-73af-ad4c-b290" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff55-b2d2-c21b-3221" type="min"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
