@@ -438,6 +438,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2424-6ba6-139d-7192" name="Generic Fighter/Bomber [FB]" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -447,6 +451,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d47b-b038-484d-902a" name="Generic Bomber [GB]" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -456,6 +464,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7608-f2e5-6898-1dea" name="Recon UAV [UV]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
               <modifiers>
@@ -1537,14 +1549,18 @@
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30b6-4558-05e7-1248" type="notInstanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e641-b0e1-b105-e4fa" type="instanceOf"/>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="50e7-1b7e-5954-42dc" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8992-d451-7b98-9f46" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30b6-4558-05e7-1248" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cbd-333c-1131-4e9b" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2386,9 +2402,6 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="abf1-3fac-ae9e-392f" name="Well Equipped" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>Support units may purchase Generic Upgrades.</description>
-    </rule>
-    <rule id="8f4f-c6f0-594d-960c" name="Well Supported" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
-      <description>Each Primary Unit in this Force may have two Support units. The number of actions in the Support units may not exceed the standard number of actions for a Support unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
