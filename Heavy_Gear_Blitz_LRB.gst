@@ -297,6 +297,18 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="f641-73aa-e7ac-fd38" name="Cavalry [CV]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="6052-6d36-1b2d-122d" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -325,6 +337,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="1935-5cb4-d6d3-108b" name="Engineering [EG]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="3189-90de-d82f-88dc" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -334,6 +358,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f0c2-049f-47f8-9b8f" name="Fire Support [FS]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="713d-5943-890c-69ed" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -344,10 +380,15 @@
             </selectionEntry>
             <selectionEntry id="2ddc-2b1c-a793-6b8b" name="General Purpose [GP]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-                  </conditions>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <categoryLinks>
@@ -359,6 +400,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f30f-52d1-54ed-47d4" name="Heavy Tank [HT]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="e275-cdc0-566c-f736" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -368,6 +421,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="7fbf-b14d-7b38-e5a4" name="Hover Vehicles [HV]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="4f28-917f-042e-39b7" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -377,6 +442,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="b246-3ac2-4320-df41" name="Infantry [IN]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="873a-c535-b6aa-ad86" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -386,6 +463,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="5056-66f5-3675-e85c" name="Light Tank [LT]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="91bf-e83a-9208-ea71" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -395,6 +484,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="0e62-ee41-a76c-cf57" name="Medium Tank [MT]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="b23a-4992-ad71-4867" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -404,6 +505,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="ab62-1b1f-a76b-b336" name="Mountaineering [MN]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="ffee-56f5-e9ec-ca3d" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -413,6 +526,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="c29e-dbd1-79d8-5454" name="Paratrooper [PT]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="760e-cab2-5d3a-7411" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -422,6 +547,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="ab9b-d902-afcf-4150" name="Recon [RC]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="12d3-30fa-388d-3b48" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -431,6 +568,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="fe5b-d788-21cd-a4d2" name="Special Forces [SF]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="7de8-1242-5f54-b577" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -440,6 +589,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="1878-9489-cc99-a41b" name="Striders [ST]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="98c3-4dba-768c-4ac9" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -449,6 +610,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4ddb-1caf-2f09-918c" name="Strike [SK]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="4dde-d412-114c-f798" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -458,6 +631,18 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4617-583d-2671-b17f" name="VTOL [VL]" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3eb-0f48-3de1-b1ec" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <categoryLinks>
                 <categoryLink id="eddf-0009-c37a-9855" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
@@ -536,7 +721,6 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e8b3-2662-19b1-d1b6" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
             <selectionEntry id="d05a-df1e-f63a-e828" name="Generic Fighter" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
