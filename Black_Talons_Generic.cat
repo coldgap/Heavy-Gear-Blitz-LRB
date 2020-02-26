@@ -1097,6 +1097,74 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a16d-0399-b62a-e758" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="9db4-927b-0c1b-0056" name="Generic Bomber" hidden="true" collective="false" import="true" targetId="4ef1-165c-45b0-45e1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d47b-b038-484d-902a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4c79-6d86-36c9-1d19" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c79-6d86-36c9-1d19" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="1a72-26c0-f78e-b5b9" name="Generic Fighter" hidden="true" collective="false" import="true" targetId="97a6-9e05-b9ba-063a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d05a-df1e-f63a-e828" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3c89-d37a-efac-12d5" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c89-d37a-efac-12d5" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="fc37-9957-845d-1b90" name="Generic Fighter/Bomber" hidden="true" collective="false" import="true" targetId="c141-8291-4558-e9d1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2424-6ba6-139d-7192" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="fc2d-2910-0965-66e5" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc2d-2910-0965-66e5" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="e9af-22b1-1b9c-f6e2" name="Recon UAV" hidden="true" collective="false" import="true" targetId="e282-f00a-c705-3aee" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7608-f2e5-6898-1dea" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="36f4-8f0f-a7b2-6bde" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2e1-5991-b155-4cc0" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f4-8f0f-a7b2-6bde" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="aaff-b6c6-7884-e2a1" name="Black Talon Models" targetId="3893-bc36-5327-ab2b" type="catalogue" importRootEntries="true"/>
