@@ -184,6 +184,7 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e238-0e8a-5510-987a" type="max"/>
       </constraints>
     </entryLink>
+    <entryLink id="70a5-6cf1-ef01-a9dc" name="Elite Army" hidden="false" collective="false" import="true" targetId="50e7-1b7e-5954-42dc" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="76f0-08d2-596f-8e99" name="Eden Models" targetId="9c04-d38c-7afd-74fb" type="catalogue" importRootEntries="true"/>
