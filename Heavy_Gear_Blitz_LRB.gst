@@ -61,6 +61,7 @@
     <categoryEntry id="5ae2-8352-f18b-75b3" name="N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="203" hidden="false"/>
     <categoryEntry id="fdf9-3955-bf9c-c80c" name="Conscript" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
     <categoryEntry id="30b6-4558-05e7-1248" name="Generic Support" publicationId="20bd-c8e1-5e20-75e8" page="50" hidden="false"/>
+    <categoryEntry id="0cbd-333c-1131-4e9b" name="Generic Air Support" publicationId="20bd-c8e1-5e20-75e8" page="51" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
@@ -163,6 +164,30 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d1-72e8-2452-2f50" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65cc-d372-54b8-74cc" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="5e49-fbf9-2572-bca4" name="Generic Support" hidden="false" targetId="30b6-4558-05e7-1248" primary="false">
+              <modifiers>
+                <modifier type="set" field="bb0a-bedd-24fb-36b4" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb0a-bedd-24fb-36b4" type="max"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="a084-c86c-a503-2fc8" name="Generic Air Support" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="false">
+              <modifiers>
+                <modifier type="set" field="a587-b1a3-7aeb-0b03" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a587-b1a3-7aeb-0b03" type="max"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -966,7 +991,7 @@
         <infoLink id="1ce2-74fb-7361-9468" name="Target Designator:X [TD:X]" hidden="false" targetId="cf7b-c29c-eede-54d4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4618-d379-0c7b-7ff4" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
+        <categoryLink id="71ed-a0e8-0ff9-da25" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e12a-be13-2e86-d3ca" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1004,7 +1029,7 @@
         <infoLink id="ed5f-89dc-4b87-5b52" name="Anti-Vehicle Rocket Pack, Heavy" hidden="false" targetId="7ebf-b4c4-ef07-0f7e" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e4c1-7fa6-ca9b-4bf1" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
+        <categoryLink id="908b-7058-48c7-f3bf" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7456-3ce6-d2a1-1e83" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1040,7 +1065,7 @@
         <infoLink id="bbc8-9c71-4b7f-e7f3" name="Bomb, Medium" hidden="false" targetId="3fa3-3c7a-7528-4bd4" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c9ac-f6d1-3bf3-b97f" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
+        <categoryLink id="a978-23c2-a111-6259" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6e3f-86f2-7e99-98b0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
@@ -1076,7 +1101,7 @@
         <infoLink id="9c5d-ff46-d4d7-6cb2" name="Sensors:X" hidden="false" targetId="abce-ad0d-67b4-3ef9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f6ae-d198-e10a-55ef" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
+        <categoryLink id="aa04-a333-7f29-186f" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2a69-bc6d-5e01-4f8a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
