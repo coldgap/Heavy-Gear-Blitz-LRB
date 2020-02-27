@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eebf-3a00-bc65-ae74" name="South Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eebf-3a00-bc65-ae74" name="South Models" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="daa6-2488-7024-ad58" name="Limited:MI" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false"/>
     <categoryEntry id="de27-5343-7076-cfc2" name="Limited:IN" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false"/>

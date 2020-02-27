@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c27c-6008-8479-9b45" name="Utopia Models" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c27c-6008-8479-9b45" name="Utopia Models" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="4309-ebcd-adf3-0f7b" name="Recce Armiger" publicationId="20bd-c8e1-5e20-75e8" page="204" hidden="false" collective="false" import="true" type="model">
       <profiles>
