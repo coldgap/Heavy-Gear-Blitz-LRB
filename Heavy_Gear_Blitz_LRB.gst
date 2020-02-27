@@ -651,7 +651,7 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="df0c-1bba-6e8f-5a68" name="Generic Support [SU]" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="df0c-1bba-6e8f-5a68" name="Generic Support [SU]" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -734,6 +734,10 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
