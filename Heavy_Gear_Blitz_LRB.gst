@@ -78,7 +78,7 @@
         </modifier>
         <modifier type="set" field="a452-32cc-77d5-7053" value="3.0">
           <conditions>
-            <condition field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -87,7 +87,7 @@
         <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd9-1ead-3742-0cc4" type="max"/>
         <constraint field="selections" scope="568f-89d9-1e3f-e9f7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41c4-40e1-36bf-029c" type="min"/>
         <constraint field="selections" scope="37d4-6af1-9258-38b8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9958-384e-acb6-e9fd" type="min"/>
-        <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a452-32cc-77d5-7053" type="max"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a452-32cc-77d5-7053" type="max"/>
       </constraints>
       <forceEntries>
         <forceEntry id="e54b-9e59-c994-d744" name="Support Unit" hidden="false">
