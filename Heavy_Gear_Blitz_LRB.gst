@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="0ae7-d8d3-f08f-20a2" name="Heavy Gear Blitz LRB" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="20bd-c8e1-5e20-75e8" name="Heavy Gear Blitz! Tabletop Wargaming Living Rulebook February 2016"/>
+    <publication id="20bd-c8e1-5e20-75e8" name="Heavy Gear Blitz! Living Rulebook February 2016"/>
   </publications>
   <costTypes>
     <costType id="4e06-e713-b451-4dcf" name=" Action(s)" defaultCostLimit="0.0"/>
