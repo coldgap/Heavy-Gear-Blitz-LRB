@@ -1259,9 +1259,6 @@
       <categoryLinks>
         <categoryLink id="71ed-a0e8-0ff9-da25" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="e12a-be13-2e86-d3ca" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
@@ -1297,9 +1294,6 @@
       <categoryLinks>
         <categoryLink id="908b-7058-48c7-f3bf" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="7456-3ce6-d2a1-1e83" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
@@ -1333,9 +1327,6 @@
       <categoryLinks>
         <categoryLink id="a978-23c2-a111-6259" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="6e3f-86f2-7e99-98b0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
@@ -1369,9 +1360,6 @@
       <categoryLinks>
         <categoryLink id="aa04-a333-7f29-186f" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="2a69-bc6d-5e01-4f8a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
@@ -1676,6 +1664,7 @@
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="instanceOf"/>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30b6-4558-05e7-1248" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
