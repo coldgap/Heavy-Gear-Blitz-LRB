@@ -43,10 +43,10 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="568f-89d9-1e3f-e9f7" name="Commander" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false"/>
-    <categoryEntry id="70ee-6571-e701-4049" name="Gear" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
-    <categoryEntry id="7d51-9214-272e-e12f" name="Infantry" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
-    <categoryEntry id="3e8e-a23b-f1b3-4efb" name="Strider" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
-    <categoryEntry id="c3c0-67d6-9651-657f" name="Vehicle" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
+    <categoryEntry id="70ee-6571-e701-4049" name="Gear choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
+    <categoryEntry id="7d51-9214-272e-e12f" name="Infantry choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
+    <categoryEntry id="3e8e-a23b-f1b3-4efb" name="Strider Choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
+    <categoryEntry id="c3c0-67d6-9651-657f" name="Vehicle choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
     <categoryEntry id="3766-7beb-8028-b575" name="Sub-list" publicationId="20bd-c8e1-5e20-75e8" page="62" hidden="false"/>
     <categoryEntry id="7097-f9c7-502b-6f07" name="Unit Availability" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false"/>
     <categoryEntry id="4119-14a2-4e63-39ac" name="Arms" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
@@ -60,8 +60,8 @@
     </categoryEntry>
     <categoryEntry id="5ae2-8352-f18b-75b3" name="N-KIDU" publicationId="20bd-c8e1-5e20-75e8" page="203" hidden="false"/>
     <categoryEntry id="fdf9-3955-bf9c-c80c" name="Conscript" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
-    <categoryEntry id="30b6-4558-05e7-1248" name="Generic Support" publicationId="20bd-c8e1-5e20-75e8" page="50" hidden="false"/>
-    <categoryEntry id="0cbd-333c-1131-4e9b" name="Generic Air Support" publicationId="20bd-c8e1-5e20-75e8" page="51" hidden="false"/>
+    <categoryEntry id="30b6-4558-05e7-1248" name="Generic Support choices" publicationId="20bd-c8e1-5e20-75e8" page="50" hidden="false"/>
+    <categoryEntry id="0cbd-333c-1131-4e9b" name="Generic Air Support choices" publicationId="20bd-c8e1-5e20-75e8" page="51" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
@@ -651,7 +651,7 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="df0c-1bba-6e8f-5a68" name="Generic Support [SU]" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="df0c-1bba-6e8f-5a68" name="Generic Support [SU]" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
