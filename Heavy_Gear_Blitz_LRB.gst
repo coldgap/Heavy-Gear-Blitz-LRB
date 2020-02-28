@@ -64,7 +64,7 @@
     <categoryEntry id="0cbd-333c-1131-4e9b" name="Generic Air Support choices" publicationId="20bd-c8e1-5e20-75e8" page="51" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="e641-b0e1-b105-e4fa" name="Primary Unit" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
+    <forceEntry id="e641-b0e1-b105-e4fa" name="Combat Group" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
       <modifiers>
         <modifier type="set" field="9958-384e-acb6-e9fd" value="1.0">
           <conditions>
@@ -194,7 +194,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="be21-7b64-cb45-ab72" name="Sub-List" publicationId="20bd-c8e1-5e20-75e8" page="62" hidden="false">
+    <forceEntry id="be21-7b64-cb45-ab72" name="Sub-List Rules" publicationId="20bd-c8e1-5e20-75e8" page="62" hidden="false">
       <categoryLinks>
         <categoryLink id="7f34-5dbc-3cbf-fdac" name="Sub-list" hidden="false" targetId="3766-7beb-8028-b575" primary="false"/>
       </categoryLinks>
