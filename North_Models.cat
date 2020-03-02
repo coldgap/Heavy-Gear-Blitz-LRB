@@ -2,6 +2,13 @@
 <catalogue id="50b0-155c-db43-cb17" name="North Models" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="true" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="fac8-0754-c3a5-ab1c" name="Aller" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ed3a-8484-f8b5-94d1" name="Aller" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -43,6 +50,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3abd-709d-c6d7-fb8d" name="Antelope" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="470f-0556-817b-2955" name="Antelope" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -107,6 +121,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="097c-1cdf-12c5-fe37" name="Infantry Squad, Anti-tank" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="75ef-395e-c3d2-2945" name="Anti-tank Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -146,6 +167,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9f29-3f5a-b201-2f0c" name="Jaguar, Arrow" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="cd54-c72b-e299-732a" name="Arrow Jaguar" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -205,6 +233,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="46fb-81c0-c6b5-4550" name="Hunter, Assault" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="8983-9b21-9fc0-5669" name="Assault Hunter" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -270,6 +305,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4a77-9e3d-4624-12d2" name="Jaguar, Assault" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4c4e-c22a-37c5-ede2" name="Assault Jaguar" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -329,6 +371,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b2c6-a5a3-031c-668d" name="Mammoth, Assault" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="22e7-f57c-0cd1-4de2" name="Assault Mammoth" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -381,6 +430,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ab6e-eeed-8749-d337" name="Tiger, Assault" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1601-106e-9768-2558" name="Assault Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -448,6 +504,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="622e-b133-0259-ae83" name="Wildcat, Assault" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2175-e3ee-47ac-9531" name="Assault Wildcat" page="78" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -487,6 +550,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8ea7-3612-057c-a992" name="Badger" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="00d4-649a-3de7-a221" name="Badger" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -534,6 +604,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cd9f-9281-ad52-f4ee" name="Klemm, Bandit Hunter" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="37fd-2eb7-800e-3ea2" name="Bandit Hunter Klemm" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -610,6 +687,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9815-f142-02ce-96f2" name="Bear" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ed75-f737-bbfb-3f5e" name="Bear" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -650,6 +734,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fef3-69d9-7858-8467" name="Black Cat" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ae05-d854-13db-f799" name="Black Cat" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -694,6 +785,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="30e2-acc9-c0a4-e8cc" name="Black Cat Sniper" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1337-63cb-d549-92e9" name="Black Cat Sniper" page="77" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -737,6 +835,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0a7e-9193-4e75-d379" name="Bobcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2b03-cece-d0e0-2e4e" name="Bobcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -790,6 +895,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="371d-a188-a2c1-4fc1" name="Mammoth, Brawler" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="bfbb-76be-1b3e-ad99" name="Brawler Mammoth" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -842,6 +954,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="800f-89c4-a1cf-669f" name="Bricklayer" publicationId="20bd-c8e1-5e20-75e8" page="91" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7d60-553c-929a-c841" name="Bricklayer" page="91" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -884,6 +1003,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6c65-0292-5e16-5a19" name="Badger, Cavalry" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c4af-dad8-d354-a7c7" name="Cavalry Badger" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -919,6 +1045,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9bd5-fbc8-f3be-faf0" name="Dingo, Chaingun" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f8ac-480a-d001-ebdb" name="Chaingun Dingo" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -960,6 +1093,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bff4-e3d0-c738-4940" name="Kodiak, Chaingun" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d6fb-f61a-dd5d-829c" name="Chaingun Kodiak" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1000,6 +1140,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2b9f-ecba-595c-3410" name="Razorback, Chaingun" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="522a-328c-bd46-e123" name="Chaingun Razorback" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1040,6 +1187,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="432c-e4d0-add8-47a2" name="Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3574-8df5-0847-e600" name="Cheetah" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1094,6 +1248,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="28ff-17d8-0555-8f85" name="Mammoth, Command" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6c35-311f-7041-c5db" name="Command Mammoth" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1156,6 +1317,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b4f-d1b8-1e51-b31f" name="Grizzly, Crossbow" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="61f5-fe08-fde7-15f2" name="Crossbow Grizzly" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1212,6 +1380,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7fbb-3619-8d04-7707" name="Den Mother" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2226-3546-b901-3ca1" name="Den Mother" page="83" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1254,6 +1429,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6393-3a4c-083b-79f6" name="Dingo, Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5bdb-f5cf-f2f9-75a2" name="Destroyer Dingo" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1295,6 +1477,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="71c5-ec9c-0709-886e" name="Hunter, Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="b34f-25b7-3413-d0af" name="Destroyer Hunter" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1352,6 +1541,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eb94-a220-a2b7-ee01" name="Jaguar, Destroyer" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0b56-d198-8dc2-d8e2" name="Destroyer Jaguar" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1411,6 +1607,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ebae-c05b-a53e-41eb" name="Kodiak, Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f597-a635-e5fc-a333" name="Destroyer Kodiak" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1451,6 +1654,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f687-987e-cb87-ba51" name="Tiger, Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="fa7b-84d3-43cd-5a37" name="Destroyer Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1509,6 +1719,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2470-75da-9dd0-3f34" name="Dingo" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="581e-fc15-6f6a-fe8d" name="Dingo" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1551,6 +1768,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3da9-2741-5fdf-75b5" name="Dragonfly VTOL" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5d22-886d-cd63-4a96" name="Dragonfly VTOL" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1589,6 +1813,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9b20-d127-a5d0-c001" name="Engineering Grizzly" publicationId="20bd-c8e1-5e20-75e8" page="91" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="905c-f43b-bd06-9c2f" name="Engineering Grizzly" publicationId="20bd-c8e1-5e20-75e8" page="91" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1631,6 +1862,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="80a1-4c00-279b-bbec" name="Ferret" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="cd61-17fd-c12a-ba24" name="Ferret" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1684,6 +1922,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c66e-1831-81a5-c61d" name="Ferret Mk.2 Gunner" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5d83-1ab8-8e66-3cdd" name="Ferret Mk.2 Gunner" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1737,6 +1982,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3516-c3bc-1d1a-e9d3" name="Field Gun" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7c77-f1ea-38e9-510d" name="Field Gun" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1773,6 +2025,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e4f2-edd7-0456-8827" name="Jaguar, Fire" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f0c3-2817-4454-82ac" name="Fire Jaguar" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1832,6 +2091,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dfa9-3daa-519c-1779" name="Jaguar, Flash" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3742-43b9-1384-58bb" name="Flash Jaguar" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1891,6 +2157,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3278-e618-e0cb-2d39" name="Infantry Squad, Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c978-2ac4-1b20-b5b4" name="Grenadier Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1930,6 +2203,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="39a9-4304-6d2f-19e5" name="Koala, Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2dc2-c9a2-ab7e-d1b2" name="Grenadier Koala" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1971,6 +2251,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a2c0-7812-13bc-57c7" name="Grizzly" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0397-222c-de9f-79bd" name="Grizzly" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2029,6 +2316,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="000c-2c6e-9db6-4554" name="Grizzly Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4f8d-6812-ae44-a631" name="Grizzly Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2087,6 +2381,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a7be-7356-a0d2-4d5d" name="Mammoth, Gunner" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a5e5-2cb0-3272-de85" name="Gunner Mammoth" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2140,6 +2441,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ef95-4298-e59f-27b4" name="Wildcat, Gunner" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d79e-c2c9-fa7e-7e0d" name="Gunner Wildcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2180,6 +2488,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="14c5-f80d-72b0-5206" name="Aller, Hardy" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="479e-6735-36f2-20e7" name="Hardy Aller" page="88" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2219,6 +2534,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d11e-1ff7-1384-9705" name="Hunter" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f874-59ca-ca94-0d8b" name="Hunter" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2286,6 +2608,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e988-b6a5-9f41-67df" name="Hunter Gunner" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9094-43ed-4cad-e731" name="Hunter Gunner" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2352,6 +2681,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="636f-31fd-07ae-f09b" name="Hunter UC" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="dcda-6cdf-2d47-6da2" name="Hunter UC" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2419,6 +2755,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="253f-b235-a2ca-6e31" name="Hunter XMG Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7da0-8dab-42e8-f460" name="Hunter XMG Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2501,6 +2844,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5b4b-187a-9816-7930" name="Hunter XMG Gunner" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1925-9681-143c-73fc" name="Hunter XMG Gunner" publicationId="20bd-c8e1-5e20-75e8" page="73" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2553,6 +2903,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3fe5-2d4b-95a7-a676" name="Jaguar" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="919e-48e3-f3eb-047d" name="Jaguar" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2621,6 +2978,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="17c3-ada3-35d3-a868" name="Jaxon" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5021-0fa9-cec9-7514" name="Jaxon" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2659,6 +3023,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="448b-de21-7f93-002c" name="Klemm" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="60d7-103b-2403-4f42" name="Klemm" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2697,6 +3068,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a2bd-04f3-f99b-ee14" name="Koala" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="93c3-bed7-8969-d322" name="Koala" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2738,6 +3116,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f77e-e88e-1d97-a539" name="Kodiak" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1eb3-a8f1-ffde-d567" name="Kodiak" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2778,6 +3163,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3a57-c94e-5eb7-1720" name="Leopard" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="de48-46f7-bdec-464c" name="Leopard" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2820,6 +3212,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dd0f-9fac-e6ca-17b8" name="Leopard Flash" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="dcf1-13fe-a799-0bcc" name="Leopard Flash" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2861,6 +3260,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="db62-6009-38fd-cfce" name="Leopard Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a450-0e2f-0a6e-9a00" name="Leopard Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2903,6 +3309,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="82ae-971b-94a2-f763" name="Leopard Wildfire" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c994-2d54-3151-6614" name="Leopard Wildfire" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2945,6 +3358,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="daa3-e8b1-e3c8-2fda" name="Lion" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ae94-8df2-8002-fb59" name="Lion" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -2985,6 +3405,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="801e-c35c-1900-f5c5" name="Lion Initiate" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0cdc-0d6a-96c8-c999" name="Lion Initiate" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3025,6 +3452,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7108-45f7-aa63-ce35" name="Lion Lightning" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="19fd-ee22-41fd-f709" name="Lion Lightning" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3065,6 +3499,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eb0e-af44-4e12-37a5" name="Lynx" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="94af-79f8-bf93-d4bf" name="Lynx" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3138,6 +3579,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9dca-6ab8-2131-a3ee" name="Mad Dog R" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ea6f-52af-e47d-561b" name="Mad Dog R" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3177,6 +3625,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="37c9-f70b-7041-26ef" name="Mammoth" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="006a-0355-b4e0-01e3" name="Mammoth" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3231,6 +3686,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="51fe-f2dd-dc89-65f8" name="Bear, Mauler" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3b65-373b-192d-1a31" name="Mauler Bear" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3272,6 +3734,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5843-10a4-53ea-4566" name="Badger, Medical" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4ea7-a2a4-08a4-91e0" name="Medical Badger" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3306,6 +3775,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="23c7-41a5-fcb7-0c56" name="Cheetah, Metal Cat" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ff7f-9a4d-5708-2a53" name="Metal Cat Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3358,6 +3834,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dede-f1fa-33ca-901b" name="Infantry Squad, Mortar" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="e764-6118-3f26-182b" name="Mortar Infantry Squad" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3397,6 +3880,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="219e-946a-f32f-c0cf" name="Aller, Naval Support" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d07a-e203-cf8e-07c4" name="Naval Support Aller" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3439,6 +3929,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f637-b770-54fd-9aed" name="Panther" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="8e80-3b3e-4eec-4d84" name="Panther" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3483,6 +3980,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a325-2ac7-96a6-07d3" name="Panther Sniper" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="5cb9-6f8a-50a5-70bf" name="Panther Sniper" publicationId="20bd-c8e1-5e20-75e8" page="77" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3525,6 +4029,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4531-86f0-b579-68f9" name="Para Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="109e-8d3e-60a4-b41c" name="Para Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3567,6 +4078,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a7cb-abe8-5c54-0b2d" name="Para Cheetah, Grenadier" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2d13-7d89-0ca6-6e39" name="Grenadier Para Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3609,6 +4127,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5610-0bbb-9208-5fc1" name="Para Hunter" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1d3c-9038-bb0e-7c85" name="Para Hunter" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3667,6 +4192,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="086e-8634-8ef1-5d32" name="Para Cheetah, Strike" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7e79-7191-f38d-2644" name="Strike Para Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3708,6 +4240,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8ee3-07c5-0206-085d" name="Para Hunter, Strike" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c969-9a04-8ae0-0ad8" name="Strike Para Hunter" publicationId="20bd-c8e1-5e20-75e8" page="79" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3765,6 +4304,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6b50-ed4f-f601-1662" name="Badger, Rabid" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="210e-b2c0-2de1-cc8d" name="Rabid Badger" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3799,6 +4345,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4cf5-b15a-f8ed-517f" name="Grizzly, Rabid" publicationId="20bd-c8e1-5e20-75e8" page="81" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2626-1bbd-4f82-028f" name="Rabid Grizzly" page="81" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3858,6 +4411,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c022-e1f1-21a5-268d" name="Razorback" publicationId="20bd-c8e1-5e20-75e8" page="82" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2f35-c01d-17a1-a1e2" name="Razorback" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3898,6 +4458,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="641d-9cfa-876d-a2fc" name="Infantry Squad, Recon" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6618-9e2a-edef-bbbc" name="Recon Infantry Squad" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -3945,6 +4512,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="83b3-0f69-6dcb-d663" name="Wildcat, Riotmaster" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="43a3-a1ae-f79d-8275" name="Riotmaster Wildcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4027,6 +4601,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4d8d-ffb4-2189-f877" name="Scimitar" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="78b7-543d-fadb-0009" name="Scimitar" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4128,6 +4709,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8334-e761-01b0-0b88" name="Scimitar Feral" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="02a1-23e9-9f11-8344" name="Scimitar Feral" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4229,6 +4817,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9e36-f9a3-84ce-8196" name="Scimitar Lightning" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="b449-bf8d-364a-ee88" name="Scimitar Lightning" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4330,6 +4925,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="86e6-f722-e8d4-5cb0" name="Scimitar Assault" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="68e5-1dcd-36c8-91f1" name="Scimitar Assault" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4431,6 +5033,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a8f3-e090-17b4-44c3" name="Scorpion VTOL" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="01c8-e34f-fcdc-aeb3" name="Scorpion VTOL" publicationId="20bd-c8e1-5e20-75e8" page="89" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4470,6 +5079,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0ab7-3b96-c7e4-91a3" name="Ferret, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="bf5f-16c6-8b61-3893" name="Sniper Ferret" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4523,6 +5139,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a0fd-41d9-dfe5-33e5" name="Infantry Team, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1e3a-afaa-1211-08d6" name="Sniper Infantry Team" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4567,6 +5190,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="37f8-ba6c-a83b-cace" name="Jaguar, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="65ec-a729-b0ce-bcec" name="Sniper Jaguar" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4626,6 +5256,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="afcb-a280-f17c-ea79" name="Koala, Sniper" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="eeb6-9518-b455-d43f" name="Sniper Koala" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4667,6 +5304,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7caa-9d83-b944-3cd0" name="Stinger" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="c820-7dce-ed30-30b6" name="Stinger" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4702,6 +5346,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="781c-1f61-f36e-4a84" name="Stormhammer" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3081-eee1-966e-e54d" name="Stormhammer" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4740,6 +5391,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e98b-b8f5-e69c-ae56" name="Cheetah, Strike" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6355-6713-65bf-b9c8" name="Strike Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4782,6 +5440,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6e82-288a-9640-3425" name="Lion, Strike" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="9fd2-ca8f-41a9-4f96" name="Strike Lion" publicationId="20bd-c8e1-5e20-75e8" page="84" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4822,6 +5487,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="75bd-ee53-2ee8-9a86" name="Dingo, Tank Hunter" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="67bb-8d0c-b7f6-ff2d" name="Tank Hunter Dingo" publicationId="20bd-c8e1-5e20-75e8" page="80" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4864,6 +5536,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3a16-54a0-e997-c576" name="Thunderhammer Flak" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4c63-91ad-d432-2f24" name="Thunderhammer Flak" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4908,6 +5587,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6030-e347-d82a-5d4e" name="Thunderhammer" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ec59-f0d9-5321-c6fb" name="Thunderhammer" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4950,6 +5636,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9a27-afa2-8824-027d" name="Thunderhammer Lightning" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="80bd-5796-8352-6791" name="Thunderhammer Lightning" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -4992,6 +5685,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="31c7-34b7-fd24-8153" name="Thunderhammer Storm" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0b6b-e024-66be-bcb0" name="Thunderhammer Storm" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5034,6 +5734,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f6e2-2099-8eea-130d" name="Thunderhammer Support" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="22cd-cd54-cfde-4272" name="Thunderhammer Support" publicationId="20bd-c8e1-5e20-75e8" page="86" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5077,6 +5784,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5204-a261-f592-1b23" name="Tiger" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4207-8879-8523-35f7" name="Tiger" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5144,6 +5858,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a88f-d08e-e6ba-7305" name="Tyburr" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7e8d-8c65-75bd-3c12" name="Tyburr" publicationId="20bd-c8e1-5e20-75e8" page="87" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5182,6 +5903,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3fef-dfdc-462c-ed8f" name="Verder" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="3fd2-de08-8a5c-0cd8" name="Verder" publicationId="20bd-c8e1-5e20-75e8" page="88" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5220,6 +5948,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6138-bbcf-bace-dc27" name="Wallaby" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a1e9-36e7-abb0-9928" name="Wallaby ATV" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5255,6 +5990,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fdc8-cf16-bc4c-d0bd" name="Weasel" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="7f87-0f45-d258-e26d" name="Weasel" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5296,6 +6038,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d5d6-8b5c-a53e-9322" name="Cheetah, White Cat" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="1a9d-d056-f9a3-cede" name="White Cat Cheetah" publicationId="20bd-c8e1-5e20-75e8" page="75" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5351,6 +6100,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2bbe-41b3-1d79-f249" name="Ferret, Wild" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="eac4-6be0-899d-ac66" name="Wild Ferret" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -5406,6 +6162,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4bdc-0364-c816-6e15" name="Wildcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0f7c-3d70-c464-e06c" name="Wildcat" publicationId="20bd-c8e1-5e20-75e8" page="78" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
