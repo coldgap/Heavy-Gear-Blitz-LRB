@@ -62,6 +62,7 @@
     <categoryEntry id="fdf9-3955-bf9c-c80c" name="Conscript" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
     <categoryEntry id="30b6-4558-05e7-1248" name="Generic Support choices" publicationId="20bd-c8e1-5e20-75e8" page="50" hidden="false"/>
     <categoryEntry id="0cbd-333c-1131-4e9b" name="Generic Air Support choices" publicationId="20bd-c8e1-5e20-75e8" page="51" hidden="false"/>
+    <categoryEntry id="524e-4f67-36ed-0641" name="Support Unit Member" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e641-b0e1-b105-e4fa" name="Combat Group" publicationId="20bd-c8e1-5e20-75e8" page="58" hidden="false">
@@ -78,7 +79,7 @@
         </modifier>
         <modifier type="set" field="a452-32cc-77d5-7053" value="3.0">
           <conditions>
-            <condition field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
+            <condition field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -87,7 +88,7 @@
         <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd9-1ead-3742-0cc4" type="max"/>
         <constraint field="selections" scope="568f-89d9-1e3f-e9f7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41c4-40e1-36bf-029c" type="min"/>
         <constraint field="selections" scope="37d4-6af1-9258-38b8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9958-384e-acb6-e9fd" type="min"/>
-        <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a452-32cc-77d5-7053" type="max"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="524e-4f67-36ed-0641" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a452-32cc-77d5-7053" type="max"/>
       </constraints>
       <forceEntries>
         <forceEntry id="e54b-9e59-c994-d744" name="Support Unit" hidden="false">
@@ -763,6 +764,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5ff3-60e1-091e-ecc0" name="A Generic Model (Example)" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="add" field="category" value="524e-4f67-36ed-0641">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="bd21-0272-3934-195c" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
