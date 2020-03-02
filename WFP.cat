@@ -7,7 +7,41 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a95-5ad7-b8fc-e01b" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="12d4-5ecc-a786-cd5e" name="Hunter" hidden="false" collective="false" import="true" targetId="d11e-1ff7-1384-9705" type="selectionEntry"/>
+    <entryLink id="12d4-5ecc-a786-cd5e" name="Hunter" hidden="false" collective="false" import="true" targetId="d11e-1ff7-1384-9705" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0c2-049f-47f8-9b8f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1878-9489-cc99-a41b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f30f-52d1-54ed-47d4" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="232a-1fa2-34f3-12a1" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="232a-1fa2-34f3-12a1" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ddc-2b1c-a793-6b8b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232a-1fa2-34f3-12a1" type="max"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7f73-7b99-f4ef-3d02" name="Western Frontier Protectorate Sub-list Rules" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
@@ -40,6 +74,10 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
