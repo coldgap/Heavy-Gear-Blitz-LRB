@@ -1610,6 +1610,24 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cf9d-669c-c202-8e2c" name="Family Ties" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ee28-99ad-2bbb-a4f7" name="Family Ties" hidden="false" targetId="25c3-b4b4-d8d6-9e54" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="69e5-148a-b433-1135" name="Family Veteran Specialty" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c894-0121-72e6-8484" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4efb-eac3-d46a-f88d" name="Family Ties: Ace Gunner" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="fc90-afb5-d5ae-b534" name="Family Ties: E-War Specialist" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="3575-132e-17bb-8fb5" name="Family Ties: Melee Specialist" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="f87f-e638-57bf-decf" name="Family Ties: Precautions" hidden="false" collective="false" import="true" type="upgrade"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Ranks" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true">
@@ -1750,6 +1768,25 @@
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="50e7-1b7e-5954-42dc" type="equalTo"/>
                         <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dc6-72ae-a6fc-8c72" type="equalTo"/>
                       </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf9d-669c-c202-8e2c" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -2118,21 +2155,105 @@
       </modifiers>
       <entryLinks>
         <entryLink id="d74f-9e7d-6350-7b7a" name="Ace Gunner" hidden="false" collective="false" import="true" targetId="988d-452b-7598-18e6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1246-3dcc-42ed-c683" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4efb-eac3-d46a-f88d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="837e-861c-b454-eb7a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9839-de81-1250-9b81" name="E-War Specialist" hidden="false" collective="false" import="true" targetId="3375-aff8-4ae7-8cc1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1246-3dcc-42ed-c683" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fc90-afb5-d5ae-b534" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0d-5b14-171e-9e89" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0af5-0b0d-cb33-69b2" name="Melee Specialist" hidden="false" collective="false" import="true" targetId="8348-5902-ae33-90f3" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1246-3dcc-42ed-c683" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3575-132e-17bb-8fb5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6809-d958-e8a8-5752" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2380-56fc-d274-a328" name="Precautions" hidden="false" collective="false" import="true" targetId="dd52-2161-7556-8737" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1246-3dcc-42ed-c683" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f87f-e638-57bf-decf" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aed-ed06-4738-614e" type="max"/>
           </constraints>
