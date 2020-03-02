@@ -1198,6 +1198,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1f88-c4a5-45d4-a6fe" name="Stripped Down (Upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="true" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff2-63b8-e089-cbaa" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="b0d6-11da-1266-d828" name="Stripped Down (Upgrade)" hidden="false" targetId="88e9-5ef0-4165-bba1" type="profile"/>
       </infoLinks>
@@ -1623,23 +1626,55 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c894-0121-72e6-8484" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4efb-eac3-d46a-f88d" name="Family Ties: Ace Gunner" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="fc90-afb5-d5ae-b534" name="Family Ties: E-War Specialist" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="3575-132e-17bb-8fb5" name="Family Ties: Melee Specialist" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="f87f-e638-57bf-decf" name="Family Ties: Precautions" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="4efb-eac3-d46a-f88d" name="Family Ties: Ace Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fc90-afb5-d5ae-b534" name="Family Ties: E-War Specialist" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3575-132e-17bb-8fb5" name="Family Ties: Melee Specialist" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f87f-e638-57bf-decf" name="Family Ties: Precautions" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8955-281b-e16e-2e07" name="Older Equipment (North)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a1f7-51cf-bed6-871b" name="Older Equipment (North)" hidden="false" targetId="73df-b5e4-77c8-708a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6314-a870-52d2-784e" name="Tested in Battle" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="eb71-23a8-223e-70fc" name="Tested in Battle" hidden="false" targetId="4c6a-62e2-2dec-2538" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1819,7 +1854,7 @@
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6314-a870-52d2-784e" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6314-a870-52d2-784e" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">

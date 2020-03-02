@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c0e5-3742-58d3-30ac" name="W.F.P. (North)" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="421d-464e-7aaa-fa12" name="Western Frontier Protectorate Sub-list Rules" hidden="false" collective="false" import="true" targetId="7f73-7b99-f4ef-3d02" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ec0-1d87-22e6-7d32" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a95-5ad7-b8fc-e01b" type="max"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="12d4-5ecc-a786-cd5e" name="Hunter" hidden="false" collective="false" import="true" targetId="d11e-1ff7-1384-9705" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7f73-7b99-f4ef-3d02" name="Western Frontier Protectorate Sub-list Rules" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f21d-5dd3-53c6-44cd" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b51e-b24a-e85f-0a95" name="Family Ties" hidden="false" collective="false" import="true" targetId="cf9d-669c-c202-8e2c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc56-d240-c395-6ab3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8838-cc7a-0159-2742" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="358b-2ff0-9fce-d497" name="Stripped Down" hidden="false" collective="false" import="true" targetId="b97b-1a09-b761-b67e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="564a-5443-2307-af3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b25-8aff-29ee-0590" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ba9-4dd2-c7d4-36b8" name="Older Equipment (North)" hidden="false" collective="false" import="true" targetId="8955-281b-e16e-2e07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f27-173f-f160-7b93" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278b-4e5d-0a89-6d89" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ac3d-9002-6287-34a0" name="Tested in Battle" hidden="false" collective="false" import="true" targetId="6314-a870-52d2-784e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0401-c1b0-6a98-4b42" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb90-29c4-b8ed-2a9e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="5208-1324-8483-5652" name="North Models" targetId="50b0-155c-db43-cb17" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
