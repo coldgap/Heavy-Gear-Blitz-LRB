@@ -833,6 +833,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="092e-f03c-e7ec-4c3a" name="Veteran" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="330e-cdd9-e98a-e23c" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="808a-4bec-42c2-1172" name="Veteran [Vet]" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
       </infoLinks>
@@ -1628,6 +1631,16 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="8955-281b-e16e-2e07" name="Older Equipment (North)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a1f7-51cf-bed6-871b" name="Older Equipment (North)" hidden="false" targetId="73df-b5e4-77c8-708a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6314-a870-52d2-784e" name="Tested in Battle" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="eb71-23a8-223e-70fc" name="Tested in Battle" hidden="false" targetId="4c6a-62e2-2dec-2538" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Ranks" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true">
@@ -1796,6 +1809,37 @@
               </constraints>
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5e65-9dbd-7525-286a" name="Tested in Battle Veteran Status" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6314-a870-52d2-784e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70ee-6571-e701-4049" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e8e-a23b-f1b3-4efb" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="8eca-1e4e-d969-588e" name="Veteran" hidden="false" collective="false" import="true" targetId="092e-f03c-e7ec-4c3a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16f6-1497-269a-e572" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2749,6 +2793,9 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="abf1-3fac-ae9e-392f" name="Well Equipped" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>Support units may purchase Generic Upgrades.</description>
+    </rule>
+    <rule id="73df-b5e4-77c8-708a" name="Older Equipment (North)" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
+      <description>Primary units may not include Jaguars, Cheetahs, Grizzlies, Kodiaks, or Scimitars.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
