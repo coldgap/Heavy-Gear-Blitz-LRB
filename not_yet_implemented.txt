@@ -1,0 +1,2 @@
+Well Supported Rule: Unable to implement using "Forces" structure.
+Combined Arms Specialists: This rule doesn't affect the roster.
