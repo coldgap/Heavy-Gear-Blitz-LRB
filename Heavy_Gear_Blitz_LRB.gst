@@ -1624,6 +1624,7 @@
         <selectionEntryGroup id="69e5-148a-b433-1135" name="Family Veteran Specialty" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c894-0121-72e6-8484" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4203-b821-c88a-41b7" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="4efb-eac3-d46a-f88d" name="Family Ties: Ace Gunner" hidden="false" collective="false" import="true" type="upgrade">
