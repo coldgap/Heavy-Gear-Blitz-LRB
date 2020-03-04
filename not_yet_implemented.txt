@@ -1,5 +1,9 @@
 Generic Support: Figure out a way to enforce "based on selections from the Primary Unit"
 Well Supported Rule: Figure out a way to enforce "based on selections from the other Support Unit"
 Combined Arms Specialists: This rule doesn't affect the roster.
-Stripped Down: To do; must be implemented at the model library level.
+Stripped Down: To do; must be implemented at the model library level (in North, South, Peace River).
 Older Equipment: To do; Rule SE exists in game system, but choice logic must be implemented at the catalog level.
+The Best Money Can Buy (North):
+The Best Money Can Buy (Caprice): Just needs to require the Elite Army option in the appropriate sub-list.
+Prospectors: Add "Climbers +1TV" to all walkers in North library, hidden by sub-list rule from the system.
+Local Production: 
