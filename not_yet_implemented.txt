@@ -1,9 +1,33 @@
 Generic Support: Figure out a way to enforce "based on selections from the Primary Unit"
 Well Supported Rule: Figure out a way to enforce "based on selections from the other Support Unit"
-Combined Arms Specialists: This rule doesn't affect the roster.
+Combined Arms Specialists: To do; Rule must be visible, but this rule doesn't affect the roster.
 Stripped Down: To do; must be implemented at the model library level (in North, South, Peace River).
 Older Equipment: To do; Rule SE exists in game system, but choice logic must be implemented at the catalog level.
 The Best Money Can Buy (North):
 The Best Money Can Buy (Caprice): Just needs to require the Elite Army option in the appropriate sub-list.
-Prospectors: Add "Climbers +1TV" to all walkers in North library, hidden by sub-list rule from the system.
-Local Production: 
+Prospectors: To do; add "Climbers +1TV" to all walkers in North library, hidden by sub-list rule from the system.
+Local Production: To do; choice logic must be implemented at the catalog level.
+Hackers: To do.
+Fighting Staff Upgrade: To do; must implement SE, and logic for hiding and cost in the library.
+Prestige Weapon: See Fighting Staff Upgrade.
+Inspirational: To do; rule must be visible, but this rule doesn't affect the roster. 
+Warrior Monks: See Fighting Staff Upgrade.
+Conscripts: Double-check South library to include the Conscripts SE upgrade if this rule is present.
+Second Line: To do; rule must be visible, and Elite Army option should be hidden in the appropriate sub-list.
+Leaders: To do; Upgrade SE must be implemented in the South Library, logic depending from the presence of the rule.
+Specialized Training: To do; rule must be visible, but this rule doesn't affect the roster.
+Family Connections: To do; Requirement must be implemented in the Code SE in the Game System.
+Allies: To do; all libraries need catagories with the faction name, all models need the appropriate categories, and then logic must be implemented in the appropriate sub-lists to restrict the availability of models based on that category; see logic in Limited: choices. Perhaps a faction entry could be added to the Code entry.
+Police State: To do; logic to increment Max in Roster Veteran Unit constraint if choice includes Limited:MP.
+Armories: To do; add logic to upgrade in game system.
+Political Appointees: To do; add logic to upgrade in game system.
+Basilisk Upgrade: To do; add Upgrade SE to South Library.
+Special Issue: To do; unsure how to implement across multiple allies.
+Police State: To do; changes to the Peace River library to include a "Police Issue" profile that removes RPs and adds +Shield:1; hiding logic to implement based on presence of the rule.
+High Tech: To do; must add categories for Advanced and Missile weapons (ideally to all appropriate models in each library); logic for this will need to be in the game system.
+Secure Zone: To do; unsure how to implement.
+Best of the Best: To do; rule must be visible, but this rule doesn't affect the roster.
+Elite Force: To do; see if GP can be hidden from code based on rule presence.
+Air Mobile: To do; must add upgrade SE to all non- GP-only models in library.
+Port Arthur GREL Allies: To do; must add "NuCoal Ballistic upgrade" SE in CEF library, hidden based on this rule.
+Team Play: To do; handled through 
