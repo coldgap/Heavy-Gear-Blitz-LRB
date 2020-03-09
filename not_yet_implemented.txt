@@ -30,4 +30,17 @@ Best of the Best: To do; rule must be visible, but this rule doesn't affect the 
 Elite Force: To do; see if GP can be hidden from code based on rule presence.
 Air Mobile: To do; must add upgrade SE to all non- GP-only models in library.
 Port Arthur GREL Allies: To do; must add "NuCoal Ballistic upgrade" SE in CEF library, hidden based on this rule.
-Team Play: To do; handled through 
+Team Play: To do; handled through catalog rules.
+Walk or Fly: handled through catalog rules.
+Advanced Weapons: To do; add a modifier to the library based on the existence of the game system rule in the sub-list catalog.
+Transition Forces: To do; no significant changes necessary.
+Hovertank Commander:
+Pathfinders: To do; this rule doesn't affect the roster.
+Observers: To do; Not yet sure how to implement.
+Licensed Fabication: To do; implemented through standard unit selection.
+Test Pilots: To do; will need to implement changes in the upgrades section of the game system.
+Fast Cavalry: To do; implement upgrade in library.
+Satellite Network: To do; implement in library.
+Hackers: To do; this rule doesn't affect the roster.
+High Octane: To do; this rule doesn't affect the roster.
+Personal Equipment: To do; this rule implies changes in the allied armies' libraries; unsure of the best way to implement.
