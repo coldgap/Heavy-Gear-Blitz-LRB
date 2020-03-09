@@ -1921,6 +1921,15 @@
         <entryLink id="8330-0dfa-23bb-ba15" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="17dd-547a-82d2-0dd7" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+            <entryLink id="ffac-1ed4-4d6e-2c2b" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -4558,6 +4567,15 @@
         <entryLink id="5afa-34de-e34c-534f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="6fd7-9b11-0f5a-5346" name="Paratroopers Infantry Upgrade" hidden="false" collective="false" import="true" targetId="272c-247f-dba4-b35f" type="selectionEntry"/>
+            <entryLink id="83c7-f1c9-3554-f793" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
