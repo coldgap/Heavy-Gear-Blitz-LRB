@@ -187,6 +187,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="4255-d9e7-5464-2fb8" name="Thunder Jaguar (Jaguar Upgrade)" hidden="false" targetId="2623-c9e1-9518-fbd8" type="profile"/>
@@ -241,6 +246,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -309,6 +319,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -418,6 +433,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1094,6 +1114,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="28ff-17d8-0555-8f85" name="Mammoth, Command" publicationId="20bd-c8e1-5e20-75e8" page="85" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="6c35-311f-7041-c5db" name="Command Mammoth" page="85" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1197,11 +1224,19 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="4399-fb11-86ba-b941" name="Thunder Grizzly (Grizzly Upgrade)" hidden="false" targetId="61a2-dc29-886e-89aa" type="profile"/>
                 <infoLink id="282a-39b8-08e5-8bf4" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -1212,6 +1247,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7fbb-3619-8d04-7707" name="Den Mother" publicationId="20bd-c8e1-5e20-75e8" page="83" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="1246-3dcc-42ed-c683" value="10.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2226-3546-b901-3ca1" name="Den Mother" page="83" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
@@ -1334,6 +1376,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="11b3-2cc4-c156-f396" name="Headhunter (Hunter Upgrade)" hidden="false" targetId="7943-a9cf-03ef-24ba" type="profile"/>
@@ -1391,6 +1438,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1488,6 +1540,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1814,6 +1871,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="a070-e88a-b116-ea29" name="Thunder Jaguar (Jaguar Upgrade)" hidden="false" targetId="2623-c9e1-9518-fbd8" type="profile"/>
@@ -1871,6 +1933,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2023,11 +2090,19 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="bfa9-d3a9-1112-22e2" name="Thunder Grizzly (Grizzly Upgrade)" hidden="false" targetId="61a2-dc29-886e-89aa" type="profile"/>
                 <infoLink id="ad1c-ae76-4d54-dc7c" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -2081,11 +2156,19 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="817d-2162-bf78-fe1b" name="Thunder Grizzly (Grizzly Upgrade)" hidden="false" targetId="61a2-dc29-886e-89aa" type="profile"/>
                 <infoLink id="eaac-2006-51d8-9b9f" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -2268,6 +2351,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="8264-2e4c-c79a-0fbb" name="Headhunter (Hunter Upgrade)" hidden="false" targetId="7943-a9cf-03ef-24ba" type="profile"/>
@@ -2332,6 +2420,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2399,6 +2492,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2601,6 +2699,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3658,6 +3761,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="34a1-24a4-ecc0-6847" name="Headhunter (Hunter Upgrade)" hidden="false" targetId="7943-a9cf-03ef-24ba" type="profile"/>
@@ -3756,6 +3864,11 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="5f93-ed08-5fe3-1865" name="Headhunter (Hunter Upgrade)" hidden="false" targetId="7943-a9cf-03ef-24ba" type="profile"/>
@@ -3852,11 +3965,19 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="5092-0690-59e8-3f4e" name="Thunder Grizzly (Grizzly Upgrade)" hidden="false" targetId="61a2-dc29-886e-89aa" type="profile"/>
                 <infoLink id="14da-1363-1539-b5f8" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -4121,12 +4242,20 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="56b5-97f1-f86d-053e" name="Command (Scimitar Upgrade)" hidden="false" targetId="3910-47ed-edcb-c214" type="profile"/>
                 <infoLink id="4be8-531d-09b2-1f62" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
                 <infoLink id="862c-3227-b8e4-06e1" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -4222,12 +4351,20 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="d91e-d1e3-f3f6-7aea" name="Command (Scimitar Upgrade)" hidden="false" targetId="3910-47ed-edcb-c214" type="profile"/>
                 <infoLink id="2b0b-116f-5c4b-a656" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
                 <infoLink id="f658-cc61-f2a8-4a56" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -4323,12 +4460,20 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="b511-f509-83af-6507" name="Command (Scimitar Upgrade)" hidden="false" targetId="3910-47ed-edcb-c214" type="profile"/>
                 <infoLink id="b7c8-1cbe-3cf9-f255" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
                 <infoLink id="ccc3-e1ae-ce37-a808" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -4424,12 +4569,20 @@
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="c96b-19b4-7f14-a3da" name="Command (Scimitar Upgrade)" hidden="false" targetId="3910-47ed-edcb-c214" type="profile"/>
                 <infoLink id="1072-036c-214d-b9b8" name="Electronic Counter-Counter Measures" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
                 <infoLink id="9051-17cd-655c-05f6" name="Satellite Uplink:X+ [SatUp:X+]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -4624,6 +4777,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5132,6 +5290,11 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="568f-89d9-1e3f-e9f7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="1246-3dcc-42ed-c683" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88da-e097-baaf-420c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
