@@ -201,6 +201,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="4202-6713-a090-b48c" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -271,6 +280,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="956d-b853-8e11-1d6e" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -335,6 +353,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="05a8-6871-276b-a007" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -387,6 +414,15 @@
         <entryLink id="711d-75cd-da6a-a78f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="bd43-16c4-d9cb-4767" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="bd89-ec80-0555-e719" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -459,6 +495,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="5eae-8b01-72f7-63ae" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -499,7 +544,19 @@
         <categoryLink id="8a11-4c2c-342b-9bcf" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f7ae-fa0c-fab0-6156" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="f7ae-fa0c-fab0-6156" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="923c-f1ea-9ea5-516b" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -595,7 +652,7 @@
       <modifiers>
         <modifier type="set" field="47ba-bad1-6d82-1380" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b246-3ac2-4320-df41" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -662,7 +719,19 @@
         <categoryLink id="1328-29c9-c3f2-269f" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7ca0-3c67-5294-8a9c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="7ca0-3c67-5294-8a9c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4f19-abcb-2d9a-0fa2" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -706,7 +775,19 @@
         <categoryLink id="f596-d629-ab82-1359" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e5ff-2b18-93ec-8d8e" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="e5ff-2b18-93ec-8d8e" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="fa74-af3e-031f-cd1f" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -749,7 +830,19 @@
         <categoryLink id="530a-7a19-a2dd-4b89" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="215e-45c1-9c18-64df" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="215e-45c1-9c18-64df" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="751f-180b-e146-d9b3" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -797,6 +890,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="b48b-30bb-07ff-aa1b" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -853,6 +955,15 @@
         <entryLink id="3091-b7c5-4c99-9b54" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="ce24-921e-a48d-58a9" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="f553-2657-8ff7-b716" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -896,7 +1007,19 @@
         <categoryLink id="dc41-189c-90b9-a1e9" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2757-fed1-666e-ff4d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="2757-fed1-666e-ff4d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b057-31be-4910-819a" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -972,7 +1095,19 @@
         <categoryLink id="52de-68a5-6d4b-238e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="be09-434e-c54a-6b83" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="be09-434e-c54a-6b83" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7132-8b0c-8125-9bb5" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1012,7 +1147,19 @@
         <categoryLink id="aacb-4398-977d-4c3a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6bb0-a408-1cea-a288" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="6bb0-a408-1cea-a288" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6ba3-b09e-dc6e-8672" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
@@ -1052,7 +1199,19 @@
         <categoryLink id="73cc-2240-8e6a-22ec" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ab4d-0b88-1b9b-09a8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="ab4d-0b88-1b9b-09a8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4088-de4f-1468-5eb1" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1101,6 +1260,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="2a84-bffc-fefd-1df3" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1174,6 +1342,15 @@
         <entryLink id="9f52-0351-d6bf-4bac" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="2a9d-937a-1678-828a" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="de16-468b-4136-48b0" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1238,6 +1415,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="89b8-5827-6d6f-0eaa" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1288,7 +1474,19 @@
         <categoryLink id="bbba-48b6-8563-1eb4" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2364-e78b-cb6a-397f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="2364-e78b-cb6a-397f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9510-25a3-0138-f69a" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1329,7 +1527,19 @@
         <categoryLink id="dd44-2a63-64f2-2c35" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4f86-fd37-a68b-f2ec" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="4f86-fd37-a68b-f2ec" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="40f9-7805-d3fc-d067" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1389,6 +1599,15 @@
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="57a5-1ef9-1b29-2fd2" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -1454,6 +1673,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="6104-2efe-7eed-9e47" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1495,7 +1723,19 @@
         <categoryLink id="3cd7-5786-d8cd-9591" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="97a9-136d-f846-ab1a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="97a9-136d-f846-ab1a" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2e0a-0a04-2b91-3b40" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
@@ -1557,6 +1797,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="cc3a-8a04-5e5c-92c7" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1600,7 +1849,19 @@
         <categoryLink id="7e78-db14-83b5-f044" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3ce9-b602-096f-d9e5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="3ce9-b602-096f-d9e5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1de0-ffdf-446c-1195" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1680,7 +1941,19 @@
         <categoryLink id="a4ea-95cc-83da-ef8e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="efbf-8d2f-6528-0f0c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="efbf-8d2f-6528-0f0c" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0feb-5285-c5f5-ba03" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1728,6 +2001,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7d42-8942-af53-16e1" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1781,6 +2063,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="2412-f257-9a6f-027b" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1885,6 +2176,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="01e9-df0f-d370-d86e" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1948,6 +2248,15 @@
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="dbf4-9164-db1a-85e5" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -2039,7 +2348,19 @@
         <categoryLink id="97b0-72aa-8aa0-1222" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="be20-5e22-c43f-db36" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="be20-5e22-c43f-db36" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="f905-f948-2cd9-2ba2" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2103,6 +2424,15 @@
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="d2a8-b541-7055-6ed5" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -2170,6 +2500,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="1b09-bd17-3fad-e436" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2223,6 +2562,15 @@
         <entryLink id="a76c-b1b3-43d9-0ef8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="92c9-2dba-a476-5e53" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="4c8f-2339-c06a-dd6c" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2264,7 +2612,19 @@
         <categoryLink id="c0d5-5ca4-7853-e5a0" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6ebb-d220-300f-cb99" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="6ebb-d220-300f-cb99" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="59f4-e81a-bc3d-0ba5" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2374,6 +2734,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="e499-72b8-8433-5f44" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2441,6 +2810,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="70b3-3ccb-076d-07cf" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2517,6 +2895,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="278d-a66f-f69d-8e8a" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2569,6 +2956,15 @@
         <entryLink id="6174-7371-e8e2-e2c7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="f22e-df17-77e7-0bf0" name="Melee Specialist (Hunter XMG Upgrade)" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" targetId="80a4-f277-27b6-0201" type="selectionEntry"/>
+            <entryLink id="3cb2-3a92-1a0c-9019" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2651,6 +3047,15 @@
         <entryLink id="2c33-18db-3516-71bb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="031e-f60d-1d7b-eaef" name="Melee Specialist (Hunter XMG Upgrade)" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" targetId="80a4-f277-27b6-0201" type="selectionEntry"/>
+            <entryLink id="55ff-b649-b50c-d96f" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -2720,6 +3125,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c6ea-40aa-87b3-d407" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2842,7 +3256,19 @@
         <categoryLink id="bb8c-6ec0-63f4-ff0e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="840f-ed62-2a90-f9e7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="840f-ed62-2a90-f9e7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a12d-a5a9-966a-2aa1" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2882,7 +3308,19 @@
         <categoryLink id="f13f-1b6c-afb0-46be" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0058-9fbb-ebcc-93e4" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="0058-9fbb-ebcc-93e4" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1a67-103a-a570-13c2" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
@@ -3211,6 +3649,15 @@
         <entryLink id="fc7d-c4d8-fabd-982a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="5797-1c5a-aa05-c651" name="Armored (Lynx Upgrade)" hidden="false" collective="false" import="true" targetId="6548-a609-1fe6-62df" type="selectionEntry"/>
+            <entryLink id="7c6a-c123-2952-87e5" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -3281,7 +3728,19 @@
         <categoryLink id="20d3-92fb-075b-3709" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bfc6-fadd-86cd-a278" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="bfc6-fadd-86cd-a278" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3318-0845-43e9-d8f0" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3334,6 +3793,15 @@
         <entryLink id="57b6-990c-3ec6-4496" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="9794-877f-fefe-1a85" name="Anti-Infantry (Mammoth Upgrade)" hidden="false" collective="false" import="true" targetId="db7e-2e35-002d-fcd8" type="selectionEntry"/>
+            <entryLink id="6575-54d7-df3c-ef76" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -3376,7 +3844,19 @@
         <categoryLink id="c77d-d390-67c7-0817" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e920-e375-6b22-886e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="e920-e375-6b22-886e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="debb-694b-da8e-3822" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3457,6 +3937,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="6d1c-1346-a8ac-e228" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3587,7 +4076,19 @@
         <categoryLink id="1236-787e-9409-1002" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9d9f-3a10-426d-4ccd" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="9d9f-3a10-426d-4ccd" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d211-84cb-908a-5099" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3629,7 +4130,19 @@
         <categoryLink id="0249-d805-cff1-4ccc" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="315f-c249-9240-2991" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="315f-c249-9240-2991" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="37c3-6d28-3637-90c8" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3671,7 +4184,19 @@
         <categoryLink id="81ee-c9db-59c6-9f0a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2eb2-8848-7526-01d0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="2eb2-8848-7526-01d0" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9e02-db4b-2a06-5cf8" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3713,7 +4238,19 @@
         <categoryLink id="a3b4-67fa-5697-481c" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c175-b4d9-46b6-ce89" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="c175-b4d9-46b6-ce89" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7292-7f29-f801-54bd" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3775,6 +4312,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="532b-217f-ba94-f065" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -3817,7 +4363,19 @@
         <categoryLink id="5dc7-3afe-4747-b69d" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="121e-d7c2-0b2c-a640" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="121e-d7c2-0b2c-a640" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="bbf1-08db-6e10-22ca" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3877,6 +4435,15 @@
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="049b-b859-27c4-e803" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -3979,6 +4546,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="5162-8802-b091-1bee" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -4020,7 +4596,19 @@
         <categoryLink id="2f4f-2a5c-cbe2-cb9a" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6a3e-38b1-3fac-6eec" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="6a3e-38b1-3fac-6eec" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="7f2f-4541-3166-b99f" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -4114,6 +4702,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="cc0c-e732-df88-d49b" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4676,6 +5273,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="5310-2f47-9e18-89be" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -4793,6 +5399,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="cc07-0c39-cdf2-b2d6" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -4835,7 +5450,19 @@
         <categoryLink id="868a-4bf5-51db-893e" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f8b9-8f9b-b9c2-2766" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="f8b9-8f9b-b9c2-2766" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4414-97f3-fcc5-0b85" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -4950,7 +5577,19 @@
         <categoryLink id="458c-90b4-e100-6d78" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8b53-deeb-b180-3e26" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="8b53-deeb-b180-3e26" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="845e-7aff-d0aa-4885" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -5032,7 +5671,19 @@
         <categoryLink id="df2c-936c-82b4-82b9" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d0d0-bb1e-089d-3eeb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="d0d0-bb1e-089d-3eeb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8319-392b-5716-4b76" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -5075,6 +5726,15 @@
         <entryLink id="b157-e1d0-01ee-221d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="debb-2a00-91fd-3e91" name="Bastion (Thunderhammer Upgrade)" hidden="false" collective="false" import="true" targetId="aaef-484a-3635-7744" type="selectionEntry"/>
+            <entryLink id="d670-7f99-660c-0fd3" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5117,6 +5777,15 @@
         <entryLink id="13d6-71a9-f721-c5fb" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="7a56-d25a-fa2d-9755" name="Bastion (Thunderhammer Upgrade)" hidden="false" collective="false" import="true" targetId="aaef-484a-3635-7744" type="selectionEntry"/>
+            <entryLink id="0483-7180-dbd6-0d53" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5159,6 +5828,15 @@
         <entryLink id="f52b-63ce-d2b2-bb86" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="8fb8-8d17-8d47-b0a1" name="Bastion (Thunderhammer Upgrade)" hidden="false" collective="false" import="true" targetId="aaef-484a-3635-7744" type="selectionEntry"/>
+            <entryLink id="71c7-0079-e63a-9c67" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5201,6 +5879,15 @@
         <entryLink id="14ad-5586-91b3-854f" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="b536-2311-b778-e5b7" name="Bastion (Thunderhammer Upgrade)" hidden="false" collective="false" import="true" targetId="aaef-484a-3635-7744" type="selectionEntry"/>
+            <entryLink id="7f4d-43a6-49c1-a0f7" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5244,6 +5931,15 @@
         <entryLink id="9e4a-67ef-819f-3b4b" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
           <entryLinks>
             <entryLink id="0851-b077-728b-c9ac" name="Bastion (Thunderhammer Upgrade)" hidden="false" collective="false" import="true" targetId="aaef-484a-3635-7744" type="selectionEntry"/>
+            <entryLink id="45a5-9924-e698-778d" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5312,6 +6008,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="847f-6010-fa9c-63e3" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5469,7 +6174,19 @@
         <categoryLink id="a8ad-4e7e-15d2-2a4f" name="Arms" hidden="false" targetId="4119-14a2-4e63-39ac" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="379a-4375-28bb-11b4" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup"/>
+        <entryLink id="379a-4375-28bb-11b4" name="Model Options [Veterans]" hidden="false" collective="false" import="true" targetId="694a-76e2-d38c-bb19" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6d5e-6fe1-02ab-b38b" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -5519,6 +6236,15 @@
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="238c-8131-9458-aad1" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5578,6 +6304,15 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="d3f3-6d65-d7de-85ca" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -5630,12 +6365,32 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="84bf-039f-e25d-d78d" name="Prospectors (Upgrade)" hidden="true" collective="false" import="true" targetId="d95e-315f-4598-be86" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="737d-c697-a7bb-36cb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d95e-315f-4598-be86" name="Prospector (Upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c6-27f4-e7b0-8da7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b0a6-f8f6-9a17-1881" name="Climbing Equipment [Climber]" hidden="false" targetId="539a-12ee-7dab-9848" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

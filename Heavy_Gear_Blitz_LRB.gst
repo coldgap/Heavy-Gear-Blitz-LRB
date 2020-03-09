@@ -1685,6 +1685,19 @@
       <infoLinks>
         <infoLink id="801f-e6d0-89e3-d7f8" name="The Best Money Can Buy [UMF]" hidden="false" targetId="2beb-aa5d-2a3c-e9ec" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="737d-c697-a7bb-36cb" name="Prospectors" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e74-3402-afc9-cbd6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff8-150c-a24b-e753" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="46d8-e172-9543-67ae" name="Prospectors" hidden="false" targetId="09cb-eb44-22f8-d3e3" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
