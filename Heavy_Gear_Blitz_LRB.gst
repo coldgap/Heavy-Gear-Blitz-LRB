@@ -1677,6 +1677,15 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="88da-e097-baaf-420c" name="The Best Money Can Buy [UMF]" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52d-8193-cb52-e44b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2d6-b0f1-f868-8cf6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="801f-e6d0-89e3-d7f8" name="The Best Money Can Buy [UMF]" hidden="false" targetId="2beb-aa5d-2a3c-e9ec" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Ranks" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true">
