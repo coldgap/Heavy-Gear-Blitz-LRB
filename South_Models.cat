@@ -719,6 +719,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="2029-f468-1e53-d524" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1269,7 +1278,19 @@
         <categoryLink id="3850-66c0-d8ec-d72d" name="Limited:IN" hidden="false" targetId="de27-5343-7076-cfc2" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2488-442a-e768-03b7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="2488-442a-e768-03b7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d0c8-0604-dc94-6d68" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1309,7 +1330,19 @@
         <categoryLink id="bc5c-716a-9612-c2bd" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a873-ff55-fa13-b9a7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="a873-ff55-fa13-b9a7" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="5c97-8c14-a734-74a5" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1349,7 +1382,19 @@
         <categoryLink id="8e1c-2e6d-4390-1aa9" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="befb-1544-88bb-e55d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="befb-1544-88bb-e55d" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9745-f895-9954-d7a9" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1390,7 +1435,19 @@
         <categoryLink id="b8d5-b0bc-6aa5-5748" name="Limited:IN" hidden="false" targetId="de27-5343-7076-cfc2" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c761-39d3-db3f-8717" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="c761-39d3-db3f-8717" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1380-95a5-dda3-be48" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1429,7 +1486,19 @@
         <categoryLink id="ca89-eb72-7365-b0e0" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3515-3830-327a-fe54" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="3515-3830-327a-fe54" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="01ca-3db5-9668-5b30" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1469,7 +1538,19 @@
         <categoryLink id="82f4-94e3-9901-9896" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="89b5-a4b0-2418-c5a5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="89b5-a4b0-2418-c5a5" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="41db-3914-8e3a-0b0f" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1509,7 +1590,19 @@
         <categoryLink id="1b7a-c77c-7bbd-5326" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="163f-c767-566c-58df" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="163f-c767-566c-58df" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b35d-a7f0-8e9e-4faf" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1550,7 +1643,19 @@
         <categoryLink id="4874-92ce-3d1b-4c59" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3709-d095-8453-ff06" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="3709-d095-8453-ff06" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d7df-29ec-d29c-ec91" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1591,7 +1696,19 @@
         <categoryLink id="64c4-d1af-10bf-9f4c" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1016-b45d-929d-39d8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="1016-b45d-929d-39d8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="fbab-4c6c-2210-37c2" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1633,7 +1750,19 @@
         <categoryLink id="1965-fbf4-4f98-3902" name="Limited:MI" hidden="false" targetId="daa6-2488-7024-ad58" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fc70-e465-247d-a039" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="fc70-e465-247d-a039" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="e1d4-3545-2318-13bd" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1905,7 +2034,19 @@
         <categoryLink id="ab0c-ef13-1f67-99b8" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="03f2-7cc6-f2f6-8cf8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="03f2-7cc6-f2f6-8cf8" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="55d9-b864-0a01-e194" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1950,7 +2091,19 @@
         <categoryLink id="64d4-df87-47d8-9ee7" name="Command-only Variant" hidden="false" targetId="2473-f5c0-02aa-b0fc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5f20-f325-7788-3c89" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="5f20-f325-7788-3c89" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="ae78-0bdf-f7c6-68ed" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -1992,7 +2145,19 @@
         <categoryLink id="b9fa-e08a-b92a-27b7" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4f74-49c5-0591-714a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="4f74-49c5-0591-714a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8ab6-9ed3-7cdc-a368" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2033,7 +2198,19 @@
         <categoryLink id="f8a1-cf40-3664-0946" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="444c-8b5c-9ac9-908e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="444c-8b5c-9ac9-908e" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b084-d2bb-d1f8-ee6d" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2074,7 +2251,19 @@
         <categoryLink id="5439-98a3-8c01-dca7" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="36cd-3ec9-c3d7-0a3a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="36cd-3ec9-c3d7-0a3a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="afa5-ddd0-ddb0-204b" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2116,7 +2305,19 @@
         <categoryLink id="68b9-7d53-a603-8f46" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0897-b07f-a439-6245" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="0897-b07f-a439-6245" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d5f1-544d-42f5-de2b" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -2159,7 +2360,19 @@
         <categoryLink id="d32a-2ca0-b6fc-69ff" name="New CategoryLink" hidden="false" targetId="70ee-6571-e701-4049" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="79a2-9a53-2173-8c98" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="79a2-9a53-2173-8c98" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="4057-f45a-f26b-d56b" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3661,6 +3874,15 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
             </entryLink>
+            <entryLink id="045b-3242-7e45-d197" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -3704,7 +3926,19 @@
         <categoryLink id="9619-eb56-2800-1405" name="Limited:MP" hidden="false" targetId="b0d8-268e-0577-34b4" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8eec-a0e5-71fb-194a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="8eec-a0e5-71fb-194a" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a311-a648-1181-22cb" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -3766,6 +4000,15 @@
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="bfcb-844f-c217-2500" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </entryLink>
@@ -5549,7 +5792,19 @@
         <categoryLink id="5a1f-7ff4-2036-c0ad" name="New CategoryLink" hidden="false" targetId="c3c0-67d6-9651-657f" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1fd1-c2ff-44a1-d017" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup"/>
+        <entryLink id="1fd1-c2ff-44a1-d017" name="Model Options" hidden="false" collective="false" import="true" targetId="9c6f-64ad-4503-42ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6c90-4268-dfa7-63f1" name="Stripped Down (Upgrade)" hidden="true" collective="false" import="true" targetId="1f88-c4a5-45d4-a6fe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b97b-1a09-b761-b67e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
