@@ -3,7 +3,6 @@ Well Supported Rule: Figure out a way to enforce "based on selections from the o
 Older Equipment: To do; Rule SE exists in game system, but choice logic must be implemented at the catalog level.
 The Best Money Can Buy (Caprice): Just needs to require the Elite Army option in the appropriate sub-list.
 Local Production: To do; choice logic must be implemented at the catalog level.
-Hackers: To do.
 Fighting Staff Upgrade: To do; must implement SE, and logic for hiding and cost in the library.
 Prestige Weapon: See Fighting Staff Upgrade.
 Inspirational: To do; rule must be visible, but this rule doesn't affect the roster. 

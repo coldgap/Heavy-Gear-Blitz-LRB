@@ -434,9 +434,39 @@
     <selectionEntry id="ab6e-eeed-8749-d337" name="Tiger, Assault" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1601-106e-9768-2558" name="Assault Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP,SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LSC(Arm), MRP, APGL, LCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a04e-0dd9-1b47-7f6c" name="Assault Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, FS, SK</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
@@ -1745,9 +1775,39 @@
     <selectionEntry id="f687-987e-cb87-ba51" name="Tiger, Destroyer" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fa7b-84d3-43cd-5a37" name="Destroyer Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MBZ(Arm), MRP, APGL, LCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a98d-b283-e81a-aea6" name="Destroyer Tiger" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FS, SK</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
@@ -5951,9 +6011,39 @@
     <selectionEntry id="5204-a261-f592-1b23" name="Tiger" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4207-8879-8523-35f7" name="Tiger" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP,SK</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MAC(Arm), MRP, APGL, LCW(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fda2-1e3d-b2ea-99ba" name="Tiger" publicationId="20bd-c8e1-5e20-75e8" page="74" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GP, FS, SK</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:6&quot;</characteristic>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
@@ -6143,9 +6233,39 @@
     <selectionEntry id="fdc8-cf16-bc4c-d0bd" name="Weasel" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="7f87-0f45-d258-e26d" name="Weasel" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
             <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:8&quot;</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">3+</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LPG(Arm), LVB(Arm)</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Arms, Comms:2, ECM:2, ECCM(G), SatUp:4+, Sensors: 24&quot;, Vet</characteristic>
+            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Gear 1&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="adf6-58d0-6656-5e04" name="Weasel" publicationId="20bd-c8e1-5e20-75e8" page="76" hidden="true" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="90da-0bfd-70c9-5647" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">RC, SK</characteristic>
             <characteristic name="MR" typeId="d971-d530-75de-372c">W:5&quot; G:8&quot;</characteristic>
             <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
@@ -6391,6 +6511,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

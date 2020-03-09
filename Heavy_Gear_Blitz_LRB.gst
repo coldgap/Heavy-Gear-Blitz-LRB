@@ -1698,6 +1698,30 @@
       <infoLinks>
         <infoLink id="46d8-e172-9543-67ae" name="Prospectors" hidden="false" targetId="09cb-eb44-22f8-d3e3" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90da-0bfd-70c9-5647" name="Local Production" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9821-2eed-6713-577a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="516c-1c7d-4302-ae91" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c6dd-7870-b481-7cfe" name="Local Production" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
+          <description>Primary units may not include Cheetah, Cheetah Paratroopers, or Black Cat models. Tigers, Assault Tigers, and Destroyer Tigers gain the Unit Availability of FS. Weasels gain the Unit Availability of SK.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="faf1-7386-4310-7172" name="Hackers" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e26-2607-b6b9-dbfa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3831-e1e8-8421-eb94" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0f30-afbc-9ed3-d233" name="Hackers" hidden="false" targetId="7895-14d9-90d6-caca" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
