@@ -2,7 +2,6 @@ Generic Support: Figure out a way to enforce "based on selections from the Prima
 Well Supported Rule: Figure out a way to enforce "based on selections from the other Support Unit"
 Older Equipment: To do; Rule SE exists in game system, but choice logic must be implemented at the catalog level.
 The Best Money Can Buy (Caprice): Just needs to require the Elite Army option in the appropriate sub-list.
-Prospectors: To do; add "Climbers +1TV" to all walkers in North library, hidden by sub-list rule from the system.
 Local Production: To do; choice logic must be implemented at the catalog level.
 Hackers: To do.
 Fighting Staff Upgrade: To do; must implement SE, and logic for hiding and cost in the library.
