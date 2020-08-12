@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="0ae7-d8d3-f08f-20a2" name="Heavy Gear Blitz LRB" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="20bd-c8e1-5e20-75e8" name="Heavy Gear Blitz! Living Rulebook February 2016"/>
+    <publication id="20bd-c8e1-5e20-75e8" name="LRB 02/2016" shortName="HGB! LRB Feb. 2016" publisher="Heavy Gear Blitz! Living Rulebook" publicationDate="February 2016" publisherUrl="https://www.drivethrurpg.com/product/144759/Heavy-Gear-Blitz-Tabletop-Wargaming--Living-Rulebook?manufacturers_id=19&amp;filters=0_0_0_0"/>
   </publications>
   <costTypes>
-    <costType id="4e06-e713-b451-4dcf" name=" Action(s)" defaultCostLimit="0.0"/>
-    <costType id="1246-3dcc-42ed-c683" name=" Threat Value" defaultCostLimit="0.0"/>
+    <costType id="4e06-e713-b451-4dcf" name=" Action(s)" defaultCostLimit="0.0" hidden="false"/>
+    <costType id="1246-3dcc-42ed-c683" name=" Threat Value" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="1685-8095-01f4-ef18" name="Commander">
@@ -1713,6 +1713,10 @@
           <description>Primary units may not include Cheetah, Cheetah Paratroopers, or Black Cat models. Tigers, Assault Tigers, and Destroyer Tigers gain the Unit Availability of FS. Weasels gain the Unit Availability of SK.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="faf1-7386-4310-7172" name="Hackers" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1722,6 +1726,10 @@
       <infoLinks>
         <infoLink id="0f30-afbc-9ed3-d233" name="Hackers" hidden="false" targetId="7895-14d9-90d6-caca" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
