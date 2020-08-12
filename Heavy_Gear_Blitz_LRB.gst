@@ -106,10 +106,16 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="6de4-7692-9e1a-1f6d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="e641-b0e1-b105-e4fa" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="e54b-9e59-c994-d744" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3906-bc46-8fb4-ce4c" type="max"/>
             <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde2-dcf8-d0ea-f632" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6de4-7692-9e1a-1f6d" type="min"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="733f-2458-3823-b6f8" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false">
