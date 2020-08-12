@@ -261,7 +261,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1498-0806-c088-6cf7" name="Unit Options" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1498-0806-c088-6cf7" name="Unit Options and Availability" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196b-ea87-4cce-7be2" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c0-ceae-c29a-f016" type="max"/>
