@@ -48,7 +48,7 @@
     <categoryEntry id="3e8e-a23b-f1b3-4efb" name="Strider Choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
     <categoryEntry id="c3c0-67d6-9651-657f" name="Vehicle choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
     <categoryEntry id="3766-7beb-8028-b575" name="Sub-list" publicationId="20bd-c8e1-5e20-75e8" page="62" hidden="false"/>
-    <categoryEntry id="7097-f9c7-502b-6f07" name="Unit Availability" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false"/>
+    <categoryEntry id="7097-f9c7-502b-6f07" name="Unit Options" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false"/>
     <categoryEntry id="4119-14a2-4e63-39ac" name="Arms" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false"/>
     <categoryEntry id="674f-aa98-120a-b842" name="Infantry Movement Type Only" publicationId="20bd-c8e1-5e20-75e8" page="28" hidden="false"/>
     <categoryEntry id="37d4-6af1-9258-38b8" name="Veteran" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false"/>
@@ -261,7 +261,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1498-0806-c088-6cf7" name="Unit Characteristics" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1498-0806-c088-6cf7" name="Unit Options" publicationId="20bd-c8e1-5e20-75e8" page="54" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196b-ea87-4cce-7be2" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c0-ceae-c29a-f016" type="max"/>
