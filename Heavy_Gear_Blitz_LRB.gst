@@ -78,8 +78,8 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0871-78d0-ca74-3732" type="min"/>
-        <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd9-1ead-3742-0cc4" type="max"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0871-78d0-ca74-3732" type="min"/>
+        <constraint field="4e06-e713-b451-4dcf" scope="e641-b0e1-b105-e4fa" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5fd9-1ead-3742-0cc4" type="max"/>
         <constraint field="selections" scope="568f-89d9-1e3f-e9f7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41c4-40e1-36bf-029c" type="min"/>
         <constraint field="selections" scope="37d4-6af1-9258-38b8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9958-384e-acb6-e9fd" type="min"/>
       </constraints>
@@ -106,10 +106,16 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="bf0d-f30c-2b68-3de2" value="1.0">
+              <conditions>
+                <condition field="selections" scope="e641-b0e1-b105-e4fa" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e54b-9e59-c994-d744" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3906-bc46-8fb4-ce4c" type="max"/>
-            <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde2-dcf8-d0ea-f632" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dde2-dcf8-d0ea-f632" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="e54b-9e59-c994-d744" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bf0d-f30c-2b68-3de2" type="min"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="733f-2458-3823-b6f8" name="Gear" hidden="false" targetId="70ee-6571-e701-4049" primary="false">
@@ -136,7 +142,7 @@
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7377-c5f2-3793-9b7e" type="max"/>
               </constraints>
             </categoryLink>
-            <categoryLink id="50d7-d82b-6c39-ff6f" name="Vehicle" hidden="false" targetId="c3c0-67d6-9651-657f" primary="false">
+            <categoryLink id="50d7-d82b-6c39-ff6f" name="Vehicle choices" hidden="false" targetId="c3c0-67d6-9651-657f" primary="false">
               <modifiers>
                 <modifier type="set" field="69e9-b282-bce2-ec21" value="0.0">
                   <conditions>
