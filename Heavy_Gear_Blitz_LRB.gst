@@ -1376,12 +1376,12 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Options" publicationId="e2d0-d5ce-4079-e0e1" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="aa23-5763-a003-dde2" value="-1.0">
           <conditionGroups>
-            <conditionGroup type="or">
+            <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="notInstanceOf"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="notInstanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1403,6 +1403,7 @@
         </modifier>
       </modifiers>
       <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa23-5763-a003-dde2" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f18-b1d8-dd4f-0831" type="min"/>
       </constraints>
       <selectionEntryGroups>
