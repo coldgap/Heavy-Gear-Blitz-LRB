@@ -1462,7 +1462,7 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
               </costs>
             </entryLink>
-            <entryLink id="faba-21a8-2bc5-7b70" name="Executive Officer" hidden="true" collective="false" import="true" targetId="9ec5-04ab-6491-0939" type="selectionEntry">
+            <entryLink id="faba-21a8-2bc5-7b70" name="Executive Officer" hidden="false" collective="false" import="true" targetId="9ec5-04ab-6491-0939" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7f-d7cf-1254-cd73" type="max"/>
               </constraints>
