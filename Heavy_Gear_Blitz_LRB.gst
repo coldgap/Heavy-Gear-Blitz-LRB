@@ -5,7 +5,7 @@
     <publication id="e2d0-d5ce-4079-e0e1" name="Beta 06/2020" shortName="HGB! 3.0 Beta" publisher="Dream Pod 9 Forum" publicationDate="Jun. 2020" publisherUrl="https://dp9forum.com/applications/core/interface/file/attachment.php?id=2264"/>
   </publications>
   <costTypes>
-    <costType id="4e06-e713-b451-4dcf" name=" Action(s)" defaultCostLimit="0.0" hidden="false"/>
+    <costType id="4e06-e713-b451-4dcf" name=" Actions" defaultCostLimit="0.0" hidden="false"/>
     <costType id="1246-3dcc-42ed-c683" name=" Threat Value" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
@@ -264,7 +264,7 @@
         <infoLink id="a4bc-5c25-bf7d-5fd3" name="Well Supported" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" targetId="3b8d-9a30-0e20-87ba" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -296,7 +296,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1640-2448-50a3-2598" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -325,7 +325,7 @@
                 <categoryLink id="6052-6d36-1b2d-122d" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -344,7 +344,7 @@
                 <categoryLink id="d28e-a6bd-5f80-d04f" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -365,7 +365,7 @@
                 <categoryLink id="3189-90de-d82f-88dc" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -386,7 +386,7 @@
                 <categoryLink id="713d-5943-890c-69ed" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -407,7 +407,7 @@
                 <categoryLink id="9c04-4ef8-558c-b058" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -428,7 +428,7 @@
                 <categoryLink id="e275-cdc0-566c-f736" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -449,7 +449,7 @@
                 <categoryLink id="4f28-917f-042e-39b7" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -470,7 +470,7 @@
                 <categoryLink id="873a-c535-b6aa-ad86" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -491,7 +491,7 @@
                 <categoryLink id="91bf-e83a-9208-ea71" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -512,7 +512,7 @@
                 <categoryLink id="b23a-4992-ad71-4867" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -533,7 +533,7 @@
                 <categoryLink id="ffee-56f5-e9ec-ca3d" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -554,7 +554,7 @@
                 <categoryLink id="760e-cab2-5d3a-7411" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -575,7 +575,7 @@
                 <categoryLink id="12d3-30fa-388d-3b48" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -596,7 +596,7 @@
                 <categoryLink id="7de8-1242-5f54-b577" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -617,7 +617,7 @@
                 <categoryLink id="98c3-4dba-768c-4ac9" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -638,7 +638,7 @@
                 <categoryLink id="4dde-d412-114c-f798" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -659,7 +659,7 @@
                 <categoryLink id="eddf-0009-c37a-9855" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -672,7 +672,7 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -690,7 +690,7 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -708,7 +708,7 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -729,7 +729,7 @@
                 <categoryLink id="391b-bf80-8f37-f083" name="Unit Availability" hidden="false" targetId="7097-f9c7-502b-6f07" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -747,7 +747,7 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -755,7 +755,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -764,7 +764,7 @@
         <infoLink id="f0b7-0618-cfc7-9420" name="Well Equipped" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false" targetId="abf1-3fac-ae9e-392f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -808,7 +808,7 @@
           <selectionEntries>
             <selectionEntry id="7895-54bf-6270-7b17" name="Catalog Upgrades [Example]" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -816,7 +816,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -828,7 +828,7 @@
         <categoryLink id="bc3d-e56f-cff9-0e40" name="Commander" hidden="false" targetId="568f-89d9-1e3f-e9f7" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -841,7 +841,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="092e-f03c-e7ec-4c3a" name="Veteran" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false" collective="false" import="true" type="upgrade">
@@ -853,7 +853,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50e7-1b7e-5954-42dc" name="Elite Army" publicationId="20bd-c8e1-5e20-75e8" page="56" hidden="false" collective="false" import="true" type="upgrade">
@@ -869,7 +869,7 @@
         <categoryLink id="8db2-e613-a757-ed1c" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -894,7 +894,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0865-2e2d-4caa-9dec" name="Demo [Grenade] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" collective="false" import="true" type="upgrade">
@@ -918,7 +918,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="302a-455e-92dd-4415" name="Hunter-Killer [Air Defense] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" collective="false" import="true" type="upgrade">
@@ -942,7 +942,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bc1-a100-c485-a31f" name="Hunter-Killer [Anti-Infantry] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" collective="false" import="true" type="upgrade">
@@ -966,7 +966,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba7d-ff6c-2323-006f" name="Hunter-Killer [Defender] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" collective="false" import="true" type="upgrade">
@@ -990,7 +990,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a49f-9885-5888-3f30" name="Recon Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" collective="false" import="true" type="upgrade">
@@ -1014,7 +1014,7 @@
       </profiles>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59a4-ad7a-b41f-fcb1" name="A Veteran Model (Example)" hidden="false" collective="false" import="true" type="model">
@@ -1057,7 +1057,7 @@
           <selectionEntries>
             <selectionEntry id="d7cc-24fb-7df0-bbf5" name="Catalog Upgrades [Example]" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1065,7 +1065,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1076,7 +1076,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="988d-452b-7598-18e6" name="Ace Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -1085,7 +1085,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3375-aff8-4ae7-8cc1" name="E-War Specialist" hidden="false" collective="false" import="true" type="upgrade">
@@ -1094,7 +1094,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8348-5902-ae33-90f3" name="Melee Specialist" hidden="false" collective="false" import="true" type="upgrade">
@@ -1104,7 +1104,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ec5-04ab-6491-0939" name="Executive Officer" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -1116,7 +1116,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9f3-cf86-aea7-bbbc" name="Second-in-Command" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -1128,7 +1128,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ffa-c952-2e83-1767" name="Advanced Control Systems" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1136,7 +1136,7 @@
         <infoLink id="64b4-d6f9-3aab-a99a" name="Advanced Control Systems" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" targetId="0851-f173-e3ee-ca75" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
       </costs>
     </selectionEntry>
@@ -1146,7 +1146,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6dca-1afd-2ec1-fd08" name="Defender" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1156,7 +1156,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd48-51d6-bb6d-3b1d" name="Gunslinger" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1165,7 +1165,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b702-5157-a75b-5923" name="Quickdraw" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1175,7 +1175,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d77a-6a8d-b6f6-3a23" name="Sabre" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" collective="false" import="true" type="upgrade">
@@ -1183,7 +1183,7 @@
         <infoLink id="b981-ab99-bd0f-3219" name="Sabre" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false" targetId="ec7f-b564-a1f8-1c67" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1193,7 +1193,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="272c-247f-dba4-b35f" name="Paratroopers Infantry Upgrade" publicationId="20bd-c8e1-5e20-75e8" page="90" hidden="false" collective="false" import="true" type="upgrade">
@@ -1206,7 +1206,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f88-c4a5-45d4-a6fe" name="Stripped Down (Upgrade)" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="true" collective="false" import="true" type="upgrade">
@@ -1217,7 +1217,7 @@
         <infoLink id="b0d6-11da-1266-d828" name="Stripped Down (Upgrade)" hidden="false" targetId="88e9-5ef0-4165-bba1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1226,7 +1226,7 @@
         <infoLink id="6dfe-e01b-9f7a-78fb" name="Stripped Down" hidden="false" targetId="6435-3099-c114-5666" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1235,7 +1235,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38d-03cc-9485-59f3" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1244,7 +1244,7 @@
         <infoLink id="8183-246f-02dc-c7cf" name="Combined Arms Specialists" hidden="false" targetId="cd1d-7d89-c4af-0a65" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1278,7 +1278,7 @@
         <categoryLink id="71ed-a0e8-0ff9-da25" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
       </costs>
     </selectionEntry>
@@ -1313,7 +1313,7 @@
         <categoryLink id="908b-7058-48c7-f3bf" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="2.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="2.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
@@ -1346,7 +1346,7 @@
         <categoryLink id="a978-23c2-a111-6259" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="3.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
       </costs>
     </selectionEntry>
@@ -1379,7 +1379,7 @@
         <categoryLink id="aa04-a333-7f29-186f" name="New CategoryLink" hidden="false" targetId="0cbd-333c-1131-4e9b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
       </costs>
     </selectionEntry>
@@ -1410,7 +1410,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c73-7981-f690-2648" name="Bunker" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1440,7 +1440,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e30d-b0d9-abc0-5390" name="Outpost" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1473,7 +1473,7 @@
         <categoryLink id="89ec-9780-9c53-9f15" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="3.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="3.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="20.0"/>
       </costs>
     </selectionEntry>
@@ -1506,7 +1506,7 @@
         <categoryLink id="7e6a-7818-3e99-de81" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
@@ -1538,7 +1538,7 @@
         <categoryLink id="b50b-9644-a8b3-b030" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
@@ -1570,7 +1570,7 @@
         <categoryLink id="7989-27c1-5bf2-bdf0" name="New CategoryLink" hidden="false" targetId="30b6-4558-05e7-1248" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="15.0"/>
       </costs>
     </selectionEntry>
@@ -1598,7 +1598,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc4d-68e0-c75b-9c57" name="Obstacles (5)" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" collective="false" import="true" type="model">
@@ -1625,7 +1625,7 @@
       </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf9d-669c-c202-8e2c" name="Family Ties" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="upgrade">
@@ -1641,25 +1641,25 @@
           <selectionEntries>
             <selectionEntry id="4efb-eac3-d46a-f88d" name="Family Ties: Ace Gunner" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc90-afb5-d5ae-b534" name="Family Ties: E-War Specialist" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3575-132e-17bb-8fb5" name="Family Ties: Melee Specialist" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f87f-e638-57bf-decf" name="Family Ties: Precautions" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1667,7 +1667,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1676,7 +1676,7 @@
         <infoLink id="a1f7-51cf-bed6-871b" name="Older Equipment (North)" hidden="false" targetId="73df-b5e4-77c8-708a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1685,7 +1685,7 @@
         <infoLink id="eb71-23a8-223e-70fc" name="Tested in Battle" hidden="false" targetId="4c6a-62e2-2dec-2538" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1698,7 +1698,7 @@
         <infoLink id="801f-e6d0-89e3-d7f8" name="The Best Money Can Buy [UMF]" hidden="false" targetId="2beb-aa5d-2a3c-e9ec" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1711,7 +1711,7 @@
         <infoLink id="46d8-e172-9543-67ae" name="Prospectors" hidden="false" targetId="09cb-eb44-22f8-d3e3" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1726,7 +1726,7 @@
         </rule>
       </rules>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1739,7 +1739,7 @@
         <infoLink id="0f30-afbc-9ed3-d233" name="Hackers" hidden="false" targetId="7895-14d9-90d6-caca" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1812,7 +1812,7 @@
               </infoLinks>
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-                <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2016,7 +2016,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="27d1-db8d-9335-a721" name="Drone" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true" type="upgrade">
@@ -2053,7 +2053,7 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2084,7 +2084,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d86-9e34-52f0-e0d4" name="Hand Grenades, Medium" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="true" collective="false" import="true" type="upgrade">
@@ -2114,7 +2114,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c618-0bdd-7ad3-557b" name="Panzerfausts, Light" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="true" collective="false" import="true" type="upgrade">
@@ -2144,7 +2144,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b2f-f717-f96e-49e8" name="Panzerfausts, Medium" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="true" collective="false" import="true" type="upgrade">
@@ -2174,7 +2174,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8608-8c90-356d-248b" name="Shaped Explosives, Light" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="true" collective="false" import="true" type="upgrade">
@@ -2204,7 +2204,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="18c7-d527-b8ee-ad92" name="Shaped Explosives, Medium" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="true" collective="false" import="true" type="upgrade">
@@ -2234,7 +2234,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="109b-b9d5-a636-2c5a" name="Smoke" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true" type="upgrade">
@@ -2259,7 +2259,7 @@
           </infoLinks>
           <costs>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
