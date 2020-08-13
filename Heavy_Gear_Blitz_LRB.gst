@@ -1439,7 +1439,6 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="lessThan"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="greaterThan"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
