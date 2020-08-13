@@ -1485,7 +1485,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b447-10b4-2c8a-1a3e" type="max"/>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13a9-c64e-6045-e6eb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef7-a0b0-face-bfde" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
