@@ -441,9 +441,6 @@
       <infoLinks>
         <infoLink id="b2c0-f25b-daaf-4ff4" name="Combat Group Leader" hidden="false" targetId="95f2-69cd-d328-e55c" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bc3d-e56f-cff9-0e40" name="Commander" hidden="false" targetId="568f-89d9-1e3f-e9f7" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
