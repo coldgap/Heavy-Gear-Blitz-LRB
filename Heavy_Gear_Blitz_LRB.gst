@@ -1439,21 +1439,21 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="lessThan"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="greaterThan"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditionGroups>
                             <conditionGroup type="and">
                               <conditions>
-                                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="greaterThan"/>
-                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="lessThan"/>
+                                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="greaterThan"/>
+                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="lessThan"/>
                               </conditions>
                             </conditionGroup>
                             <conditionGroup type="and">
                               <conditions>
-                                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="greaterThan"/>
-                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="lessThan"/>
+                                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="greaterThan"/>
+                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="lessThan"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
