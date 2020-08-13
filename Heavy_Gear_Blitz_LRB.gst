@@ -357,12 +357,7 @@
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="70ca-2a28-a06c-5f3b" name="Aircraft (AIR)" publicationId="e2d0-d5ce-4079-e0e1" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
-              </costs>
-            </selectionEntry>
+            <selectionEntry id="70ca-2a28-a06c-5f3b" name="Aircraft (AIR)" publicationId="e2d0-d5ce-4079-e0e1" hidden="false" collective="false" import="true" type="upgrade"/>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -446,15 +441,7 @@
     </selectionEntry>
     <selectionEntry id="8925-65d7-2bcc-bf9e" name="Commanding Officer" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0b48-5f6c-eb30-3d96" name="Commanding Officer" hidden="false" targetId="0f4b-7013-9591-3b76" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e15-74a6-e4f7-aed2" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink id="0b48-5f6c-eb30-3d96" name="Commanding Officer" hidden="false" targetId="0f4b-7013-9591-3b76" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f2e1-31e2-72f8-5fd1" name="Commander" hidden="false" targetId="568f-89d9-1e3f-e9f7" primary="false"/>
@@ -1363,25 +1350,21 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e15-74a6-e4f7-aed2" name="Task Force Commander" publicationId="e2d0-d5ce-4079-e0e1" page="" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2224-e79a-674c-b9a7" name="Task Force Commander" hidden="false" targetId="d485-e4a6-095c-6701" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-        <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Options" publicationId="e2d0-d5ce-4079-e0e1" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ba74-b243-4343-ba32" name="Command Ranks" publicationId="20bd-c8e1-5e20-75e8" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="aa23-5763-a003-dde2" value="-1.0">
+        <modifier type="set" field="0cb4-c406-104f-a225" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e641-b0e1-b105-e4fa" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="aa23-5763-a003-dde2" value="0.0">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="notInstanceOf"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="notInstanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1396,6 +1379,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf9-3955-bf9c-c80c" type="instanceOf"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30b6-4558-05e7-1248" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e54b-9e59-c994-d744" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -1403,90 +1387,71 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa23-5763-a003-dde2" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0cb4-c406-104f-a225" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa23-5763-a003-dde2" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f18-b1d8-dd4f-0831" type="min"/>
       </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="e86a-a3a4-4dd1-3579" name="Command Ranks" publicationId="e2d0-d5ce-4079-e0e1" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a99-e51e-cdc5-3484" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="aec3-3a45-f159-615c" name="Commanding Officer" hidden="true" collective="false" import="true" targetId="8925-65d7-2bcc-bf9e" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52e8-1769-e852-5e34" type="min"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e1e3-a2e8-148a-6c57" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="a400-18d8-70ce-ddcc" name="Task Force Commander" hidden="false" collective="false" import="true" targetId="1e15-74a6-e4f7-aed2" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="148b-a0c0-87ba-9ffd" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="c9bb-0b5e-3819-d358" name="Second-in-Command" hidden="true" collective="false" import="true" targetId="b9f3-cf86-aea7-bbbc" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ec5-04ab-6491-0939" type="lessThan"/>
-                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="lessThan"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="945f-b78d-e961-72e8" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="faba-21a8-2bc5-7b70" name="Executive Officer" hidden="true" collective="false" import="true" targetId="9ec5-04ab-6491-0939" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7f-d7cf-1254-cd73" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3c44-895b-5885-5449" name="Combat Group Leader" hidden="false" collective="false" import="true" targetId="91ff-de92-55ae-e0de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b447-10b4-2c8a-1a3e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8377-a1ee-337e-7352" name="Commanding Officer" hidden="false" collective="false" import="true" targetId="8925-65d7-2bcc-bf9e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="13a9-c64e-6045-e6eb" value="1.0">
+            <modifier type="set" field="1246-3dcc-42ed-c683" value="0.0">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e641-b0e1-b105-e4fa" type="instanceOf"/>
+                <condition field="1246-3dcc-42ed-c683" scope="roster" value="99.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b447-10b4-2c8a-1a3e" type="max"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13a9-c64e-6045-e6eb" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b70c-0805-30fd-2fcc" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb3a-86f8-bec9-2ddc" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e34-7643-2128-0cfc" name="Supreme Commanding Officer" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c1e-914a-292b-501a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3d57-c8ae-79bd-2d94" name="Supreme Commanding Officer" hidden="false" targetId="d485-e4a6-095c-6701" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+                <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c953-f139-4067-c7af" name="Executive Officer" hidden="true" collective="false" import="true" targetId="9ec5-04ab-6491-0939" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="1246-3dcc-42ed-c683" scope="roster" value="99.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d46-75cd-ca6e-17a7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5663-1646-9b03-cb86" name="Second-in-Command" hidden="true" collective="false" import="true" targetId="b9f3-cf86-aea7-bbbc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8925-65d7-2bcc-bf9e" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2584,13 +2549,13 @@ to indicate ammunition remaining.</description>
       <characteristics>
         <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">XO</characteristic>
         <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">4+</characteristic>
-        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">2*</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1*</characteristic>
       </characteristics>
     </profile>
     <profile id="b7d8-e4ff-031d-570b" name="Second-in-Command" page="25" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
       <characteristics>
         <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">2iC</characteristic>
-        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">5+</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">6+</characteristic>
         <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1*</characteristic>
       </characteristics>
     </profile>
@@ -3697,11 +3662,11 @@ to indicate ammunition remaining.</description>
         <characteristic name="Category" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile id="d485-e4a6-095c-6701" name="Task Force Commander" publicationId="e2d0-d5ce-4079-e0e1" page="" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+    <profile id="d485-e4a6-095c-6701" name="Supreme Commanding Officer" publicationId="20bd-c8e1-5e20-75e8" page="59" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
       <characteristics>
-        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">TFC</characteristic>
-        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">3+</characteristic>
-        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">3</characteristic>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a"/>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">Init:+1</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f"/>
       </characteristics>
     </profile>
     <profile id="bbcc-a468-bea2-b008" name="Bazooka, Very Light" page="219" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
