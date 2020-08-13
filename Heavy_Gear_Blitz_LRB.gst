@@ -43,7 +43,12 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="568f-89d9-1e3f-e9f7" name="Commander" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false"/>
+    <categoryEntry id="568f-89d9-1e3f-e9f7" name="Commander" publicationId="20bd-c8e1-5e20-75e8" page="25" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="35e7-ef1d-c68d-42f0" type="min"/>
+        <constraint field="selections" scope="e641-b0e1-b105-e4fa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4086-7c28-0499-6aae" type="max"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry id="70ee-6571-e701-4049" name="Gear choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
     <categoryEntry id="7d51-9214-272e-e12f" name="Infantry choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
     <categoryEntry id="3e8e-a23b-f1b3-4efb" name="Strider Choices" publicationId="20bd-c8e1-5e20-75e8" page="18" hidden="false"/>
@@ -731,9 +736,6 @@
       <infoLinks>
         <infoLink id="3e74-5e90-0d9d-d9fa" name="Executive Officer" hidden="false" targetId="467b-497e-b59f-80a1" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bf75-ffad-eeac-0038" name="Commander" hidden="false" targetId="568f-89d9-1e3f-e9f7" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
         <cost name=" Actions" typeId="4e06-e713-b451-4dcf" value="0.0"/>
@@ -1420,7 +1422,6 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52e8-1769-e852-5e34" type="min"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e1e3-a2e8-148a-6c57" type="max"/>
               </constraints>
               <entryLinks>
@@ -1463,6 +1464,13 @@
               </costs>
             </entryLink>
             <entryLink id="faba-21a8-2bc5-7b70" name="Executive Officer" hidden="false" collective="false" import="true" targetId="9ec5-04ab-6491-0939" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="568f-89d9-1e3f-e9f7">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ff-de92-55ae-e0de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7f-d7cf-1254-cd73" type="max"/>
               </constraints>
