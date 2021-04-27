@@ -44,7 +44,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="a56e-8415-0783-4b53" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="17" hidden="false"/>
+    <categoryEntry id="a56e-8415-0783-4b53" name="Groups" publicationId="50a1-0750-fba2-b978" page="17" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="15bf-0106-edde-62bf" name="Force" publicationId="50a1-0750-fba2-b978" page="43" hidden="false">
