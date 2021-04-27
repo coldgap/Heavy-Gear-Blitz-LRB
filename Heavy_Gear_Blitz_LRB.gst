@@ -18,18 +18,20 @@
     </profileType>
     <profileType id="59ec-9ec7-dc1a-0aff" name="Model">
       <characteristicTypes>
-        <characteristicType id="a718-b78d-b4d7-3c98" name="TV"/>
-        <characteristicType id="759f-78f5-a55f-86a1" name="UA"/>
-        <characteristicType id="d971-d530-75de-372c" name="MR"/>
-        <characteristicType id="b326-1089-d050-c3d4" name="AR"/>
-        <characteristicType id="6956-1a42-03f7-5061" name="H/S"/>
-        <characteristicType id="9151-7386-2112-169b" name="A"/>
+        <characteristicType id="9151-7386-2112-169b" name="Action"/>
+        <characteristicType id="22d3-588f-e366-c398" name="Type"/>
+        <characteristicType id="4c92-acba-6457-460b" name="Height"/>
+        <characteristicType id="d971-d530-75de-372c" name="Move Type"/>
+        <characteristicType id="0484-f472-e7b0-7447" name="Move Rate"/>
         <characteristicType id="97e0-dcbe-fed2-c338" name="GU"/>
         <characteristicType id="0d90-9e1a-4571-a154" name="PI"/>
         <characteristicType id="d607-c085-3ac3-9660" name="EW"/>
-        <characteristicType id="4ddd-1a47-f23d-0436" name="Weapons"/>
+        <characteristicType id="b326-1089-d050-c3d4" name="Armor"/>
+        <characteristicType id="6956-1a42-03f7-5061" name="H/S"/>
         <characteristicType id="1ee4-e483-4899-3d16" name="Traits"/>
-        <characteristicType id="22d3-588f-e366-c398" name="Type/Height"/>
+        <characteristicType id="a718-b78d-b4d7-3c98" name="TV"/>
+        <characteristicType id="759f-78f5-a55f-86a1" name="Role"/>
+        <characteristicType id="4ddd-1a47-f23d-0436" name="Weapons"/>
       </characteristicTypes>
     </profileType>
     <profileType id="5631-1304-203a-cd77" name="Weapon">
@@ -773,33 +775,37 @@
         <profile id="bd21-0272-3934-195c" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="Action" typeId="9151-7386-2112-169b"/>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
         <profile id="0b60-33b5-4020-042a" name="Link to Weapon Profile [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="Action" typeId="9151-7386-2112-169b"/>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -878,17 +884,19 @@
         <profile id="b896-310a-45c8-aa70" name="Demo [Charge] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">Attached Upgrade</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">Attached Upgrade</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">2</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MSE(LA:1)*</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -902,17 +910,19 @@
         <profile id="e44d-c4e7-37ae-7037" name="Demo [Grenade] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">G:5&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">2</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">2</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">6+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MHG(LA:1)*</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Offroad:1</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -926,17 +936,19 @@
         <profile id="05b6-939b-0147-ec3a" name="Hunter-Killer [Air Defense] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">1</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">1</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW(FT, AA)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jump Jets:2</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Drone 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Drone 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -950,17 +962,19 @@
         <profile id="1deb-cbd6-5226-a630" name="Hunter-Killer [Anti-Infantry] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">1</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">1</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">MIW(FT, Auto)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Jump Jets:2</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Drone, 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -974,17 +988,19 @@
         <profile id="1aa7-68b2-5e02-f09b" name="Hunter-Killer [Defender] Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">1</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">Attached upgrade</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">H:6&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">1</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LIW(FT)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">AMS, Jump Jets:2</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Drone 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Drone 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -998,17 +1014,19 @@
         <profile id="6b19-5830-1fbc-0d95" name="Recon Drone" publicationId="20bd-c8e1-5e20-75e8" page="215" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">1</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="Action" typeId="9151-7386-2112-169b"/>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1022,33 +1040,37 @@
         <profile id="4b9f-7683-0579-ffca" name="A Generic Model [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="Action" typeId="9151-7386-2112-169b"/>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
         <profile id="d560-8ffb-cdf3-7b6b" name="Link to Weapon Profile [Example]" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-            <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b"/>
+            <characteristic name="Action" typeId="9151-7386-2112-169b"/>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1253,17 +1275,19 @@
         <profile id="6061-3292-6d86-8713" name="Generic Fighter" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GF(0-3)</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">F:14&quot; G:2&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GF(0-3)</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">F:14&quot; G:2&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/4</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">2</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x MAC, LSAM(LA:2)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, TD:0</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1287,17 +1311,19 @@
         <profile id="b930-c4c7-6df1-5243" name="Generic Fighter/Bomber" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">FB(0-3)</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">F:12&quot; G:2&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">FB(0-3)</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">F:12&quot; G:2&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">2</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">2</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">2x HAC, LSAM(LA:2), HRP</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, TD:0</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1322,17 +1348,19 @@
         <profile id="1baa-eb75-c1ef-89df" name="Generic Bomber" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">20</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">GB</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">F:10&quot; G:2&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">7</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GB</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">F:10&quot; G:2&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/4</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">3</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LRC(FT), MSAM(LA:2), 2x MBB(LA:2)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1355,17 +1383,19 @@
         <profile id="b5c8-0812-6549-a411" name="Recon UAV" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">UV</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">F:12&quot; G:2&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">4</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">UV</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">F:12&quot; G:2&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">4</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">2/2</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">5+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154">5+</characteristic>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">4+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LATM(LA:2)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">TD:1. Sensors:24&quot;</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Flyer</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1388,17 +1418,19 @@
         <profile id="855f-580b-2f2f-2ce5" name="Trench (6&quot;x1&quot;)" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">0</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:3</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 0.5&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 0.5&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1418,17 +1450,19 @@
         <profile id="0083-8a1e-c373-b973" name="Bunker" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">12</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">12</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">0</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">APC:2</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1448,17 +1482,19 @@
         <profile id="ed9e-f5ab-a923-7c36" name="Outpost" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">20</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">5/3</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">3</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">3</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">3x MAC(T, Auto)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">HGC:2, APC:6, Sensors:18”(Aux)</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 3&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 3&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1482,17 +1518,19 @@
         <profile id="cdca-0db7-18c0-b914" name="Anti-Air Turret" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(FT, AA, Flak)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1515,17 +1553,19 @@
         <profile id="5f7b-8674-10f5-dd06" name="AutoCannon Turret" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HAC(FT, Link)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1547,17 +1587,19 @@
         <profile id="3002-6505-efeb-b77e" name="Rocket Turret" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">15</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">10</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">10</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">HRP(Link)</characteristic>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Sensors:18&quot;(Aux)</characteristic>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Fortification 1&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1579,17 +1621,19 @@
         <profile id="4cde-9947-df8a-075e" name="Minefields (6&quot;x3&quot;)" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-            <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">0</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Hazard 0&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Hazard 0&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1606,17 +1650,19 @@
         <profile id="70d0-080a-590b-900d" name="Obstacles (5)" publicationId="20bd-c8e1-5e20-75e8" page="214" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <characteristics>
             <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">5</characteristic>
-            <characteristic name="UA" typeId="759f-78f5-a55f-86a1">SU</characteristic>
-            <characteristic name="MR" typeId="d971-d530-75de-372c">0&quot;</characteristic>
-            <characteristic name="AR" typeId="b326-1089-d050-c3d4">8</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SU</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">0&quot;</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">8</characteristic>
             <characteristic name="H/S" typeId="6956-1a42-03f7-5061">6/0</characteristic>
-            <characteristic name="A" typeId="9151-7386-2112-169b">0</characteristic>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">0</characteristic>
             <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
             <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
             <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
             <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
             <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-            <characteristic name="Type/Height" typeId="22d3-588f-e366-c398">Hazard 1&quot;</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Hazard 1&quot;</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2955,33 +3001,37 @@ to indicate ammunition remaining.</description>
     <profile id="06aa-1525-c0dc-4641" name="Paratroopers (Infantry upgrade)" page="90" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">+1</characteristic>
-        <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-        <characteristic name="MR" typeId="d971-d530-75de-372c"/>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c"/>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
-        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="Action" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">+Airdrop</characteristic>
-        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
       </characteristics>
     </profile>
     <profile id="88e9-5ef0-4165-bba1" name="Stripped Down (Upgrade)" page="72" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98"/>
-        <characteristic name="UA" typeId="759f-78f5-a55f-86a1"/>
-        <characteristic name="MR" typeId="d971-d530-75de-372c">+2&quot;</characteristic>
-        <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1"/>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">+2&quot;</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4"/>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061">-1/+1</characteristic>
-        <characteristic name="A" typeId="9151-7386-2112-169b"/>
+        <characteristic name="Action" typeId="9151-7386-2112-169b"/>
         <characteristic name="GU" typeId="97e0-dcbe-fed2-c338"/>
         <characteristic name="PI" typeId="0d90-9e1a-4571-a154"/>
         <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436"/>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16"/>
-        <characteristic name="Type/Height" typeId="22d3-588f-e366-c398"/>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398"/>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b"/>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447"/>
       </characteristics>
     </profile>
     <profile id="b75d-6754-c921-caa2" name="Air Burst Missile, Heavy" page="219" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
