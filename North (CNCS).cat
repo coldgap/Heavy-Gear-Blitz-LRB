@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="2de7-d459-08b0-71e1" name="North (CNCS)" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry id="42e9-47dc-5629-a039" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="42e9-47dc-5629-a039" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7991-c6a8-62de-6b2f" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
