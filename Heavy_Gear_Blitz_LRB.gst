@@ -2868,23 +2868,23 @@ to indicate ammunition remaining.</description>
     <rule id="1efa-fa66-d8f6-50ce" name="Secure Zone [needs review]" page="126" hidden="false">
       <description>Gain 5% of the Force Threat point Value as free points that may only be used towards purchasing Generic Support Options.</description>
     </rule>
-    <rule id="3cf9-f033-7dba-ccaa" name="Sensor Boom [needs review]" page="217" hidden="false">
-      <description>This model may extend its silhouette by 1” in any direction when making an attack action for purposes of Lock and Sensor Lock.</description>
+    <rule id="3cf9-f033-7dba-ccaa" name="Sensor Boom" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model may check LOS and sensor lock from a point up to 1&quot; away from its silhouette. This only applies to indirect attacks, Forward Observations, ECM Hack, ECM Jam, and Scan actions.</description>
     </rule>
-    <rule id="abce-ad0d-67b4-3ef9" name="Sensors:X [needs review]" page="217" hidden="false">
-      <description>This model’s Sensor range is X. This model may use the Sensor Boost action.</description>
+    <rule id="abce-ad0d-67b4-3ef9" name="Sensors:X" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model has a loarger sensor range of X inches, and models in formation may use this model&apos;s sensor locks for attacks.</description>
     </rule>
     <rule id="37e2-e36d-1096-0947" name="Shield/Paired Weapon [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Add a Shield:1 trait, or add the Link trait to a melee weapon.</description>
     </rule>
-    <rule id="6231-43d5-8a59-d51f" name="Shield:X [needs review]" page="217" hidden="false">
-      <description>This model gains a +XD6 modifier to defense from attacks from the front. Attacks that ignore cover ignore this bonus. AE attacks with the primary target in this models front arc do allow the modifier.</description>
+    <rule id="6231-43d5-8a59-d51f" name="Shield" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model may reroll defense rolls if the attacker is within its front arc.</description>
     </rule>
-    <rule id="127e-6af0-8899-60e7" name="Silenced [Silent] [needs review]" page="218" hidden="false">
-      <description>Attack actions with this weapon do not remove a Hiding token, or cause a model to lose its Stealth trait bonus to defense.</description>
+    <rule id="127e-6af0-8899-60e7" name="Silent" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>Models do not lose the Hidden status when attacking with a weapon that has the Silent trait.</description>
     </rule>
-    <rule id="ed24-f6fe-84eb-3f82" name="Smoke:X [needs review]" page="217" hidden="false">
-      <description>Combat or Braced posture models with Smoke:X may use an Action to fire Smoke. Firing Smoke places a AE:3” centered on the location of the Active model. Smoke is Light Area Cover and has a height of 4”. Each Smoke trait can be used X times per game. Remove Smoke Area Effects in the Cleanup Phase.</description>
+    <rule id="ed24-f6fe-84eb-3f82" name="Smoke" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>A model with the Smoke trait may use an action to release smoke [see book for unabridged rule].</description>
     </rule>
     <rule id="7fae-39c3-f8e7-015b" name="South Allies [needs review]" page="146" hidden="false">
       <description>Any NuCoal unit with a Unit Availability of HV may select Hetaroi models from the South Models List.</description>
@@ -2895,20 +2895,20 @@ to indicate ammunition remaining.</description>
     <rule id="3012-83e6-ee14-ef29" name="Specialized Training [needs review]" page="100" hidden="false">
       <description>Any combat group that contains only one model type (Gear, Infantry, Vehicle, etc) gains 1 additional Command Point for the unit Commander.</description>
     </rule>
-    <rule id="3806-9299-9e60-5cab" name="Split Fire:X [Split:X] [needs review]" page="218" hidden="false">
-      <description>This weapon may split attacks between X targets.</description>
+    <rule id="3806-9299-9e60-5cab" name="Split:X" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>When attacking, this model may target X number of models [see book for unabridged rule].</description>
     </rule>
-    <rule id="75d4-29e4-e274-2989" name="Spray [needs review]" page="218" hidden="false">
-      <description>Attacks with this weapon ignore cover modifiers for partial and area terrain and the Agile trait. Attacks with Spray ignore ECM Defence.</description>
+    <rule id="75d4-29e4-e274-2989" name="Spray" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>Models attacked with this weapon do not gain defense modifiers from partial cover. This weapon cannot be fired through full cover.</description>
     </rule>
     <rule id="7cf0-dfcb-96ed-4ae5" name="Stabilizer [needs review]" page="218" hidden="false">
       <description>This weapon may only be fired if the model is Braced.</description>
     </rule>
-    <rule id="a54c-376d-5e61-2585" name="Stable Weapons Platform [Stable] [needs review]" page="217" hidden="false">
-      <description> This model adds a +1D6 modifier to all Gunnery rolls.</description>
+    <rule id="a54c-376d-5e61-2585" name="Stable" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description> This model gets +1D6 to Gunnery rolls while at Combat Speed or Top Speed.</description>
     </rule>
-    <rule id="bff2-8b5f-2f53-cb6c" name="Stealth [needs review]" page="217" hidden="false">
-      <description>This model improves its Piloting Skill by 1 for Defense Rolls against Direct and Indirect attacks targeting the model if the model has adjacent and intervening cover. This modifier does not apply when the model is using an attack action or reaction, active sensors, an EW action, or making a Comms roll. This modifier does not apply if the model is attacked with a melee attack, or has no cover from the Observer of a Forward Observation (See 14.3). Sensor Lock against a model with the Stealth trait has a -6” modifier to the range of the Sensors.</description>
+    <rule id="bff2-8b5f-2f53-cb6c" name="Stealth" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>Enemy models cannot sensor lock this model until it is within half their sensor range.</description>
     </rule>
     <rule id="6435-3099-c114-5666" name="Stripped Down [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>Any model with a Unit Availability of GP or RC may upgraded with the Stripped Down trait for 0TV. Any model with this trait adds 2” to its Movement Rating but has -1 Hull Rating and +1 Structure rating. Example: A Stripped Down Hunter would have H/S:3/3 instead of 4/2.</description>
@@ -2916,8 +2916,8 @@ to indicate ammunition remaining.</description>
     <rule id="ff46-dc88-661c-794c" name="Support [needs review]" page="217" hidden="false">
       <description>This model may only be selected as part of a Support Unit.</description>
     </rule>
-    <rule id="cf7b-c29c-eede-54d4" name="Target Designator:X [TD:X] [needs review]" page="217" hidden="false">
-      <description>Target Designator: A TD may only be used at Combat or Braced speeds and only if the target model does not have Full Cover. A Forward Observation by a model using a Target Designator trait may use the TD trait to activate the Guided trait on weapons chained to the Forward Observation. The TD trait adds a +XD6 modifier to a Guided attack. A Target Designator allows the target the terrain Cover modifier it would have against a direct attack from the observing model.</description>
+    <rule id="cf7b-c29c-eede-54d4" name="TD [Target Designator]" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>A Target Designator is a precision laser marking device which steers guided weapons to a target [see book for unabridged rule].</description>
     </rule>
     <rule id="be43-b087-8d99-0afb" name="Team Play [needs review]" page="146" hidden="false">
       <description>Primary units may only consist of models with two or more actions.</description>
@@ -2931,14 +2931,14 @@ to indicate ammunition remaining.</description>
     <rule id="2beb-aa5d-2a3c-e9ec" name="The Best Money Can Buy [UMF] [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>The Force Commanding Officer gains the Init:1 trait, or adds 1 to an existing Init:X trait. Models with the UA limit of CMD cost -1TV.</description>
     </rule>
-    <rule id="e6e9-4c2a-0423-bbe4" name="Towed [needs review]" page="217" hidden="false">
-      <description>One model with this trait may be transported by a vehicle with the APC trait without using the transport capacity of the towing vehicle. After movement is completed this model is placed within 1” of the rear of the vehicle and may be attacked as a separate target. A Towed model must still disembark from the transport in order to fire. A towed model may not change elevation in a building and must be deployed on the lowest floor.</description>
+    <rule id="e6e9-4c2a-0423-bbe4" name="Towed" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>One model with this trait may be towed behind a vehicle with the Transport trait [see book for unabridged rule].</description>
     </rule>
     <rule id="ac30-d226-245f-6ea3" name="Transition Forces [needs review]" page="146" hidden="false">
       <description>HAPF units may mix models from the South and NuCoal Force lists if their Unit Availability Attribute matches the Unit Availability of the unit. Only models which are allowed by the “Allies: South” rule may be included.</description>
     </rule>
-    <rule id="9971-579b-d306-dc8f" name="Transport:X/Y [needs review]" page="217" hidden="false">
-      <description>This model may transport X models of the Y model type.</description>
+    <rule id="9971-579b-d306-dc8f" name="Transport:X Type" publicationId="50a1-0750-fba2-b978" page="148-9" hidden="false">
+      <description>This model may transport X models of the listed type [see book for unabridged rule].</description>
     </rule>
     <rule id="8c59-e3ce-c970-da45" name="Veteran [Vet] [needs review]" page="217" hidden="false">
       <description>This model is a veteran and has one skill point. This model may purchase upgrades from the Veteran upgrade list.</description>
@@ -3005,6 +3005,18 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="a53e-13a6-7680-3814" name="React+" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
       <description>This model may perform any reaction once per round without paying an action point. Additionally, you may sacrifice your React+ trait for the round to focus an attack for an addtional +1D6 on attack rolls.</description>
+    </rule>
+    <rule id="1580-0bb0-0e2f-540b" name="SP:+1" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model gains 1 skill point in addition to any it may gain from other sources. If the model is a commander, it instead gains 1 command point.</description>
+    </rule>
+    <rule id="e00b-ef62-e8ce-f126" name="Stationary" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model is always Braced and cannot turn.</description>
+    </rule>
+    <rule id="f745-e139-a580-7a1c" name="Sub" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>This model uses its full move rate through water, gains partial cover in water, and may deploy outside the deployment zone [see book for unabridged rule].</description>
+    </rule>
+    <rule id="42ea-8e4f-29c9-220d" name="Supply" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
+      <description>Models with this trait may use the Reload action too replenish ammunition for a weapon with the Ammo:X trait.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
