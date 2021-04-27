@@ -2650,8 +2650,8 @@ A Brawl:X trait on a model will modify all melee rolls that model makes by XD6. 
     <rule id="539a-12ee-7dab-9848" name="Climber" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
       <description>This trait allows a model to climb terrain features at its full move rate.</description>
     </rule>
-    <rule id="a48d-be07-6cdc-3d9d" name="Combat Medic [Medic] [needs review]" page="217" hidden="false">
-      <description>This model removes two intensity from Fire or Corrosion tokens when it uses a Damage Control Action targeting a model with the Infantry type. Medics may not be commanders.</description>
+    <rule id="a48d-be07-6cdc-3d9d" name="Medic" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>Medics may use the Patch action on friendly infantry models [see book for unabridged rule].</description>
     </rule>
     <rule id="cd1d-7d89-c4af-0a65" name="Combined Arms Specialists [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>If the Force has at least three different types of model on the battlefield at the start of a round then the Commanding Officer gains +1 Command Point.</description>
@@ -2672,8 +2672,8 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     <rule id="452d-05ad-b767-1a3a" name="Conscripts (Upgrade) [needs review]" page="100" hidden="false">
       <description>Add the Conscript trait to all non-commander and non-duelist models in the Force. Reduce the Threat point Value of all models with the conscript trait by -1TV per action.</description>
     </rule>
-    <rule id="97e2-9be7-eb90-b9ac" name="Corrosion Resistance [Resist:C] [needs review]" page="217" hidden="false">
-      <description>This model degrades the Target Number of Corrosion Marginal hit rolls to 5+.</description>
+    <rule id="97e2-9be7-eb90-b9ac" name="Resist:Corrosion" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model does not receive the extra damage from Corrosion.</description>
     </rule>
     <rule id="0f2a-aa9e-7990-de37" name="Corrosion" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
       <description>A model hit with an attack by a weapon that has the Corrosion trait takes damage normally, receives a corrosion token, and may suffer other effects in later phases [see book for unabridged rule].</description>
@@ -2714,8 +2714,8 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     <rule id="13cf-10a3-507f-e073" name="Field Armor" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
       <description>This model suffers one less damage from each damaging attack to a minimum of one damage [see book for unabridged rule].</description>
     </rule>
-    <rule id="79fe-6ee3-a88b-cca5" name="Fire Resistance [Resist:F] [needs review]" page="217" hidden="false">
-      <description>This model degrades the Target Number of Fire Marginal hit rolls to 5+</description>
+    <rule id="79fe-6ee3-a88b-cca5" name="Resist:Fire" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model does not receive the extra damage from Fire.</description>
     </rule>
     <rule id="7f82-4f44-5459-a1bc" name="Fire:X" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
       <description>When an attack with the Fire:X trait hits, apply damage as normal, the roll XD6. For each die that meets threshold 4+, apply one additional damage.</description>
@@ -2738,8 +2738,8 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     <rule id="6781-efa9-aa1c-5639" name="Haywire" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
       <description>Any model hit with a weapon or attack with the Haywire trait is marked with the Haywired condition [see book for unabridged rule].</description>
     </rule>
-    <rule id="3f9f-cd31-0239-ec2f" name="Haywire Resistance [Resist:H] [needs review]" page="217" hidden="false">
-      <description>This model is not affected by Haywire and does not suffer any marginal damage rolls from a Haywire weapon attack, though it does take normal damage.</description>
+    <rule id="3f9f-cd31-0239-ec2f" name="Resist:Haywire" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model does not roll for additional damage after being Haywired, but it still suffers the Haywired status.</description>
     </rule>
     <rule id="6f0c-fc50-3bd1-d743" name="Heavy Gear Carrier:X [HGC:X] [needs review]" page="216" hidden="false">
       <description>This model may transport X models with the Type: Gear or Type: Infantry Squad. Two Infantry Teams or Drones may be transported instead of one Squad.</description>
@@ -2778,8 +2778,8 @@ to indicate ammunition remaining.</description>
     <rule id="bd46-4b68-86b6-965d" name="Limited Availability:X [Limited:X] [needs review]" page="217" hidden="false">
       <description>This model may only be included in units that share the UA of X. “X” may be either a standard UA or a unique UA of the limited unit. Models with Multiple UAs listed with their Limited trait must select one listed UA to apply when constructing a Force. Example: A model has UA: GP(0+), IN and the Trait Limited:MI, IN. This model may only be included in GP units that either have the Limited:MI trait or in units that have the UA:IN.</description>
     </rule>
-    <rule id="485f-c59d-ca2d-78f0" name="Linked Weapon [Link] [needs review]" page="218" hidden="false">
-      <description>Attacks with this weapon improve the attack skill rating of the active model by 1.</description>
+    <rule id="485f-c59d-ca2d-78f0" name="Link" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>Weapons with the Link trait add a +1D6 modifier to any attack roll made with this weapon.</description>
     </rule>
     <rule id="8afe-46bf-a1ac-5fa1" name="Lone Wolf [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Duelists may not use Rerolls from Command Points, or Orders. Note: This rule does not affect duelist models from the KADA Sub-list.</description>
@@ -2787,8 +2787,8 @@ to indicate ammunition remaining.</description>
     <rule id="72ff-a182-dbf6-b8ac" name="Low Profile [needs review]" page="217" hidden="false">
       <description>This models silhouette is always 1⁄2 the Height indicated. When Activating, this model may choose to use its regular Height when choosing posture. A model with a standby token may choose to use its full height when it uses the standby token to take an action.</description>
     </rule>
-    <rule id="a5ee-3261-8405-2371" name="Lumbering [needs review]" page="217" hidden="false">
-      <description>This model may only turn once per Move.</description>
+    <rule id="a5ee-3261-8405-2371" name="Lumbering" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model does not receive the +1D6 defense roll modifier for being at Top Speed.</description>
     </rule>
     <rule id="cc3f-c18f-6746-a2f9" name="Melee Specialist [needs review]" page="59" hidden="false">
       <description>Add the Brawler:2 trait or increase an existing Brawler trait by 2.</description>
@@ -2805,8 +2805,8 @@ to indicate ammunition remaining.</description>
     <rule id="951c-8063-0710-f40c" name="Observers [needs review]" page="146" hidden="false">
       <description>Allied support units may not use Command points from NuCoal models. South Support units may be given any General upgrades except CMD model upgrades and may be veterans without counting towards the total number of veteran units in the force.</description>
     </rule>
-    <rule id="28ae-068d-43df-2844" name="Offroad:X [needs review]" page="217" hidden="false">
-      <description>This model adds +X” to the distance it may move in difficult terrain. This does not apply to water features.</description>
+    <rule id="28ae-068d-43df-2844" name="Offroad" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>Models with this trait travel over difficult surfaces at their normal move rate. This does not apply to water terrain and does not benefit climbing.</description>
     </rule>
     <rule id="c0e5-8117-e6c6-1f7e" name="Open Topped [Open] [needs review]" page="218" hidden="false">
       <description>Transported models may fire their weapons while transported by this model. The transported model must use the same posture as the transporting model. If the Open trait has an attached arc indicated then the models may only fire in that arc.</description>
@@ -2832,8 +2832,8 @@ to indicate ammunition remaining.</description>
     <rule id="8e9e-2246-0f94-9552" name="Port Arthur GREL Allies [needs review]" page="146" hidden="false">
       <description>Any NuCoal Sub-List can include Support units with the Unit Availability of IN from the CEF Model List. Any NuCoal unit with a Unit availability of HV may select LHT-67 and LHT-71 models from the CEF Model List. LHT-67 and LHT-71 models selected this way may replace their LC, PA, or RL weapon with a MRC for +0TV.</description>
     </rule>
-    <rule id="b6a6-e266-e558-e477" name="Precise [needs review]" page="218" hidden="false">
-      <description>Hits with a margin of zero (MOS:0) ignore the Agile trait. Note: This weapon may be used to target very small models like Demo or Recon drones.</description>
+    <rule id="b6a6-e266-e558-e477" name="Precise" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>When this weapon is used to attack, add +1R to the roll result.</description>
     </rule>
     <rule id="09cb-eb44-22f8-d3e3" name="Prospectors [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>Any walker model may add the Climber trait for +1TV.</description>
@@ -2847,20 +2847,20 @@ to indicate ammunition remaining.</description>
     <rule id="29a1-3ed4-64ea-f0ce" name="Range X-Y/Z&quot; [needs review]" page="218" hidden="false">
       <description>Replace the normal range of this weapon type with the range indicated in the rating of the trait.</description>
     </rule>
-    <rule id="337d-f1a8-69cf-3f84" name="Reach:X [needs review]" page="218" hidden="false">
-      <description>This melee weapon has a range of 0-X / X”.</description>
+    <rule id="337d-f1a8-69cf-3f84" name="Reach:X" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This melee weapon can attack a target X inches from its base. This is not a ranged attack.</description>
     </rule>
     <rule id="74b1-d869-968b-6abe" name="Recon [needs review]" page="217" hidden="false">
       <description>This model may deploy using the Recon Special Deployment options.</description>
     </rule>
-    <rule id="0e0b-8fb6-a0f0-0013" name="Recovery Vehicle [Recovery] [needs review]" page="217" hidden="false">
-      <description>This model removes two intensity from Fire or Corrosion tokens when it uses a Damage Control Action (See 9.6b) targeting a non-infantry model. Recovery Vehicles may not be Commanders.</description>
+    <rule id="0e0b-8fb6-a0f0-0013" name="Repair" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model may use the Patch action on friendly non-infantry models.</description>
     </rule>
     <rule id="ec7f-b564-a1f8-1c67" name="Sabre [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Add the Reach:1” trait to any Vibro Blade or Combat Weapon.</description>
     </rule>
-    <rule id="110c-8b5f-738b-faf4" name="Satellite Uplink:X+ [SatUp:X+] [needs review]" page="217" hidden="false">
-      <description>This model may use actions and abilities noted as requiring a SatUp:X trait (See 14.0). This model may Relay.</description>
+    <rule id="110c-8b5f-738b-faf4" name="SatUp [Satellite Uplink]" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model and all models in formation with it get -1 TN for all independent Electronic Warfare rolls. This is not cumulative with additional SatUps.</description>
     </rule>
     <rule id="821e-3c46-e9b3-8421" name="Second Line [needs review]" page="100" hidden="false">
       <description>This army may not use the Elite force option.</description>
@@ -2984,6 +2984,27 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="1d57-21af-269f-d887" name="ECM+" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
       <description>This model has an enhanced electronic counter-measures system. A model with the ECM+ trait performs all the functions of the ECM trait, but its ECM Protect is always in effect unless it is haywired.</description>
+    </rule>
+    <rule id="198d-99c6-8de8-480d" name="L [Left Arc]" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>A weapon with this trait can only be fired at targets within this model&apos;s left arc.</description>
+    </rule>
+    <rule id="cbc1-bd3f-ac90-dc29" name="Mine:X" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>A model with the Mine:X trait can plant mines on the battlefield [see book for unabridged rule].</description>
+    </rule>
+    <rule id="2bd3-2e84-043c-731f" name="Occupancy:X Type" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>Buildings with this trait will specify the type and amount of other models which may be inside it during its deployment [see book for unabridged rule].</description>
+    </rule>
+    <rule id="3f3c-e547-eca2-0723" name="Or" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This trait is always accompanied by multiple ammunition types. The player must choose only one ammunition type to use when attacking.</description>
+    </rule>
+    <rule id="3b0a-cfb0-ec3e-f516" name="R [Right Arc]" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>A weapon with this trait can only be fired at targets within this model&apos;s right arc.</description>
+    </rule>
+    <rule id="de98-f161-872f-fdd4" name="React" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>A weapon with this trait can be used for the Retaliate reaction.</description>
+    </rule>
+    <rule id="a53e-13a6-7680-3814" name="React+" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model may perform any reaction once per round without paying an action point. Additionally, you may sacrifice your React+ trait for the round to focus an attack for an addtional +1D6 on attack rolls.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
