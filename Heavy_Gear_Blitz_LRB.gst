@@ -2563,51 +2563,50 @@
     <rule id="0851-f173-e3ee-ca75" name="Advanced Control Systems [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>+1 Action.</description>
     </rule>
-    <rule id="d61d-9cf7-daf2-e8d9" name="Advanced Neural Net [ANN] [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false">
-      <description>When choosing a posture, select one Skill rating. Improve that Skill rating by 1 for the duration of the models activation.</description>
+    <rule id="d61d-9cf7-daf2-e8d9" name="ANN [Advanced Neural Net]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>When activating this model, select one sill to roll at -1 TN until the end of its activation.</description>
     </rule>
-    <rule id="c159-01a9-3d5b-4ae9" name="Advanced Weapons [needs review]" page="146" hidden="false">
-      <description>Reduce the Threat point Value of Models with a Unit Availability of ST or HV that are equipped with an Advanced Category weapon by 1TV.</description>
+    <rule id="c159-01a9-3d5b-4ae9" name="Advanced" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the Advanced trait that attack a target at optimal range add +1R to the result rolled.</description>
     </rule>
-    <rule id="73f6-feed-085c-bda3" name="Agile [needs review]" page="216" hidden="false">
-      <description>Attacks targeting this model will miss on a Margin of Success of zero (MOS:0) or less. A Braced model loses the benefit of Agile.</description>
+    <rule id="73f6-feed-085c-bda3" name="Agile" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Attacks targeting this model will miss on a margin of success of zero.</description>
     </rule>
     <rule id="c9ef-57e2-b68a-bf1c" name="Air Mobile [needs review]" page="126" hidden="false">
       <description>All models in the Force are upgraded with the Airdrop trait for +0TV.</description>
     </rule>
-    <rule id="19a8-9f36-2ca4-ba51" name="Airdrop [needs review]" page="216" hidden="false">
-      <description>This model may deploy using the Reserve rules.</description>
+    <rule id="19a8-9f36-2ca4-ba51" name="Airdrop" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Combat groups composed of models with the Airdrop trait may deploy past the deployment zone [see book for unabridged rule].</description>
     </rule>
     <rule id="47b8-e5e8-17b2-3b53" name="Allies [needs review]" page="100" hidden="false">
       <description>The army may include units with from another Faction Model List.</description>
     </rule>
-    <rule id="53de-5267-49b8-ac8c" name="Ammunition Variants:X [Ammo:X] [needs review]" page="218" hidden="false">
-      <description>A weapon with two or more Ammo:X traits must select one of the Ammo:X traits to apply to each attack where X is the associated trait that applies to the attack. Non-Ammo:X traits on the same weapon apply to all attacks regardless of the Ammo:X trait selected.</description>
+    <rule id="53de-5267-49b8-ac8c" name="Ammo:X" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the Ammo:X trait may only be fired X times before running out of ammunition. Mark this model with a token to indicate remaining ammunition.</description>
     </rule>
-    <rule id="18fc-4d77-db63-1537" name="Amphibious [Amphib] [needs review]" page="216" hidden="false">
-      <description>This model is not destroyed by entering water terrain that is greater than half its height. This model may move in water at its slowest speed movement type and does not count water as Difficult terrain. While in water terrain that is greater than half its height an Amphibious model has Light Cover. Hover vehicles may not claim cover from water terrain.</description>
+    <rule id="18fc-4d77-db63-1537" name="Amphibious" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>This model may move over water terrain at its full move rate.</description>
     </rule>
-    <rule id="44ac-b415-6071-6d2f" name="Anti-Air [AA] [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="218" hidden="false">
-      <description>This weapon resolves attack rolls against Flying models using the firing model’s normal Gunnery skill instead of a 6+. Do not add the additional 12” of range when firing at a model using an Air Strike action. This model may Snap Fire at models using the Flying movement type to cross the battlefield.</description>
+    <rule id="44ac-b415-6071-6d2f" name="Anti-Air" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the Anti-Air trait receive +1D6 for ranged attacks against Elevated VTOLs and Airstrike Counters. This model may retaliate against an Airstrike Counter when they perform an Airstrike.</description>
     </rule>
     <rule id="6389-4b6b-e98d-bdcf" name="Anti-Air Weapons [needs review]" page="59" hidden="false">
       <description>This model may attach the Anti-Air [AA] trait to one Autocannon [*AC], Rotary Autocannon [*RC], Anti-Tank Missile [*ATM], or Laser Cannon [*LC] weapon. An upgraded Missile category weapon becomes a SAM Missile of the same rating.</description>
     </rule>
-    <rule id="373d-3234-bde9-ba3c" name="Anti-Infantry [AI] [needs review]" publicationId="20bd-c8e1-5e20-75e8" hidden="false">
-      <description>This weapon may do more than one damage per attack against models with the Infantry type.</description>
+    <rule id="373d-3234-bde9-ba3c" name="AI [Anti-Infantry]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the AI trait may deal more than two damage to Infantry or Drones on a successful attack.</description>
     </rule>
-    <rule id="3948-f390-08bd-3625" name="Anti-Missile System [AMS] [needs review]" page="216" hidden="false">
-      <description>This model gains a free Reroll when attacked by weapons using the Indirect or Missile categories. Friendly Models within 6” of this model also gain this Reroll.</description>
+    <rule id="3948-f390-08bd-3625" name="AMS [Anti-Missile System]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>An anti-missile system protects this model and friendly models in formation with it. Those models may reroll defense rolls against all indirect attacks and airstrikes.</description>
     </rule>
     <rule id="2b7f-3f10-4f86-d878" name="Anti-Structure [AS] [needs review]" page="218" hidden="false">
       <description>Double the Margin of Success of an attack when resolving damage against Terrain, Structures, or Fortifications.</description>
     </rule>
-    <rule id="43be-c250-8da7-3a3c" name="Area Effect X&quot; [AE:X&quot;] [needs review]" hidden="false">
-      <description>Models within X inches of a target Primary model or point are Secondary targets. (See 10.2). AE
-attacks ignore ECM Defence.</description>
+    <rule id="43be-c250-8da7-3a3c" name="AE:X [Area Effect]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the AE:X trait may be used to attack an area with a radius of X inches [see book for unabridged rule].</description>
     </rule>
-    <rule id="dd3a-a698-b4f4-e8e2" name="Armor Piercing:X [AP:X] [needs review]" page="218" hidden="false">
-      <description>A Target with an Armor Rating higher than the Penetration Rating of the attack will suffer damage equal to the Margin of Success up to the rating of the trait, or normal damage, whichever is greater. Area Effect attacks with the AP trait only resolve the AP trait against primary targets. AP attacks can damage infantry, the AP trait itself has no effect on infantry models.</description>
+    <rule id="dd3a-a698-b4f4-e8e2" name="AP:X [Armor Piercing]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with the AP:X trait always deal at least one point of damage on a successful hit, and have a minimum damage on a successful hit that may be higher [see book for unabridged rule].</description>
     </rule>
     <rule id="8e04-527c-014a-494f" name="Armored Personnel Carrier:X [APC:X] [needs review]" page="216" hidden="false">
       <description>This model may transport up to X Infantry Squad Models. Two Teams or Drones may be Transported
@@ -2616,8 +2615,8 @@ in place of one Infantry Squad.</description>
     <rule id="1438-20f4-bb7c-5d96" name="Armories [needs review]" page="100" hidden="false">
       <description>Reduce the cost of grenades and shaped explosives by 1TV.</description>
     </rule>
-    <rule id="32f5-36dc-6e46-e571" name="Arms [needs review]" page="216" hidden="false">
-      <description>This model can use a weapon with the Arm Arc to Snap Fire. This model may purchase Grenades, Shaped Charges, and Panzerfausts upgrades. This model may climb vertical terrain without requiring the Climbing trait.</description>
+    <rule id="32f5-36dc-6e46-e571" name="Hands" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model has additional upgrade options available and limited climbing ability.</description>
     </rule>
     <rule id="5d54-c1a4-2a6a-20ee" name="Attached:X [needs review]" page="216" hidden="false">
       <description>The model name X is attached to this model. Do not count the Actions of any attached models when creating units.</description>
@@ -2625,9 +2624,8 @@ in place of one Infantry Squad.</description>
     <rule id="eb89-105b-c633-c006" name="Autocom:X [needs review]" page="216" hidden="false">
       <description>The range for models to be in Formation with this model is X”.</description>
     </rule>
-    <rule id="a69e-cf99-4c79-d0d9" name="Automatic Fire System [Auto] [needs review]" page="218" hidden="false">
-      <description>The weapon system this trait is attached to may snap fire without spending an action. The
-attack resolves with its Gunnery skill degraded by 1.</description>
+    <rule id="a69e-cf99-4c79-d0d9" name="Auto" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>A weapon with this trait may be used for retaliation once per round without spending an action point.</description>
     </rule>
     <rule id="37b4-7ae3-5806-0bb8" name="Autopilot [needs review]" page="216" hidden="false">
       <description>When this model uses the Standby action it gains one additional standby token.</description>
@@ -2638,17 +2636,19 @@ attack resolves with its Gunnery skill degraded by 1.</description>
     <rule id="223b-d44c-a0e6-d7d4" name="Best of the Best [needs review]" page="126" hidden="false">
       <description>Add 1 additional Command Point to the Commanding Officer.</description>
     </rule>
-    <rule id="0386-0b2a-9f59-cbb2" name="Blast [needs review]" page="218" hidden="false">
-      <description>Attacks with Blast ignore the effect of the Agile trait and ECM Defense modifiers. The cover modifier against blast attacks for Secondary targets is determined from the target model or point.</description>
+    <rule id="0386-0b2a-9f59-cbb2" name="Blast" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Targets hit with indirect fire from a weapon with the Blast trait do not gain cover bonuses from partial cover. Cover is determined from the perspective of the attacking model or the forward observer.</description>
     </rule>
-    <rule id="6e41-31fa-d8ea-2c3b" name="Brawler:X [needs review]" page="216" hidden="false">
-      <description>Add the rating as a modifier to any Melee attack or Melee defense rolls this model makes with a target in an Arc with a melee category weapon. A model with multiple instances of the Brawler trait adds them all together for the total modifier.</description>
+    <rule id="6e41-31fa-d8ea-2c3b" name="Brawl:X" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>A Brawl:X trait on a weapon will modify attack rolls by XD6 when using that weapon.
+
+A Brawl:X trait on a model will modify all melee rolls that model makes by XD6. Multiple instances of the Brawl:X trait are cumulative.</description>
     </rule>
-    <rule id="e8b7-5646-5b3a-82d6" name="Burst:X [needs review]" page="218" hidden="false">
+    <rule id="e8b7-5646-5b3a-82d6" name="Burst:X" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
       <description>Add a +XD6 modifier to any attack roll made with this weapon.</description>
     </rule>
-    <rule id="539a-12ee-7dab-9848" name="Climbing Equipment [Climber] [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false">
-      <description>Allows a model to scale vertical terrain easily. Note that climbing equipment can take the forms of grappling hooks, climbing claws, spike guns, etc., and is not specific to a particular kind of equipment.</description>
+    <rule id="539a-12ee-7dab-9848" name="Climber" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>This trait allows a model to climb terrain features at its full move rate.</description>
     </rule>
     <rule id="a48d-be07-6cdc-3d9d" name="Combat Medic [Medic] [needs review]" page="217" hidden="false">
       <description>This model removes two intensity from Fire or Corrosion tokens when it uses a Damage Control Action targeting a model with the Infantry type. Medics may not be commanders.</description>
@@ -2659,11 +2659,15 @@ attack resolves with its Gunnery skill degraded by 1.</description>
     <rule id="9cff-0e46-403b-fb80" name="Commander [needs review]" page="26" hidden="false">
       <description>A Commander is a model that is selected to be a leader of a Force of models or a Combat Group of models. Commanders take initiative tests, give orders, and distribute command point Rerolls.</description>
     </rule>
-    <rule id="e272-4136-4ff9-112b" name="Comms:X [needs review]" page="216" hidden="false">
-      <description>This model may use the Comms:X trait to count as X Comms rolls successes. If passive ECM reduces the Comms:X trait to zero, this model must roll Comms as normal but may only count successes up to the rating of the trait. This model may Relay.</description>
+    <rule id="e272-4136-4ff9-112b" name="Comms" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model and any models in formation with it:
+
+May use the Electronic Warfare skill of the Comms model in place of their own.
+
+Automatically succeed at orders to models that are in formation with it. An Electronic Warfare roll is still required to issue orders to models out of formation.</description>
     </rule>
-    <rule id="e539-d438-12d3-50c3" name="Conscript [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="216" hidden="false">
-      <description>This model may not be purchased for a unit as a commander. If out of formation, this model degrades all its skills by 1 (GUN:4+ becomes GUN:5+).</description>
+    <rule id="e539-d438-12d3-50c3" name="Conscript" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>If this model is not in a formation with a commander, all of its skills are +1 TN. This model may not be a commander and commanders can never take upgrades that give it the Conscript trait. Models with the Conscript trait may not be upgraded with the Vet trait.</description>
     </rule>
     <rule id="452d-05ad-b767-1a3a" name="Conscripts (Upgrade) [needs review]" page="100" hidden="false">
       <description>Add the Conscript trait to all non-commander and non-duelist models in the Force. Reduce the Threat point Value of all models with the conscript trait by -1TV per action.</description>
@@ -2671,17 +2675,11 @@ attack resolves with its Gunnery skill degraded by 1.</description>
     <rule id="97e2-9be7-eb90-b9ac" name="Corrosion Resistance [Resist:C] [needs review]" page="217" hidden="false">
       <description>This model degrades the Target Number of Corrosion Marginal hit rolls to 5+.</description>
     </rule>
-    <rule id="0f2a-aa9e-7990-de37" name="Corrosion:X [needs review]" page="37" hidden="false">
-      <description>A target hit with a Corrosion effect resolves normal damage then rolls a number of D6 equal to the Margin of Success of the attack plus the rating of the effect. For each dice that equals or exceeds a target number of 4+, 1 damage will be caused. In addition a Corrosion token will be placed on the model.
-
-A model without the Recovery or Medic traits must use a damage control action and succeed a roll with BD:1 and a target number of 6+ to successfully use a damage control action on itself, or another friendly model to remove a corrosion token. Standard modifiers apply to this roll (See 2.2). Due to specialized equipment, a model with the Recovery Vehicle trait can remove a corrosion token with an action without requiring a roll.
-
-In each Cleanup phase, any model with a Corrosion token rolls 1D6 and suffers 1 damage on a roll of 4+. If not removed by a Damage Control action, a Corrosion token will persist on the model until the game ends or the model is destroyed. A model with a Corrosion token that is hit by another attack with Corrosion will roll the immediate special damage roll for the attack but will not place another Corrosion token. A model can only have one Corrosion token at a time.
-
-After applying Corrosion special effects on Infantry models do not place a token.</description>
+    <rule id="0f2a-aa9e-7990-de37" name="Corrosion" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>A model hit with an attack by a weapon that has the Corrosion trait takes damage normally, receives a corrosion token, and may suffer other effects in later phases [see book for unabridged rule].</description>
     </rule>
-    <rule id="5682-1777-0852-f74f" name="Counter-Battery Sensors [CBS] [needs review]" page="216" hidden="false">
-      <description>This model, and any friendly models in Formation with it, may Snap Fire in response to an enemy Indirect attack. A Snap Fire reaction using CBS may select an Indirect Category weapon to Snap Fire with and counts as having Forward Observed the target. Only terrain that overlaps the target model will provide a cover modifier against CBS Snap Fire attacks.</description>
+    <rule id="5682-1777-0852-f74f" name="CBS [Counter-Battery Sensors]" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>If a model with the Counter-Battery Sensors trait is targeted by an indirect attack, it may use a Counterstrike reaction to simultaneously retaliate with an indirect fire weapon.</description>
     </rule>
     <rule id="6e78-3be7-af55-ec9b" name="Dancer [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Add the Agile trait; requires a PI:4+ or better.</description>
@@ -2695,11 +2693,11 @@ After applying Corrosion special effects on Infantry models do not place a token
     <rule id="3db5-5cc7-05eb-b675" name="E-War Specialist [needs review]" page="59" hidden="false">
       <description>Add +2D6 to any EW rolls made by this model.</description>
     </rule>
-    <rule id="3298-f4a9-170c-808a" name="Electronic Counter Measures:X [ECM:X] [needs review]" page="216" hidden="false">
-      <description>A model with this trait reduces the Comms:X rating of enemy models within Sensor range by the ECM Trait rating. A model with ECM may use any Electronic Warfare actions noted as ECM actions.</description>
+    <rule id="3298-f4a9-170c-808a" name="ECM" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model possesses an electronic counter-measures system. A model with this trait may use the ECM Jam, ECM Hack, and ECM Protect actions and reactions.</description>
     </rule>
-    <rule id="9d73-3390-de6c-1fc9" name="Electronic Counter-Counter Measures [needs review]" page="216" hidden="false">
-      <description> Models with ECCM may Reroll Comms rolls and EW rolls. A model with ECCM may take passive EW rolls for any friendly models within 6” that are targeted by an enemy EW action. Requires Lock to active model.</description>
+    <rule id="9d73-3390-de6c-1fc9" name="ECCM" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model and all friendly models within 6 inches gain +1D6 to all Electronic Warfare rolls (not cumulative with oter ECCM traits), and this model may perform the ECCM Firewall reaction.</description>
     </rule>
     <rule id="beee-3189-0707-0391" name="Elite Force [needs review]" page="126" hidden="false">
       <description>The CTF must use the Elite army option. The CTF may not select units with a Unit Availability of GP.</description>
@@ -2713,25 +2711,23 @@ After applying Corrosion special effects on Infantry models do not place a token
     <rule id="dfaf-e457-3133-f7b6" name="Fast Cavalry [needs review]" page="147" hidden="false">
       <description>Sampson models gain the Agile trait for 0TV.</description>
     </rule>
-    <rule id="13cf-10a3-507f-e073" name="Field Armor [needs review]" page="216" hidden="false">
-      <description>This model suffers one less damage from each damaging attack to a minimum of one damage.</description>
+    <rule id="13cf-10a3-507f-e073" name="Field Armor" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model suffers one less damage from each damaging attack to a minimum of one damage [see book for unabridged rule].</description>
     </rule>
     <rule id="79fe-6ee3-a88b-cca5" name="Fire Resistance [Resist:F] [needs review]" page="217" hidden="false">
       <description>This model degrades the Target Number of Fire Marginal hit rolls to 5+</description>
     </rule>
-    <rule id="7f82-4f44-5459-a1bc" name="Fire:X [needs review]" page="37" hidden="false">
-      <description>A target hit with an attack with the Fire trait resolves normal damage, then rolls a number of D6 equal to the rating of the trait. For each die that equals or exceeds a target number of 4+, one damage will be caused. After this roll there is no further effect, fire suppression systems control the fire.
-
-Example: A Light Flamer (LFL) attack hits a target with AR:5 with a MOS:3. A LFL has a PEN:3 and a the Fire:2 trait. and does one normal damage. The player then rolls dice equal to the rating of the flamer and adds one damage per roll of 4+.</description>
+    <rule id="7f82-4f44-5459-a1bc" name="Fire:X" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>When an attack with the Fire:X trait hits, apply damage as normal, the roll XD6. For each die that meets threshold 4+, apply one additional damage.</description>
     </rule>
-    <rule id="1148-6b04-598d-9538" name="Flak [needs review]" page="218" hidden="false">
-      <description>Weapons with Flak add a +2D6 modifier to attacks targeting Flying models.</description>
+    <rule id="1148-6b04-598d-9538" name="Flak" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>Weapons with the Flak trait add a +2D6 modifier to attack rolls targeting Elevated VTOLs and Airstrike Counters.</description>
     </rule>
-    <rule id="27e2-21ad-ae02-d82c" name="Fragmentation [Frag] [needs review]" page="218" hidden="false">
-      <description>Weapon with Frag add a +2D6 modifier to attack rolls targeting Infantry.</description>
+    <rule id="27e2-21ad-ae02-d82c" name="Frag" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>Weapon with the Frag trait add a +2D6 modifier to attack rolls.</description>
     </rule>
-    <rule id="0914-f2c7-bc51-f467" name="Guided [needs review]" page="218" hidden="false">
-      <description>A Guided weapon that attacks a target that has been Forward Observed with a Target Designator may benefit from the Target Designator:X (TD:X) rating modifier, and does not suffer the range modifiers for attacking using the Indirect Category.</description>
+    <rule id="0914-f2c7-bc51-f467" name="Guided" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This weapon has incread accuracy when used for the Fire Mission action with a Target Designator.</description>
     </rule>
     <rule id="e400-b21a-4f88-5813" name="Gunslinger [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Add the Link and Range: 3-9/18” traits to one Autocannon, Frag Cannon, or Grenade Launcher.</description>
@@ -2739,10 +2735,8 @@ Example: A Light Flamer (LFL) attack hits a target with AR:5 with a MOS:3. A LFL
     <rule id="7895-14d9-90d6-caca" name="Hackers [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>A model in this Force using an ECM Sensor Jamming action or reaction improves its Electronic Warfare (EW) skill rating by 1.</description>
     </rule>
-    <rule id="6781-efa9-aa1c-5639" name="Haywire [needs review]" page="37" hidden="false">
-      <description>A model that hits a Target with a weapon with the Haywire trait resolves normal damage then rolls 1D6, a roll of 4+ causes one additional damage. Place a Haywire token on the target model. A model with a haywire token counts as a Crippled model. Remove the haywire token in the cleanup phase. Haywire may not be removed by a damage control reaction.
-
-Note: The Crippled modifier is only applied once per roll, regardless of the number of sources.</description>
+    <rule id="6781-efa9-aa1c-5639" name="Haywire" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>Any model hit with a weapon or attack with the Haywire trait is marked with the Haywired condition [see book for unabridged rule].</description>
     </rule>
     <rule id="3f9f-cd31-0239-ec2f" name="Haywire Resistance [Resist:H] [needs review]" page="217" hidden="false">
       <description>This model is not affected by Haywire and does not suffer any marginal damage rolls from a Haywire weapon attack, though it does take normal damage.</description>
@@ -2762,11 +2756,11 @@ Note: The Crippled modifier is only applied once per roll, regardless of the num
     <rule id="b1b1-3d0b-6890-72d3" name="Inspirational [needs review]" page="72" hidden="false">
       <description>Commanders that damage an enemy model with a Fighting Staff melee attack may give a Skill point to any other friendly model within 6”.</description>
     </rule>
-    <rule id="7aac-c44b-e1a6-cbe6" name="Jetpack:X&quot; [needs review]" page="216" hidden="false">
-      <description>This model may use its Jetpack to make a Powered Boost move instead of a normal Move. A Powered Boost move may only turn once at the start of the move and does not use any movement type advantages or disadvantages. The model may move forwards or backwards in a straight line with both a horizontal and vertical distance equal to the Jetpack trait rating and may not interrupt this move to use an action. Any terrain less than the vertical maximum of the jump rating is ignored and no dangerous terrain tests are made for terrain that the model power boosts over.</description>
+    <rule id="7aac-c44b-e1a6-cbe6" name="Jetpack:X" publicationId="50a1-0750-fba2-b978" page="146-7" hidden="false">
+      <description>This model can launch into the air, replacing its normal move with a jetpack move [see book for unabridged rule].</description>
     </rule>
-    <rule id="a0cf-6702-95a7-27d3" name="Jump Jets:X [needs review]" page="216" hidden="false">
-      <description>When this model Moves it may displace vertically up to the rating of the trait each time it encounters terrain up X Height or less. This model may not end its movement on terrain that is too narrow to contain its base.</description>
+    <rule id="a0cf-6702-95a7-27d3" name="Jump Jets:X" publicationId="50a1-0750-fba2-b978" page="147" hidden="false">
+      <description>This model can execute a powered jump over obstacles up to X inches in height while using another movement type [see book for unabridged rule].</description>
     </rule>
     <rule id="5587-672d-4ac7-a6b7" name="Lead by Example [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="60" hidden="false">
       <description>Whenever a Duelist damages an enemy model immediately add one Skill Point to any other friendly model with Sensor Lock to the damaged model. This Skill Point does not refresh in the Cleanup phase. If another opposing Duelist is present, the Lead by Example bonus can only be gained from damage done to the opposing Duelist until that model is destroyed. These bonus Skill Points represent the inspiring influence that a Duelist can have on friendly models.</description>
@@ -2966,6 +2960,30 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="73df-b5e4-77c8-708a" name="Older Equipment (North) [needs review]" publicationId="20bd-c8e1-5e20-75e8" page="72" hidden="false">
       <description>Primary units may not include Jaguars, Cheetahs, Grizzlies, Kodiaks, or Scimitars.</description>
+    </rule>
+    <rule id="2a63-64fc-b7b7-7d41" name="Apex" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Add +1 to this weapon&apos;s damage.</description>
+    </rule>
+    <rule id="fd5d-c3f4-dab1-5db2" name="AUX" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons and traits with the AUX tag are unavailable when the model is crippled.</description>
+    </rule>
+    <rule id="fb22-7dbc-9f3d-5957" name="B [Back Arc]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>Weapons with this trait can only be fired at targets within this model&apos;s back arc.</description>
+    </rule>
+    <rule id="7b6a-4bb9-6a61-ae9e" name="Brace" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+      <description>This weapon may only be fired if the model is braced.</description>
+    </rule>
+    <rule id="373a-dd41-77f0-b358" name="Combo" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>Weapons with this trait are a combination weapon [see book for unabridged rule].</description>
+    </rule>
+    <rule id="b11f-d0e8-0ce2-e23c" name="Demo:X" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>A weapon with the Demo:X trait can damage buildings, terrain, and fortifications [see book for unabridged rule].</description>
+    </rule>
+    <rule id="f112-7e87-0895-025f" name="Duelist" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model may select upgrades from the standard, veteran, and duelist upgrade lists. This model also uses the Independant Operator and Lead by Example rules.</description>
+    </rule>
+    <rule id="1d57-21af-269f-d887" name="ECM+" publicationId="50a1-0750-fba2-b978" page="146" hidden="false">
+      <description>This model has an enhanced electronic counter-measures system. A model with the ECM+ trait performs all the functions of the ECM trait, but its ECM Protect is always in effect unless it is haywired.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
