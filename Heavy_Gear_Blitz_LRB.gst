@@ -2,6 +2,7 @@
 <gameSystem id="0ae7-d8d3-f08f-20a2" name="Heavy Gear Blitz LRB" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="20bd-c8e1-5e20-75e8" name="LRB 02/2016" shortName="HGB! LRB Feb. 2016" publisher="Heavy Gear Blitz! Living Rulebook" publicationDate="February 2016" publisherUrl="https://www.drivethrurpg.com/product/144759/Heavy-Gear-Blitz-Tabletop-Wargaming--Living-Rulebook?manufacturers_id=19&amp;filters=0_0_0_0"/>
+    <publication id="50a1-0750-fba2-b978" name="Heavy Gear Blitz! Tabletop Wargaming 3rd Edition Rules" shortName="HGB3rd" publicationDate="April 26, 2021" publisherUrl="https://www.dp9.com/"/>
   </publications>
   <costTypes>
     <costType id="4e06-e713-b451-4dcf" name=" Action(s)" defaultCostLimit="0.0" hidden="false"/>
