@@ -2940,17 +2940,17 @@ to indicate ammunition remaining.</description>
     <rule id="9971-579b-d306-dc8f" name="Transport:X Type" publicationId="50a1-0750-fba2-b978" page="148-9" hidden="false">
       <description>This model may transport X models of the listed type [see book for unabridged rule].</description>
     </rule>
-    <rule id="8c59-e3ce-c970-da45" name="Veteran [Vet] [needs review]" page="217" hidden="false">
-      <description>This model is a veteran and has one skill point. This model may purchase upgrades from the Veteran upgrade list.</description>
+    <rule id="8c59-e3ce-c970-da45" name="Vet" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>This model is a veteran. It has one skill point and may purchase upgrades from the standard and veteran upgrade lists.</description>
     </rule>
-    <rule id="bd86-3cfd-de8b-add9" name="Vulnerable to Corrosion: [Vuln:C] [needs review]" page="217" hidden="false">
-      <description>This model suffers Corrosion Marginal damage on a target number of 3+.</description>
+    <rule id="bd86-3cfd-de8b-add9" name="Vuln:Corrosion" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>This model automatically suffers damage from the Corrosion trait without a roll.</description>
     </rule>
-    <rule id="7ede-bff4-79bf-fa23" name="Vulnerable to Fire: [Vuln:F] [needs review]" page="217" hidden="false">
-      <description>This model suffers Fire Marginal damage on a target number of 3+.</description>
+    <rule id="7ede-bff4-79bf-fa23" name="Vuln:Fire" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>This model automatically suffers damage from the Fire trait without a roll.</description>
     </rule>
-    <rule id="f9a7-6181-5731-05d9" name="Vulnerable to Haywire: [Vuln:H] [needs review]" page="217" hidden="false">
-      <description>This model suffers one additional Marginal hit when hit by a weapon with Haywire.</description>
+    <rule id="f9a7-6181-5731-05d9" name="Vuln:Haywire" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>This model automatically suffers damage from the Haywire trait and the Hack action without a roll.</description>
     </rule>
     <rule id="7e79-1af9-ce6e-c912" name="Walk or Fly [needs review]" page="146" hidden="false">
       <description>Primary units may not include vehicles with only the ground movement type.</description>
@@ -3017,6 +3017,12 @@ to indicate ammunition remaining.</description>
     </rule>
     <rule id="42ea-8e4f-29c9-220d" name="Supply" publicationId="50a1-0750-fba2-b978" page="148" hidden="false">
       <description>Models with this trait may use the Reload action too replenish ammunition for a weapon with the Ammo:X trait.</description>
+    </rule>
+    <rule id="b7b9-2bef-3ccb-acbd" name="T [Turret]" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>A turret mounted weapon has 360 degree rotation and can be used to fire within any arc. Turrets do not remove the back arc modifier when the model is attacked.</description>
+    </rule>
+    <rule id="cfb4-0965-fbdc-c9d5" name="VTOL" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
+      <description>Vertical Take-off and Landing aircraft like helicopters and hoppers can take to the air [see book for unabridged rule].</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
