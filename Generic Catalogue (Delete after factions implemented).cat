@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2de7-d459-08b0-71e1" name="Generic Catalogue (Delete after factions implemented)" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="9541-b63b-6862-b288" name="Combat Group" hidden="false" collective="false" import="true" targetId="e3d1-d06c-3b57-2aa4" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="63dc-ec29-ee42-8d9b" name="Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2cf4-20c7-2bf0-3aa1" name="Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+          <characteristics>
+            <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+            <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+            <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+            <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+            <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">LAC, LVB, LRP, APGL, LPZ</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9fe1-35d2-876e-ffc0" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+        <infoLink id="06d9-b684-291a-4cec" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="95f6-39bd-b37c-4fa8" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c86-f97e-396d-1bc7" name="Secondary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315d-489d-9e0c-e51b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="193e-6f8c-fed7-1c47" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bb1-4f11-1e69-d1e1" name="Primary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd5c-ab2b-bd69-39d1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fc0-00ff-72b2-eecc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="09a5-e135-86c9-f8af" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3d1-d06c-3b57-2aa4" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9ef9-cef2-ddd8-c92a" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d9ea-fc45-e79a-5c70" name="Primary Role" hidden="false" collective="false" import="true" targetId="6bb1-4f11-1e69-d1e1" type="selectionEntry"/>
+        <entryLink id="ea1d-dc1e-864e-43de" name="Secondary Role" hidden="false" collective="false" import="true" targetId="0c86-f97e-396d-1bc7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
