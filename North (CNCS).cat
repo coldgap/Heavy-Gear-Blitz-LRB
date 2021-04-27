@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="2de7-d459-08b0-71e1" name="North (CNCS)" revision="1" battleScribeVersion="2.03" authorName="Coldgap" authorContact="coldgap@gmail.com" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="53e9-4c17-e1e7-2029" name="Combat Group" hidden="false" collective="false" import="true" targetId="42e9-47dc-5629-a039" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="33f8-99fe-2de4-4437" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="9541-b63b-6862-b288" name="Combat Group" hidden="false" collective="false" import="true" targetId="e3d1-d06c-3b57-2aa4" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="42e9-47dc-5629-a039" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="7991-c6a8-62de-6b2f" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a65f-eca2-8a90-f79d" name="Primary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c78-6e38-e6f3-a3f2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0852-0aa5-c23c-8e7b" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="8433-cf5c-fea5-9ebd" name="Roles" hidden="false" collective="false" import="true" targetId="a9ad-5dbe-6917-3928" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
-        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="63dc-ec29-ee42-8d9b" name="Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="2cf4-20c7-2bf0-3aa1" name="Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -59,28 +35,43 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
-  </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="a9ad-5dbe-6917-3928" name="Roles" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true">
+    <selectionEntry id="0c86-f97e-396d-1bc7" name="Secondary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f4-d431-89c0-51a0" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ef-3c8e-17d7-49fb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315d-489d-9e0c-e51b" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="5c36-64ac-d236-52e9" name="GP [General Purpose]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="0368-7770-4b91-2b2a" name="SK [Strike]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="cea2-96e3-954f-2942" name="FS [Fire Support]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="55ed-8a66-f0be-a490" name="RC [Recon]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="f706-55f8-4bad-1f0d" name="SO [Special Operations]" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="8ece-41fc-e7a5-c388" name="EG [Engineering]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="9bdb-7b71-72a2-7ebf" name="AS [Air Support]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="7db3-2582-93b2-7eb1" name="FT [Fortifications]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade"/>
-        <selectionEntry id="2245-1c63-012c-1c93" name="Duelist" publicationId="50a1-0750-fba2-b978" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bf0-9def-0f04-2c95" type="max"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+      <entryLinks>
+        <entryLink id="193e-6f8c-fed7-1c47" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bb1-4f11-1e69-d1e1" name="Primary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd5c-ab2b-bd69-39d1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fc0-00ff-72b2-eecc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="09a5-e135-86c9-f8af" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3d1-d06c-3b57-2aa4" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9ef9-cef2-ddd8-c92a" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d9ea-fc45-e79a-5c70" name="Primary Role" hidden="false" collective="false" import="true" targetId="6bb1-4f11-1e69-d1e1" type="selectionEntry"/>
+        <entryLink id="ea1d-dc1e-864e-43de" name="Secondary Role" hidden="false" collective="false" import="true" targetId="0c86-f97e-396d-1bc7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
