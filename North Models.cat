@@ -3,13 +3,41 @@
   <sharedSelectionEntries>
     <selectionEntry id="0cbe-5d12-7ef7-dfa5" name="Hunter (Stock)" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="203c-df9a-7049-8e2f" name="Hunter (Stock)" hidden="false" targetId="5099-e74a-756f-366c" type="profile"/>
-        <infoLink id="5189-46b1-5a71-a416" name="*AC" hidden="false" targetId="3f56-827e-f8c3-0b9f" type="profile"/>
-        <infoLink id="8a80-3363-4005-d48f" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
-        <infoLink id="3474-a36d-4365-3b39" name="*RP" hidden="false" targetId="660e-1d90-8230-7dd6" type="profile"/>
-        <infoLink id="e8a6-91c1-42be-6002" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
-        <infoLink id="6c11-b8fa-4326-7a10" name="*APGL" hidden="false" targetId="d39f-a5a2-1b25-22b0" type="profile"/>
+        <infoLink id="203c-df9a-7049-8e2f" name="Hunter (Stock)" hidden="false" targetId="d99e-5e60-e125-ed7e" type="profile"/>
+        <infoLink id="08f0-697b-d552-5f63" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="f9d5-d258-c319-50de" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d487-3371-3817-9279" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc84-abe3-d618-5aed" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="16da-7c2e-4ece-00ea" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a7-34bb-7dd2-fdaf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b54c-6c35-813c-20bd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5216-2208-c62e-e39c" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a9-a6de-f5fe-51c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c14-9e36-3067-b0b0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="90dc-510b-8a96-8cd2" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a0b-314c-c1fc-87d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78f-589a-9eaa-3d67" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="193d-22e4-a17b-1d2a" name="*PZ" hidden="false" collective="false" import="true" targetId="41b8-cc14-16d2-f81e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0fc-30d3-dcf2-2346" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdcb-46fd-4de3-7ab3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
@@ -18,19 +46,199 @@
     <selectionEntry id="84f8-1903-c4dc-2c33" name="Hunter Gunner" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="5463-6a71-36e9-3ed1" name="Hunter Gunner" hidden="false" targetId="d6b5-763f-a80a-d2a8" type="profile"/>
-        <infoLink id="f6e1-3f12-0590-4077" name="*AC" hidden="false" targetId="3f56-827e-f8c3-0b9f" type="profile"/>
-        <infoLink id="682f-1ba4-bd2b-efa5" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
-        <infoLink id="44a2-91d9-b9e6-575a" name="*RP" hidden="false" targetId="660e-1d90-8230-7dd6" type="profile"/>
-        <infoLink id="8bea-4fcb-9391-0527" name="*APGL" hidden="false" targetId="d39f-a5a2-1b25-22b0" type="profile"/>
+        <infoLink id="2bdc-3ecb-9fe5-a689" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="2ddb-c4a5-baa5-11a2" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f997-18bd-19e3-274b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="235b-88f1-5932-39b6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="031d-21f7-116f-6fb7" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd2a-8ec2-2f26-563b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b549-3fb0-b8e4-ebd1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="564f-8624-b247-da44" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7443-9652-7fb6-7de6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c8-1dfa-02a0-c8cc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3c2c-3fbf-071e-e6f9" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c20d-2314-703f-8489" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e507-92a4-34c8-5b6b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b936-cb58-c66d-1e54" name="Hunter UC" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="9181-d281-19db-66a3" name="Hunter UC" hidden="false" targetId="a11b-ac8a-99a6-385d" type="profile"/>
+        <infoLink id="78e9-1e7e-7bd9-a03e" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0653-00a2-e527-9dda" name="*FC" hidden="false" collective="false" import="true" targetId="0237-a4d3-352d-0e2b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e9-7ca7-5d21-352a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee0f-5a7b-1eea-45fd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bb51-8da0-52cc-1388" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65a4-cbe2-e65a-ae80" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffb2-6f3a-ecf2-c858" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1b81-6d93-5915-2c87" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26eb-096b-d6ef-5e78" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7437-a186-ed21-76cd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2443-1db8-44ea-d540" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a3b-53e1-cf44-889d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84da-a87b-64f7-53aa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2569-7a12-fccd-0f0c" name="*PZ" hidden="false" collective="false" import="true" targetId="41b8-cc14-16d2-f81e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa5-44b0-e8bd-653f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5476-1a1c-0200-c940" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfc3-a732-63dc-fd22" name="Assault Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="670c-fab0-56ff-5fa0" name="Assault Hunter" hidden="false" targetId="9282-7c79-9c46-ed16" type="profile"/>
+        <infoLink id="18b3-a020-533a-a96a" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="c661-23f6-cfcd-4a03" name="*SC" hidden="false" collective="false" import="true" targetId="5693-4b43-3406-be12" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e5-8d6d-965e-ef98" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="070f-e9cc-af23-8207" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="642e-03e7-6867-88e5" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f1-de2e-0e7f-844b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb30-84e4-4aa0-9025" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="801b-7930-1884-000f" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b318-cd5d-9bff-f05a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f6-3e24-c6d7-1ed7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14f6-be5f-8b6c-d7e7" name="Destroyer Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="42f7-7429-266e-66de" name="Destroyer Hunter" hidden="false" targetId="4790-a80e-4207-788c" type="profile"/>
+        <infoLink id="0234-3922-02a8-2d35" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="e154-7383-35f8-a77b" name="*BZ" hidden="false" collective="false" import="true" targetId="8c02-1c3c-ce93-daea" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6d-3a70-e7a9-fcac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4646-a96f-62d2-d498" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7589-412a-d664-f361" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ba-d1bc-5f06-10a5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b7-2a14-856b-64ed" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="966f-da1f-b0c7-3490" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f309-ef94-8317-681b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41e-f96b-30fd-9a93" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e01f-84b8-f871-1a21" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d8-ff83-f944-fbe5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6094-a17b-3c55-5ee9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78fc-059b-5111-e460" name="Arrow Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="c14c-6054-027a-a639" name="Arrow Hunter" hidden="false" targetId="5099-e74a-756f-366c" type="profile"/>
+        <infoLink id="a039-fdb0-bb0f-b136" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="6a0b-e382-5e9f-29af" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e0-96bd-9be0-e41b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be3a-1dec-fd65-6393" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c0e1-97da-6824-1914" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3965-99fa-cee3-f18d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a9-95e1-94cb-361e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cddf-c47d-8bec-7b6b" name="*ATM" hidden="false" collective="false" import="true" targetId="334c-fe8a-360a-c00c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1270-4d74-0ab1-ab2d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cfc-2889-d615-d539" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cf2d-b60c-9207-4b90" name="Ammo:X" hidden="false" targetId="53de-5267-49b8-ac8c" type="rule"/>
+          </infoLinks>
+        </entryLink>
+        <entryLink id="8bb2-a798-095d-0819" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc5-31fb-911a-46de" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad0-00d3-c603-dbdf" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4a5-eb5d-cdc2-e092" name="Headhunter Upgrade" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="73ad-b344-b7d7-dbe2" name="Headhunter Upgrade" hidden="false" targetId="b24f-a2ce-aabe-091d" type="profile"/>
+        <infoLink id="bc0e-5c37-d25c-a0b5" name="Comms" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="5099-e74a-756f-366c" name="Hunter (Stock)" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+    <profile id="5099-e74a-756f-366c" name="Arrow Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
       <characteristics>
         <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
         <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
@@ -43,9 +251,9 @@
         <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
         <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
         <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
-        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
-        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
-        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;LAC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;LAC, &gt;&gt;LVB, LATM (Ammo:2), LAPGL</characteristic>
       </characteristics>
     </profile>
     <profile id="d6b5-763f-a80a-d2a8" name="Hunter Gunner" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
@@ -64,6 +272,86 @@
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
         <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MAC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a11b-ac8a-99a6-385d" name="Hunter UC" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, SK</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MFC, &gt;&gt;LVB, LRP, LAPGL, LPZ</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4790-a80e-4207-788c" name="Destroyer Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MBZ, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9282-7c79-9c46-ed16" name="Assault Hunter" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MSC, &gt;&gt;LVB, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d99e-5e60-e125-ed7e" name="Hunter (Stock)" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;LAC, &gt;&gt;LVB, LRP, LAPGL, LPZ</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b24f-a2ce-aabe-091d" name="Headhunter Upgrade" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+      <characteristics>
+        <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Headhunter</characteristic>
+        <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+        <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+        <characteristic name="Modifications" typeId="1198-e158-7438-acbd">EW 5+, Comms</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

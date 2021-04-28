@@ -66,16 +66,189 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="72e4-a26b-7461-28b7" name="Hunter Chassis" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="d20e-1b93-b68e-0955" name="Hunter (Stock)" hidden="false" collective="false" import="true" targetId="0cbe-5d12-7ef7-dfa5" type="selectionEntry">
+        <entryLink id="d20e-1b93-b68e-0955" name="Hunter (Stock)" hidden="true" collective="false" import="true" targetId="0cbe-5d12-7ef7-dfa5" type="selectionEntry">
           <modifiers>
             <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="91d0-3f94-8323-8fe3" value="2.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6cff-48b5-b767-5b37" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="91d0-3f94-8323-8fe3" value="-1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6cff-48b5-b767-5b37" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d0-3f94-8323-8fe3" type="max"/>
+          </constraints>
         </entryLink>
-        <entryLink id="4b20-5361-8353-6eb6" name="Hunter Gunner" hidden="false" collective="false" import="true" targetId="84f8-1903-c4dc-2c33" type="selectionEntry"/>
+        <entryLink id="4b20-5361-8353-6eb6" name="Hunter Gunner" hidden="true" collective="false" import="true" targetId="84f8-1903-c4dc-2c33" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7c25-d601-dc58-0e66" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6cff-48b5-b767-5b37" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c25-d601-dc58-0e66" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6f60-9ce0-3d0d-620b" name="Hunter UC" hidden="true" collective="false" import="true" targetId="b936-cb58-c66d-1e54" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2a3e-55a1-3436-3f00" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a3e-55a1-3436-3f00" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a240-aca8-01fa-47ce" name="Assault Hunter" hidden="true" collective="false" import="true" targetId="bfc3-a732-63dc-fd22" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b54b-f3b5-0865-42c8" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6cff-48b5-b767-5b37" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b54b-f3b5-0865-42c8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0f84-eede-2688-c0a6" name="Destroyer Hunter" hidden="true" collective="false" import="true" targetId="14f6-be5f-8b6c-d7e7" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="dacb-0eee-18cf-d0ef" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6cff-48b5-b767-5b37" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacb-0eee-18cf-d0ef" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c201-47e4-2304-a97c" name="Arrow Hunter" hidden="true" collective="false" import="true" targetId="78fc-059b-5111-e460" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="61e3-18d8-1b11-71c5" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc3f-c0ac-c02b-22c0" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2a4-dca5-55b9-7584" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e3-18d8-1b11-71c5" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9e8e-f5b3-021f-38e2" name="Models" hidden="true" collective="false" import="true">

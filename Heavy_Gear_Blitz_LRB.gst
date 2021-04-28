@@ -71,6 +71,323 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="dcf9-07ed-baf5-91e0" name="*AAM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2c59-9293-c9ae-a3af" name="*AAM" hidden="false" targetId="c256-9647-9eac-0b77" type="profile"/>
+        <infoLink id="25c5-5955-0fac-91c4" name="Flak" hidden="false" targetId="1148-6b04-598d-9538" type="rule"/>
+        <infoLink id="47d8-9025-48c3-e5fb" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2419-63af-68a3-67d7" name="*ABM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a47e-1836-2087-c09c" name="*ABM" hidden="false" targetId="e90c-749b-6b51-334f" type="profile"/>
+        <infoLink id="b866-fe7a-b596-6c55" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="5264-3ec8-7c37-893e" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="8d91-eb24-d5ae-2578" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="d07d-8031-e29b-fec4" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2728-1126-1243-b397" name="*AC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f935-29f0-1284-7e39" name="*AC" hidden="false" targetId="3f56-827e-f8c3-0b9f" type="profile"/>
+        <infoLink id="efb0-dc3a-62ad-341b" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="db12-1422-5b38-4b97" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d81d-e0b8-00c6-9acf" name="*AG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7a3e-5a12-3f33-6f29" name="*AG" hidden="false" targetId="dea2-b326-ab50-3f78" type="profile"/>
+        <infoLink id="dd2c-1771-1076-b570" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="ebd0-7c9d-e3d6-cf4c" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="28cd-740f-7244-f815" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="8ebc-aedd-fb4d-a232" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c5fb-bec5-892c-c1d9" name="*AM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="84c3-ca5c-07ce-af12" name="*AM" hidden="false" targetId="0768-8780-5e20-68f2" type="profile"/>
+        <infoLink id="49d7-6bb2-0a15-006c" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+        <infoLink id="bea5-501f-5fb9-8daf" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="4d02-056d-8537-cbb6" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="85ec-e0ce-50c1-e52e" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="62d1-9a76-6111-4b0c" name="*APGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f7ec-6a86-b771-0c8b" name="*APGL" hidden="false" targetId="d39f-a5a2-1b25-22b0" type="profile"/>
+        <infoLink id="1a81-c407-2f26-1ae9" name="Frag" hidden="false" targetId="27e2-21ad-ae02-d82c" type="rule"/>
+        <infoLink id="f0c3-cd76-4ab6-1ba1" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7337-5a31-7e7c-6c24" name="*APR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9760-5998-8dfa-2b18" name="*APR" hidden="false" targetId="55a4-80c7-2dd5-bac7" type="profile"/>
+        <infoLink id="8c8e-1714-620b-f3a5" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="e868-1bd1-c37f-4eb6" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="25c1-92b0-54a9-8cc0" name="*AR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a77b-6a12-6675-10ce" name="*AR" hidden="false" targetId="1936-ef3f-e54f-ae83" type="profile"/>
+        <infoLink id="3c2a-6787-2aa7-b5ba" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="334c-fe8a-360a-c00c" name="*ATM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e49c-d4c8-d136-4da3" name="*ATM" hidden="false" targetId="d3de-17d5-d68d-aec6" type="profile"/>
+        <infoLink id="da91-b5b4-e42a-a2ed" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+        <infoLink id="cce5-6173-89ec-0c8f" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e890-79da-f663-d35b" name="*AVM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e61a-f469-e87b-1dc4" name="*AVM" hidden="false" targetId="3ad9-1d5f-2514-d882" type="profile"/>
+        <infoLink id="2a93-5c57-c085-3ade" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+        <infoLink id="77f4-22c1-1c8c-e521" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ae83-8d1d-c1ee-c107" name="*BB" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a7fd-f1f2-49c6-eeab" name="*BB" hidden="false" targetId="1785-4e36-7fa7-762e" type="profile"/>
+        <infoLink id="6e6c-cf30-c148-5abe" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8c02-1c3c-ce93-daea" name="*BZ" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fdbe-a539-c5af-8132" name="*BZ" hidden="false" targetId="9088-ca5a-bba4-c584" type="profile"/>
+        <infoLink id="dcd6-c212-7fef-653a" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b501-aad1-bde0-3d91" name="*CW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d20e-9445-03fd-10db" name="*CW" hidden="false" targetId="d37b-8e63-987c-18b2" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0237-a4d3-352d-0e2b" name="*FC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="92ee-883c-871d-ed25" name="*FC" hidden="false" targetId="e1a0-e7a0-9a05-6826" type="profile"/>
+        <infoLink id="3882-26ba-cc88-276f" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="6924-40f2-405a-3fdd" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="66ac-614b-17f8-c42e" name="Frag" hidden="false" targetId="27e2-21ad-ae02-d82c" type="rule"/>
+        <infoLink id="c999-cad9-33d5-1ad9" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="251f-2a92-bfdb-f09c" name="*FG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4584-af54-3b98-d44c" name="*FG" hidden="false" targetId="491c-09ee-a05c-62d2" type="profile"/>
+        <infoLink id="6c5b-2130-3592-6968" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="a668-a51f-0b33-6d92" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="6062-d15c-000d-312b" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="927f-1fdc-9e6d-bacd" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9544-87c1-ecb5-0c08" name="*FL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="51dc-4d91-2604-35e4" name="*FL" hidden="false" targetId="fbdc-c68f-0e49-e069" type="profile"/>
+        <infoLink id="2d5a-383e-67a3-268b" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="09de-6c4f-cae9-adbe" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="2a4e-910b-2a57-7380" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
+        <infoLink id="ce46-483d-9a5d-9d4e" name="Spray" hidden="false" targetId="75d4-29e4-e274-2989" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2980-ba9c-d71c-8514" name="*GL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="328a-6eda-0236-0f5c" name="*GL" hidden="false" targetId="5a5b-32a9-3d66-7bf8" type="profile"/>
+        <infoLink id="15f9-b75a-c02f-fc71" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="7981-0da8-df9b-86eb" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="364c-7699-1e0b-f29a" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3752-11d1-e1b2-20ce" name="*GM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0bf6-1a53-ec18-0381" name="*GM" hidden="false" targetId="a047-2260-da7b-0d0b" type="profile"/>
+        <infoLink id="296b-5080-39e2-e6d4" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
+        <infoLink id="eb93-0adf-c6d9-35a1" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="2363-2f1c-d16b-25fc" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5fd0-4c26-97b3-618c" name="*HG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="107e-eefe-0de4-9070" name="*HG" hidden="false" targetId="73cd-ab94-15df-419e" type="profile"/>
+        <infoLink id="0351-c637-2324-8173" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="b8fc-0b13-79c3-7454" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="b6e5-eaa5-7ae7-378e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e6e6-5108-811c-9538" name="*ICW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5fba-41f5-5a8f-9196" name="*ICW" hidden="false" targetId="83e4-ad84-6dfe-544e" type="profile"/>
+        <infoLink id="5a72-124f-0803-2bd8" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8ee9-8d7e-354e-fad5" name="*IGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c081-cede-8ea7-8d94" name="*IGL" hidden="false" targetId="10ef-6c29-72b2-7e15" type="profile"/>
+        <infoLink id="2c13-d7aa-5643-37a8" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="532d-87dd-b724-232a" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="df80-8b8f-0633-f1da" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="7006-9d96-be9a-5c6b" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="77a9-3d22-1ee3-5b36" name="*IL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2e8f-cb4f-0d03-aa3e" name="*IL" hidden="false" targetId="ddd4-fe75-a73c-2639" type="profile"/>
+        <infoLink id="981d-bf00-23bf-d2e5" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="dfb1-0d5e-5d3c-0c58" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="cd46-3547-3ba2-0a22" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6d89-6b2a-32c0-2f32" name="*IM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b5da-b65a-aff0-8302" name="*IM" hidden="false" targetId="d700-6758-8835-92d2" type="profile"/>
+        <infoLink id="b86d-743c-e448-2939" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="2b36-ded3-9748-0a8f" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+        <infoLink id="0712-7878-7639-e5c3" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6a4d-4398-53b5-b3d0" name="*IR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7ef9-8d6a-52c6-886a" name="*IR" hidden="false" targetId="6f28-ed1d-16d6-d4aa" type="profile"/>
+        <infoLink id="987e-3579-087e-23fb" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+        <infoLink id="b272-114c-79ae-e6d4" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c6a0-6117-3b36-1b30" name="*IS" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4134-2825-ab0f-018e" name="*IS" hidden="false" targetId="0cb4-b0c9-a196-b510" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c084-202c-86e8-5f34" name="*IW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8817-5d12-03a9-42a1" name="*IW" hidden="false" targetId="89fb-454d-24db-e66e" type="profile"/>
+        <infoLink id="2b94-e42e-e958-e99c" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="1d5b-340e-a083-7e28" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="882e-a4ba-fa26-1927" name="*LC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5ba6-391a-8f8f-2df6" name="*LC" hidden="false" targetId="b844-86df-979d-1e52" type="profile"/>
+        <infoLink id="1a7d-1ae2-6709-f782" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+        <infoLink id="40fe-0c0f-4ff2-dc6c" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fa05-2af5-19a6-27e8" name="*MG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e37e-0432-5534-9f20" name="*MG" hidden="false" targetId="a6cb-8f9a-bfce-b1b8" type="profile"/>
+        <infoLink id="f298-79ce-f269-f773" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="426a-25e7-fe89-2148" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="89b7-714b-06ef-dc5a" name="*P" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8e96-05d1-2690-f213" name="*P" hidden="false" targetId="ea82-3968-de14-80c2" type="profile"/>
+        <infoLink id="5627-bbdc-8576-7b74" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a7af-84ef-e844-da1a" name="*PA" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="225e-fbe8-b55b-725f" name="*PA" hidden="false" targetId="a170-aff4-1141-ccb2" type="profile"/>
+        <infoLink id="86d7-c333-3e8b-43bd" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+        <infoLink id="59bd-5b04-d662-dee9" name="Haywire" hidden="false" targetId="6781-efa9-aa1c-5639" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="174d-feef-392d-d8bf" name="*PL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d56d-ff83-960c-20f2" name="*PL" hidden="false" targetId="4afa-0d3e-42bd-ad66" type="profile"/>
+        <infoLink id="9fab-7226-82ec-8f40" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="ac1f-310a-1ffa-86e4" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="41b8-cc14-16d2-f81e" name="*PZ" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4308-2266-ef9c-e8fa" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
+        <infoLink id="12b1-d2c1-4a9f-5ff0" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8e27-edf5-fac0-6867" name="*RC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9622-6923-a919-0ecd" name="*RC" hidden="false" targetId="c551-a674-cc9a-8aaf" type="profile"/>
+        <infoLink id="1ad2-e9be-a716-1494" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="411e-4806-0a52-0ae9" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2df3-3ff4-5ddc-bd03" name="*RF" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c3b8-e596-2199-5dfd" name="*RF" hidden="false" targetId="5d44-5ab0-3dbf-6863" type="profile"/>
+        <infoLink id="aa4e-b378-ec27-c961" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="97d8-2f11-6c8c-5f8e" name="*RG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0d91-9dc5-e214-5ded" name="*RG" hidden="false" targetId="97b9-1cfe-acf1-2bf6" type="profile"/>
+        <infoLink id="4b17-0b7b-92fd-d3ce" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="733b-8a00-845d-6f2f" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="232c-7fd1-4c64-3e59" name="*RL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4fc7-9b7f-4425-9e99" name="*RL" hidden="false" targetId="405f-ed54-4fd8-bf03" type="profile"/>
+        <infoLink id="33ea-7503-9fd2-c14a" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+        <infoLink id="56e0-c009-3f56-873b" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
+        <infoLink id="7921-b9f2-02b5-c24b" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d10a-b199-72e4-004b" name="*RP" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ccb4-f94a-bbce-016a" name="*RP" hidden="false" targetId="660e-1d90-8230-7dd6" type="profile"/>
+        <infoLink id="9d72-a195-8f31-86c6" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="16ea-55a9-7ec9-8f7b" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5693-4b43-3406-be12" name="*SC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="441b-0171-4dbe-bc34" name="*SC" hidden="false" targetId="7972-2ce3-af2c-acab" type="profile"/>
+        <infoLink id="acec-1fe9-4b64-7bff" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="a6f4-3399-4340-89f1" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e8df-60cc-feb2-7eea" name="*SE" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23a2-7c47-be9f-b6d2" name="*SE" hidden="false" targetId="b82f-52c3-6b42-2744" type="profile"/>
+        <infoLink id="1966-f608-1daa-8fa0" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="8112-d376-f713-3801" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
+        <infoLink id="8b4a-d60c-7cdc-e43d" name="Brawl:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="203e-ee5d-b45c-7d89" name="*SG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="87fd-1af0-3385-cde6" name="*SG" hidden="false" targetId="9828-4481-23bc-24b7" type="profile"/>
+        <infoLink id="4b05-080e-b3e0-99fd" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="85d5-3916-2850-87df" name="*SMG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9767-843b-4e77-77b9" name="*SMG" hidden="false" targetId="22e2-f2fc-f81d-7daf" type="profile"/>
+        <infoLink id="a0ae-8cde-2665-c9c3" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="03c1-4254-1a8d-a2b4" name="*TG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7738-e96d-4da5-4252" name="*TG" hidden="false" targetId="c387-42ff-829d-5efc" type="profile"/>
+        <infoLink id="a5c1-da34-310f-731e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+        <infoLink id="7a24-1fbf-35b5-edfc" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7d4b-7e5f-f112-786c" name="*VB" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bfb8-30ff-56db-a422" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
+        <infoLink id="30e5-30f9-60cd-8b4e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="dcb3-c3fe-04f7-09f9" name="*FM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="aed3-fd18-6923-552d" name="*FM" hidden="false" targetId="1d72-455c-c50a-e0aa" type="profile"/>
+        <infoLink id="c5e9-ff7c-c629-63e6" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
+        <infoLink id="d8d1-711d-72d5-fd76" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="acbb-f31c-7088-081b" name="Roles" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true">
       <constraints>
@@ -925,6 +1242,18 @@ Automatically succeed at orders to models that are in formation with it. An Elec
         <characteristic name="M" typeId="b750-4395-01a3-c662">10</characteristic>
         <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">11</characteristic>
         <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2/3/4, Demo:2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0768-8780-5e20-68f2" name="*AM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*AM</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Artillery Missile</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Indirect</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">18-48/96</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">10</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">11</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AE:4, Blast, Demo:2, Guided</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
