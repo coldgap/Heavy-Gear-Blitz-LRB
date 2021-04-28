@@ -64,9 +64,11 @@
   <forceEntries>
     <forceEntry id="15bf-0106-edde-62bf" name="Force" publicationId="50a1-0750-fba2-b978" page="43" hidden="false">
       <categoryLinks>
-        <categoryLink id="c46d-0931-84c3-d7ab" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" targetId="a56e-8415-0783-4b53" primary="false">
+        <categoryLink id="c46d-0931-84c3-d7ab" name="Groups" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" targetId="a56e-8415-0783-4b53" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b902-e10a-ae84-b5f1" type="min"/>
+            <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7fa8-0403-b4ed-0f83" type="min"/>
+            <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5323-5f9d-6de2-d2ab" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

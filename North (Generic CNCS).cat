@@ -9,10 +9,6 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2b11-0067-3e84-371a" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5e2-5819-dd9a-e94b" type="min"/>
-        <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3d81-87bc-5eb9-d5b9" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="94b5-0cdb-468e-3dbd" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
       </categoryLinks>
