@@ -37,6 +37,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdcb-46fd-4de3-7ab3" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="3e46-05e1-1bfd-bf02" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -73,6 +74,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e507-92a4-34c8-5b6b" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="dc68-409e-159a-b9e0" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -115,6 +117,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5476-1a1c-0200-c940" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="c4e4-7aa4-6a14-2fa0" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -145,6 +148,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f6-3e24-c6d7-1ed7" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="8640-8130-e88d-e9d4" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -181,6 +185,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6094-a17b-3c55-5ee9" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="7e67-737a-f03a-c8ed" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -220,6 +225,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad0-00d3-c603-dbdf" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="790f-90b9-79e6-890f" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="5f26-f446-639a-29eb" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -227,6 +234,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e4a5-eb5d-cdc2-e092" name="Headhunter Upgrade" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ead-df26-8acb-4735" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="73ad-b344-b7d7-dbe2" name="Headhunter Upgrade" hidden="false" targetId="b24f-a2ce-aabe-091d" type="profile"/>
         <infoLink id="bc0e-5c37-d25c-a0b5" name="Comms" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
