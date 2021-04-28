@@ -735,6 +735,61 @@
         <infoLink id="6108-5947-e95e-5c33" name="Trick Shot Vet Upgrade" hidden="false" targetId="e361-adb0-b4b2-8632" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="03fc-6415-dea8-714a" name="Ace Gunner Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b9c1-505e-fa3e-97a3" name="Ace Gunner Duelist Upgrade" hidden="false" targetId="4f98-09ed-8771-d5df" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fc87-5f6a-a58b-98b4" name="Advanced Control System Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="442e-854a-643f-2860" name="Advanced Control System Duelist Upgrade" hidden="false" targetId="3a66-e135-c946-acc7" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fe49-773a-cfaa-d032" name="Crack Shot Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="808b-cce0-c428-ef35" name="Crack Shot Duelist Upgrade" hidden="false" targetId="d9b1-446b-5bd9-09ab" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="67d4-3a4b-c26d-a0a2" name="Defender Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8af3-5664-4eaf-19d2" name="Defender Duelist Upgrade" hidden="false" targetId="c70f-11a5-5ec3-c0ea" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b1be-ccfb-a501-6912" name="Dual Wield Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4b93-5114-d78f-06f5" name="Dual Wield Duelist Upgrade" hidden="false" targetId="4f9e-9220-da27-21dc" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f15c-4df0-2cc1-4a18" name="Gunslinger Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bf46-e9ab-d3f3-64fd" name="Gunslinger Duelist Upgrade" hidden="false" targetId="cbc0-a8e9-8128-21f0" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1c89-6816-d80e-b05a" name="Lunge Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a487-0fa7-233f-6c2a" name="Lunge Duelist Upgrade" hidden="false" targetId="1e3c-3237-d186-3e81" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3223-d16c-6d3d-04ec" name="Push the Envelope Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bd16-97e6-c1b2-1b7a" name="Push the Envelope Duelist Upgrade" hidden="false" targetId="7d5a-ecc4-c42c-b09e" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ceea-040e-952c-c294" name="Quick Draw Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="eb22-c37f-f84f-783d" name="Quick Draw Duelist Upgrade" hidden="false" targetId="cb53-4bcf-3a09-a8d3" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c960-9378-b183-9031" name="Shield-Bearer Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b220-79d6-e0af-f2da" name="Shield-Bearer Duelist Upgrade" hidden="false" targetId="4530-0999-0efb-ec40" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="844a-0c27-45f6-06d7" name="Smashfest Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cc98-9546-7eb0-3d49" name="Smashfest Duelist Upgrade" hidden="false" targetId="8d80-72cb-01c2-47a3" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="acbb-f31c-7088-081b" name="Roles" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true">
@@ -883,6 +938,21 @@
         <entryLink id="2e42-def5-274f-96a6" name="Sharpshooter Vet Upgrade" hidden="false" collective="false" import="true" targetId="6d8a-7cb7-2759-9420" type="selectionEntry"/>
         <entryLink id="fb8e-152b-70a1-7f7c" name="Stainless Steel Vet Upgrade" hidden="false" collective="false" import="true" targetId="a8eb-28fb-7871-5ec4" type="selectionEntry"/>
         <entryLink id="f2f5-7f4b-e398-56b7" name="Trick Shot Vet Upgrade" hidden="false" collective="false" import="true" targetId="d815-d6ac-c232-7450" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ad50-f6a9-4192-372b" name="Duelist Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="24d4-2010-2b0b-584e" name="Ace Gunner Duelist Upgrade" hidden="false" collective="false" import="true" targetId="03fc-6415-dea8-714a" type="selectionEntry"/>
+        <entryLink id="9995-79f7-4522-123e" name="Advanced Control System Duelist Upgrade" hidden="false" collective="false" import="true" targetId="fc87-5f6a-a58b-98b4" type="selectionEntry"/>
+        <entryLink id="be9e-fea3-4828-2104" name="Crack Shot Duelist Upgrade" hidden="false" collective="false" import="true" targetId="fe49-773a-cfaa-d032" type="selectionEntry"/>
+        <entryLink id="1d82-cea9-95e1-a610" name="Defender Duelist Upgrade" hidden="false" collective="false" import="true" targetId="67d4-3a4b-c26d-a0a2" type="selectionEntry"/>
+        <entryLink id="d514-1b46-c204-4eb0" name="Dual Wield Duelist Upgrade" hidden="false" collective="false" import="true" targetId="b1be-ccfb-a501-6912" type="selectionEntry"/>
+        <entryLink id="3397-9787-b107-bcd6" name="Gunslinger Duelist Upgrade" hidden="false" collective="false" import="true" targetId="f15c-4df0-2cc1-4a18" type="selectionEntry"/>
+        <entryLink id="46e4-517c-61b5-2b25" name="Lunge Duelist Upgrade" hidden="false" collective="false" import="true" targetId="1c89-6816-d80e-b05a" type="selectionEntry"/>
+        <entryLink id="562b-2362-921c-ab47" name="Push the Envelope Duelist Upgrade" hidden="false" collective="false" import="true" targetId="3223-d16c-6d3d-04ec" type="selectionEntry"/>
+        <entryLink id="d576-4a29-77e6-491a" name="Quick Draw Duelist Upgrade" hidden="false" collective="false" import="true" targetId="ceea-040e-952c-c294" type="selectionEntry"/>
+        <entryLink id="158b-33cc-6d6b-da47" name="Shield-Bearer Duelist Upgrade" hidden="false" collective="false" import="true" targetId="c960-9378-b183-9031" type="selectionEntry"/>
+        <entryLink id="ffb1-41a9-a712-46ef" name="Smashfest Duelist Upgrade" hidden="false" collective="false" import="true" targetId="844a-0c27-45f6-06d7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -1181,6 +1251,39 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     </rule>
     <rule id="8e54-c706-a544-1a5c" name="Melee Weapon Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
       <description>One gear with a melee weapon (that has the React trait) can upgrade it to one of the following: LVB (React, Precise), or LCW (React, Brawl:1).</description>
+    </rule>
+    <rule id="4f98-09ed-8771-d5df" name="Ace Gunner Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Stable trait to any one weapon for 2 TV. Or, add the Stable trait to a combo weapon for 3 TV.</description>
+    </rule>
+    <rule id="3a66-e135-c946-acc7" name="Advanced Control System Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Gain +1 action point. All models have a maximum of 3 actions.</description>
+    </rule>
+    <rule id="d9b1-446b-5bd9-09ab" name="Crack Shot Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Precise trait to any one weapon for 2 TV. Or, add the Precise trait to a combo weapon for 3 TV.</description>
+    </rule>
+    <rule id="c70f-11a5-5ec3-c0ea" name="Defender Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Anti-Missile System (AMS) trait to any weapon with the Frag or Burst trait.</description>
+    </rule>
+    <rule id="4f9e-9220-da27-21dc" name="Dual Wield Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Link trait to any melee weapon other than Shaped Explosives. This adds a second weapon of the same type to the model. For example, a linked Medium Vibroblade becomes two medium vibroblades (ideally one in each hand).</description>
+    </rule>
+    <rule id="cbc0-a8e9-8128-21f0" name="Gunslinger Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Link trait to one Pistol, Submachine Gun, Autocannon, Frag Cannon, Flamer or Grenade Launcher with the React trait for 1 TV. Or add the Link trait to a combo weapon with the React trait for 2 TV. For modeling purposes, this adds a second weapon of the same type to the model. For example, a LAC with the Link trait is represented on the miniature as 2 LACs (ideally one in each hand).</description>
+    </rule>
+    <rule id="1e3c-3237-d186-3e81" name="Lunge Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Reach:1 trait to any Vibro Blade, Spike Gun or Combat Weapon with the React trait. If the weapon already has the Reach:X trait then this upgrade cannot be used.</description>
+    </rule>
+    <rule id="7d5a-ecc4-c42c-b09e" name="Push the Envelope Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Agile trait. Models with the Lumbering Trait cannot receive Agile.</description>
+    </rule>
+    <rule id="cb53-4bcf-3a09-a8d3" name="Quick Draw Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Auto trait to one ranged weapon or combination weapon that has the React trait.</description>
+    </rule>
+    <rule id="4530-0999-0efb-ec40" name="Shield-Bearer Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Add the Shield trait to a model. This upgrade costs 1 TV for models with an Armor of 7 or lower and 2 TV for models with an Armor of 8 or higher.</description>
+    </rule>
+    <rule id="8d80-72cb-01c2-47a3" name="Smashfest Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false">
+      <description>Upgrade one melee weapon with the React trait to one of the following:  M Vibroblade (+React); M Combat Weapon (+React, Demo:4).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
