@@ -67,8 +67,6 @@
         <categoryLink id="c46d-0931-84c3-d7ab" name="Groups" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" targetId="a56e-8415-0783-4b53" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b902-e10a-ae84-b5f1" type="min"/>
-            <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7fa8-0403-b4ed-0f83" type="min"/>
-            <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5323-5f9d-6de2-d2ab" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -623,6 +621,120 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f4ff-8039-164f-5310" name="Smoke Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d726-1447-c93f-900f" name="Smoke Upgrade" hidden="false" targetId="7ca7-464c-5a32-2995" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5938-0676-96eb-b51c" name="Shaped Explosives Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c66c-dd64-4712-02d3" name="Shaped Explosives Upgrade" hidden="false" targetId="5521-17b9-9963-a89f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e68d-43b1-f0b3-0293" name="Sidearms Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a4c8-c0e1-20e1-8103" name="Sidearms Upgrade" hidden="false" targetId="69a5-78af-94e4-6b65" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="371a-0e0e-dfb7-d7b1" name="Panzerfausts Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fcc6-c946-cd7f-fcc7" name="Panzerfausts Upgrade" hidden="false" targetId="a94d-69f7-ab57-0571" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e841-e367-effc-c323" name="Hand Grenades Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c902-f7cd-a84a-d0a0" name="Hand Grenades Upgrade" hidden="false" targetId="1754-471c-803d-44f0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b902-6f2f-1b4d-f264" name="Grenade Swap" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="71a4-8877-3d55-2186" name="Grenade Swap" hidden="false" targetId="eb86-d500-73b9-9db5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5192-0eaa-c3d4-23df" name="Drones Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="71e4-131b-c9b5-c76e" name="Drone Upgrade" hidden="false" targetId="9505-a2df-5ec1-6ee3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa19-aada-b2ff-30b3" name="Anti-air Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c133-a608-460d-281e" name="Anti-air Upgrade" hidden="false" targetId="fbbf-5dc9-194b-6885" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8c1-0f75-20a2-f9d2" name="Melee Weapon Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5c5b-2fc2-8782-c223" name="Melee Weapon Vet Upgrade" hidden="false" targetId="8e54-c706-a544-1a5c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="005c-80f3-f631-11a0" name="EW Specialist Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e9ca-3907-d68a-c4a3" name="EW Specialist Vet Upgrade" hidden="false" targetId="37f8-c849-1764-d44f" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0335-ab5a-1519-b388" name="Field Armor Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e2d5-e244-9e53-6a9b" name="Field Armor Vet Upgrade" hidden="false" targetId="5cca-1f02-0655-46d5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c3b2-a631-bd3b-27da" name="In Your Face Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6d00-a42c-a590-4d70" name="In Your Face Vet Upgrade" hidden="false" targetId="b990-f648-0f85-d5b9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e71c-3ed4-78af-51ad" name="Insulated Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e8e9-9926-3848-1083" name="Insulated Vet Upgrade" hidden="false" targetId="09bc-8025-df66-56a8" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c7fc-4edf-9cc7-acf2" name="Fireproof Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="db56-ca72-9955-fcea" name="Fireproof Vet Upgrade" hidden="false" targetId="7c06-6fd1-c26a-f596" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f069-391d-64cc-be4a" name="Old Reliable Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0658-42c5-4038-a9be" name="Old Reliable Vet Upgrade" hidden="false" targetId="9ad1-3989-4fd3-f797" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a8eb-28fb-7871-5ec4" name="Stainless Steel Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ca9-0f83-8bea-3d5f" name="Stainless Steel Vet Upgrade" hidden="false" targetId="35e5-0cac-0419-4aca" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6d8a-7cb7-2759-9420" name="Sharpshooter Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e293-a9d8-3e95-3e40" name="Sharpshooter Vet Upgrade" hidden="false" targetId="42b4-9451-f0c1-2e74" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d815-d6ac-c232-7450" name="Trick Shot Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6108-5947-e95e-5c33" name="Trick Shot Vet Upgrade" hidden="false" targetId="e361-adb0-b4b2-8632" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="acbb-f31c-7088-081b" name="Roles" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true">
@@ -747,6 +859,32 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup id="3884-4bef-6455-fd9c" name="Standard Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="0bd2-fbea-6b7d-3604" name="Anti-air Upgrade" hidden="false" collective="false" import="true" targetId="aa19-aada-b2ff-30b3" type="selectionEntry"/>
+        <entryLink id="34d7-3704-2cda-4a75" name="Drones Upgrade" hidden="false" collective="false" import="true" targetId="5192-0eaa-c3d4-23df" type="selectionEntry"/>
+        <entryLink id="1026-cfc1-3115-4a7c" name="Grenade Swap" hidden="false" collective="false" import="true" targetId="b902-6f2f-1b4d-f264" type="selectionEntry"/>
+        <entryLink id="fdee-2b27-fa76-402f" name="Hand Grenades Upgrade" hidden="false" collective="false" import="true" targetId="e841-e367-effc-c323" type="selectionEntry"/>
+        <entryLink id="e2a8-ab17-451f-40f7" name="Panzerfausts Upgrade" hidden="false" collective="false" import="true" targetId="371a-0e0e-dfb7-d7b1" type="selectionEntry"/>
+        <entryLink id="985b-e494-a525-728d" name="Shaped Explosives Upgrade" hidden="false" collective="false" import="true" targetId="5938-0676-96eb-b51c" type="selectionEntry"/>
+        <entryLink id="a4ca-1092-a520-a33b" name="Sidearms Upgrade" hidden="false" collective="false" import="true" targetId="e68d-43b1-f0b3-0293" type="selectionEntry"/>
+        <entryLink id="2c45-ccd5-0145-13d1" name="Smoke Upgrade" hidden="false" collective="false" import="true" targetId="f4ff-8039-164f-5310" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bcee-1c2f-133f-1a8e" name="Veteran Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b3dc-ae78-4129-e92f" name="EW Specialist Vet Upgrade" hidden="false" collective="false" import="true" targetId="005c-80f3-f631-11a0" type="selectionEntry"/>
+        <entryLink id="08b6-0187-6aae-154a" name="Field Armor Vet Upgrade" hidden="false" collective="false" import="true" targetId="0335-ab5a-1519-b388" type="selectionEntry"/>
+        <entryLink id="7c4e-def2-d6ce-07be" name="Fireproof Vet Upgrade" hidden="false" collective="false" import="true" targetId="c7fc-4edf-9cc7-acf2" type="selectionEntry"/>
+        <entryLink id="0440-75b7-c49e-9bac" name="In Your Face Vet Upgrade" hidden="false" collective="false" import="true" targetId="c3b2-a631-bd3b-27da" type="selectionEntry"/>
+        <entryLink id="7d38-9a13-25a4-1467" name="Insulated Vet Upgrade" hidden="false" collective="false" import="true" targetId="e71c-3ed4-78af-51ad" type="selectionEntry"/>
+        <entryLink id="01e5-db3f-dc72-ec0f" name="Melee Weapon Vet Upgrade" hidden="false" collective="false" import="true" targetId="e8c1-0f75-20a2-f9d2" type="selectionEntry"/>
+        <entryLink id="28a5-6054-8df4-3bf9" name="Old Reliable Vet Upgrade" hidden="false" collective="false" import="true" targetId="f069-391d-64cc-be4a" type="selectionEntry"/>
+        <entryLink id="2e42-def5-274f-96a6" name="Sharpshooter Vet Upgrade" hidden="false" collective="false" import="true" targetId="6d8a-7cb7-2759-9420" type="selectionEntry"/>
+        <entryLink id="fb8e-152b-70a1-7f7c" name="Stainless Steel Vet Upgrade" hidden="false" collective="false" import="true" targetId="a8eb-28fb-7871-5ec4" type="selectionEntry"/>
+        <entryLink id="f2f5-7f4b-e398-56b7" name="Trick Shot Vet Upgrade" hidden="false" collective="false" import="true" targetId="d815-d6ac-c232-7450" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d61d-9cf7-daf2-e8d9" name="ANN [Advanced Neural Net]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
@@ -792,9 +930,7 @@
       <description>Targets hit with indirect fire from a weapon with the Blast trait do not gain cover bonuses from partial cover. Cover is determined from the perspective of the attacking model or the forward observer.</description>
     </rule>
     <rule id="6e41-31fa-d8ea-2c3b" name="Brawl:X" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
-      <description>A Brawl:X trait on a weapon will modify attack rolls by XD6 when using that weapon.
-
-A Brawl:X trait on a model will modify all melee rolls that model makes by XD6. Multiple instances of the Brawl:X trait are cumulative.</description>
+      <description>A Brawl:X trait on a weapon will modify attack rolls by XD6 when using that weapon. A Brawl:X trait on a model will modify all melee rolls that model makes by XD6. Multiple instances of the Brawl:X trait are cumulative.</description>
     </rule>
     <rule id="e8b7-5646-5b3a-82d6" name="Burst:X" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
       <description>Add a +XD6 modifier to any attack roll made with this weapon.</description>
@@ -932,7 +1068,7 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     <rule id="2a63-64fc-b7b7-7d41" name="Apex" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
       <description>Add +1 to this weapon&apos;s damage.</description>
     </rule>
-    <rule id="fd5d-c3f4-dab1-5db2" name="AUX" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
+    <rule id="fd5d-c3f4-dab1-5db2" name="Aux" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
       <description>Weapons and traits with the AUX tag are unavailable when the model is crippled.</description>
     </rule>
     <rule id="fb22-7dbc-9f3d-5957" name="B [Back Arc]" publicationId="50a1-0750-fba2-b978" page="145" hidden="false">
@@ -991,6 +1127,60 @@ Automatically succeed at orders to models that are in formation with it. An Elec
     </rule>
     <rule id="cfb4-0965-fbdc-c9d5" name="VTOL" publicationId="50a1-0750-fba2-b978" page="149" hidden="false">
       <description>Vertical Take-off and Landing aircraft like helicopters and hoppers can take to the air [see book for unabridged rule].</description>
+    </rule>
+    <rule id="fbbf-5dc9-194b-6885" name="Anti-air Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Up to 2 models may select one of these options: Add the Anti-Air trait to one autocannon, rotary cannon, or laser cannon for 1 TV each; Upgrade any one Anti-Tank Missile (ATM) to an Anti-Air Missile (AAM) of the same class for 1 TV each.</description>
+    </rule>
+    <rule id="9505-a2df-5ec1-6ee3" name="Drones Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>All Drones cost 1 TV each. Up to 2 Drones may be attached to models. A model with a Drone gains the trait Transport:1 Drone if it doesn’t already have the Transport trait.</description>
+    </rule>
+    <rule id="eb86-d500-73b9-9db5" name="Grenade Swap" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Any number of models may swap their hand grenades for panzerfausts or vice versa. The swapped item must be of the same class, such as L, M, or H.</description>
+    </rule>
+    <rule id="1754-471c-803d-44f0" name="Hand Grenades Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Only models with the Hands trait can purchase Hand Grenades. Choose one option: Up to 2 models may purchase Light Hand Grenades (LHG) for 1 TV total. Up to 2 models may purchase Medium Hand Grenades (MHG) for 1 TV each.</description>
+    </rule>
+    <rule id="a94d-69f7-ab57-0571" name="Panzerfausts Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Only models with the Hands trait can purchase panzerfausts. Choose one option: Up to 2 models may purchase Light Panzerfausts (LPZ) for 1 TV total. Or, up to 2 models may purchase Medium Panzerfausts (MPZ) for 1 TV each.</description>
+    </rule>
+    <rule id="69a5-78af-94e4-6b65" name="Sidearms Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Only models with the Hands trait can purchase sidearms. Up to 2 models may purchase Light Pistols (LP) or Light Submachine Guns (LSMGs) for 1 TV total. These weapons have the React trait.</description>
+    </rule>
+    <rule id="5521-17b9-9963-a89f" name="Shaped Explosives Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Only models with the Hands trait or the infantry movement type can purchase shaped explosives. Choose one option: Up to 2 models may purchase Light Shaped Explosives (LSE) for 1 TV total. Or up to 2 models may purchase Medium Shaped Explosives (MSE) for 1 TV each.</description>
+    </rule>
+    <rule id="7ca7-464c-5a32-2995" name="Smoke Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false">
+      <description>Up to 2 models may purchase the smoke trait for 1 TV each. Models with the VTOL Trait cannot purchase Smoke Upgrades.</description>
+    </rule>
+    <rule id="5cca-1f02-0655-46d5" name="Field Armor Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add the Field Armor trait to any model. The cost is determined by its listed Armor: Armor 6 or lower for 1 TV; Armor 7–8 for 2 TV; Armor 9–10 for 3 TV; Armor 11–12 for 4 TV.</description>
+    </rule>
+    <rule id="37f8-c849-1764-d44f" name="EW Specialist Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add +1D6 to any EW rolls made by this model.</description>
+    </rule>
+    <rule id="b990-f648-0f85-d5b9" name="In Your Face Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add the Brawl:1 trait or increase an existing Brawl trait by +1 for 1 TV. Or this model may add the Brawl:2 trait or increase the Brawl trait by 2 for 2 TV.</description>
+    </rule>
+    <rule id="09bc-8025-df66-56a8" name="Insulated Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add the Resist:Haywire trait or remove the Vuln:Haywire trait.</description>
+    </rule>
+    <rule id="7c06-6fd1-c26a-f596" name="Fireproof Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add the Resist:Fire trait or remove the Vuln:Fire trait.</description>
+    </rule>
+    <rule id="9ad1-3989-4fd3-f797" name="Old Reliable Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>One Light (L) or Medium (M) melee weapon with the React trait can be swapped for an equal class melee weapon for 0 TV [see book for unabridged rule].</description>
+    </rule>
+    <rule id="35e5-0cac-0419-4aca" name="Stainless Steel Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Add the Resist:Corrosion trait or remove the Vuln:Corrosion trait.</description>
+    </rule>
+    <rule id="42b4-9451-f0c1-2e74" name="Sharpshooter Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>Gunnery rolls by this model have -1 TN (minimum 2+). This costs 2 TV for each action point that the models has. This cost increases by 2TV per additional action purchased via other upgrades.</description>
+    </rule>
+    <rule id="e361-adb0-b4b2-8632" name="Trick Shot Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>This model does not suffer the -1D6 modifier when using the Split weapon trait.</description>
+    </rule>
+    <rule id="8e54-c706-a544-1a5c" name="Melee Weapon Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false">
+      <description>One gear with a melee weapon (that has the React trait) can upgrade it to one of the following: LVB (React, Precise), or LCW (React, Brawl:1).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
