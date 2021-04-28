@@ -57,6 +57,8 @@
   <categoryEntries>
     <categoryEntry id="a56e-8415-0783-4b53" name="Groups" publicationId="50a1-0750-fba2-b978" page="17" hidden="false"/>
     <categoryEntry id="302e-dc84-4310-4a99" name="Faction and Sub-list Rules" publicationId="50a1-0750-fba2-b978" page="43" hidden="false"/>
+    <categoryEntry id="fc46-76bc-8d6e-6aa5" name="RoleSelection" hidden="false"/>
+    <categoryEntry id="0d80-2ad7-74d6-7f23" name="SelectionInPrimaryUnit" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="15bf-0106-edde-62bf" name="Force" publicationId="50a1-0750-fba2-b978" page="43" hidden="false">
@@ -77,48 +79,72 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="a2a4-dca5-55b9-7584" name="GP [General Purpose]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="5d48-c164-8b70-855d" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6cff-48b5-b767-5b37" name="SK [Strike]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="7c08-f773-8384-b925" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fc3f-c0ac-c02b-22c0" name="FS [Fire Support]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="3ac4-4188-f444-01a4" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6023-9e07-1bcf-1d04" name="RC [Recon]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="80ad-e49d-9c12-ee87" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9768-85b3-cf8d-c5a0" name="SO [Special Operations]" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="b39d-5071-9e41-8089" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="97ee-5c69-50dd-84f6" name="EG [Engineering]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="6411-36fb-a4e0-8065" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8dfc-46a6-320d-97e8" name="AS [Air Support]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="465f-37fb-4fcf-04f4" name="Role_Selection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5234-ab86-9d23-e8e7" name="FT [Fortifications]" publicationId="50a1-0750-fba2-b978" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="bc45-7103-edbd-314d" name="RoleSelection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
@@ -128,6 +154,9 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="741d-8953-55da-fe81" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="0924-b35e-4dd1-ebd3" name="Role_Selection" hidden="false" targetId="fc46-76bc-8d6e-6aa5" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
             <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>

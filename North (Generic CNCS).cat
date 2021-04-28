@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="78ed-c76b-c995-a235" name="North (Generic CNCS)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="03d5-e342-4ec8-2f0e" name="Combat Group" hidden="false" collective="false" import="true" targetId="2b11-0067-3e84-371a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6bcc-a724-1da8-d0fa" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2b11-0067-3e84-371a" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="94b5-0cdb-468e-3dbd" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e817-e4f1-cf31-8fd7" name="Primary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110e-2114-c845-c15b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0468-814a-00ea-fd95" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cb7f-8c4c-6b4d-beef" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+            <entryLink id="609b-c907-cd51-6243" name="Models" hidden="false" collective="false" import="true" targetId="9e8e-f5b3-021f-38e2" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="4e06-e713-b451-4dcf" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5db-bb46-5157-a513" type="min"/>
+                <constraint field="4e06-e713-b451-4dcf" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3499-4e1f-9bfc-f2da" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="016c-0137-a79c-8e91" name="Secondary Role" publicationId="50a1-0750-fba2-b978" page="45" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99e3-494a-72c3-5e2c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="10e8-64fe-dcb2-291d" name="Roles" hidden="false" collective="false" import="true" targetId="acbb-f31c-7088-081b" type="selectionEntryGroup"/>
+            <entryLink id="605b-deac-a9ed-a463" name="Models" hidden="false" collective="false" import="true" targetId="9e8e-f5b3-021f-38e2" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="5a0d-f456-43b7-4616" value="3.0">
+                  <conditions>
+                    <condition field="4e06-e713-b451-4dcf" scope="2b11-0067-3e84-371a" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0d80-2ad7-74d6-7f23" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="4e06-e713-b451-4dcf" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0d-f456-43b7-4616" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="72e4-a26b-7461-28b7" name="Hunter Chassis" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="d20e-1b93-b68e-0955" name="Hunter (Stock)" hidden="false" collective="false" import="true" targetId="0cbe-5d12-7ef7-dfa5" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="0d80-2ad7-74d6-7f23">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e817-e4f1-cf31-8fd7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4b20-5361-8353-6eb6" name="Hunter Gunner" hidden="false" collective="false" import="true" targetId="84f8-1903-c4dc-2c33" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9e8e-f5b3-021f-38e2" name="Models" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc46-76bc-8d6e-6aa5" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="7b22-f6f1-8da6-dcd3" name="Hunter Chassis" hidden="false" collective="false" import="true" targetId="72e4-a26b-7461-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="a6a1-c3cd-b5d8-78c3" name="North Models" targetId="959c-8b4f-9786-347d" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
