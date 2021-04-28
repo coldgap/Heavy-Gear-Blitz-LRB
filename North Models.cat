@@ -8,10 +8,24 @@
         <infoLink id="8a80-3363-4005-d48f" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
         <infoLink id="3474-a36d-4365-3b39" name="*RP" hidden="false" targetId="660e-1d90-8230-7dd6" type="profile"/>
         <infoLink id="e8a6-91c1-42be-6002" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
+        <infoLink id="6c11-b8fa-4326-7a10" name="*APGL" hidden="false" targetId="d39f-a5a2-1b25-22b0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84f8-1903-c4dc-2c33" name="Hunter Gunner" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="5463-6a71-36e9-3ed1" name="Hunter Gunner" hidden="false" targetId="d6b5-763f-a80a-d2a8" type="profile"/>
+        <infoLink id="f6e1-3f12-0590-4077" name="*AC" hidden="false" targetId="3f56-827e-f8c3-0b9f" type="profile"/>
+        <infoLink id="682f-1ba4-bd2b-efa5" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
+        <infoLink id="44a2-91d9-b9e6-575a" name="*RP" hidden="false" targetId="660e-1d90-8230-7dd6" type="profile"/>
+        <infoLink id="8bea-4fcb-9391-0527" name="*APGL" hidden="false" targetId="d39f-a5a2-1b25-22b0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -32,6 +46,24 @@
         <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
         <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
         <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;LAC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d6b5-763f-a80a-d2a8" name="Hunter Gunner" publicationId="50a1-0750-fba2-b978" page="58" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">6</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MAC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
