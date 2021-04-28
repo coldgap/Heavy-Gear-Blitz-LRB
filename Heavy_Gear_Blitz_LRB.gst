@@ -627,6 +627,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5938-0676-96eb-b51c" name="Shaped Explosives Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -635,6 +636,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e68d-43b1-f0b3-0293" name="Sidearms Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -643,6 +645,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="371a-0e0e-dfb7-d7b1" name="Panzerfausts Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -651,6 +654,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e841-e367-effc-c323" name="Hand Grenades Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -659,6 +663,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b902-6f2f-1b4d-f264" name="Grenade Swap" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -667,6 +672,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5192-0eaa-c3d4-23df" name="Drones Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -675,6 +681,7 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa19-aada-b2ff-30b3" name="Anti-air Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
@@ -683,112 +690,839 @@
       </infoLinks>
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8c1-0f75-20a2-f9d2" name="Melee Weapon Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5c5b-2fc2-8782-c223" name="Melee Weapon Vet Upgrade" hidden="false" targetId="8e54-c706-a544-1a5c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="005c-80f3-f631-11a0" name="EW Specialist Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e9ca-3907-d68a-c4a3" name="EW Specialist Vet Upgrade" hidden="false" targetId="37f8-c849-1764-d44f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0335-ab5a-1519-b388" name="Field Armor Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e2d5-e244-9e53-6a9b" name="Field Armor Vet Upgrade" hidden="false" targetId="5cca-1f02-0655-46d5" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c3b2-a631-bd3b-27da" name="In Your Face Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6d00-a42c-a590-4d70" name="In Your Face Vet Upgrade" hidden="false" targetId="b990-f648-0f85-d5b9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e71c-3ed4-78af-51ad" name="Insulated Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e8e9-9926-3848-1083" name="Insulated Vet Upgrade" hidden="false" targetId="09bc-8025-df66-56a8" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c7fc-4edf-9cc7-acf2" name="Fireproof Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="db56-ca72-9955-fcea" name="Fireproof Vet Upgrade" hidden="false" targetId="7c06-6fd1-c26a-f596" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f069-391d-64cc-be4a" name="Old Reliable Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0658-42c5-4038-a9be" name="Old Reliable Vet Upgrade" hidden="false" targetId="9ad1-3989-4fd3-f797" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8eb-28fb-7871-5ec4" name="Stainless Steel Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3ca9-0f83-8bea-3d5f" name="Stainless Steel Vet Upgrade" hidden="false" targetId="35e5-0cac-0419-4aca" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6d8a-7cb7-2759-9420" name="Sharpshooter Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e293-a9d8-3e95-3e40" name="Sharpshooter Vet Upgrade" hidden="false" targetId="42b4-9451-f0c1-2e74" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d815-d6ac-c232-7450" name="Trick Shot Vet Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6108-5947-e95e-5c33" name="Trick Shot Vet Upgrade" hidden="false" targetId="e361-adb0-b4b2-8632" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="03fc-6415-dea8-714a" name="Ace Gunner Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b9c1-505e-fa3e-97a3" name="Ace Gunner Duelist Upgrade" hidden="false" targetId="4f98-09ed-8771-d5df" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fc87-5f6a-a58b-98b4" name="Advanced Control System Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="442e-854a-643f-2860" name="Advanced Control System Duelist Upgrade" hidden="false" targetId="3a66-e135-c946-acc7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fe49-773a-cfaa-d032" name="Crack Shot Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="808b-cce0-c428-ef35" name="Crack Shot Duelist Upgrade" hidden="false" targetId="d9b1-446b-5bd9-09ab" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="67d4-3a4b-c26d-a0a2" name="Defender Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8af3-5664-4eaf-19d2" name="Defender Duelist Upgrade" hidden="false" targetId="c70f-11a5-5ec3-c0ea" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b1be-ccfb-a501-6912" name="Dual Wield Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4b93-5114-d78f-06f5" name="Dual Wield Duelist Upgrade" hidden="false" targetId="4f9e-9220-da27-21dc" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f15c-4df0-2cc1-4a18" name="Gunslinger Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bf46-e9ab-d3f3-64fd" name="Gunslinger Duelist Upgrade" hidden="false" targetId="cbc0-a8e9-8128-21f0" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1c89-6816-d80e-b05a" name="Lunge Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a487-0fa7-233f-6c2a" name="Lunge Duelist Upgrade" hidden="false" targetId="1e3c-3237-d186-3e81" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3223-d16c-6d3d-04ec" name="Push the Envelope Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bd16-97e6-c1b2-1b7a" name="Push the Envelope Duelist Upgrade" hidden="false" targetId="7d5a-ecc4-c42c-b09e" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ceea-040e-952c-c294" name="Quick Draw Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="eb22-c37f-f84f-783d" name="Quick Draw Duelist Upgrade" hidden="false" targetId="cb53-4bcf-3a09-a8d3" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c960-9378-b183-9031" name="Shield-Bearer Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b220-79d6-e0af-f2da" name="Shield-Bearer Duelist Upgrade" hidden="false" targetId="4530-0999-0efb-ec40" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="844a-0c27-45f6-06d7" name="Smashfest Duelist Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cc98-9546-7eb0-3d49" name="Smashfest Duelist Upgrade" hidden="false" targetId="8d80-72cb-01c2-47a3" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6d0-35e1-c8b6-d86f" name="Anti-Air ATM Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1446-d67d-b076-d144" name="Anti-Air ATM Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Anti-Air ATM Upgrade</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Anti-Air</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c9fd-7b6c-c9e8-d02f" name="Anti-Air" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2f9-9de8-fcca-fad3" name="Anti-Air Cannon Upgrade" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6791-f4e0-5e3e-d6ec" name="Anti-Air Cannon Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Anti-Air Cannon Upgrade</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Anti-Air</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="21b8-c671-931a-6bd6" name="Anti-Air" hidden="false" targetId="44ac-b415-6071-6d2f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50bb-e0f0-b8f7-0e64" name="Light Panzerfausts" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="48ca-286c-67f6-abff" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.5"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb16-b818-3303-faaa" name="Medium Hand Grenades" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a4e3-657a-effb-26b7" name="*HG" hidden="false" targetId="73cd-ab94-15df-419e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4eaf-2284-6e76-d428" name="Light Hand Grenades" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ed2-563e-db91-986a" name="*HG" hidden="false" targetId="73cd-ab94-15df-419e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.5"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42f2-7bda-a954-1de1" name="Medium Panzerfausts" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d32c-e70e-8015-2ecd" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cced-95f3-44c9-5b8d" name="Light Pistol" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6d04-1d21-9b01-d425" name="*P" hidden="false" targetId="ea82-3968-de14-80c2" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.5"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a2e-85c4-59b6-9981" name="Light Submachine Gun" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5152-5401-4678-c65a" name="*SMG" hidden="false" targetId="22e2-f2fc-f81d-7daf" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.5"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="335f-4df0-5e2e-e45f" name="Light Shaped Explosives" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b000-3546-bc9c-fe12" name="*SE" hidden="false" targetId="b82f-52c3-6b42-2744" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.5"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0fe-af73-47ba-f390" name="Medium Shaped Explosives" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="65e8-8e3b-087f-fdf1" name="*SE" hidden="false" targetId="b82f-52c3-6b42-2744" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2712-8d1d-2bd7-dca4" name="Smoke" publicationId="50a1-0750-fba2-b978" page="47" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8827-2b66-12b2-e022" name="Smoke" hidden="false" targetId="ed24-f6fe-84eb-3f82" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d824-eeee-82b4-f759" name="Veteran Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ead3-c365-cae9-f6f4" name="Veteran Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Veteran Upgrade</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+2</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Vet, + 1 Skill point</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="91da-c4d6-3836-71a1" name="Vet" hidden="false" targetId="8c59-e3ce-c970-da45" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d1d-fe5e-85ef-e240" name="Duelist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6df7-9e58-6f11-5f1d" name="Duelist" hidden="false" targetId="f112-7e87-0895-025f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e48-6ade-d2b8-40e6" name="EW Specialist Skill" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cdc5-f92d-6b58-2439" name="EW Specialist" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">EW Specialist</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">Add +1D6 to EW rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d170-0447-129b-6e23" name="Field Armor" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="02c8-3c7d-ecf5-300d" name="Field Armor" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Field Armor</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">1-4</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Field Armor</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1ec5-d242-a099-c798" name="Field Armor" hidden="false" targetId="13cf-10a3-507f-e073" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3004-b3e8-8cf7-dede" name="In Your Face (Brawl:1)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7ce9-0313-053e-c25e" name="In Your Face (Brawl:1)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">In Your Face</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Brawl:1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f952-170f-705d-d30b" name="Brawl:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c363-6126-630c-ffb3" name="In Your Face (Brawl:2)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a97f-b2f7-b69a-1a7e" name="In Your Face (Brawl:2)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">In Your Face</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Brawl:2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="76c3-db3c-6093-df89" name="Brawl:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84cb-0db4-a15e-23b8" name="Insulated (-Vuln:Haywire)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="171c-fa06-9833-edef" name="Insulated (-Vuln:Haywire)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Insulated</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">-Vuln:Haywire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2ec-924c-a731-7629" name="Insulated (Resist:Haywire)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1fbc-eae9-64c0-3fcd" name="Insulated (Resist:Haywire)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Insulated</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Resist:Haywire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="46bf-274d-d18a-2a2e" name="Resist:Haywire" hidden="false" targetId="3f9f-cd31-0239-ec2f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba0d-4aec-dc4e-72ea" name="Fireproof (-Vuln:Fire)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c59d-d2df-9304-ad60" name="Fireproof (-Vuln:Fire)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Fireproof</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">-Vuln:Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ea-c2be-78e1-9322" name="Fireproof (Resist:Fire)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="43c8-7083-95e3-81b7" name="Fireproof (Resist:Fire)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Fireproof</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Resist:Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6408-4bbd-3f6e-352f" name="Resist:Fire" hidden="false" targetId="79fe-6ee3-a88b-cca5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e86-df4a-6f2e-fc5d" name="Old Reliable Combat Weapon" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4ccd-8db5-a048-2d8c" name="*CW" hidden="false" targetId="d37b-8e63-987c-18b2" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dedf-6a2a-b968-2c70" name="Old Reliable Vibroblade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ee17-280e-0181-5d13" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddde-0fea-8383-61b8" name="Stainless Steel (-Vuln:Corrosion)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d96e-bfb9-ae98-bd39" name="Stainless Steel (-Vuln:Corrosion)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Stainless Steel</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">-Vuln:Corrosion</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2fe3-ee56-53ef-43b3" name="Stainless Steel (Resist:Corrosion)" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2dba-98cf-260a-a3b0" name="Stainless Steel (Resist:Corrosion)" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Stainless Steel</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Resist:Corrosion</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30fc-1153-8210-9121" name="Resist:Corrosion" hidden="false" targetId="97e2-9be7-eb90-b9ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd67-195c-761b-a3bc" name="Sharpshooter Skill" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="aa6c-3591-e940-fe1c" name="Sharpshooter" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Sharpshooter</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+2</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">GU: -1 TN (min 2+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e67a-d6b6-7709-9988" name="Trick Shot Skill" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="75e4-7e18-0693-6372" name="Trick Shot" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Trick Shot</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">Ignore -1D6 from Split</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0315-b638-bfbf-85a0" name="Vibroblade Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5b8c-bf1e-0659-8958" name="LVB" publicationId="50a1-0750-fba2-b978" page="143" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">LVB</characteristic>
+            <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Vibroblade</characteristic>
+            <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+            <characteristic name="Range" typeId="cace-eb40-0caa-3930">0+</characteristic>
+            <characteristic name="L" typeId="b661-5856-66ed-eb6f">7</characteristic>
+            <characteristic name="M" typeId="b750-4395-01a3-c662"></characteristic>
+            <characteristic name="H" typeId="efbd-dc0f-dfaa-0425"></characteristic>
+            <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">React, AP:1, Precise</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1736-976e-3660-205e" name="Combat Weapon Upgrade" publicationId="50a1-0750-fba2-b978" page="48" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="476e-052e-8185-7d2c" name="LCW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">LCW</characteristic>
+            <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Combat Weapon</characteristic>
+            <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+            <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+            <characteristic name="L" typeId="b661-5856-66ed-eb6f">7</characteristic>
+            <characteristic name="M" typeId="b750-4395-01a3-c662"></characteristic>
+            <characteristic name="H" typeId="efbd-dc0f-dfaa-0425"></characteristic>
+            <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">React, Brawl:1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b679-91ef-a077-150b" name="Ace Gunner Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="93c7-f11b-d4f0-e07e" name="Ace Gunner Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Ace Gunner</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">2-3</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Stable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7187-f9ba-8adb-fddc" name="Stable" hidden="false" targetId="a54c-376d-5e61-2585" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffa1-c33d-56ff-5bf1" name="Advanced Control System" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9e44-1fc8-ee31-bd08" name="Advanced Control System" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Advanced Control System</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+3</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+1 Action</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00b0-12be-2065-cb3c" name="Crack Shot Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bace-d2f0-6c02-fd05" name="Crack Shot Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Crack Shot</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">2-3</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Precise</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ceda-c6fe-ae6f-f59d" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="608e-0297-9e78-376a" name="Defender Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ed3f-a02c-3cee-49a4" name="Defender Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Defender</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+AMS</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e27-17b1-6848-3572" name="AMS [Anti-Missile System]" hidden="false" targetId="3948-f390-08bd-3625" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="721b-8c3e-3b68-5666" name="Dual Wield Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3fff-3ad6-623c-e164" name="Dual Wield Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Dual Wield</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Link</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b682-1c81-b044-280f" name="Link" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fef2-0b3a-ed20-1139" name="Gunslinger Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5f05-0297-45ed-5ff9" name="Gunslinger Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Gunslinger</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1-2</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Link</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="46eb-33e3-40e4-fa41" name="Link" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb14-b030-c739-e7d6" name="Lunge Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0aea-071e-41b7-4f2c" name="Lunge Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Lunge</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e"></characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Reach:1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="81e0-d735-a5b1-4a60" name="Reach:X" hidden="false" targetId="337d-f1a8-69cf-3f84" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0be6-c008-2f69-e6a2" name="Push the Envelope Skill" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2a02-0eee-1a84-a4c6" name="Push the Envelope" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Push the Envelope</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Agile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4d3b-2256-1ad2-cfc1" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd05-305e-23df-19b4" name="Quick Draw Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f0c8-3803-f7f5-1117" name="Quick Draw Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Quick Draw</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Auto</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6dd1-86ac-6c34-c209" name="Auto" hidden="false" targetId="a69e-cf99-4c79-d0d9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2844-fb22-9ca8-1946" name="Shield-Bearer Upgrade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6959-d50e-4e7f-19e5" name="Shield-Bearer Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Shield-Bearer</characteristic>
+            <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1-2</characteristic>
+            <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+            <characteristic name="Modifications" typeId="1198-e158-7438-acbd">+Shield</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5c77-d69a-2e78-13b0" name="Shield" hidden="false" targetId="6231-43d5-8a59-d51f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7662-e36e-5e2c-00de" name="Smashfest Vibroblade" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="16d4-cdb7-dd58-2139" name="MVB" publicationId="50a1-0750-fba2-b978" page="143" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">MVB</characteristic>
+            <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Vibroblade</characteristic>
+            <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+            <characteristic name="Range" typeId="cace-eb40-0caa-3930">0+</characteristic>
+            <characteristic name="L" typeId="b661-5856-66ed-eb6f"></characteristic>
+            <characteristic name="M" typeId="b750-4395-01a3-c662">8</characteristic>
+            <characteristic name="H" typeId="efbd-dc0f-dfaa-0425"></characteristic>
+            <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:3, React</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8aa-eaec-6510-3573" name="Smashfest Combat Weapon" publicationId="50a1-0750-fba2-b978" page="49" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="822e-7463-044a-47b7" name="MCW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">MCW</characteristic>
+            <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Combat Weapon</characteristic>
+            <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+            <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+            <characteristic name="L" typeId="b661-5856-66ed-eb6f"></characteristic>
+            <characteristic name="M" typeId="b750-4395-01a3-c662">8</characteristic>
+            <characteristic name="H" typeId="efbd-dc0f-dfaa-0425"></characteristic>
+            <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">React, Demo:4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

@@ -74,4 +74,165 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="94a7-ccc4-bbda-1547" name="Model Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7862-37a1-6019-3b18" name="Veteran Upgrade" hidden="false" collective="false" import="true" targetId="d824-eeee-82b4-f759" type="selectionEntry"/>
+        <entryLink id="448a-1084-b585-ee6f" name="Duelist Upgrades List" hidden="true" collective="false" import="true" targetId="818b-c783-20de-c310" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d1d-fe5e-85ef-e240" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="80d5-dd6b-e544-d787" name="Veteran Upgrades List" hidden="true" collective="false" import="true" targetId="fc6a-5031-8516-c733" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d824-eeee-82b4-f759" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2259-1f39-28a7-9fb6" name="Standard Upgrades List" hidden="false" collective="false" import="true" targetId="5972-b86e-3f48-460b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="47d1-14e9-0e3f-b5d7" name="Veteran Model Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="3200-48cc-36c4-45ab" name="Standard Upgrades List" hidden="false" collective="false" import="true" targetId="5972-b86e-3f48-460b" type="selectionEntryGroup"/>
+        <entryLink id="5069-ed4e-049e-7dc6" name="Veteran Upgrades List" hidden="false" collective="false" import="true" targetId="fc6a-5031-8516-c733" type="selectionEntryGroup"/>
+        <entryLink id="df39-0a97-1eed-8ce7" name="Duelist Upgrades List" hidden="true" collective="false" import="true" targetId="818b-c783-20de-c310" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d1d-fe5e-85ef-e240" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="818b-c783-20de-c310" name="Duelist Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8058-60f8-b39c-cffe" name="Ace Gunner Duelist Upgrade" hidden="false" collective="false" import="true" targetId="03fc-6415-dea8-714a" type="selectionEntry"/>
+        <entryLink id="e514-f8a2-2b26-ac21" name="Advanced Control System Duelist Upgrade" hidden="false" collective="false" import="true" targetId="fc87-5f6a-a58b-98b4" type="selectionEntry"/>
+        <entryLink id="4745-d502-4ad3-0354" name="Crack Shot Duelist Upgrade" hidden="false" collective="false" import="true" targetId="fe49-773a-cfaa-d032" type="selectionEntry"/>
+        <entryLink id="d375-de05-415f-56b2" name="Defender Duelist Upgrade" hidden="false" collective="false" import="true" targetId="67d4-3a4b-c26d-a0a2" type="selectionEntry"/>
+        <entryLink id="6d5b-6796-40f8-1dbc" name="Dual Wield Duelist Upgrade" hidden="false" collective="false" import="true" targetId="b1be-ccfb-a501-6912" type="selectionEntry"/>
+        <entryLink id="b916-b505-8a8d-3416" name="Gunslinger Duelist Upgrade" hidden="false" collective="false" import="true" targetId="f15c-4df0-2cc1-4a18" type="selectionEntry"/>
+        <entryLink id="9979-c6e1-d4ce-e3fb" name="Lunge Duelist Upgrade" hidden="false" collective="false" import="true" targetId="1c89-6816-d80e-b05a" type="selectionEntry"/>
+        <entryLink id="8525-cd51-8de7-ac23" name="Push the Envelope Duelist Upgrade" hidden="false" collective="false" import="true" targetId="3223-d16c-6d3d-04ec" type="selectionEntry"/>
+        <entryLink id="6d5c-3923-9f35-6ff2" name="Quick Draw Duelist Upgrade" hidden="false" collective="false" import="true" targetId="ceea-040e-952c-c294" type="selectionEntry"/>
+        <entryLink id="1590-da63-fb79-08bd" name="Shield-Bearer Duelist Upgrade" hidden="false" collective="false" import="true" targetId="c960-9378-b183-9031" type="selectionEntry"/>
+        <entryLink id="02f0-4456-756c-4933" name="Smashfest Duelist Upgrade" hidden="false" collective="false" import="true" targetId="844a-0c27-45f6-06d7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5972-b86e-3f48-460b" name="Standard Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="dae4-e14b-fa3a-accb" name="Anti-air Upgrade" hidden="false" collective="false" import="true" targetId="aa19-aada-b2ff-30b3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192c-6b1d-f5e9-5fbc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9db-0822-dff1-fc2b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e1ab-f3c9-1433-68a4" name="Drones Upgrade" hidden="false" collective="false" import="true" targetId="5192-0eaa-c3d4-23df" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="512f-898f-da66-0d95" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d135-de99-b19c-78f7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5668-2f1c-2e31-a291" name="Grenade Swap" hidden="false" collective="false" import="true" targetId="b902-6f2f-1b4d-f264" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e81-b36f-93ec-69d3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2c0f-b726-2de8-fcf4" name="Hand Grenades Upgrade" hidden="false" collective="false" import="true" targetId="e841-e367-effc-c323" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29c-8f12-a35b-f578" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f00e-85e5-52dd-4e6c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="63be-ca6c-7052-4726" name="Panzerfausts Upgrade" hidden="false" collective="false" import="true" targetId="371a-0e0e-dfb7-d7b1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc5b-5a81-0bf0-8820" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7517-5ae2-cd7b-d8f2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b5ac-126b-85b7-accf" name="Shaped Explosives Upgrade" hidden="false" collective="false" import="true" targetId="5938-0676-96eb-b51c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="290f-272d-6c06-284d" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4136-d96c-0e8c-d649" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="246c-e430-7b5b-7c02" name="Sidearms Upgrade" hidden="false" collective="false" import="true" targetId="e68d-43b1-f0b3-0293" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa3-c11f-c051-b528" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a58-2da8-8883-b0e8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="18c4-9ec2-c8df-7028" name="Smoke Upgrade" hidden="false" collective="false" import="true" targetId="f4ff-8039-164f-5310" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a50-76d0-3d1e-c492" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b5-3a94-0188-6e85" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fc6a-5031-8516-c733" name="Veteran Upgrades List" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="d919-7072-724d-7419" name="EW Specialist Vet Upgrade" hidden="false" collective="false" import="true" targetId="005c-80f3-f631-11a0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0da-c0f4-600d-65f3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="70ea-9b9f-9b2c-c4f0" name="Field Armor Vet Upgrade" hidden="false" collective="false" import="true" targetId="0335-ab5a-1519-b388" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab75-d67d-9e87-debf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ecaa-8955-2cb7-dc2d" name="Fireproof Vet Upgrade" hidden="false" collective="false" import="true" targetId="c7fc-4edf-9cc7-acf2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c7-a34e-7896-ea78" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="25a4-32fc-9f07-2d6b" name="In Your Face Vet Upgrade" hidden="false" collective="false" import="true" targetId="c3b2-a631-bd3b-27da" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3895-58fe-5250-7ba3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1442-4407-086f-ccc3" name="Insulated Vet Upgrade" hidden="false" collective="false" import="true" targetId="e71c-3ed4-78af-51ad" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320e-8fba-a947-e553" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="279c-b8ff-7ee0-c001" name="Melee Weapon Vet Upgrade" hidden="false" collective="false" import="true" targetId="e8c1-0f75-20a2-f9d2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f850-23da-7cd8-fa0d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9c0a-f3f6-4cce-536f" name="Old Reliable Vet Upgrade" hidden="false" collective="false" import="true" targetId="f069-391d-64cc-be4a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9e-ba6d-d259-c927" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f876-88c3-1090-aee0" name="Sharpshooter Vet Upgrade" hidden="false" collective="false" import="true" targetId="6d8a-7cb7-2759-9420" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b4-0c32-c4df-8e4a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="33c1-7178-5299-0e7e" name="Stainless Steel Vet Upgrade" hidden="false" collective="false" import="true" targetId="a8eb-28fb-7871-5ec4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9309-8b5b-342b-bfcc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0985-d785-bf29-ab80" name="Trick Shot Vet Upgrade" hidden="false" collective="false" import="true" targetId="d815-d6ac-c232-7450" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29d8-e423-739c-dfff" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
