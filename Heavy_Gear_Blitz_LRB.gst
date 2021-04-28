@@ -730,5 +730,173 @@ Automatically succeed at orders to models that are in formation with it. An Elec
         <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:1/3/5</characteristic>
       </characteristics>
     </profile>
+    <profile id="d39f-a5a2-1b25-22b0" name="*APGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*APGL</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Anti-personnel Grenade Launchers</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Proximity</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">Radius 3</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">4</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">5</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, Frag</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c256-9647-9eac-0b77" name="*AAM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*AAM</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Anti-air Missile</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct, Indirect</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">8</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Flak, Guided</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e90c-749b-6b51-334f" name="*ABM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*ABM</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Air Burst Missile</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct, Indirect</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">18-48/96</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">5</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">6</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AE:3, Blast, Guided</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1785-4e36-7fa7-762e" name="*BB" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*BB</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Bomb</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662"/>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425"/>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AE:4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d37b-8e63-987c-18b2" name="*CW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*CW</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Combat Weapon</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">8</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6"/>
+      </characteristics>
+    </profile>
+    <profile id="83e4-ad84-6dfe-544e" name="*ICW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*ICW</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Infantry Combat Weapon</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">4</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">5</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10ef-6c29-72b2-7e15" name="*IGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*IGL</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Infantry Grenade Launcher</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct, Indirect</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">3-9/18</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">7</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AE:2, Blast or AP:1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f28-ed1d-16d6-d4aa" name="*IR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*IR</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Infantry Rifle</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-24/48</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">4</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">5</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Precise, AI</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89fb-454d-24db-e66e" name="*IW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*IW</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Infantry Weapon</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-9/18</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">3</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">4</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">5</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, Burst:1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea82-3968-de14-80c2" name="*P" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*P</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Pistol</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-9/18</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">7</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Precise</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4afa-0d3e-42bd-ad66" name="*PL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*PL</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Pulse Laser</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-24/48</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">8</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2/4/6, Advanced</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b82f-52c3-6b42-2744" name="*SE" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*SE</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Shaped Explosives</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">9</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">10</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2/3/4, Demo:4, Brawl:-1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9828-4481-23bc-24b7" name="*SG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*SG</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Spike Gun</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Melee</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">Reach 0+</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">7</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2/4/6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c387-42ff-829d-5efc" name="*TG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="e77a-6c9f-dda4-5f3d">*TG</characteristic>
+        <characteristic name="Weapon" typeId="6fa0-6c20-6eaf-c8a9">Tank Gun</characteristic>
+        <characteristic name="Mode" typeId="c920-a7d1-081e-2dad">Direct</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">18-36/72</characteristic>
+        <characteristic name="L" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="M" typeId="b750-4395-01a3-c662">10</characteristic>
+        <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">11</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2/3/4, Demo:2</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
