@@ -9,6 +9,10 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2b11-0067-3e84-371a" name="Combat Group" publicationId="50a1-0750-fba2-b978" page="43" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5e2-5819-dd9a-e94b" type="min"/>
+        <constraint field="selections" scope="babe-264f-c84c-ea51" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3d81-87bc-5eb9-d5b9" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="94b5-0cdb-468e-3dbd" name="New CategoryLink" hidden="false" targetId="a56e-8415-0783-4b53" primary="true"/>
       </categoryLinks>
@@ -261,6 +265,17 @@
       </modifiers>
       <entryLinks>
         <entryLink id="7b22-f6f1-8da6-dcd3" name="Hunter Chassis" hidden="false" collective="false" import="true" targetId="72e4-a26b-7461-28b7" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5e4d-3516-f621-b2f9" name="Jaguar Chassis" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="caa4-f130-1daa-df77" name="Arrow Jaguar" hidden="false" collective="false" import="true" targetId="c00f-ec09-faba-772f" type="selectionEntry"/>
+        <entryLink id="cfa3-928f-226b-7587" name="Assault Jaguar" hidden="false" collective="false" import="true" targetId="8e98-46c7-aa4a-dd55" type="selectionEntry"/>
+        <entryLink id="62e4-3079-b2ed-fffc" name="Destroyer Jaguar" hidden="false" collective="false" import="true" targetId="d9a1-54d4-3085-86e3" type="selectionEntry"/>
+        <entryLink id="f444-be21-d93c-b51a" name="Fire Jaguar" hidden="false" collective="false" import="true" targetId="aa31-f5ae-cbf6-0794" type="selectionEntry"/>
+        <entryLink id="0632-2997-8032-5a19" name="Flash Jaguar" hidden="false" collective="false" import="true" targetId="1931-c97b-da94-38e3" type="selectionEntry"/>
+        <entryLink id="95e1-8916-93b5-1832" name="Jaguar (Stock)" hidden="false" collective="false" import="true" targetId="535e-c451-ead2-fddf" type="selectionEntry"/>
+        <entryLink id="0cf7-a319-22f3-4c77" name="Sniper Jaguar" hidden="false" collective="false" import="true" targetId="4348-0c7a-ab3f-bf53" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

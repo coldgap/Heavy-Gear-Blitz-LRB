@@ -59,6 +59,7 @@
     <categoryEntry id="302e-dc84-4310-4a99" name="Faction and Sub-list Rules" publicationId="50a1-0750-fba2-b978" page="43" hidden="false"/>
     <categoryEntry id="fc46-76bc-8d6e-6aa5" name="RoleSelection" hidden="false"/>
     <categoryEntry id="0d80-2ad7-74d6-7f23" name="SelectionInPrimaryUnit" hidden="false"/>
+    <categoryEntry id="babe-264f-c84c-ea51" name="LeaderSelection" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="15bf-0106-edde-62bf" name="Force" publicationId="50a1-0750-fba2-b978" page="43" hidden="false">
@@ -78,6 +79,10 @@
         <infoLink id="25c5-5955-0fac-91c4" name="Flak" hidden="false" targetId="1148-6b04-598d-9538" type="rule"/>
         <infoLink id="47d8-9025-48c3-e5fb" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2419-63af-68a3-67d7" name="*ABM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -87,6 +92,10 @@
         <infoLink id="8d91-eb24-d5ae-2578" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
         <infoLink id="d07d-8031-e29b-fec4" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2728-1126-1243-b397" name="*AC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -94,6 +103,10 @@
         <infoLink id="efb0-dc3a-62ad-341b" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
         <infoLink id="db12-1422-5b38-4b97" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d81d-e0b8-00c6-9acf" name="*AG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -103,6 +116,10 @@
         <infoLink id="28cd-740f-7244-f815" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="8ebc-aedd-fb4d-a232" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c5fb-bec5-892c-c1d9" name="*AM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -112,6 +129,10 @@
         <infoLink id="4d02-056d-8537-cbb6" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
         <infoLink id="85ec-e0ce-50c1-e52e" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="62d1-9a76-6111-4b0c" name="*APGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -119,6 +140,10 @@
         <infoLink id="1a81-c407-2f26-1ae9" name="Frag" hidden="false" targetId="27e2-21ad-ae02-d82c" type="rule"/>
         <infoLink id="f0c3-cd76-4ab6-1ba1" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7337-5a31-7e7c-6c24" name="*APR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -126,12 +151,20 @@
         <infoLink id="8c8e-1714-620b-f3a5" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
         <infoLink id="e868-1bd1-c37f-4eb6" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="25c1-92b0-54a9-8cc0" name="*AR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a77b-6a12-6675-10ce" name="*AR" hidden="false" targetId="1936-ef3f-e54f-ae83" type="profile"/>
         <infoLink id="3c2a-6787-2aa7-b5ba" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="334c-fe8a-360a-c00c" name="*ATM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -139,6 +172,10 @@
         <infoLink id="da91-b5b4-e42a-a2ed" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
         <infoLink id="cce5-6173-89ec-0c8f" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e890-79da-f663-d35b" name="*AVM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -146,23 +183,39 @@
         <infoLink id="2a93-5c57-c085-3ade" name="Guided" hidden="false" targetId="0914-f2c7-bc51-f467" type="rule"/>
         <infoLink id="77f4-22c1-1c8c-e521" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae83-8d1d-c1ee-c107" name="*BB" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a7fd-f1f2-49c6-eeab" name="*BB" hidden="false" targetId="1785-4e36-7fa7-762e" type="profile"/>
         <infoLink id="6e6c-cf30-c148-5abe" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8c02-1c3c-ce93-daea" name="*BZ" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fdbe-a539-c5af-8132" name="*BZ" hidden="false" targetId="9088-ca5a-bba4-c584" type="profile"/>
         <infoLink id="dcd6-c212-7fef-653a" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b501-aad1-bde0-3d91" name="*CW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d20e-9445-03fd-10db" name="*CW" hidden="false" targetId="d37b-8e63-987c-18b2" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0237-a4d3-352d-0e2b" name="*FC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -172,6 +225,10 @@
         <infoLink id="66ac-614b-17f8-c42e" name="Frag" hidden="false" targetId="27e2-21ad-ae02-d82c" type="rule"/>
         <infoLink id="c999-cad9-33d5-1ad9" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="251f-2a92-bfdb-f09c" name="*FG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -181,6 +238,10 @@
         <infoLink id="6062-d15c-000d-312b" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="927f-1fdc-9e6d-bacd" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9544-87c1-ecb5-0c08" name="*FL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -190,6 +251,10 @@
         <infoLink id="2a4e-910b-2a57-7380" name="Fire:X" hidden="false" targetId="7f82-4f44-5459-a1bc" type="rule"/>
         <infoLink id="ce46-483d-9a5d-9d4e" name="Spray" hidden="false" targetId="75d4-29e4-e274-2989" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2980-ba9c-d71c-8514" name="*GL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -198,6 +263,10 @@
         <infoLink id="7981-0da8-df9b-86eb" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
         <infoLink id="364c-7699-1e0b-f29a" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3752-11d1-e1b2-20ce" name="*GM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -206,6 +275,10 @@
         <infoLink id="eb93-0adf-c6d9-35a1" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
         <infoLink id="2363-2f1c-d16b-25fc" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5fd0-4c26-97b3-618c" name="*HG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -214,12 +287,20 @@
         <infoLink id="b8fc-0b13-79c3-7454" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
         <infoLink id="b6e5-eaa5-7ae7-378e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6e6-5108-811c-9538" name="*ICW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5fba-41f5-5a8f-9196" name="*ICW" hidden="false" targetId="83e4-ad84-6dfe-544e" type="profile"/>
         <infoLink id="5a72-124f-0803-2bd8" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ee9-8d7e-354e-fad5" name="*IGL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -229,6 +310,10 @@
         <infoLink id="df80-8b8f-0633-f1da" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="7006-9d96-be9a-5c6b" name="Or" hidden="false" targetId="3f3c-e547-eca2-0723" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77a9-3d22-1ee3-5b36" name="*IL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -237,6 +322,10 @@
         <infoLink id="dfb1-0d5e-5d3c-0c58" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
         <infoLink id="cd46-3547-3ba2-0a22" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6d89-6b2a-32c0-2f32" name="*IM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -245,6 +334,10 @@
         <infoLink id="2b36-ded3-9748-0a8f" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
         <infoLink id="0712-7878-7639-e5c3" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6a4d-4398-53b5-b3d0" name="*IR" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -252,11 +345,19 @@
         <infoLink id="987e-3579-087e-23fb" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
         <infoLink id="b272-114c-79ae-e6d4" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c6a0-6117-3b36-1b30" name="*IS" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4134-2825-ab0f-018e" name="*IS" hidden="false" targetId="0cb4-b0c9-a196-b510" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c084-202c-86e8-5f34" name="*IW" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -264,6 +365,10 @@
         <infoLink id="2b94-e42e-e958-e99c" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
         <infoLink id="1d5b-340e-a083-7e28" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="882e-a4ba-fa26-1927" name="*LC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -271,6 +376,10 @@
         <infoLink id="1a7d-1ae2-6709-f782" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
         <infoLink id="40fe-0c0f-4ff2-dc6c" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa05-2af5-19a6-27e8" name="*MG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -278,12 +387,20 @@
         <infoLink id="f298-79ce-f269-f773" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
         <infoLink id="426a-25e7-fe89-2148" name="AI [Anti-Infantry]" hidden="false" targetId="373d-3234-bde9-ba3c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89b7-714b-06ef-dc5a" name="*P" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8e96-05d1-2690-f213" name="*P" hidden="false" targetId="ea82-3968-de14-80c2" type="profile"/>
         <infoLink id="5627-bbdc-8576-7b74" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a7af-84ef-e844-da1a" name="*PA" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -291,6 +408,10 @@
         <infoLink id="86d7-c333-3e8b-43bd" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
         <infoLink id="59bd-5b04-d662-dee9" name="Haywire" hidden="false" targetId="6781-efa9-aa1c-5639" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="174d-feef-392d-d8bf" name="*PL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -298,12 +419,20 @@
         <infoLink id="9fab-7226-82ec-8f40" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="ac1f-310a-1ffa-86e4" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="41b8-cc14-16d2-f81e" name="*PZ" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4308-2266-ef9c-e8fa" name="*PZ" hidden="false" targetId="4f3f-a253-31d7-f5ca" type="profile"/>
         <infoLink id="12b1-d2c1-4a9f-5ff0" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8e27-edf5-fac0-6867" name="*RC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -311,12 +440,20 @@
         <infoLink id="1ad2-e9be-a716-1494" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
         <infoLink id="411e-4806-0a52-0ae9" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2df3-3ff4-5ddc-bd03" name="*RF" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c3b8-e596-2199-5dfd" name="*RF" hidden="false" targetId="5d44-5ab0-3dbf-6863" type="profile"/>
         <infoLink id="aa4e-b378-ec27-c961" name="Precise" hidden="false" targetId="b6a6-e266-e558-e477" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="97d8-2f11-6c8c-5f8e" name="*RG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -324,6 +461,10 @@
         <infoLink id="4b17-0b7b-92fd-d3ce" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="733b-8a00-845d-6f2f" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="232c-7fd1-4c64-3e59" name="*RL" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -332,6 +473,10 @@
         <infoLink id="56e0-c009-3f56-873b" name="Split:X" hidden="false" targetId="3806-9299-9e60-5cab" type="rule"/>
         <infoLink id="7921-b9f2-02b5-c24b" name="Advanced" hidden="false" targetId="c159-01a9-3d5b-4ae9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d10a-b199-72e4-004b" name="*RP" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -339,6 +484,10 @@
         <infoLink id="9d72-a195-8f31-86c6" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
         <infoLink id="16ea-55a9-7ec9-8f7b" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5693-4b43-3406-be12" name="*SC" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -346,6 +495,10 @@
         <infoLink id="acec-1fe9-4b64-7bff" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="a6f4-3399-4340-89f1" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e8df-60cc-feb2-7eea" name="*SE" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -354,18 +507,30 @@
         <infoLink id="8112-d376-f713-3801" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
         <infoLink id="8b4a-d60c-7cdc-e43d" name="Brawl:X" hidden="false" targetId="6e41-31fa-d8ea-2c3b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="203e-ee5d-b45c-7d89" name="*SG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="87fd-1af0-3385-cde6" name="*SG" hidden="false" targetId="9828-4481-23bc-24b7" type="profile"/>
         <infoLink id="4b05-080e-b3e0-99fd" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="85d5-3916-2850-87df" name="*SMG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9767-843b-4e77-77b9" name="*SMG" hidden="false" targetId="22e2-f2fc-f81d-7daf" type="profile"/>
         <infoLink id="a0ae-8cde-2665-c9c3" name="Burst:X" hidden="false" targetId="e8b7-5646-5b3a-82d6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="03c1-4254-1a8d-a2b4" name="*TG" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -373,12 +538,20 @@
         <infoLink id="a5c1-da34-310f-731e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
         <infoLink id="7a24-1fbf-35b5-edfc" name="Demo:X" hidden="false" targetId="b11f-d0e8-0ce2-e23c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7d4b-7e5f-f112-786c" name="*VB" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bfb8-30ff-56db-a422" name="*VB" hidden="false" targetId="7c42-8137-a49f-922c" type="profile"/>
         <infoLink id="30e5-30f9-60cd-8b4e" name="AP:X [Armor Piercing]" hidden="false" targetId="dd3a-a698-b4f4-e8e2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dcb3-c3fe-04f7-09f9" name="*FM" publicationId="50a1-0750-fba2-b978" page="157" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -386,6 +559,67 @@
         <infoLink id="c5e9-ff7c-c629-63e6" name="AE:X [Area Effect]" hidden="false" targetId="43be-c250-8da7-3a3c" type="rule"/>
         <infoLink id="d8d1-711d-72d5-fd76" name="Blast" hidden="false" targetId="0386-0b2a-9f59-cbb2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="703c-255a-e7f4-f604" name="CGL" publicationId="50a1-0750-fba2-b978" page="46" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="981a-fd63-504c-0407" name="CGL [Combat Group Leader]" hidden="false" targetId="7fa5-ce7f-89ed-bfe8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad94-9d99-6317-0944" name="LeaderSelection" hidden="false" targetId="babe-264f-c84c-ea51" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4634-cf6d-7b49-5980" name="2iC" publicationId="50a1-0750-fba2-b978" page="46" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b0c7-bf64-f40f-6596" name="2iC [Second in Command]" hidden="false" targetId="13fa-7e66-ca06-582b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c34a-7ed1-64b4-c9be" name="TFC" publicationId="50a1-0750-fba2-b978" page="46" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0182-0798-2524-999a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="712a-e812-34e1-0e38" name="TFC [Task Force Commander]" hidden="false" targetId="ea34-4bcd-4691-0f76" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f83-eb8d-13cf-2bd9" name="CO" publicationId="50a1-0750-fba2-b978" page="46" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36fc-d720-d397-efc7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ccf4-c387-d1b2-335f" name="CO [Commanding Officer]" hidden="false" targetId="d7e3-7a21-b073-78ea" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4e8-c666-c4b8-face" name="XO" publicationId="50a1-0750-fba2-b978" page="46" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7de8-d0c0-2ad8-a042" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1ea2-10c6-d370-f5c5" name="XO [Executive Officer]" hidden="false" targetId="687b-90b6-3fb8-ce63" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="5.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -480,6 +714,36 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e088-4ca8-f02f-4a77" name="Command Upgrades" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f58f-fd60-2487-6bd1" name="Group Leaders" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66eb-4396-d0c5-0ad4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="988f-4ab8-daa6-f7e5" name="CGL" hidden="false" collective="false" import="true" targetId="703c-255a-e7f4-f604" type="selectionEntry"/>
+            <entryLink id="e36b-dbfb-1208-54f5" name="2iC" hidden="false" collective="false" import="true" targetId="4634-cf6d-7b49-5980" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5a98-a06c-7b5f-19fc" name="Officer Rank" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="babe-264f-c84c-ea51" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d3-217d-3ba1-4f4b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7641-6125-b983-8761" name="TFC" hidden="false" collective="false" import="true" targetId="c34a-7ed1-64b4-c9be" type="selectionEntry"/>
+            <entryLink id="b96f-3126-7c3c-a85b" name="CO" hidden="false" collective="false" import="true" targetId="8f83-eb8d-13cf-2bd9" type="selectionEntry"/>
+            <entryLink id="8c64-6a72-421f-c005" name="XO" hidden="false" collective="false" import="true" targetId="d4e8-c666-c4b8-face" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -1254,6 +1518,41 @@ Automatically succeed at orders to models that are in formation with it. An Elec
         <characteristic name="M" typeId="b750-4395-01a3-c662">10</characteristic>
         <characteristic name="H" typeId="efbd-dc0f-dfaa-0425">11</characteristic>
         <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AE:4, Blast, Demo:2, Guided</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7fa5-ce7f-89ed-bfe8" name="CGL [Combat Group Leader]" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+      <characteristics>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">Combat Group Leader</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">5+</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13fa-7e66-ca06-582b" name="2iC [Second in Command]" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+      <characteristics>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">Second in Command</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">5+</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea34-4bcd-4691-0f76" name="TFC [Task Force Commander]" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+      <characteristics>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">Task Force Commander</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">3+</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d7e3-7a21-b073-78ea" name="CO [Commanding Officer]" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+      <characteristics>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">Commanding Officer</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">4+</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="687b-90b6-3fb8-ce63" name="XO [Executive Officer]" hidden="false" typeId="1685-8095-01f4-ef18" typeName="Commander">
+      <characteristics>
+        <characteristic name="Rank" typeId="6c21-359b-b912-5a5a">Executive Officer</characteristic>
+        <characteristic name="Initiative" typeId="0671-3c33-3a2b-8be8">4+</characteristic>
+        <characteristic name="Command Points" typeId="2803-8549-36e8-9c2f">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

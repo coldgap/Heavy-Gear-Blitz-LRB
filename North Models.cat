@@ -38,6 +38,7 @@
           </constraints>
         </entryLink>
         <entryLink id="3e46-05e1-1bfd-bf02" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="433a-713c-f868-adb3" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -75,6 +76,7 @@
           </constraints>
         </entryLink>
         <entryLink id="dc68-409e-159a-b9e0" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="f446-1e44-ada0-8e2b" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -118,6 +120,7 @@
           </constraints>
         </entryLink>
         <entryLink id="c4e4-7aa4-6a14-2fa0" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="3a3d-60f3-97a4-713f" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -149,6 +152,7 @@
           </constraints>
         </entryLink>
         <entryLink id="8640-8130-e88d-e9d4" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="74d7-f52a-065d-8052" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -186,6 +190,7 @@
           </constraints>
         </entryLink>
         <entryLink id="7e67-737a-f03a-c8ed" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="58fc-19e3-a9e1-4d2b" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -226,7 +231,7 @@
           </constraints>
         </entryLink>
         <entryLink id="790f-90b9-79e6-890f" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
-        <entryLink id="5f26-f446-639a-29eb" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e4a5-eb5d-cdc2-e092" type="selectionEntry"/>
+        <entryLink id="d75e-9b92-4164-909a" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
@@ -244,6 +249,323 @@
       <costs>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57b3-b05c-3445-3acc" name="Seccom Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f84d-2559-9638-9078" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="284e-f76b-d95f-c5fd" name="Seccom Upgrade" hidden="false" targetId="e179-a73f-951c-6b37" type="profile"/>
+        <infoLink id="199f-96e3-d6df-7244" name="ECCM" hidden="false" targetId="9d73-3390-de6c-1fc9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e00-7dab-851f-895b" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ad-cf2f-de08-7d07" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="da72-13b4-faee-2701" name="Thunder Jaguar Upgrade" hidden="false" targetId="8c50-822f-f61e-e7ee" type="profile"/>
+        <infoLink id="e38b-0759-6f13-69f7" name="Comms" hidden="false" targetId="e272-4136-4ff9-112b" type="rule"/>
+        <infoLink id="ce4e-2984-28ac-50a6" name="SatUp [Satellite Uplink]" hidden="false" targetId="110c-8b5f-738b-faf4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="535e-c451-ead2-fddf" name="Jaguar (Stock)" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="f30b-909b-064f-a84f" name="Jaguar (Stock)" hidden="false" targetId="5dd9-e9ef-086a-fdfa" type="profile"/>
+        <infoLink id="f991-2006-0564-73d9" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="5b1e-774a-62bf-c8ec" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="4fac-6459-fa5b-17d4" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="839c-d77a-0bce-3de2" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deed-e96e-856e-f36b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b08b-e40d-0e43-67aa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7710-0c0e-4ed0-1168" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7369-9b21-3e3d-8c71" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e4-2e0d-6ea1-5b6c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0250-c696-87a4-da0f" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2715-9ea8-c052-9287" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ef-d63d-ebbd-17d2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e3dc-80ab-345f-cd82" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4071-507c-9b2f-f3cc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2efa-dc41-345b-3c67" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cd84-c8dc-5512-b740" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="6d25-90a6-1b7d-a06c" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="821b-415b-c39a-26a4" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9a1-54d4-3085-86e3" name="Destroyer Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="3789-3805-e736-3c95" name="Destroyer Jaguar" hidden="false" targetId="5d0e-1f3b-d8e9-96ff" type="profile"/>
+        <infoLink id="f6fd-bf66-8da0-e085" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="2180-00c7-7a21-031e" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="3e4e-3ac9-2fbd-a856" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="1ceb-5445-0829-724e" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cf-ef0d-ccb7-018c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ea4-10fa-c0af-153c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3b02-4a2a-05e3-39ae" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce04-f7f7-c126-aa2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac10-cb11-9752-3061" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f900-d29f-9638-b2c8" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="d3c6-33e4-5787-8a41" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="1aed-585b-b289-7612" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fa0-b133-630d-9836" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e956-1ff0-a9f8-a468" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f092-1291-673b-f0cf" name="*BZ" hidden="false" collective="false" import="true" targetId="8c02-1c3c-ce93-daea" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9f-5cbe-a780-ce65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a42-9e59-e3c2-0b1e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d9ff-9e76-f564-7fad" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1931-c97b-da94-38e3" name="Flash Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="0a2b-6dd8-7a1e-5200" name="Flash Jaguar" hidden="false" targetId="23c1-befb-e9fd-c935" type="profile"/>
+        <infoLink id="5eb4-1e4b-00d4-6215" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="91ce-9d50-0824-8fe5" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="a886-d14c-62b3-2ec4" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="c79a-308a-f0a0-8286" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5966-9ccf-34e2-3631" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea55-4774-5946-dea2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="faba-1466-8990-d54a" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3484-cb83-7ab5-3bc5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff82-a5fb-e0e9-bb2a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c278-2609-9afc-b053" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="0813-fb53-8b1c-c47d" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="9afd-6fd4-1078-800b" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21de-4183-db79-d2e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1753-5115-3cff-7c05" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5ada-c3d9-d73a-994d" name="*LC" hidden="false" collective="false" import="true" targetId="882e-a4ba-fa26-1927" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35cb-91bc-9c60-38ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec63-ce4c-ede9-6b5d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6874-230c-67c8-3fca" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4348-0c7a-ab3f-bf53" name="Sniper Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="63a8-b600-f4de-6534" name="Sniper Jaguar" hidden="false" targetId="bdf7-e451-24e3-3cab" type="profile"/>
+        <infoLink id="38ae-3ebc-aa04-3c7a" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="7774-005e-20a6-8a44" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="b1fe-25d1-f159-42ef" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2dfd-541f-2c19-1102" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8d3-e5db-1616-86c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0424-ea84-4bbd-420a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b02-ca61-5f88-9765" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2187-6ebe-f71f-6287" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee04-4f78-753e-8f4d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b5b4-cea3-2c5b-7a29" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="75d1-f2f2-2396-41a3" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="c9c0-26d7-3c92-5500" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d9-58d9-0013-a493" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-7f43-4bdd-b14f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="faa0-8121-fb3a-35fa" name="*RF" hidden="false" collective="false" import="true" targetId="2df3-3ff4-5ddc-bd03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f2-9dd2-57c4-3ca5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c3-1403-a921-a44b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="063c-d78d-b3fe-e9f8" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e98-46c7-aa4a-dd55" name="Assault Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="1f5f-65b4-5605-4c28" name="Jaguar (Stock)" hidden="false" targetId="5dd9-e9ef-086a-fdfa" type="profile"/>
+        <infoLink id="5a8e-69c1-df9c-62bf" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="254d-de92-7677-df8f" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="32b3-5f9d-2140-0b1b" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="4378-6136-3958-a349" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c65-7fa2-d6e0-688d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347f-c50b-7e10-d545" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6afb-b3f2-b04a-42ff" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a27d-2928-5411-a948" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad38-cbc4-a30d-cd8f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ea6f-4ba9-64bc-f6bc" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="1bfe-fe21-63b4-40b1" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="8ff4-8da2-80af-75ce" name="*SC" hidden="false" collective="false" import="true" targetId="5693-4b43-3406-be12" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c26-45de-07a0-7353" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6649-8bda-9605-53e4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3456-2e46-65e0-9015" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3945-af45-12a9-92c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b12c-9d54-8c04-4e45" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aa78-fa04-60b6-9d92" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c00f-ec09-faba-772f" name="Arrow Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="1232-646d-4a4d-d3c4" name="Arrow Jaguar" hidden="false" targetId="09ee-a687-6a3d-c3f5" type="profile"/>
+        <infoLink id="f62e-f954-9f94-32e6" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="6ff1-212f-1634-e02b" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="6db6-ce51-d09d-3c2d" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ad73-3cce-d155-6f2d" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73fc-26fe-9c83-8549" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc45-ff50-274e-932e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a6fa-cbeb-1315-7047" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b8-b336-e130-b402" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc95-2966-5115-b2ff" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9fa5-4b0c-dac2-656c" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="e820-297d-9a21-4cfb" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="f25f-ab8b-3e0a-58f6" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ace-c9e2-029e-b90c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b4-8afa-4a39-cb6b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="57c9-2957-2773-4a3f" name="*ATM" hidden="false" collective="false" import="true" targetId="334c-fe8a-360a-c00c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd9-df20-23ba-6b29" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b952-7acb-1d6f-966e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9ed1-2e88-6c03-b1f9" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa31-f5ae-cbf6-0794" name="Fire Jaguar" publicationId="50a1-0750-fba2-b978" page="59" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="5bd7-b0b3-cdd2-1f80" name="Fire Jaguar" hidden="false" targetId="b4d8-a25d-805e-b9aa" type="profile"/>
+        <infoLink id="8d11-145a-839a-a7e8" name="Agile" hidden="false" targetId="73f6-feed-085c-bda3" type="rule"/>
+        <infoLink id="9186-ed5f-20e5-4ab5" name="Airdrop" hidden="false" targetId="19a8-9f36-2ca4-ba51" type="rule"/>
+        <infoLink id="9962-9bc2-be2e-0d3c" name="Hands" hidden="false" targetId="32f5-36dc-6e46-e571" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0a6d-37ea-4cd8-6a4d" name="*VB" hidden="false" collective="false" import="true" targetId="7d4b-7e5f-f112-786c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a9-3680-d4c0-55f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2440-e875-9988-e627" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0483-e6f4-b177-dab7" name="*APGL" hidden="false" collective="false" import="true" targetId="62d1-9a76-6111-4b0c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0d-0bc9-404c-d21b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a507-db71-3a48-93e2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="225a-27b6-1f16-abdc" name="Seccom Upgrade" hidden="false" collective="false" import="true" targetId="57b3-b05c-3445-3acc" type="selectionEntry"/>
+        <entryLink id="e3b1-6dd8-154b-3698" name="Thunder Jaguar Upgrade" hidden="false" collective="false" import="true" targetId="6e00-7dab-851f-895b" type="selectionEntry"/>
+        <entryLink id="d869-dacf-ce80-8dab" name="*AC" hidden="false" collective="false" import="true" targetId="2728-1126-1243-b397" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea9-98c7-7d4d-be99" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b4-cb54-4a86-de2f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fa9a-79ea-41a3-4a52" name="*RP" hidden="false" collective="false" import="true" targetId="d10a-b199-72e4-004b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ed3-3a6e-c61b-691f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="376b-2e15-b866-054c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a553-5a0e-71cd-d7b2" name="Link" hidden="false" targetId="485f-c59d-ca2d-78f0" type="rule"/>
+          </infoLinks>
+        </entryLink>
+        <entryLink id="9be4-d300-a056-5d9b" name="Command Upgrades" hidden="false" collective="false" import="true" targetId="e088-4ca8-f02f-4a77" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="11.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -362,6 +684,148 @@
         <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
         <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
         <characteristic name="Modifications" typeId="1198-e158-7438-acbd">EW 5+, Comms</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5dd9-e9ef-086a-fdfa" name="Jaguar (Stock)" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK+, FS, RC</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MAC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d0e-1f3b-d8e9-96ff" name="Destroyer Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MBZ, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="23c1-befb-e9fd-c935" name="Flash Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, SO</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;LLC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdf7-e451-24e3-3cab" name="Sniper Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, RC</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;HRF, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8f8-604b-0ba1-7f17" name="Assault Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MSC, &gt;&gt;LVB, LRP, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="09ee-a687-6a3d-c3f5" name="Arrow Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">12</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MAC, &gt;&gt;LVB, LATM, LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b4d8-a25d-805e-b9aa" name="Fire Jaguar" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="Action" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="Type" typeId="22d3-588f-e366-c398">Gear</characteristic>
+        <characteristic name="Height" typeId="4c92-acba-6457-460b">1.5&quot;</characteristic>
+        <characteristic name="Move Type" typeId="d971-d530-75de-372c">W/G</characteristic>
+        <characteristic name="Move Rate" typeId="0484-f472-e7b0-7447">7</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">3+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="Armor" typeId="b326-1089-d050-c3d4">7</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">3/3</characteristic>
+        <characteristic name="Traits" typeId="1ee4-e483-4899-3d16">Agile, Airdrop, Hands</characteristic>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">11</characteristic>
+        <characteristic name="Role" typeId="759f-78f5-a55f-86a1">SK, FS</characteristic>
+        <characteristic name="Weapons" typeId="4ddd-1a47-f23d-0436">&gt;&gt;MAC, &gt;&gt;LVB, MRP(Link), LAPGL</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e179-a73f-951c-6b37" name="Seccom Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+      <characteristics>
+        <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Seccom</characteristic>
+        <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+        <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+        <characteristic name="Modifications" typeId="1198-e158-7438-acbd">EW 4+, ECCM</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c50-822f-f61e-e7ee" name="Thunder Jaguar Upgrade" hidden="false" typeId="351b-4b99-cecf-5cf4" typeName="Upgrade">
+      <characteristics>
+        <characteristic name="Upgrade" typeId="4754-475e-4800-cfd0">Thunder Jaguar</characteristic>
+        <characteristic name="TV" typeId="7e74-7929-83bc-162e">+1</characteristic>
+        <characteristic name="Role" typeId="88ce-b0ec-5bad-c44f"/>
+        <characteristic name="Modifications" typeId="1198-e158-7438-acbd">EW 4+, Comms, SatUp</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
