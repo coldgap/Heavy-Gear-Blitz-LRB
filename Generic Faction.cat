@@ -1,19 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad59-cf4f-4c57-a3ef" name="Generic Faction" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0d78-edaf-92f2-e4ea" name="Generic Faction" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0ae7-d8d3-f08f-20a2" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="8c56-41ca-d0a8-be36" name="Combat Group" publicationId="5e70-1306-8b41-ae00" page="38" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e475-05a2-b0f9-1000" name="Sub-list Example" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="dabf-c0a9-cd01-62d4" value="0.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dabf-c0a9-cd01-62d4" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="63a1-aed8-6867-4b4d" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8074-92b6-9903-7c22" name="Combat Group" publicationId="5e70-1306-8b41-ae00" page="38" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="e0ea-7455-affc-b714">
           <conditions>
-            <condition field="selections" scope="8c56-41ca-d0a8-be36" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0ea-7455-affc-b714" type="atLeast"/>
+            <condition field="selections" scope="8074-92b6-9903-7c22" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0ea-7455-affc-b714" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Combat Group -- Must Select Group Leader">
+          <conditions>
+            <condition field="selections" scope="8074-92b6-9903-7c22" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeac-5b92-bdc2-cbc4" type="min"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="d901-b5b5-e466-368d" name="New CategoryLink" hidden="false" targetId="48dc-b512-a5d8-b0bf" primary="true"/>
+        <categoryLink id="9c8e-8b74-7539-0b2f" name="New CategoryLink" hidden="false" targetId="48dc-b512-a5d8-b0bf" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0c4e-58d9-d7c7-0678" name="Don&apos;t forget to select a Group Leader!" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="8074-92b6-9903-7c22" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a497-f93d-4e51-ef8e" name="Primary Unit" hidden="false" collective="false" import="true" targetId="f42a-49f1-1835-6a9d" type="selectionEntry">
+        <entryLink id="78a2-7de7-5f67-ec1a" name="Secondary Unit" hidden="false" collective="false" import="true" targetId="6f68-eee6-cf0e-4e8a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e70a-89c0-1fb2-b7c4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="44e0-1582-2a4e-202f" name="Primary Unit" hidden="false" collective="false" import="true" targetId="38ed-68e3-819f-d2c4" type="selectionEntry">
           <modifierGroups>
             <modifierGroup>
               <conditions>
@@ -26,13 +65,8 @@
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="982c-2fd1-0a75-8c73" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fea1-95d5-d861-aaa0" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e997-f541-f4a4-15e9" name="Secondary Unit" hidden="false" collective="false" import="true" targetId="4eac-705e-961d-8d13" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d48f-8b66-6ba4-54d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b8-a8ca-3a11-a25f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545c-754a-caf3-6bba" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -43,88 +77,87 @@
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="f42a-49f1-1835-6a9d" name="Primary Unit" publicationId="5e70-1306-8b41-ae00" page="39" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="38ed-68e3-819f-d2c4" name="Primary Unit" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="9dd2-4a5d-4aec-1d13" name="Small Primary Unit" hidden="false" targetId="c7e7-5ccf-1639-fcdd" primary="false"/>
+        <categoryLink id="0bef-be29-acae-d193" name="Small Primary Unit" hidden="false" targetId="c7e7-5ccf-1639-fcdd" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8124-1c2e-e049-57d6" name="Models" hidden="false" collective="false" import="true" targetId="eb0a-f39e-7699-d769" type="selectionEntryGroup">
+        <entryLink id="3537-74bf-8f46-cb1c" name="Models" hidden="false" collective="false" import="true" targetId="7575-7e05-feec-276f" type="selectionEntryGroup">
           <constraints>
-            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59be-c66b-ba20-5e5a" type="min"/>
-            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b7-d4fa-d68f-24bd" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f1a-18c7-47f4-43d7" type="min"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="516d-7c83-087e-17d0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1520-2c49-d755-53b3" name="Unit Role" hidden="false" collective="false" import="true" targetId="83b7-1f1f-8a7c-241d" type="selectionEntryGroup"/>
+        <entryLink id="8059-c59e-5ab8-2d5e" name="Unit Role" hidden="false" collective="false" import="true" targetId="83b7-1f1f-8a7c-241d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4eac-705e-961d-8d13" name="Secondary Unit" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6f68-eee6-cf0e-4e8a" name="Secondary Unit" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink id="1f91-7a24-ddc6-3de5" name="Models" hidden="false" collective="false" import="true" targetId="eb0a-f39e-7699-d769" type="selectionEntryGroup">
+        <entryLink id="c97f-13f9-07da-c14e" name="Models" hidden="false" collective="false" import="true" targetId="7575-7e05-feec-276f" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="f753-efb2-07d6-9b2b" value="3.0">
+            <modifier type="set" field="0a4a-f6d6-4fd3-cc45" value="3.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e0ea-7455-affc-b714" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b939-a926-2d04-043a" type="min"/>
-            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f753-efb2-07d6-9b2b" type="max"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43ad-7b99-d2a7-7e8d" type="min"/>
+            <constraint field="4e06-e713-b451-4dcf" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a4a-f6d6-4fd3-cc45" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="c0cd-fd65-05e9-2601" name="Unit Role" hidden="false" collective="false" import="true" targetId="83b7-1f1f-8a7c-241d" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="f77f-c5d6-e5fc-3193" name="Unit Role" hidden="false" collective="false" import="true" targetId="83b7-1f1f-8a7c-241d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f075-9c91-df58-33de" name="GP Gear" hidden="false" collective="false" import="true" type="model">
-      <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
-        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f933-ebea-0ec5-9216" name="Strike Gear" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
-        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="12.0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="eb0a-f39e-7699-d769" name="Models" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7575-7e05-feec-276f" name="Models" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="5bcc-fabf-aa83-e8c0" name="GP Gear" hidden="true" collective="false" import="true" targetId="f075-9c91-df58-33de" type="selectionEntry">
+        <entryLink id="c3a1-8430-c61b-11f5" name="Hunter" hidden="true" collective="false" import="true" targetId="116e-0ba6-4bae-ec29" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="hidden" value="false">
+            <modifier type="set" field="de67-0479-6766-4aad" value="2.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="de67-0479-6766-4aad" value="-1.0">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
               </conditions>
             </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="5871-136a-53fb-4208" name="Strike Gear" hidden="true" collective="false" import="true" targetId="f933-ebea-0ec5-9216" type="selectionEntry">
-          <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de67-0479-6766-4aad" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="9659-4acb-42a2-52b3" name="North Models" targetId="0716-0156-c802-0783" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>
