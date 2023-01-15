@@ -11,6 +11,13 @@
       <categoryLinks>
         <categoryLink id="63a1-aed8-6867-4b4d" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="9919-78ee-7e98-6977" name="Thunder from the Sky" hidden="false" collective="false" import="true" targetId="d412-19f5-80e9-3502" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f7-7260-c77f-231e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
@@ -27,6 +34,16 @@
           <conditions>
             <condition field="selections" scope="8074-92b6-9903-7c22" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="lessThan"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Combat Group -- Too Many Commanders">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="8074-92b6-9903-7c22" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="greaterThan"/>
+                <condition field="selections" scope="8074-92b6-9903-7c22" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d3a-5b4f-8b4e-3de0" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>

@@ -8,6 +8,16 @@
             <condition field="selections" scope="8c56-41ca-d0a8-be36" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0ea-7455-affc-b714" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="name" value="Combat Group -- Too Many Commanders">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="8c56-41ca-d0a8-be36" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="greaterThan"/>
+                <condition field="selections" scope="8c56-41ca-d0a8-be36" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d3a-5b4f-8b4e-3de0" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" field="name" value="Combat Group -- Must Select Group Leader">
           <conditions>
             <condition field="selections" scope="8c56-41ca-d0a8-be36" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="2b27-24d2-a59e-edeb" type="lessThan"/>
@@ -66,34 +76,333 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db89-25b5-a433-d751" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e271-f6f0-1d01-4528" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="cc1a-ff7d-56c6-79ac" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb1e-62f4-fd25-d150" name="Sub-list Special Rules" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6dbe-c6aa-b658-d83f" name="Prospectors" hidden="false" collective="false" import="true" targetId="cc01-27ec-1dc5-435e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="295a-13ec-d810-15b1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a39-7442-c368-2435" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b093-08b9-5b9c-ccb4" name="Task Built" hidden="false" collective="false" import="true" targetId="6881-7cd5-5285-450a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1051-d438-0cae-15fb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49aa-6a25-0e48-9ed4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="84ee-45a2-b9b5-387f" name="Hammers of the North" hidden="false" collective="false" import="true" targetId="c83a-184b-c8e2-4257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299c-8f3d-59e5-c2f6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="311f-c08c-089b-ea14" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="62f3-683a-fbe9-dcb3" name="Veteran Leaders" hidden="false" collective="false" import="true" targetId="b256-2b9c-4811-52c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6c7-c949-c9b6-1294" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16cf-4cbd-4504-b2e3" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f460-cf84-be1c-e3d4" name="Dragoon Squad" hidden="false" collective="false" import="true" targetId="ba87-439a-0556-6c7f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2471-e34e-74bf-c347" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d2-915d-634c-d3a2" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="754e-e52e-eeaf-21ca" name="Norguard [NG]" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab5e-7a53-a90d-8b88" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4e2f-b1c9-4758-8cf3" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b4ab-b8b3-05ed-84de" name="Sub-list Special Rules" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a1af-c691-7026-4cc5" name="Prospectors" hidden="false" collective="false" import="true" targetId="cc01-27ec-1dc5-435e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b9-b213-4330-bd88" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd5-046d-a812-0f89" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="aa5d-ba75-feef-39e3" name="Task Built" hidden="false" collective="false" import="true" targetId="6881-7cd5-5285-450a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a6-32e9-6cf6-53e0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a6c-f5db-d26b-c5d8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="558d-f3e7-231f-d97a" name="Hammers of the North" hidden="false" collective="false" import="true" targetId="c83a-184b-c8e2-4257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6982-1113-1b04-54e1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0315-f5af-e75f-d158" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2dd0-6a05-80f3-8a39" name="Veteran Leaders" hidden="false" collective="false" import="true" targetId="b256-2b9c-4811-52c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c63-05aa-1517-12a8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d961-f38d-48e7-1dc7" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d716-96a4-3b76-b4f6" name="Dragoon Squad" hidden="false" collective="false" import="true" targetId="ba87-439a-0556-6c7f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b89-3a57-a747-870d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d6-d403-2a21-9a10" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7d3f-5e01-7a06-f3b0" name="Pan-Northern" hidden="false" collective="false" import="true" targetId="072c-49d2-aef0-aa29" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a88d-d88a-af69-5dd5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d02-0619-ce4b-23c1" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e355-4f38-913e-e2d6" name="Surplus Hunters" hidden="false" collective="false" import="true" targetId="b752-9f86-7798-850a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b9-116e-f24e-2e11" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc3-c317-b219-56a7" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2672-1faa-ef16-95d3" name="Surplus Jaguars" hidden="false" collective="false" import="true" targetId="5b1d-e1d1-4b58-3369" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de4-3297-221b-c1a9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c846-b79c-d075-f9f9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="86c8-de09-a7fe-5b48" name="Western Frontier Protectorates [WFP]" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="443c-5fbf-0cba-070b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="17c8-ed6a-3056-c3a4" name="Sub-List" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3104-ef85-a9c7-ce2a" name="Sub-list Special Rules" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3b59-518f-964f-a781" name="Prospectors" hidden="false" collective="false" import="true" targetId="cc01-27ec-1dc5-435e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e675-59ba-88d3-4045" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3428-a29f-ea9e-dbe8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f677-6e90-9963-4e42" name="Task Built" hidden="false" collective="false" import="true" targetId="6881-7cd5-5285-450a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4a-d651-7ccf-6d24" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3325-a40b-f03f-4269" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c95f-0de1-8440-98ac" name="Hammers of the North" hidden="false" collective="false" import="true" targetId="c83a-184b-c8e2-4257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743e-1891-4654-0473" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6c-1e0e-30f8-7258" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c158-c7fb-1728-f4ab" name="Veteran Leaders" hidden="false" collective="false" import="true" targetId="b256-2b9c-4811-52c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69eb-a8ec-d6f1-f89e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0b-8b7b-bb53-e839" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cd0a-f9a9-27f5-43af" name="Dragoon Squad" hidden="false" collective="false" import="true" targetId="ba87-439a-0556-6c7f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e50-7c2b-3646-6630" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd7-9654-2cca-f85e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="10e5-c043-f18c-15dc" name="Pristine Antiques" hidden="false" collective="false" import="true" targetId="1d48-31d9-d88b-858c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973b-7e9c-f469-8f72" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af8-afeb-ba51-7107" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2cc3-2d23-4092-adf5" name="Ol’ Trusty" hidden="false" collective="false" import="true" targetId="f948-d91f-b690-1704" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d768-6826-bc95-b3ae" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d103-983e-88f0-eded" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cb08-cc5e-12d6-162c" name="Drop Bears" hidden="false" collective="false" import="true" targetId="9d3a-7b12-ca1a-cab6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd6-6b1e-8f56-932b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0199-66ed-8b69-a49c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ef11-6c91-7558-bcfa" name="Live Free Die Hard" hidden="false" collective="false" import="true" targetId="723f-825e-fe68-0751" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec4c-7b4b-e6e3-8d9b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f00-629f-5c99-62fe" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3758-82d0-8956-786b" name="United Mercantile Federation [UMF]" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae94-b25a-373f-ad97" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="f63a-22ee-a77f-3e2e" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f469-aa6c-5bce-c96e" name="Sub-list Special Rules" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5d7b-39cf-2fd9-afd3" name="Prospectors" hidden="false" collective="false" import="true" targetId="cc01-27ec-1dc5-435e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd13-7e77-470d-b75e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b0-2e84-34a0-556e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f1d3-80c3-d9f2-7031" name="Task Built" hidden="false" collective="false" import="true" targetId="6881-7cd5-5285-450a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a119-d095-e895-9453" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9d-bb1e-2159-d924" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b933-5487-3342-4e8a" name="Hammers of the North" hidden="false" collective="false" import="true" targetId="c83a-184b-c8e2-4257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9336-5da0-074e-c5d4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ded-cdb5-acc7-bfb7" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="23fa-d4d5-b240-f1cc" name="Veteran Leaders" hidden="false" collective="false" import="true" targetId="b256-2b9c-4811-52c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc38-d5fa-4b11-5dbb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf3-08c5-4d02-4fc6" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4010-266f-875d-c1db" name="Dragoon Squad" hidden="false" collective="false" import="true" targetId="ba87-439a-0556-6c7f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8965-0eb8-b8ed-d046" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bcb-e71e-16ee-e533" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d845-b6d0-5317-43f3" name="Local Manufacturing" hidden="false" collective="false" import="true" targetId="8dcb-c105-4052-7d99" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e7-a241-d858-48cf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f94-7b77-1560-39d1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0257-b9c4-fd1c-7b13" name="EW Specialists" hidden="false" collective="false" import="true" targetId="d0e5-a214-fe88-6ced" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df1-3c97-c80d-cb32" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="692d-ca58-cc32-da74" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="672d-9cd9-0f94-4cd8" name="Well Funded" hidden="false" collective="false" import="true" targetId="6856-09d0-5efb-5942" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e089-bd62-afc5-3952" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e02-6d57-e22d-2599" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="33e6-40f7-78ba-d9d5" name="Mercenary Contract" hidden="false" collective="false" import="true" targetId="d082-4f13-febb-1e6e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eaa-62dd-635b-ad1a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1972-bb44-6c3d-8b00" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cee2-7a08-8bca-b180" name="Northern Lights Confederacy [NLC]" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4914-c6be-fb11-8663" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7c42-fc53-7907-dbec" name="New CategoryLink" hidden="false" targetId="3766-7beb-8028-b575" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6501-7b8b-8f0c-2414" name="Sub-list Special Rules" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6b75-7062-fc8e-0782" name="Prospectors" hidden="false" collective="false" import="true" targetId="cc01-27ec-1dc5-435e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7c9-5209-ddb4-3338" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3672-9230-5b4b-f0eb" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1473-59f8-a8af-2c82" name="Task Built" hidden="false" collective="false" import="true" targetId="6881-7cd5-5285-450a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c0-2fda-e857-cea3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55f7-6a5b-335d-c529" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7e4d-df29-eed3-55da" name="Hammers of the North" hidden="false" collective="false" import="true" targetId="c83a-184b-c8e2-4257" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28aa-7bf7-376b-ef89" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65a4-adad-d172-77c6" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0c80-5cfe-1d3f-ab5b" name="Veteran Leaders" hidden="false" collective="false" import="true" targetId="b256-2b9c-4811-52c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="089f-6c73-8892-ae99" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a57-c478-a0ec-43d5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0929-3558-ab1e-32ff" name="Dragoon Squad" hidden="false" collective="false" import="true" targetId="ba87-439a-0556-6c7f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c615-8eca-ae68-68ef" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd49-e782-7e74-e858" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3dea-a983-7348-99b4" name="Chaplain" hidden="false" collective="false" import="true" targetId="e57e-e1cc-792a-d23a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ec-a3d3-0a52-a932" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3010-0c89-34be-d675" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="faba-fd68-0552-dc91" name="Warrior Monks" hidden="false" collective="false" import="true" targetId="b4f0-2ba3-e0e7-97af" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7e-225e-634e-b002" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eed-a19f-a9b9-277e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4e5e-e730-8fc4-c3fb" name="The Pride" hidden="false" collective="false" import="true" targetId="4cb9-d9e0-ee40-84d7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b1c-e86b-7ac3-2aba" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a482-c65e-eb7c-9d23" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ef98-8e73-ff96-6543" name="Devoted" hidden="false" collective="false" import="true" targetId="9bc6-6db0-6714-393d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c245-d1d1-221f-484b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093d-7c42-8299-89d8" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -140,6 +449,193 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cc01-27ec-1dc5-435e" name="Prospectors" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="9720-4cb5-edcf-81fe" name="Prospectors" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Up to two gears with the Climber trait may be placed in GP, SK, FS, RC or SO units.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6881-7cd5-5285-450a" name="Task Built" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1a9d-1fe3-edc5-5922" name="Task Built" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Each Northern gear may swap its rocket pack for an Heavy Machinegun (HMG) for 0 TV. Each Northern gear without a rocket pack may add an HMG for 1 TV. Each Bricklayer, Engineering Grizzly, Camel Truck and Stinger may also add an HMG for 1 TV.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c83a-184b-c8e2-4257" name="Hammers of the North" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="81d2-7021-8739-2763" name="Hammers of the North" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Snub cannons may be given the Precise trait for +1 TV each.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba87-439a-0556-6c7f" name="Dragoon Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d986-9f9a-5c04-0a3c" name="Dragoon Squad" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Models in one SK unit may purchase the Vet trait without counting against the veteran limitations. Any Cheetah variant may be placed in this SK unit.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="072c-49d2-aef0-aa29" name="Pan-Northern" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="4f71-46a9-0b7c-ca26" name="Pan-Northern" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Each combat group may use one upgrade option from WFP, UMF, or NLC. Live Free Die Hard, The Pride and Devoted may not be selected.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b752-9f86-7798-850a" name="Surplus Hunters" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1226-e04b-8926-21d7" name="Surplus Hunters" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Hunters may be placed in GP, SK, FS or RC units. Hunter and Stripped-Down Hunter variants are not limited to 1-2 models and may be selected an unlimited number of times.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b1d-e1d1-4b58-3369" name="Surplus Jaguars" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d55e-f984-b7f3-dd5d" name="Surplus Jaguars" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>Jaguars may be placed in GP, SK, FS, RC or SO units.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d48-31d9-d88b-858c" name="Pristine Antiques" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="85bd-7a10-1303-c38c" name="Pristine Antiques" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Hunters, Ferrets, Weasels, Wildcat and Bobcats may be placed in a GP, SK, FS, or RC units. This does not include Hunter XMGs.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f948-d91f-b690-1704" name="Ol’ Trusty" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="c776-0c14-1573-07ec" name="Ol’ Trusty" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Hunters, Ferrets, Weasels, Wildcats and Bobcats may improve their GU skill by one for 1 TV each. This does not include Hunter XMGs.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d3a-7b12-ca1a-cab6" name="Drop Bears" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="191e-441f-6075-be65" name="Drop Bears" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Combat groups performing airdrop deployments are not required to be placed in formation.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="723f-825e-fe68-0751" name="Live Free Die Hard" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8aca-0034-a18b-2707" name="Live Free Die Hard" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Whenever a WFP commander is destroyed, immediately give one SP to one model in formation with the destroyed commander. This SP does not convert to a CP. If not used, this SP is removed during cleanup.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dcb-c105-4052-7d99" name="Local Manufacturing" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="f6fb-f97a-0fa8-395e" name="Local Manufacturing" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Tigers and Weasels may be placed in GP, SK, FS, RC or SO units. Tiger variants are not limited to 1-2 models of that variant and may be selected an unlimited number of times.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0e5-a214-fe88-6ced" name="EW Specialists" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ee81-78ab-c6e0-4911" name="EW Specialists" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>One gear, strider, or vehicle per combat group may purchase the ECCM veteran upgrade without being a veteran.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e57e-e1cc-792a-d23a" name="Chaplain" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="f159-f44e-1bad-18ac" name="Chaplain" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>You may select one non-commander gear to be a Battle Chaplain (BC) for 2 TV. The BC becomes an officer and can take the place as a third commander within a combat group. The BC comes with 1 CP and can use it to give orders to any model or combat group in the force. BCs will only be used to roll for initiative if there are no other commanders in the force. When there are no other commanders in the force, the BC will roll with a 5+ initiative skill.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4f0-2ba3-e0e7-97af" name="Warrior Monks" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="d47c-abe6-8b35-c54d" name="Warrior Monks" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Commanders and veterans with the Hands trait may purchase a fighting staff upgrade for 1 TV each. If a model takes this upgrade, then it will also receive the Brawl:1 trait or increase its Brawl:X trait by one. A fighting staff is a MVB that has the React and Reach:2 traits.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4cb9-d9e0-ee40-84d7" name="The Pride" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="53df-3c4b-d41f-c233" name="The Pride" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>You may select 2 gears in this force to become duelists. All duelists must take the Warrior Monks upgrade.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bc6-6db0-6714-393d" name="Devoted" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="688f-e9ba-c4f2-ffc8" name="Devoted" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>When the chaplain is targeted by a direct or indirect attack, a friendly monk (model with a fighting staff) within 3 inches may choose to be the target instead. Resolve the attack normally against the monk as if the monk was in the chaplain’s position. This may result in the monk being the target of the attack twice in the case of Split or AOE weapons. Only one monk may be targeted in this way per attack.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="eb0a-f39e-7699-d769" name="Models" hidden="false" collective="false" import="true">
@@ -157,12 +653,12 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="7ac7-8977-280f-f05c" value="-1.0">
+            <modifier type="set" field="f6af-1c6e-adff-c57b" value="-1.0">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="7ac7-8977-280f-f05c" value="2.0">
+            <modifier type="set" field="f6af-1c6e-adff-c57b" value="2.0">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -174,7 +670,46 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac7-8977-280f-f05c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6af-1c6e-adff-c57b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3da7-8fe4-b2ab-6919" name="Hunter" hidden="false" targetId="f491-4d05-7b6c-9c63" type="profile">
+              <modifiers>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cc01-27ec-1dc5-435e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="cae4-cf17-3d02-ad12" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="7358-bc37-2ad5-57c7" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e14a-d631-3019-950c" name="Pan-Northern Combat Group Upgrade Options" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad87-2109-8123-a8d0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6293-4420-5836-2422" name="Pristine Antiques" hidden="false" collective="false" import="true" targetId="1d48-31d9-d88b-858c" type="selectionEntry"/>
+        <entryLink id="9b05-19ae-7bef-6ea3" name="Ol’ Trusty" hidden="false" collective="false" import="true" targetId="f948-d91f-b690-1704" type="selectionEntry"/>
+        <entryLink id="12f6-04e1-c8d2-73bf" name="Drop Bears" hidden="false" collective="false" import="true" targetId="9d3a-7b12-ca1a-cab6" type="selectionEntry"/>
+        <entryLink id="2041-6ca9-c8fc-ccab" name="Local Manufacturing" hidden="false" collective="false" import="true" targetId="8dcb-c105-4052-7d99" type="selectionEntry"/>
+        <entryLink id="b12c-a6ec-8f36-162a" name="EW Specialists" hidden="false" collective="false" import="true" targetId="d0e5-a214-fe88-6ced" type="selectionEntry"/>
+        <entryLink id="4782-f244-a21a-85fc" name="Well Funded" hidden="false" collective="false" import="true" targetId="6856-09d0-5efb-5942" type="selectionEntry"/>
+        <entryLink id="822c-dca4-9ec4-8537" name="Mercenary Contract" hidden="false" collective="false" import="true" targetId="d082-4f13-febb-1e6e" type="selectionEntry"/>
+        <entryLink id="ea39-e6a3-5350-fa0f" name="Chaplain" hidden="false" collective="false" import="true" targetId="e57e-e1cc-792a-d23a" type="selectionEntry"/>
+        <entryLink id="ae4b-82a7-91a9-0af8" name="Warrior Monks" hidden="false" collective="false" import="true" targetId="b4f0-2ba3-e0e7-97af" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7358-bc37-2ad5-57c7" name="Hunter Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="6e96-b8d0-8b67-5d97" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e1d6-e209-384c-8d25" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d722-e51a-dc9d-c146" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>

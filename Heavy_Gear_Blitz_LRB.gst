@@ -80,7 +80,7 @@
         <categoryLink id="1c09-9f28-53c9-6328" name="New CategoryLink" hidden="false" targetId="254e-9603-38cb-7caf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fd62-816c-7188-492b" name="Airstrike Counters" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fd62-816c-7188-492b" name="Airstrike Counters (Max 4)" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d8-4431-9d09-2388" type="max"/>
           </constraints>
@@ -88,6 +88,13 @@
             <selectionEntry id="e8f2-58cb-2e68-8612" name="High Explosives" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="ea3f-5d72-a03b-42fc" name="High Explosives" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="e8f2-58cb-2e68-8612" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="257a-b8cf-3741-63e7" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
                     <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">N/A</characteristic>
@@ -105,7 +112,35 @@
                     <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55"/>
                   </characteristics>
                 </profile>
+                <profile id="2248-18b6-1383-1d71" name="High Explosives" publicationId="5e70-1306-8b41-ae00" page="280" hidden="true" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="e8f2-58cb-2e68-8612" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="257a-b8cf-3741-63e7" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+                    <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">N/A</characteristic>
+                    <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+                    <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+                    <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+                    <characteristic name="A" typeId="9151-7386-2112-169b"/>
+                    <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+                    <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+                    <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+                    <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a"/>
+                    <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">BB (AP:2, Guided)</characteristic>
+                    <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1"/>
+                    <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Airstrike Counter</characteristic>
+                    <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55"/>
+                  </characteristics>
+                </profile>
               </profiles>
+              <entryLinks>
+                <entryLink id="a7df-8e06-bc99-6bca" name="Airstrike Counter Upgrades" hidden="false" collective="false" import="true" targetId="c362-d5d0-58d0-7402" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
                 <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
@@ -114,6 +149,13 @@
             <selectionEntry id="e47a-cf5e-5913-e8c0" name="Napalm" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="4c43-10f7-d3f3-de6b" name="Napalm" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="e47a-cf5e-5913-e8c0" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="257a-b8cf-3741-63e7" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
                     <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">N/A</characteristic>
@@ -131,7 +173,35 @@
                     <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55"/>
                   </characteristics>
                 </profile>
+                <profile id="8301-d1af-ee2c-41ac" name="Napalm" publicationId="5e70-1306-8b41-ae00" page="280" hidden="true" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="e47a-cf5e-5913-e8c0" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="257a-b8cf-3741-63e7" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">4</characteristic>
+                    <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">N/A</characteristic>
+                    <characteristic name="MR" typeId="d971-d530-75de-372c"/>
+                    <characteristic name="AR" typeId="b326-1089-d050-c3d4"/>
+                    <characteristic name="H/S" typeId="6956-1a42-03f7-5061"/>
+                    <characteristic name="A" typeId="9151-7386-2112-169b"/>
+                    <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">3+</characteristic>
+                    <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+                    <characteristic name="EW" typeId="d607-c085-3ac3-9660"/>
+                    <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a"/>
+                    <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">BB (AI, Fire:2, Guided)</characteristic>
+                    <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1"/>
+                    <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Airstrike Counter</characteristic>
+                    <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55"/>
+                  </characteristics>
+                </profile>
               </profiles>
+              <entryLinks>
+                <entryLink id="1e66-2b19-7c79-e8fb" name="Airstrike Counter Upgrades" hidden="false" collective="false" import="true" targetId="c362-d5d0-58d0-7402" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="4.0"/>
                 <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
@@ -242,19 +312,158 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b256-2b9c-4811-52c4" name="Veteran Leaders" page="" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dac4-95c0-2cb3-6005" name="Veteran Leaders" hidden="false" targetId="aa44-01bb-8d29-08da" type="rule"/>
-      </infoLinks>
+      <rules>
+        <rule id="981b-0e65-f965-d306" name="Veteran Leaders" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
+          <description>You may purchase the Vet trait for any commander in the force without counting against the [normal] veteran limitations.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6856-09d0-5efb-5942" name="Well Funded" page="" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e308-9626-1486-b98a" name="Well Funded" hidden="false" targetId="84ec-b046-850a-81da" type="rule"/>
-      </infoLinks>
+      <rules>
+        <rule id="84ee-157f-e1aa-ab92" name="Well Funded" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>Two models in each combat group may purchase one veteran upgrade without making them veterans.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d082-4f13-febb-1e6e" name="Mercenary Contract" page="" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="d467-5afe-a5e1-7655" name="Mercenary Contract" hidden="false" targetId="99b4-3b7c-ed24-b27a" type="rule"/>
-      </infoLinks>
+      <rules>
+        <rule id="20aa-6f68-e53e-e39e" name="Mercenary Contract" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
+          <description>One combat group may be made with models from North, South, Peace River, and NuCoal (may include a mix from all four factions) that have an armor of 8 or lower.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="73ea-4567-c5cf-fb46" name="Conscription" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b46d-8d8a-0eba-b884" name="Conscription" publicationId="5e70-1306-8b41-ae00" page="112" hidden="false">
+          <description>You may add the Conscript trait to any non-commander, non-veteran and non-duelist in the force if they do not already possess the trait. Reduce the TV of these models by 1 TV per action.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36d8-c43f-470c-bd5e" name="Wrote the Book" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="979b-478e-e9d3-a1ae" name="Wrote the Book" publicationId="5e70-1306-8b41-ae00" page="113" hidden="false">
+          <description>Two models per combat group may purchase the Vet trait without counting against the veteran limitations.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be9b-411d-2cf6-d23e" name="Experts" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="678e-8194-9f05-5557" name="Experts" publicationId="5e70-1306-8b41-ae00" page="113" hidden="false">
+          <description>Veteran Sagittariuses, veteran Fire Dragons and veteran Hetairoi may purchase the Stable and/or Precise duelist upgrades, without having to be duelists.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d412-19f5-80e9-3502" name="Thunder from the Sky" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="51d3-721b-79ce-f87a" name="Thunder from the Sky" publicationId="5e70-1306-8b41-ae00" page="146" hidden="false">
+          <description>Airstrike counters may increase their GU skill to 3+ instead of 4+ for 1 TV each.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94fc-29a9-8537-8106" name="ECM Specialist" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b7fb-8bb4-a004-917c" name="ECM Specialist" publicationId="5e70-1306-8b41-ae00" page="147" hidden="false">
+          <description>One gear or strider per combat group may improve its ECM to ECM+ for 1 TV each.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54d8-f18f-03b5-945f" name="Badland&apos;s Soup" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8fe8-ed6d-1e7d-e844" name="Badland&apos;s Soup" publicationId="5e70-1306-8b41-ae00" page="147" hidden="false">
+          <description>One combat group may purchase the following veteran upgrades for their models without being veterans: Improved Gunnery, Dual Guns, Brawler, Veteran Melee upgrade, or ECCM.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd2d-fc5b-e94e-5540" name="Something to Prove" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="c8f5-c372-c258-c86b" name="Something to Prove" publicationId="5e70-1306-8b41-ae00" page="168" hidden="false">
+          <description>GREL infantry may increase their GU skill by one for 1 TV each.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a130-916f-7507-f3cd" name="Shadow Warriors" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5b4a-f97e-8d9d-f06e" name="Shadow Warriors" publicationId="5e70-1306-8b41-ae00" page="187" hidden="false">
+          <description>Models that start the game in area terrain gain a hidden token at the start of the first round.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d28-5ac1-347f-5e9a" name="Operators" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="0e16-c80e-24bf-a056" name="Operators" publicationId="5e70-1306-8b41-ae00" page="187" hidden="false">
+          <description>You may select 2 gears in this force to become duelists.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7352-e292-86fe-e70b" name="Jannite Pilots" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="4be4-9688-1a81-cfd1" name="Jannite Pilots" publicationId="5e70-1306-8b41-ae00" page="169" hidden="false">
+          <description>Veteran gears in this force with one action may upgrade to having two actions for +2 TV each.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be76-c422-ac63-63c9" name="Advanced Interface Network (AIN)" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="c6d1-b424-3cd3-4bd1" name="Advanced Interface Network (AIN)" publicationId="5e70-1306-8b41-ae00" page="212" hidden="false">
+          <description>Each veteran frame or mount may improve their GU skill by one for 1 TV times the number of Actions that the model has.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -367,16 +576,36 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup id="c362-d5d0-58d0-7402" name="Airstrike Counter Upgrades" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d412-19f5-80e9-3502" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry id="257a-b8cf-3741-63e7" name="Gunnery Upgrade" publicationId="5e70-1306-8b41-ae00" page="146" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d412-19f5-80e9-3502" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd16-fe40-1319-fcdc" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+            <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="aa44-01bb-8d29-08da" name="Veteran Leaders" publicationId="5e70-1306-8b41-ae00" page="80" hidden="false">
-      <description>You may purchase the Vet trait for any commander in the force without counting against the [normal] veteran limitations.</description>
-    </rule>
-    <rule id="84ec-b046-850a-81da" name="Well Funded" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
-      <description>Two models in each combat group may purchase one veteran upgrade without making them veterans.</description>
-    </rule>
-    <rule id="99b4-3b7c-ed24-b27a" name="Mercenary Contract" publicationId="5e70-1306-8b41-ae00" page="81" hidden="false">
-      <description>One combat group may be made with models from North, South, Peace River, and NuCoal (may include a mix from all four factions) that have an armor of 8 or lower.</description>
-    </rule>
-  </sharedRules>
 </gameSystem>
