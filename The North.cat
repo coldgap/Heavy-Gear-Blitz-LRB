@@ -636,57 +636,63 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2dce-e7ba-497e-0030" name="Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="5132-3aab-722b-5a49" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5132-3aab-722b-5a49" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="lessThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f42a-49f1-1835-6a9d" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5132-3aab-722b-5a49" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c024-cc27-f363-ca2a" name="Hunter" hidden="false" targetId="f491-4d05-7b6c-9c63" type="profile">
+          <modifiers>
+            <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="e1d6-e209-384c-8d25" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="fbec-c143-8277-1757" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="588e-2ab6-6b30-870d" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="7358-bc37-2ad5-57c7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="eb0a-f39e-7699-d769" name="Models" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="9bbb-b7a3-c33e-8ce2" name="Hunter" hidden="true" collective="false" import="true" targetId="116e-0ba6-4bae-ec29" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="f6af-1c6e-adff-c57b" value="-1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f6af-1c6e-adff-c57b" value="2.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="lessThan"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f42a-49f1-1835-6a9d" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6af-1c6e-adff-c57b" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3da7-8fe4-b2ab-6919" name="Hunter" hidden="false" targetId="f491-4d05-7b6c-9c63" type="profile">
-              <modifiers>
-                <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="cc01-27ec-1dc5-435e" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <entryLinks>
-            <entryLink id="cae4-cf17-3d02-ad12" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="7358-bc37-2ad5-57c7" type="selectionEntryGroup"/>
-          </entryLinks>
-        </entryLink>
+        <entryLink id="b261-e5cd-746d-30b6" name="Hunter" hidden="false" collective="false" import="true" targetId="2dce-e7ba-497e-0030" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e14a-d631-3019-950c" name="Pan-Northern Combat Group Upgrade Options" hidden="false" collective="false" import="true">
