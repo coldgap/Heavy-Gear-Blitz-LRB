@@ -52,6 +52,14 @@
     <categoryEntry id="2b27-24d2-a59e-edeb" name="Group Leader" publicationId="5e70-1306-8b41-ae00" page="40" hidden="false"/>
     <categoryEntry id="4d3a-5b4f-8b4e-3de0" name="Commander" publicationId="5e70-1306-8b41-ae00" page="40" hidden="false"/>
     <categoryEntry id="57c0-2497-a208-959c" name="Conscript" publicationId="5e70-1306-8b41-ae00" page="47" hidden="false"/>
+    <categoryEntry id="8937-a034-3f68-a694" name="Gear" publicationId="5e70-1306-8b41-ae00" page="12" hidden="false"/>
+    <categoryEntry id="5b82-3f65-ba4a-30ad" name="Strider" publicationId="5e70-1306-8b41-ae00" page="12" hidden="false"/>
+    <categoryEntry id="9e18-40d2-6d4a-664e" name="Vehicle" publicationId="5e70-1306-8b41-ae00" page="12" hidden="false"/>
+    <categoryEntry id="8cf1-4ab7-c522-9adc" name="Drone" publicationId="5e70-1306-8b41-ae00" page="13" hidden="false"/>
+    <categoryEntry id="d9df-d14f-12db-eca9" name="Infantry" publicationId="5e70-1306-8b41-ae00" page="13" hidden="false"/>
+    <categoryEntry id="72d8-ded6-eac4-6985" name="Airstrike Counter" publicationId="5e70-1306-8b41-ae00" page="13" hidden="false"/>
+    <categoryEntry id="b832-9171-b01c-d6de" name="Cavalry" publicationId="5e70-1306-8b41-ae00" page="13" hidden="false"/>
+    <categoryEntry id="5b99-2677-8141-635b" name="Terrain" publicationId="5e70-1306-8b41-ae00" page="14" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="07bc-130f-f53c-804e" name="Force" publicationId="5e70-1306-8b41-ae00" page="38" hidden="false">

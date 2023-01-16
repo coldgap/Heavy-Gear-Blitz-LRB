@@ -168,13 +168,18 @@
       </constraints>
       <infoLinks>
         <infoLink id="4625-7033-10b2-220f" name="Hunter" hidden="false" targetId="80d6-7d0d-efb1-92a9" type="profile">
-          <modifiers>
-            <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
+          <modifierGroups>
+            <modifierGroup>
               <conditions>
                 <condition field="selections" scope="6503-dd47-dd83-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
               </conditions>
-            </modifier>
-          </modifiers>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </infoLink>
       </infoLinks>
       <entryLinks>
