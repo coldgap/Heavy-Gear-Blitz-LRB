@@ -181,7 +181,20 @@
             </modifierGroup>
           </modifierGroups>
         </infoLink>
+        <infoLink id="0edf-9985-0cfe-009c" name="Autocannon, Light" hidden="false" targetId="fc0b-639f-4d6b-c9a2" type="profile"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60f7-ac2c-7289-728d" name="Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f49b-c901-66f8-34e4" name="Autocannon, Light" hidden="false" collective="false" import="true" targetId="520c-f29f-da7f-1f88" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc2-1cdb-7f31-f701" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e5c-d68b-90d7-f01c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2475-074b-c8da-100e" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
         <entryLink id="a9c0-983b-db37-28ca" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
@@ -197,11 +210,201 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="dc34-e563-8a64-7b57" name="Hunter Gunner" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="b16b-c68e-5ac8-1eea" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b16b-c68e-5ac8-1eea" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d7c-6f17-786d-4c3d" name="Hunter Gunner" hidden="false" targetId="1b7b-65f1-e363-c091" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="dc34-e563-8a64-7b57" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="6269-be5a-1e90-d5db" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="dcd4-2e64-24f1-a851" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23c0-943c-7f90-a524" name="Hunter UC" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="fb55-8fb2-aac1-6d6c" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb55-8fb2-aac1-6d6c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f4fb-be07-5ac5-1885" name="Hunter UC" hidden="false" targetId="fac5-d193-229c-6ebf" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="23c0-943c-7f90-a524" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ff80-d974-4af2-78a9" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="aaa8-afa4-77b8-41b9" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85f8-88e1-d5cb-59b8" name="Assault Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="d9d1-c1ec-66de-6a9e" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d1-c1ec-66de-6a9e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="db2b-ddd6-4a02-590c" name="Assault Hunter" hidden="false" targetId="1e2c-4c0f-6d99-88f0" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="85f8-88e1-d5cb-59b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2ea4-5b8b-e3cf-0f5e" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="0ced-1cd1-04b3-d6e9" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da51-5a30-0720-51e5" name="Destroyer Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="1a6c-d7b2-561a-e298" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6c-d7b2-561a-e298" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="19cc-d72d-d1fb-132d" name="Destroyer Hunter" hidden="false" targetId="db03-6b0b-f70d-1b8e" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="da51-5a30-0720-51e5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="dbb1-d9f7-b4a9-1d58" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="c927-3fe2-cff4-ff3f" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7575-7e05-feec-276f" name="Models" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="b636-c8c9-5028-5c0c" name="Hunter" hidden="false" collective="false" import="true" targetId="6503-dd47-dd83-a444" type="selectionEntry"/>
+        <entryLink id="0035-8c7b-cb1f-2707" name="Hunter Gunner" hidden="false" collective="false" import="true" targetId="dc34-e563-8a64-7b57" type="selectionEntry"/>
+        <entryLink id="10e5-dc5d-e65d-7e30" name="Hunter UC" hidden="false" collective="false" import="true" targetId="23c0-943c-7f90-a524" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4560-2e03-72a2-b5ea" name="Hunter Upgrades" hidden="false" collective="false" import="true">
@@ -229,6 +432,204 @@
         <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LAC, LVB</characteristic>
         <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
         <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1b7b-65f1-e363-c091" name="Hunter Gunner" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MAC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fac5-d193-229c-6ebf" name="Hunter UC" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MFC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e2c-4c0f-6d99-88f0" name="Assault Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MSC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db03-6b0b-f70d-1b8e" name="Destroyer Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MBZ, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ef3-6087-2015-75cd" name="Wildfire Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MAC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LAPR (Fire:1), LHG</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2de9-2a4c-cf1d-f8ba" name="Arrow Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LAC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LATM (LA:2), LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="faf9-739c-c3d6-0f8c" name="Hunter Pathfinder" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MRF, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands, Sensors:24</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9501-a3aa-701b-fc1c" name="Rabid Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LGL, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands, Field Armor</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d69-19bd-a6b9-5773" name="Hunter Zerstorer" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">8</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LBZ, MFC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">MRP, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7171-0221-1c20-fd02" name="Mountain Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">9</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LAC, MCW</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">MRP, HIM</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands, Climber, Vet</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8950-0d19-c0b1-cffb" name="Hunter Commando" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">10</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LBZ, LSG</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">MRP</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands, Airdrop, Vet, Field Armor, Sensors:24</characteristic>
         <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
         <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
       </characteristics>

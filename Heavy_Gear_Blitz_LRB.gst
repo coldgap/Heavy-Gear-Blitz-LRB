@@ -39,7 +39,7 @@
         <characteristicType id="cace-eb40-0caa-3930" name="Range"/>
         <characteristicType id="b661-5856-66ed-eb6f" name="Penetration"/>
         <characteristicType id="f71b-22f6-0c97-77d6" name="Traits"/>
-        <characteristicType id="2f13-a268-b62c-9cd9" name="Category"/>
+        <characteristicType id="2f13-a268-b62c-9cd9" name="Mode"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -473,6 +473,14 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="520c-f29f-da7f-1f88" name="Autocannon, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="90ab-c20a-c34e-f9a1" name="Autocannon, Light" hidden="false" targetId="fc0b-639f-4d6b-c9a2" type="profile"/>
+        <infoLink id="376b-dbab-b408-66a1" name="Burst:X" hidden="false" targetId="f4ed-ea53-ae1d-3e44" type="rule"/>
+        <infoLink id="1a56-9943-78a5-b36e" name="Split" hidden="false" targetId="30ac-d9aa-dc11-defa" type="rule"/>
+        <infoLink id="ae01-1ee2-3662-94f8" name="Precise" hidden="false" targetId="e73c-1a61-1b1f-4a73" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="83b7-1f1f-8a7c-241d" name="Unit Role" publicationId="5e70-1306-8b41-ae00" page="39" hidden="false" collective="false" import="true" defaultSelectionEntryId="da95-3c76-a488-1ed6">
@@ -616,4 +624,409 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="f4ed-ea53-ae1d-3e44" name="Burst:X" publicationId="5e70-1306-8b41-ae00" page="47" hidden="false">
+      <description>Add a +XD6 modifier to any attack roll made with this weapon (generally +1D6 or +2D6).</description>
+    </rule>
+    <rule id="e73c-1a61-1b1f-4a73" name="Precise" publicationId="5e70-1306-8b41-ae00" page="49" hidden="false">
+      <description>Ranged weapons with the Precise trait add +1 to the result rolled (+1 R) when in optimal range.
+Melee weapons with the Precise trait add +1 to the result rolled (+1 R).
+Multiple sources of Precise are not cumulative.</description>
+    </rule>
+    <rule id="30ac-d9aa-dc11-defa" name="Split" publicationId="5e70-1306-8b41-ae00" page="50" hidden="false">
+      <description>When attacking with this weapon, this model may target two separate models.
+-&gt; Treat each target as a primary target.
+-&gt; Targets must be within 6 inches of each other.
+-&gt; The attacker suffers -1D6 on each attack roll.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="5153-c8b3-9114-071a" name="Anti-Air Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Flak, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da9a-d412-28ff-f397" name="Anti-Air Missile, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Flak, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d399-39f4-94f7-ae06" name="Anti-Tank Missile, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HATM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">10</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:4, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7ea4-7c60-4280-ccdf" name="Air Burst Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LABM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3, Blast, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d912-8b4d-d55b-10c5" name="Air Burst Missile, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MABM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3, Blast, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="71f0-d95f-c472-646a" name="Air Burst Missile, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HABM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3, Blast, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc0b-639f-4d6b-c9a2" name="Autocannon, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Burst:1, Split (OR) Precise</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="15a2-877d-4536-ee05" name="Autocannon, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Burst:1, Split (OR) Precise</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="75c2-3770-e38c-aa04" name="Autocannon, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Burst:1, Split (OR) Precise</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ba6d-d4d6-7a0b-bbfc" name="Artillery Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c78f-0c49-23b1-375e" name="Artillery Gun, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">10</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5daa-9c2a-9157-c31e" name="Artillery Gun, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">11</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e44b-f246-c144-5bf3" name="Artillery Gun, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7821-4937-65ec-ab7d" name="Artillery Missile, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="02da-0efd-1ff9-86ad" name="Artillery Rockets, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="648a-4813-3ca3-00be" name="Anti-Personnel Rockets, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAPR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af10-abe8-0901-fe38" name="Anti-Personnel Grenade Launchers, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAPGL</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-3/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, Frag, Prox</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d416-ec74-c7f4-f1d3" name="Anti-Personnel Grenade Launchers, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAPGL</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-3/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, Frag, Prox</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6271-f9fc-205e-9d1a" name="Anti-Personnel Grenade Launchers, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LAPGL</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0-3/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">5</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, Frag, Prox</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f9e-d11b-3f6d-5581" name="Anti-Personnel Rockets, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAPR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea5d-2318-a45f-8593" name="Anti-Personnel Rockets, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAPR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-18/36</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AI, AOE:3</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c443-caba-7325-5603" name="Artillery Missile, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">24-48/96</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast, AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="25c0-d172-7f8b-9d5e" name="Artillery Rockets, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2289-cd08-e594-3ba0" name="Artillery Rockets, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAR</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="305c-8c31-bb6a-caba" name="Anti-Air Missile, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAAM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Flak, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a752-8bf8-206c-4b28" name="Anti-Tank Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LATM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e62d-27dd-f108-fd45" name="Anti-Tank Missile, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MATM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:3, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e36-361f-ab5a-928c" name="Anti-Vehicle Missile, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAVM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c593-1049-6a1c-068d" name="Anti-Vehicle Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HAVM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">5</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d1d-60d8-45ce-cb0b" name="Anti-Vehicle Missile, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MAVM</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-36/72</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:1, Guided</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b38-612a-4427-276f" name="Bomb" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">BB</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:4</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="91ce-7db1-e130-c551" name="Bazooka, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LBZ</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-12/24</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c1f3-a1a5-35ea-2d03" name="Bazooka, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MBZ</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-12/24</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:3</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8abe-3db9-7443-38df" name="Bazooka, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HBZ</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">6-12/24</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:4</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ab56-c8e5-ff8d-1262" name="Combat Weapon, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LCW</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1cb8-7a0e-b9ef-f639" name="Combat Weapon, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MCW</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">8</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7961-f7c5-99f6-3696" name="Combat Weapon, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HCW</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">0/-</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Demo:2</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6b95-f3b2-3cea-2ad2" name="Frag Cannon, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LFC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">3-9/18</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">5</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Precise, AP:1 (OR) Frag, AI</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b0d-ec2e-9cbd-c9c3" name="Frag Cannon, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MFC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">3-9/18</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">6</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Precise, AP:2 (OR) Frag, AI</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8e3e-8342-c09e-3deb" name="Frag Cannon, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HFC</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">3-9/18</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">7</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">Precise, AP:3 (OR) Frag, AI</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9524-b249-897c-b269" name="Field Gun, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">LFG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-24/48</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast (OR) AP:3</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3b8c-575b-d9ed-32b4" name="Field Gun, Medium" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">MFG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-24/48</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">10</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast (OR) AP:4</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3fa-5d39-e9b8-9edb" name="Field Gun, Heavy" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Code" typeId="fb48-97f6-51e7-1729">HFG</characteristic>
+        <characteristic name="Range" typeId="cace-eb40-0caa-3930">12-24/48</characteristic>
+        <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">11</characteristic>
+        <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AOE:3, Blast (OR) AP:5</characteristic>
+        <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Direct, Indirect</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
