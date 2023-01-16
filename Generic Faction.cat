@@ -134,47 +134,99 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6503-dd47-dd83-a444" name="Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="e04c-5192-d593-def0" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="lessThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="e04c-5192-d593-def0" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04c-5192-d593-def0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4625-7033-10b2-220f" name="Hunter" hidden="false" targetId="80d6-7d0d-efb1-92a9" type="profile">
+          <modifiers>
+            <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
+              <conditions>
+                <condition field="selections" scope="6503-dd47-dd83-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2475-074b-c8da-100e" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="a9c0-983b-db37-28ca" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c354-72f0-da5a-6e65" name="Headhunter Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7575-7e05-feec-276f" name="Models" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="c3a1-8430-c61b-11f5" name="Hunter" hidden="true" collective="false" import="true" targetId="116e-0ba6-4bae-ec29" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="de67-0479-6766-4aad" value="2.0">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="lessThan"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="de67-0479-6766-4aad" value="-1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+        <entryLink id="b636-c8c9-5028-5c0c" name="Hunter" hidden="false" collective="false" import="true" targetId="6503-dd47-dd83-a444" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4560-2e03-72a2-b5ea" name="Hunter Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="9d5b-6ff7-c958-a219" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="c354-72f0-da5a-6e65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de67-0479-6766-4aad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf58-a9fc-bbe8-8dfa" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <catalogueLinks>
-    <catalogueLink id="9659-4acb-42a2-52b3" name="North Models" targetId="0716-0156-c802-0783" type="catalogue" importRootEntries="true"/>
-  </catalogueLinks>
+  <sharedProfiles>
+    <profile id="80d6-7d0d-efb1-92a9" name="Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LAC, LVB</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

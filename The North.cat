@@ -668,17 +668,33 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5132-3aab-722b-5a49" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="c024-cc27-f363-ca2a" name="Hunter" hidden="false" targetId="f491-4d05-7b6c-9c63" type="profile">
+      <profiles>
+        <profile id="841a-5fd2-87ed-4423" name="Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <modifiers>
             <modifier type="set" field="d607-c085-3ac3-9660" value="5+">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="e1d6-e209-384c-8d25" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="6663-646c-96c8-2a5a" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">6</characteristic>
+            <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">LAC, LVB</characteristic>
+            <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LRP, LPZ, LAPGL</characteristic>
+            <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+            <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+            <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <entryLinks>
         <entryLink id="fbec-c143-8277-1757" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
         <entryLink id="588e-2ab6-6b30-870d" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="7358-bc37-2ad5-57c7" type="selectionEntryGroup"/>
@@ -686,6 +702,12 @@
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6663-646c-96c8-2a5a" name="Headhunter Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -713,7 +735,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="7358-bc37-2ad5-57c7" name="Hunter Upgrades" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="6e96-b8d0-8b67-5d97" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="e1d6-e209-384c-8d25" type="selectionEntry">
+        <entryLink id="6e96-b8d0-8b67-5d97" name="Headhunter Upgrade" hidden="false" collective="false" import="true" targetId="6663-646c-96c8-2a5a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d722-e51a-dc9d-c146" type="max"/>
           </constraints>
@@ -722,6 +744,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="5301-0179-7ba9-f663" name="North Models" targetId="0716-0156-c802-0783" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="324c-5216-559c-ca0b" name="North Models" targetId="0716-0156-c802-0783" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
