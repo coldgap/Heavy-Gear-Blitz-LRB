@@ -643,6 +643,11 @@ Multiple sources of Precise are not cumulative.</description>
 -&gt; Targets must be within 6 inches of each other.
 -&gt; The attacker suffers -1D6 on each attack roll.</description>
     </rule>
+    <rule id="9d98-fa90-de6e-0212" name="Demo Drone" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false">
+      <description>After the Demo Drone uses its weapon, it is destroyed and removed from the battlefield. Demo Drones destroyed in this way to not count towards an opponent’s victory points, such as from Pave the Way or Wipe Them Out.
+
+The Demo Drone may designate one enemy model as the primary target of its attack if it is in base contact with that model.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5153-c8b3-9114-071a" name="Anti-Air Missile, Light" publicationId="5e70-1306-8b41-ae00" page="285" hidden="false" typeId="5631-1304-203a-cd77" typeName="Weapon">
@@ -1813,6 +1818,60 @@ Multiple sources of Precise are not cumulative.</description>
         <characteristic name="Penetration" typeId="b661-5856-66ed-eb6f">9</characteristic>
         <characteristic name="Traits" typeId="f71b-22f6-0c97-77d6">AP:4</characteristic>
         <characteristic name="Mode" typeId="2f13-a268-b62c-9cd9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="365f-37e8-c558-023f" name="Drone, Recon" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">RC+, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">H:7</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">1/0</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">6+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">5+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a"/>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070"/>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Comms, TD, Conscript, Vuln:H</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Drone</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">0.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b57-066b-6fb0-2255" name="Drone, Hunter Killer" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">H:6</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">1/0</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MMG</characteristic>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070"/>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Jump Jets:2, Conscript, Vuln:H</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Drone</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">0.5&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5eb2-d17b-52fd-481a" name="Drone, Demo" publicationId="5e70-1306-8b41-ae00" page="280" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
+      <characteristics>
+        <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">2</characteristic>
+        <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP+, SK, FS</characteristic>
+        <characteristic name="MR" typeId="d971-d530-75de-372c">G:5</characteristic>
+        <characteristic name="AR" typeId="b326-1089-d050-c3d4">2</characteristic>
+        <characteristic name="H/S" typeId="6956-1a42-03f7-5061">1/0</characteristic>
+        <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+        <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+        <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+        <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+        <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a"/>
+        <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">BB (AP:2, Demo:4)</characteristic>
+        <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Offroad, Conscript, Vuln:H</characteristic>
+        <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Drone</characteristic>
+        <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">0.5&quot;</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
