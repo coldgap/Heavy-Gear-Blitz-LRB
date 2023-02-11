@@ -304,7 +304,7 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85f8-88e1-d5cb-59b8" name="Assault Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="85f8-88e1-d5cb-59b8" name="A generic gear" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="d9d1-c1ec-66de-6a9e" value="2.0">
           <conditions>
@@ -326,8 +326,8 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d1-c1ec-66de-6a9e" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="db2b-ddd6-4a02-590c" name="Assault Hunter" hidden="false" targetId="1e2c-4c0f-6d99-88f0" type="profile">
+      <profiles>
+        <profile id="a8b8-75da-1797-ecd1" name="Generic Gear" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
           <modifierGroups>
             <modifierGroup>
               <conditions>
@@ -340,8 +340,24 @@
               </modifiers>
             </modifierGroup>
           </modifierGroups>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="TV" typeId="a718-b78d-b4d7-3c98">7</characteristic>
+            <characteristic name="Roles" typeId="759f-78f5-a55f-86a1">GP, SK, FS</characteristic>
+            <characteristic name="MR" typeId="d971-d530-75de-372c">W/G:6</characteristic>
+            <characteristic name="AR" typeId="b326-1089-d050-c3d4">6</characteristic>
+            <characteristic name="H/S" typeId="6956-1a42-03f7-5061">4/2</characteristic>
+            <characteristic name="A" typeId="9151-7386-2112-169b">1</characteristic>
+            <characteristic name="GU" typeId="97e0-dcbe-fed2-c338">4+</characteristic>
+            <characteristic name="PI" typeId="0d90-9e1a-4571-a154">4+</characteristic>
+            <characteristic name="EW" typeId="d607-c085-3ac3-9660">6+</characteristic>
+            <characteristic name="React Weapons" typeId="b972-c7a8-5e16-e37a">MSC, LVB</characteristic>
+            <characteristic name="Mounted Weapons" typeId="1aa9-e408-c715-1070">LAPGL</characteristic>
+            <characteristic name="Traits" typeId="e337-b1c9-4b14-aaa1">Hands</characteristic>
+            <characteristic name="Type" typeId="3e12-5556-5e91-8a52">Gear</characteristic>
+            <characteristic name="HT" typeId="d2ac-81e7-7c4f-1b55">1.5&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <entryLinks>
         <entryLink id="2ea4-5b8b-e3cf-0f5e" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
         <entryLink id="0ced-1cd1-04b3-d6e9" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
@@ -392,6 +408,53 @@
       <entryLinks>
         <entryLink id="dbb1-d9f7-b4a9-1d58" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
         <entryLink id="c927-3fe2-cff4-ff3f" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd15-4091-a77b-3763" name="Assault Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="351c-8017-cba7-f077" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38ed-68e3-819f-d2c4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eaf-7832-85c3-9061" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="582a-95d2-966d-6e80" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da95-3c76-a488-1ed6" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351c-8017-cba7-f077" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="99f2-523f-77d8-6607" name="Assault Hunter" hidden="false" targetId="1e2c-4c0f-6d99-88f0" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="85f8-88e1-d5cb-59b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c354-72f0-da5a-6e65" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="a718-b78d-b4d7-3c98" value="1"/>
+                <modifier type="set" field="d607-c085-3ac3-9660" value="5+"/>
+                <modifier type="set" field="e337-b1c9-4b14-aaa1" value="Hands, Comms"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ad07-51a5-a1b7-7b23" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
+        <entryLink id="2207-1604-9012-2638" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
