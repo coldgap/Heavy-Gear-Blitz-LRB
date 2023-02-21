@@ -358,6 +358,18 @@
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="51ba-478c-3621-9648" name="Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b064-2372-15b6-1ca8" name="Autocannon, Light" hidden="false" collective="false" import="true" targetId="520c-f29f-da7f-1f88" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1327-ca0b-e982-ea97" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb6-9c66-c213-77b9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2ea4-5b8b-e3cf-0f5e" name="Command Upgrades (Max 2 per Combat Group)" hidden="false" collective="false" import="true" targetId="e4d1-0847-eca9-e0ee" type="selectionEntryGroup"/>
         <entryLink id="0ced-1cd1-04b3-d6e9" name="Hunter Upgrades" hidden="false" collective="false" import="true" targetId="4560-2e03-72a2-b5ea" type="selectionEntryGroup"/>
@@ -460,13 +472,6 @@
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="1.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry id="c534-2c3b-e5da-05a7" name="Anti-Air (AA)" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="ec76-e75f-d2c4-fd7e" name="Anti-Air (AA)" publicationId="5e70-1306-8b41-ae00" page="41" hidden="false">
-          <description>Add the AA trait to an autocannon, rotary cannon, laser cannon or rotary laser cannon for 1 TV. Swap any Anti-Tank Missile (ATM) to an Anti-Air Missile (AAM) of the same class for 0 TV.</description>
-        </rule>
-      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

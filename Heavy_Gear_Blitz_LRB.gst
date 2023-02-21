@@ -474,16 +474,281 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="520c-f29f-da7f-1f88" name="Autocannon, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Anti-Air Autocannon, Light">
+          <conditions>
+            <condition field="selections" scope="520c-f29f-da7f-1f88" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
-        <infoLink id="90ab-c20a-c34e-f9a1" name="Autocannon, Light" hidden="false" targetId="fc0b-639f-4d6b-c9a2" type="profile"/>
+        <infoLink id="90ab-c20a-c34e-f9a1" name="Autocannon, Light" hidden="false" targetId="fc0b-639f-4d6b-c9a2" type="profile">
+          <modifiers>
+            <modifier type="set" field="f71b-22f6-0c97-77d6" value="AA, Burst:1, Split (OR) AA, Precise">
+              <conditions>
+                <condition field="selections" scope="520c-f29f-da7f-1f88" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="376b-dbab-b408-66a1" name="Burst:X" hidden="false" targetId="f4ed-ea53-ae1d-3e44" type="rule"/>
         <infoLink id="1a56-9943-78a5-b36e" name="Split" hidden="false" targetId="30ac-d9aa-dc11-defa" type="rule"/>
         <infoLink id="ae01-1ee2-3662-94f8" name="Precise" hidden="false" targetId="e73c-1a61-1b1f-4a73" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="76e0-63b7-95e0-02f1" name="Anti-Air (AA) Upgrade" hidden="false" collective="false" import="true" targetId="53ff-4879-660c-e50f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f0f-8110-559a-fdee" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="53ff-4879-660c-e50f" name="Anti-Air (AA) Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="009c-9f7c-ce15-a73e" name="Anti-Air (AA) Upgrade" publicationId="5e70-1306-8b41-ae00" page="41" hidden="false">
+          <description>Add the AA trait to an autocannon, rotary cannon,laser cannon or rotary laser cannon for 1 TV.
+
+Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class for 0 TV.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc37-4ea4-8e61-ccb2" name="Autocannon, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Anti-Air Autocannon, Medium">
+          <conditions>
+            <condition field="selections" scope="cc37-4ea4-8e61-ccb2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="a7fa-3e73-7129-3b7c" name="Autocannon, Medium" hidden="false" targetId="15a2-877d-4536-ee05" type="profile">
+          <modifiers>
+            <modifier type="set" field="f71b-22f6-0c97-77d6" value="AA, Burst:1, Split (OR) AA, Precise">
+              <conditions>
+                <condition field="selections" scope="cc37-4ea4-8e61-ccb2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="edf4-b154-2ec8-5cf6" name="Burst:X" hidden="false" targetId="f4ed-ea53-ae1d-3e44" type="rule"/>
+        <infoLink id="8caf-a054-6266-380c" name="Split" hidden="false" targetId="30ac-d9aa-dc11-defa" type="rule"/>
+        <infoLink id="41fc-1080-6ff8-5c57" name="Precise" hidden="false" targetId="e73c-1a61-1b1f-4a73" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0217-bd6c-b6ce-980e" name="Anti-Air (AA) Upgrade" hidden="false" collective="false" import="true" targetId="53ff-4879-660c-e50f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1153-052e-eec2-f0c4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb8a-58fd-423a-b25a" name="Autocannon, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Anti-Air Autocannon, Medium">
+          <conditions>
+            <condition field="selections" scope="fb8a-58fd-423a-b25a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="9106-b08f-75cd-0bac" name="Autocannon, Heavy" hidden="false" targetId="75c2-3770-e38c-aa04" type="profile">
+          <modifiers>
+            <modifier type="set" field="f71b-22f6-0c97-77d6" value="AA, Burst:1, Split (OR) AA, Precise">
+              <conditions>
+                <condition field="selections" scope="fb8a-58fd-423a-b25a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53ff-4879-660c-e50f" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b6ce-4e32-6a08-4da0" name="Burst:X" hidden="false" targetId="f4ed-ea53-ae1d-3e44" type="rule"/>
+        <infoLink id="53c5-7089-ba04-0c8a" name="Split" hidden="false" targetId="30ac-d9aa-dc11-defa" type="rule"/>
+        <infoLink id="93ec-ab46-fae8-b4f6" name="Precise" hidden="false" targetId="e73c-1a61-1b1f-4a73" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="72cb-7c25-d31e-7845" name="Anti-Air (AA) Upgrade" hidden="false" collective="false" import="true" targetId="53ff-4879-660c-e50f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4494-2365-7c60-2b9f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4661-c907-57bd-f042" name="Swap for LCW" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d157-7b8a-9da0-4f73" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2b1e-f737-ae04-1ceb" name="Swap for MCW" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ed08-6880-697f-f97f" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b252-1793-60f6-7446" name="Swap for LVB" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2cd6-e52c-3ca0-6059" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1629-ecf4-51f3-414b" name="Swap for MVB" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bf9d-d90c-cccf-0a3a" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="293a-4741-3290-0450" name="Swap for LSG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="105c-1397-6b34-3b08" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f7ee-a08e-e15f-1fe6" name="Swap for MSG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="590e-7d9d-93f5-5100" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="627c-e7ea-e805-0586" name="Combat Weapon, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Vibro-Blade, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Spike Gun, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="83b5-d57a-f77a-c005" name="Combat Weapon, Light" hidden="false" targetId="ab56-c8e5-ff8d-1262" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5598-f0ea-5c2d-1bd3" name="Spike Gun, Light" hidden="true" targetId="0fdf-bfc7-b1a0-e432" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c8d-6a58-91bb-d419" name="Vibro-Blade, Light" hidden="true" targetId="593b-ecda-2f15-092f" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8336-2c8a-fda9-0e65" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec35-dd7c-f95e-2994" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="561c-16dd-90a1-c51b" name="Swap for LSG" hidden="false" collective="false" import="true" targetId="293a-4741-3290-0450" type="selectionEntry"/>
+            <entryLink id="3d8a-67f7-097a-d079" name="Swap for LVB" hidden="false" collective="false" import="true" targetId="b252-1793-60f6-7446" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="e47c-03dc-1147-ec33" name="Combat Weapon, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cb1a-0611-a184-0a64" name="Combat Weapon, Heavy" hidden="false" targetId="7961-f7c5-99f6-3696" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d230-59e3-292f-e7af" name="Combat Weapon, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Vibro-Blade, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Spike Gun, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="85b3-8799-111d-493c" name="Combat Weapon, Medium" hidden="false" targetId="1cb8-7a0e-b9ef-f639" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3edb-fc1e-f1ef-2c7c" name="Spike Gun, Medium" hidden="true" targetId="ec23-d6d8-4741-3452" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0833-eee0-4aa5-b295" name="Vibro-Blade, Medium" hidden="true" targetId="0cbd-edff-eef4-0675" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1ab4-077f-7ad4-8937" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee24-f9cb-2d96-da18" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7ec6-7c00-a0f8-6f74" name="Swap for MSG" hidden="false" collective="false" import="true" targetId="f7ee-a08e-e15f-1fe6" type="selectionEntry"/>
+            <entryLink id="6d9a-f8ac-69a7-00e2" name="Swap for MVB" hidden="false" collective="false" import="true" targetId="1629-ecf4-51f3-414b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -647,6 +912,11 @@ Multiple sources of Precise are not cumulative.</description>
       <description>After the Demo Drone uses its weapon, it is destroyed and removed from the battlefield. Demo Drones destroyed in this way to not count towards an opponent’s victory points, such as from Pave the Way or Wipe Them Out.
 
 The Demo Drone may designate one enemy model as the primary target of its attack if it is in base contact with that model.</description>
+    </rule>
+    <rule id="69c8-dd50-b9df-4065" name="Melee Swap Upgrade" publicationId="5e70-1306-8b41-ae00" page="41" hidden="false">
+      <description>For gears and striders with the Hands trait only: One Light(L) or Medium (M) melee weapon with the React trait can be swapped for an equal class melee weapon for 0 TV. I.e., a LCW can be swapped for a LVB or a LSG. This upgrade does not include shaped explosives or infantry combatweapons.
+
+The only trait associated with the original weapon that transfers over to the new melee weapon is the React trait (or it simply stays under the React column of a model’s profile when it is swapped). Other traits do not swap with it. I.e., a LCW (React, Brawl:1) will become a LVB (React), or a LSG (React). The Brawl:1trait does not carry over to the new weapon.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
