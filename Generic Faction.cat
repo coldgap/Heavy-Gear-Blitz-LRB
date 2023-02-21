@@ -461,6 +461,13 @@
         <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c534-2c3b-e5da-05a7" name="Anti-Air (AA)" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ec76-e75f-d2c4-fd7e" name="Anti-Air (AA)" publicationId="5e70-1306-8b41-ae00" page="41" hidden="false">
+          <description>Add the AA trait to an autocannon, rotary cannon, laser cannon or rotary laser cannon for 1 TV. Swap any Anti-Tank Missile (ATM) to an Anti-Air Missile (AAM) of the same class for 0 TV.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7575-7e05-feec-276f" name="Models" hidden="false" collective="false" import="true">
@@ -479,6 +486,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="6844-9d52-8ed8-874c" name="Standard Upgrades" hidden="false" collective="false" import="true"/>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="80d6-7d0d-efb1-92a9" name="Hunter" publicationId="5e70-1306-8b41-ae00" page="82" hidden="false" typeId="59ec-9ec7-dc1a-0aff" typeName="Model">
