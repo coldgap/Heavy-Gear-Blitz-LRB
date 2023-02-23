@@ -693,12 +693,12 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
     </selectionEntry>
     <selectionEntry id="d230-59e3-292f-e7af" name="Combat Weapon, Medium" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="name" value="Vibro-Blade, Light">
+        <modifier type="set" field="name" value="Vibro-Blade, Medium">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Spike Gun, Light">
+        <modifier type="set" field="name" value="Spike Gun, Medium">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="equalTo"/>
           </conditions>
@@ -746,6 +746,252 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           <entryLinks>
             <entryLink id="7ec6-7c00-a0f8-6f74" name="Swap for MSG" hidden="false" collective="false" import="true" targetId="f7ee-a08e-e15f-1fe6" type="selectionEntry"/>
             <entryLink id="6d9a-f8ac-69a7-00e2" name="Swap for MVB" hidden="false" collective="false" import="true" targetId="1629-ecf4-51f3-414b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="3b79-1688-8442-6abb" name="Vibro-Blade, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d41d-d34e-8a7f-9d38" name="Vibro-Blade, Heavy" hidden="false" targetId="d8c4-4727-9621-3de9" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0c94-d426-0348-6a92" name="Vibro-Blade, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Combat Weapon, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Spike Gun, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="f456-4e8e-b4cf-ab9b" name="Vibro-Blade, Medium" hidden="false" targetId="0cbd-edff-eef4-0675" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc8f-ff3e-36eb-aacd" name="Spike Gun, Medium" hidden="true" targetId="ec23-d6d8-4741-3452" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7ee-a08e-e15f-1fe6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9f30-7a15-e2f0-0354" name="Combat Weapon, Medium" hidden="true" targetId="1cb8-7a0e-b9ef-f639" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2aa0-78e6-4984-35f1" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db6-50b1-d94e-44e0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8d32-d196-d389-e314" name="Swap for MSG" hidden="false" collective="false" import="true" targetId="f7ee-a08e-e15f-1fe6" type="selectionEntry"/>
+            <entryLink id="0419-1614-fd02-981b" name="Swap for MCW" hidden="false" collective="false" import="true" targetId="2b1e-f737-ae04-1ceb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="2e48-9f55-8012-1c63" name="Vibro-Blade, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Combat Weapon, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Spike Gun, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="5353-b206-2446-db6d" name="Vibro-Blade, Light" hidden="false" targetId="593b-ecda-2f15-092f" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4e5b-e00e-a371-aaa0" name="Spike Gun, Light" hidden="true" targetId="0fdf-bfc7-b1a0-e432" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="293a-4741-3290-0450" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1179-d13d-1754-d091" name="Combat Weapon, Light" hidden="true" targetId="ab56-c8e5-ff8d-1262" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1f8e-de47-7008-e97f" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d16a-c059-9f3b-c723" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9a14-2a40-c01b-5bbc" name="Swap for LSG" hidden="false" collective="false" import="true" targetId="293a-4741-3290-0450" type="selectionEntry"/>
+            <entryLink id="8d45-7116-6d24-16d7" name="Swap for LCW" hidden="false" collective="false" import="true" targetId="4661-c907-57bd-f042" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="79b9-b7b9-acd2-dde5" name="Spike Gun, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fa45-3c2a-39c1-4797" name="Spike Gun, Heavy" hidden="false" targetId="c1e7-f965-3df7-f530" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ebf8-36eb-53b8-c748" name="Spike Gun, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Vibro-Blade, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Combat Weapon, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="e800-1c5b-f9e0-99fb" name="Spike Gun, Medium" hidden="false" targetId="ec23-d6d8-4741-3452" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5500-4d5e-3d52-207e" name="Combat Weapon, Medium" hidden="true" targetId="1cb8-7a0e-b9ef-f639" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1e-f737-ae04-1ceb" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b01b-51c6-ea5f-bec5" name="Vibro-Blade, Medium" hidden="true" targetId="0cbd-edff-eef4-0675" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1629-ecf4-51f3-414b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="199c-69ba-d0aa-b775" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f4-9667-82f3-f055" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ae6-8bc8-20e6-4102" name="Swap for MCW" hidden="false" collective="false" import="true" targetId="2b1e-f737-ae04-1ceb" type="selectionEntry"/>
+            <entryLink id="e0de-4f4a-1489-4d52" name="Swap for MVB" hidden="false" collective="false" import="true" targetId="1629-ecf4-51f3-414b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="e823-801d-2b48-e84f" name="Spike Gun, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Vibro-Blade, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="name" value="Combat Weapon, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="eadc-700b-f52b-47e4" name="Spike Gun, Light" hidden="false" targetId="0fdf-bfc7-b1a0-e432" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="greaterThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ea4b-bd42-4d31-a4be" name="Combat Weapon, Light" hidden="true" targetId="ab56-c8e5-ff8d-1262" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4661-c907-57bd-f042" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c906-1882-a0b1-394c" name="Vibro-Blade, Light" hidden="true" targetId="593b-ecda-2f15-092f" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b252-1793-60f6-7446" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7407-464f-52f8-6f05" name="Melee Swap Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0804-4ebe-22b0-adb3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d030-b53f-01c4-f6a4" name="Swap for LCW" hidden="false" collective="false" import="true" targetId="4661-c907-57bd-f042" type="selectionEntry"/>
+            <entryLink id="b244-99b3-7364-c872" name="Swap for LVB" hidden="false" collective="false" import="true" targetId="b252-1793-60f6-7446" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
