@@ -601,31 +601,55 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
       <infoLinks>
         <infoLink id="d157-7b8a-9da0-4f73" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2b1e-f737-ae04-1ceb" name="Swap for MCW" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ed08-6880-697f-f97f" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b252-1793-60f6-7446" name="Swap for LVB" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2cd6-e52c-3ca0-6059" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1629-ecf4-51f3-414b" name="Swap for MVB" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="bf9d-d90c-cccf-0a3a" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="293a-4741-3290-0450" name="Swap for LSG" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="105c-1397-6b34-3b08" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f7ee-a08e-e15f-1fe6" name="Swap for MSG" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="590e-7d9d-93f5-5100" name="Melee Swap Upgrade" hidden="false" targetId="69c8-dd50-b9df-4065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="627c-e7ea-e805-0586" name="Combat Weapon, Light" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -685,11 +709,19 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e47c-03dc-1147-ec33" name="Combat Weapon, Heavy" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cb1a-0611-a184-0a64" name="Combat Weapon, Heavy" hidden="false" targetId="7961-f7c5-99f6-3696" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d230-59e3-292f-e7af" name="Combat Weapon, Medium" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -749,11 +781,19 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3b79-1688-8442-6abb" name="Vibro-Blade, Heavy" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d41d-d34e-8a7f-9d38" name="Vibro-Blade, Heavy" hidden="false" targetId="d8c4-4727-9621-3de9" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c94-d426-0348-6a92" name="Vibro-Blade, Medium" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -813,6 +853,10 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2e48-9f55-8012-1c63" name="Vibro-Blade, Light" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -872,11 +916,19 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="79b9-b7b9-acd2-dde5" name="Spike Gun, Heavy" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fa45-3c2a-39c1-4797" name="Spike Gun, Heavy" hidden="false" targetId="c1e7-f965-3df7-f530" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ebf8-36eb-53b8-c748" name="Spike Gun, Medium" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -936,6 +988,10 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e823-801d-2b48-e84f" name="Spike Gun, Light" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -995,6 +1051,233 @@ Swap any Anti-Tank Missile (ATM) to an Anti-AirMissile (AAM) of the same class f
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Action(s)" typeId="4e06-e713-b451-4dcf" value="0.0"/>
+        <cost name=" Threat Value" typeId="1246-3dcc-42ed-c683" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34fb-904f-778d-b3dd" name="Hand Grenades, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Panzerfaust, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="f91a-744e-1921-a4d4" name="Hand Grenades, Medium" hidden="false" targetId="e10f-133c-1475-b327" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5c3e-c96f-8d6e-d49d" name="Panzerfaust, Medium" hidden="false" targetId="cd6e-9c68-9ff7-d1c7" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="97d1-76de-4601-40b9" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2f-ad8e-3a7a-cbbf" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="f815-313f-58d4-ede1" name="Hand Grenades, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Panzerfaust, Heavy">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="5e8f-f6ef-b575-93c7" name="Hand Grenades, Heavy" hidden="false" targetId="8e3e-2597-8e3f-5125" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0439-2cc0-01ba-85bb" name="Panzerfaust, Heavy" hidden="false" targetId="7bed-c654-9bc6-a8e1" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="c121-a6a0-af20-4537" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e31-2a7b-6873-5fb5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5eab-e3fd-ee61-ac59" name="Hand Grenades, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Panzerfaust, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="c3df-d612-05fb-8bb3" name="Hand Grenades, Light" hidden="false" targetId="1e64-f43e-5423-57c9" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="445e-ffee-8264-5599" name="Panzerfaust, Light" hidden="false" targetId="cd6e-9c68-9ff7-d1c7" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="8bbb-65a7-15eb-8c27" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0275-15c7-1d6d-9dc0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="74bd-60d6-86f0-f9fe" name="Panzerfaust, Light" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Hand Grenades, Light">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3704-ed81-ad32-a47e" name="Panzerfaust, Light" hidden="false" targetId="cd6e-9c68-9ff7-d1c7" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b94b-12c6-4025-122b" name="Hand Grenades, Light" hidden="false" targetId="1e64-f43e-5423-57c9" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="20ae-b549-2d07-0a4e" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a554-9784-8734-5bfe" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="e937-6bd9-8745-f91c" name="Panzerfaust, Medium" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Hand Grenades, Medium">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="a4e7-39a3-6f18-cb7f" name="Panzerfaust, Medium" hidden="false" targetId="20e0-6268-ed6d-2718" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c85e-4305-cd78-8f7e" name="Hand Grenades, Medium" hidden="false" targetId="e10f-133c-1475-b327" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="72da-fcfe-ffb5-7c25" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b749-cb63-112d-709a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="efce-e247-6cb2-eafb" name="Panzerfaust, Heavy" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Hand Grenades, Heavy">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="e158-1e07-a197-bc32" name="Panzerfaust, Heavy" hidden="false" targetId="7bed-c654-9bc6-a8e1" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="18c0-895d-7026-d20a" name="Hand Grenades, Heavy" hidden="false" targetId="8e3e-2597-8e3f-5125" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01de-a461-458b-60fe" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="960f-503b-4b70-98eb" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" targetId="01de-a461-458b-60fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb56-fca9-f42e-7fad" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="01de-a461-458b-60fe" name="Grenade Swap Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b8ff-2572-fc14-cfeb" name="Grenade Swap Upgrade" publicationId="5e70-1306-8b41-ae00" page="41" hidden="false">
+          <description>Models may swap their hand grenades for panzerfausts or vice versa. This costs 0 TV. The swapped item must be of the same class, such as L, M, or H.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

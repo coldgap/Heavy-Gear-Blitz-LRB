@@ -367,6 +367,12 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb6-9c66-c213-77b9" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="e4db-ab39-2e8f-3540" name="Vibro-Blade, Light" hidden="false" collective="false" import="true" targetId="2e48-9f55-8012-1c63" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2d-0577-8e96-f399" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1334-ba44-3083-76f9" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
